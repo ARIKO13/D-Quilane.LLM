@@ -293,16 +293,16 @@
             let mode, settings;
             if (isCreative) {
                 mode = '🎨 creative';
-                settings = { temp: 0.9, topK: 30, topP: 0.95, rep: 1.15, maxNew: 500 };
+                settings = { temp: 0.9, topK: 30, topP: 0.95, rep: 1.15, maxNew: 1000 };
             } else if (isMath || isTranslate || isCount) {
                 mode = '🎯 precise';
-                settings = { temp: 0.3, topK: 5, topP: 0.85, rep: 1.3, maxNew: 150 };
+                settings = { temp: 0.3, topK: 5, topP: 0.85, rep: 1.3, maxNew: 200 };
             } else if (hasQuestionWord) {
                 mode = '⚖️ qa';
-                settings = { temp: 0.4, topK: 10, topP: 0.9, rep: 1.25, maxNew: 250 };
+                settings = { temp: 0.4, topK: 10, topP: 0.9, rep: 1.25, maxNew: 400 };
             } else {
                 mode = '🤖 auto';
-                settings = { temp: 0.5, topK: 15, topP: 0.9, rep: 1.2, maxNew: 300 };
+                settings = { temp: 0.5, topK: 15, topP: 0.9, rep: 1.2, maxNew: 600 };
             }
             return { mode, settings };
         }
