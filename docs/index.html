@@ -15,7 +15,6 @@
             --accent: #10a37f;
             --accent-hover: #1a8870;
             --user-bg: #2f2f2f;
-            --assistant-bg: transparent;
             --warning: #f7a800;
             --error: #ef4146;
         }
@@ -31,23 +30,12 @@
         }
         .app {
             display: grid;
-            grid-template-columns: 260px 1fr;
-            grid-template-rows: 56px 1fr 1fr;
-            grid-template-areas:
-                "header header"
-                "sidebar main"
-                "sidebar input";
+            grid-template-rows: 56px 1fr auto;
             height: 100vh;
-        }
-        @media (max-width: 768px) {
-            .app { grid-template-columns: 1fr; grid-template-areas: "header" "main" "input"; }
-            .sidebar { display: none; }
-            .sidebar.open { display: block; position: fixed; top: 56px; left: 0; right: 0; bottom: 0; z-index: 50; }
         }
 
         /* HEADER */
         header {
-            grid-area: header;
             background: var(--surface);
             border-bottom: 1px solid var(--border);
             display: flex;
@@ -61,8 +49,7 @@
             background: linear-gradient(135deg, #10a37f, #00d4ff);
             border-radius: 6px;
             display: flex; align-items: center; justify-content: center;
-            color: #000; font-weight: 700;
-            font-size: 14px;
+            color: #000; font-weight: 700; font-size: 14px;
         }
         .brand-version { color: var(--text-muted); font-size: 12px; font-weight: normal; }
         .header-actions { display: flex; gap: 8px; align-items: center; }
@@ -77,89 +64,26 @@
             display: flex; align-items: center; gap: 6px;
         }
         .icon-btn:hover { background: var(--surface-2); }
-        .icon-btn.mobile-only { display: none; }
-        @media (max-width: 768px) { .icon-btn.mobile-only { display: flex; } }
-
-        /* SIDEBAR */
-        .sidebar {
-            grid-area: sidebar;
-            background: var(--surface);
-            border-right: 1px solid var(--border);
-            padding: 16px;
-            overflow-y: auto;
-        }
-        .sidebar-section {
-            margin-bottom: 24px;
-        }
-        .sidebar-section h3 {
-            color: var(--text-muted);
+        .mode-badge {
+            background: rgba(16, 163, 127, 0.15);
+            color: var(--accent);
+            padding: 4px 10px;
+            border-radius: 12px;
             font-size: 11px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 12px;
-            font-weight: 600;
+            border: 1px solid rgba(16, 163, 127, 0.3);
+            display: flex; align-items: center; gap: 4px;
         }
-        .stat-row {
-            display: flex; justify-content: space-between;
-            padding: 4px 0; font-size: 13px;
-        }
-        .stat-row .label { color: var(--text-muted); }
-        .stat-row .value { font-weight: 500; }
-
-        .control { margin-bottom: 14px; }
-        .control label {
-            display: flex; justify-content: space-between;
-            font-size: 13px; margin-bottom: 6px;
-        }
-        .control label .val { color: var(--accent); font-weight: 600; }
-        input[type="range"] {
-            width: 100%; accent-color: var(--accent);
-            height: 4px;
-        }
-        textarea, input[type="text"], input[type="number"], select {
-            width: 100%;
-            background: var(--surface-2);
-            border: 1px solid var(--border);
-            color: var(--text);
-            padding: 8px 10px;
-            border-radius: 4px;
-            font-size: 13px;
-            font-family: inherit;
-            resize: vertical;
-        }
-        textarea:focus, input:focus, select:focus {
-            outline: none;
-            border-color: var(--accent);
-        }
-        .preset-row {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 6px;
-        }
-        .preset-btn {
-            background: var(--surface-2);
-            border: 1px solid var(--border);
-            color: var(--text);
-            padding: 8px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 12px;
-        }
-        .preset-btn:hover { background: var(--accent); color: #000; }
 
         /* MAIN */
         main {
-            grid-area: main;
             overflow-y: auto;
             padding: 24px 0;
-            display: flex; flex-direction: column;
         }
         .chat-container {
             max-width: 768px;
             margin: 0 auto;
             width: 100%;
             padding: 0 16px;
-            flex: 1;
         }
         .message {
             margin-bottom: 24px;
@@ -172,151 +96,109 @@
             border-radius: 4px;
             flex-shrink: 0;
             display: flex; align-items: center; justify-content: center;
-            font-weight: 700; font-size: 12px;
-            color: #000;
+            font-weight: 700; font-size: 12px; color: #000;
         }
         .avatar.user { background: #5436d0; }
-        .avatar.assistant {
-            background: linear-gradient(135deg, #10a37f, #00d4ff);
-        }
-        .message-content {
-            flex: 1;
-            padding-top: 2px;
-        }
+        .avatar.assistant { background: linear-gradient(135deg, #10a37f, #00d4ff); }
+        .message-content { flex: 1; padding-top: 2px; }
         .message-content .role {
-            color: var(--text-muted);
-            font-size: 12px;
-            margin-bottom: 4px;
+            color: var(--text-muted); font-size: 12px; margin-bottom: 4px;
         }
         .message-content .body {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            line-height: 1.65;
+            white-space: pre-wrap; word-wrap: break-word; line-height: 1.65;
         }
         .message.user .body {
             background: var(--user-bg);
             padding: 10px 14px;
             border-radius: 8px;
-            display: inline-block;
-            max-width: 100%;
+            display: inline-block; max-width: 100%;
         }
         .cursor {
-            display: inline-block;
-            background: var(--accent);
-            width: 8px; height: 1em;
-            vertical-align: text-bottom;
-            margin-left: 2px;
-            animation: blink 1s infinite;
+            display: inline-block; background: var(--accent);
+            width: 8px; height: 1em; vertical-align: text-bottom;
+            margin-left: 2px; animation: blink 1s infinite;
         }
         @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
         .empty-state {
-            text-align: center;
-            padding: 80px 20px;
-            color: var(--text-muted);
+            text-align: center; padding: 80px 20px; color: var(--text-muted);
         }
         .empty-state h1 {
-            font-size: 32px;
-            color: var(--text);
-            margin-bottom: 8px;
-            font-weight: 600;
+            font-size: 32px; color: var(--text);
+            margin-bottom: 8px; font-weight: 600;
         }
         .empty-state p { font-size: 14px; margin-bottom: 24px; }
         .suggestions {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
-            max-width: 600px;
-            margin: 0 auto;
+            display: grid; grid-template-columns: repeat(2, 1fr);
+            gap: 12px; max-width: 600px; margin: 0 auto;
         }
         .suggestion-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: 16px;
-            border-radius: 8px;
-            cursor: pointer;
-            text-align: left;
-            color: var(--text);
-            font-size: 13px;
-            transition: all 0.15s;
+            background: var(--surface); border: 1px solid var(--border);
+            padding: 16px; border-radius: 8px;
+            cursor: pointer; text-align: left; color: var(--text);
+            font-size: 13px; transition: all 0.15s;
         }
         .suggestion-card:hover {
-            background: var(--surface-2);
-            border-color: var(--accent);
+            background: var(--surface-2); border-color: var(--accent);
         }
 
         /* INPUT */
         .input-area {
-            grid-area: input;
             background: var(--bg);
             border-top: 1px solid var(--border);
             padding: 16px 0 24px;
         }
         .input-container {
-            max-width: 768px;
-            margin: 0 auto;
-            padding: 0 16px;
-            position: relative;
+            max-width: 768px; margin: 0 auto;
+            padding: 0 16px; position: relative;
         }
         .input-box {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 12px 56px 12px 16px;
-            display: flex;
-            align-items: flex-end;
-            gap: 8px;
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 12px; padding: 12px 56px 12px 16px;
+            display: flex; align-items: flex-end; gap: 8px;
         }
         .input-box:focus-within { border-color: var(--text-muted); }
         #prompt {
-            flex: 1;
-            background: transparent;
-            border: none;
-            color: var(--text);
-            font-size: 15px;
-            font-family: inherit;
-            resize: none;
-            outline: none;
-            min-height: 24px;
-            max-height: 200px;
+            flex: 1; background: transparent; border: none;
+            color: var(--text); font-size: 15px; font-family: inherit;
+            resize: none; outline: none; min-height: 24px; max-height: 200px;
             line-height: 1.5;
         }
         .send-btn {
-            position: absolute;
-            right: 12px;
-            bottom: 12px;
-            background: var(--accent);
-            color: #000;
-            border: none;
-            width: 32px; height: 32px;
-            border-radius: 6px;
+            position: absolute; right: 12px; bottom: 12px;
+            background: var(--accent); color: #000; border: none;
+            width: 32px; height: 32px; border-radius: 6px;
             cursor: pointer;
             display: flex; align-items: center; justify-content: center;
-            font-size: 18px;
-            font-weight: bold;
+            font-size: 18px; font-weight: bold;
         }
         .send-btn:disabled { background: var(--surface-2); color: var(--text-muted); cursor: not-allowed; }
         .input-footer {
             display: flex; justify-content: space-between;
             font-size: 11px; color: var(--text-muted);
-            margin-top: 8px;
-            padding: 0 4px;
+            margin-top: 8px; padding: 0 4px;
         }
+        .token-counter {
+            display: inline-flex; align-items: center; gap: 4px;
+            background: var(--surface);
+            padding: 3px 8px; border-radius: 12px;
+            font-size: 11px; color: var(--text-muted);
+            border: 1px solid var(--border);
+        }
+        .token-counter.warn { color: var(--warning); border-color: var(--warning); }
+        .token-counter.error { color: var(--error); border-color: var(--error); }
 
         /* LOADING OVERLAY */
         .loading-overlay {
-            position: fixed;
-            inset: 0;
+            position: fixed; inset: 0;
             background: rgba(0, 0, 0, 0.9);
             display: flex; align-items: center; justify-content: center;
             flex-direction: column;
-            z-index: 1000;
-            color: var(--text);
+            z-index: 1000; color: var(--text);
         }
         .loading-overlay .spinner {
             border: 3px solid var(--surface-2);
             border-top-color: var(--accent);
-            border-radius: 50%;
-            width: 40px; height: 40px;
+            border-radius: 50%; width: 40px; height: 40px;
             animation: spin 0.8s linear infinite;
             margin-bottom: 12px;
         }
@@ -331,132 +213,51 @@
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: var(--surface-2); border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: var(--border); }
-
-        /* TOKEN COUNTER */
-        .token-counter {
-            display: inline-flex; align-items: center; gap: 4px;
-            background: var(--surface);
-            padding: 3px 8px;
-            border-radius: 12px;
-            font-size: 11px;
-            color: var(--text-muted);
-            border: 1px solid var(--border);
-        }
-        .token-counter.warn { color: var(--warning); border-color: var(--warning); }
-        .token-counter.error { color: var(--error); border-color: var(--error); }
     </style>
 </head>
 <body>
     <div id="loadingOverlay" class="loading-overlay">
         <div class="spinner"></div>
-        <div class="msg">Loading D'QUILANE TK v0.5...</div>
-        <div class="sub">Mengunduh model dari server (sekitar 7-15 MB)</div>
+        <div class="msg">Loading D'QUILANE SD2...</div>
+        <div class="sub">Mengunduh model dari server (sekitar 8 MB)</div>
     </div>
 
     <div class="app">
-        <!-- HEADER -->
         <header>
             <div class="brand">
-                <button class="icon-btn mobile-only" id="toggleSidebar">☰</button>
                 <div class="brand-logo">D</div>
                 <span>D'QUILANE</span>
-                <span class="brand-version">v0.5 TK · Multilingual</span>
+                <span class="brand-version">v0.8.2 SD2 · Multilingual</span>
             </div>
             <div class="header-actions">
+                <span class="mode-badge" id="modeBadge" title="Mode otomatis berdasarkan prompt">🤖 auto</span>
                 <button class="icon-btn" id="newChatBtn">+ New Chat</button>
             </div>
         </header>
 
-        <!-- SIDEBAR -->
-        <aside class="sidebar" id="sidebar">
-            <div class="sidebar-section">
-                <h3>Model Info</h3>
-                <div class="stat-row"><span class="label">Versi</span><span class="value" id="statVersion">v0.5 TK</span></div>
-                <div class="stat-row"><span class="label">Params</span><span class="value" id="statParams">—</span></div>
-                <div class="stat-row"><span class="label">Depth</span><span class="value" id="statDepth">—</span></div>
-                <div class="stat-row"><span class="label">Vocab</span><span class="value" id="statVocab">—</span></div>
-                <div class="stat-row"><span class="label">Context</span><span class="value" id="statContext">—</span></div>
-                <div class="stat-row"><span class="label">Bahasa</span><span class="value">30+</span></div>
-            </div>
-
-            <div class="sidebar-section">
-                <h3>Generation</h3>
-                <div class="control">
-                    <label>Max tokens <span class="val" id="maxNewVal">300</span></label>
-                    <input type="range" id="maxNew" min="20" max="2000" value="300" step="10">
-                </div>
-                <div class="control">
-                    <label>Temperature <span class="val" id="tempVal">0.5</span></label>
-                    <input type="range" id="temp" min="0.1" max="2.0" value="0.5" step="0.05">
-                </div>
-                <div class="control">
-                    <label>Top-k <span class="val" id="topKVal">40</span></label>
-                    <input type="range" id="topK" min="0" max="100" value="40" step="1">
-                </div>
-                <div class="control">
-                    <label>Top-p (nucleus) <span class="val" id="topPVal">0.95</span></label>
-                    <input type="range" id="topP" min="0.1" max="1.0" value="0.95" step="0.05">
-                </div>
-                <div class="control">
-                    <label>Repetition penalty <span class="val" id="repVal">1.1</span></label>
-                    <input type="range" id="rep" min="1.0" max="2.0" value="1.1" step="0.05">
-                </div>
-            </div>
-
-            <div class="sidebar-section">
-                <h3>Presets</h3>
-                <div class="preset-row">
-                    <button class="preset-btn" data-preset="creative">🎨 Creative</button>
-                    <button class="preset-btn" data-preset="precise">🎯 Precise</button>
-                    <button class="preset-btn" data-preset="balanced">⚖️ Balanced</button>
-                    <button class="preset-btn" data-preset="wild">🔥 Wild</button>
-                </div>
-            </div>
-
-            <div class="sidebar-section">
-                <h3>Custom Knowledge (In-Context Learning)</h3>
-                <textarea id="context" rows="5" placeholder="Tempel teks di sini untuk memberi konteks tambahan ke model... (mis: dokumen, FAQ, dll)"></textarea>
-                <p style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">
-                    Model akan pakai teks ini sebagai konteks tambahan. Hapus untuk mode normal.
-                </p>
-            </div>
-
-            <div class="sidebar-section">
-                <h3>Tips</h3>
-                <p style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
-                    • Prompt bebas bahasa apa saja<br>
-                    • Bisa pakai 30+ bahasa native script<br>
-                    • Enter untuk kirim, Shift+Enter baris baru<br>
-                    • Settings otomatis tersimpan
-                </p>
-            </div>
-        </aside>
-
-        <!-- MAIN -->
         <main>
             <div class="chat-container" id="chat">
                 <div class="empty-state" id="emptyState">
-                    <h1>D'QUILANE TK</h1>
+                    <h1>D'QUILANE SD2</h1>
                     <p>Multilingual LLM buatan sendiri. 30+ bahasa, native script, tanpa quantize.</p>
                     <div class="suggestions">
-                        <button class="suggestion-card" data-prompt="Indonesia adalah negara">
-                            <strong>Indonesia</strong><br>Ceritakan tentang Indonesia
+                        <button class="suggestion-card" data-prompt="Halo apa kabar?">
+                            <strong>Halo apa kabar?</strong><br>Sapa D'QUILANE
                         </button>
-                        <button class="suggestion-card" data-prompt="日本語の三つの書き方">
-                            <strong>日本語</strong><br>Tiga sistem penulisan
+                        <button class="suggestion-card" data-prompt="Siapa presiden pertama Indonesia?">
+                            <strong>Presiden</strong><br>Siapa presiden pertama RI?
                         </button>
-                        <button class="suggestion-card" data-prompt="العربية تكتب">
-                            <strong>العربية</strong><br>Arabic ditulis dari kanan
+                        <button class="suggestion-card" data-prompt="Satu tambah satu?">
+                            <strong>Matematika</strong><br>Coba hitung 1+1
                         </button>
-                        <button class="suggestion-card" data-prompt="한국어는 한글을">
-                            <strong>한국어</strong><br>Hangul yang ilmiah
+                        <button class="suggestion-card" data-prompt="Translate halo to English">
+                            <strong>Translate</strong><br>Halo ke English
                         </button>
                     </div>
                 </div>
             </div>
         </main>
 
-        <!-- INPUT -->
         <div class="input-area">
             <div class="input-container">
                 <div class="input-box">
@@ -464,8 +265,8 @@
                     <button class="send-btn" id="sendBtn" disabled>↑</button>
                 </div>
                 <div class="input-footer">
-                    <span>D'QUILANE TK v0.5 dapat membuat kesalahan. Verifikasi informasi penting.</span>
-                    <span class="token-counter" id="tokenCounter">0 / 96 tokens</span>
+                    <span>D'QUILANE SD2 — otomatis pilih mode (precise/creative) berdasarkan prompt</span>
+                    <span class="token-counter" id="tokenCounter">0 / 80 tokens</span>
                 </div>
             </div>
         </div>
@@ -475,36 +276,39 @@
     <script>
         let model = null;
         let generating = false;
-        let chatHistory = [];
-
         const $ = id => document.getElementById(id);
 
-        // Load settings dari localStorage
-        function loadSettings() {
-            const settings = ['maxNew', 'temp', 'topK', 'topP', 'rep'];
-            settings.forEach(s => {
-                const saved = localStorage.getItem('dquilane_' + s);
-                if (saved !== null) $(s).value = saved;
-            });
-            ['context'].forEach(s => {
-                const saved = localStorage.getItem('dquilane_' + s);
-                if (saved !== null) $(s).value = saved;
-            });
-            updateSliderLabels();
-        }
-        function saveSettings() {
-            ['maxNew', 'temp', 'topK', 'topP', 'rep', 'context'].forEach(s => {
-                localStorage.setItem('dquilane_' + s, $(s).value);
-            });
+        // ===== AUTO-MODE DETECTION =====
+        // LLM "berpikir" sendiri kapan pakai mode apa berdasarkan prompt
+        function detectMode(prompt) {
+            const p = prompt.toLowerCase().trim();
+            const hasQuestion = p.endsWith('?') || p.endsWith('?\n') ||
+                                /^(siapa|apa|berapa|dimana|kapan|kenapa|mengapa|bagaimana|gimana|who|what|where|when|why|how|is|are|do|does|can|could)\b/.test(p);
+            const isMath = /\b(tambah|kurang|kali|bagi|plus|minus|times|divided|dikali|dikurangi|dibagi)\b/.test(p) ||
+                           /\d+\s*[+\-*/x×÷]\s*\d+/.test(p);
+            const isCreative = /\b(cerita|ceritakan|bikin|tulis|buat|story|write|create|pantun|puisi| puisi)\b/.test(p);
+            const isTranslate = /\b(translate|terjemah|artikan)\b/.test(p);
+            const isCount = /\b(hitung|count)\b/.test(p);
+
+            let mode, settings;
+            if (isCreative) {
+                mode = '🎨 creative';
+                settings = { temp: 0.9, topK: 30, topP: 0.95, rep: 1.15, maxNew: 500 };
+            } else if (isMath || isTranslate || isCount) {
+                mode = '🎯 precise';
+                settings = { temp: 0.3, topK: 5, topP: 0.85, rep: 1.3, maxNew: 150 };
+            } else if (hasQuestion) {
+                mode = '⚖️ qa';
+                settings = { temp: 0.4, topK: 10, topP: 0.9, rep: 1.25, maxNew: 250 };
+            } else {
+                mode = '🤖 auto';
+                settings = { temp: 0.5, topK: 15, topP: 0.9, rep: 1.2, maxNew: 300 };
+            }
+            return { mode, settings };
         }
 
-        function updateSliderLabels() {
-            $('maxNewVal').textContent = $('maxNew').value;
-            $('tempVal').textContent = parseFloat($('temp').value).toFixed(2);
-            $('topKVal').textContent = $('topK').value;
-            $('topPVal').textContent = parseFloat($('topP').value).toFixed(2);
-            $('repVal').textContent = parseFloat($('rep').value).toFixed(2);
-            updateTokenCounter();
+        function updateModeBadge(mode) {
+            $('modeBadge').textContent = mode;
         }
 
         function updateTokenCounter() {
@@ -527,20 +331,8 @@
             })
             .then(data => {
                 model = new DQuilane(data);
-                const w = model.w;
-                const actualParams =
-                    w.tok_emb_weight.length + w.pos_emb_weight.length +
-                    w.norm1_weight.length + w.attn_qkv_weight.length +
-                    w.attn_out_weight.length + w.norm2_weight.length +
-                    w.ffn_gate_weight.length + w.ffn_val_weight.length +
-                    w.ffn_down_weight.length + w.norm_f_weight.length;
-                $('statParams').textContent = actualParams.toLocaleString();
-                $('statVocab').textContent = model.config.vocab_size;
-                $('statDepth').textContent = model.config.n_layers + ' (shared)';
-                $('statContext').textContent = model.config.max_seq + ' chars';
                 $('loadingOverlay').style.display = 'none';
                 $('sendBtn').disabled = false;
-                loadSettings();
                 updateTokenCounter();
             })
             .catch(err => {
@@ -550,37 +342,9 @@
                 console.error(err);
             });
 
-        // Slider events
-        ['maxNew', 'temp', 'topK', 'topP', 'rep'].forEach(s => {
-            $(s).addEventListener('input', () => {
-                updateSliderLabels();
-                saveSettings();
-            });
-        });
         $('prompt').addEventListener('input', updateTokenCounter);
-        $('context').addEventListener('input', saveSettings);
 
-        // Presets
-        const presets = {
-            creative:  { temp: 0.9, topK: 30, topP: 0.95, rep: 1.2, maxNew: 500 },
-            precise:   { temp: 0.3, topK: 5,  topP: 0.8,  rep: 1.3, maxNew: 300 },
-            balanced:  { temp: 0.5, topK: 15, topP: 0.9,  rep: 1.2, maxNew: 300 },
-            wild:       { temp: 1.2, topK: 50, topP: 1.0, rep: 1.0, maxNew: 800 },
-        };
-        document.querySelectorAll('.preset-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const p = presets[btn.dataset.preset];
-                $('temp').value = p.temp;
-                $('topK').value = p.topK;
-                $('topP').value = p.topP;
-                $('rep').value = p.rep;
-                $('maxNew').value = p.maxNew;
-                updateSliderLabels();
-                saveSettings();
-            });
-        });
-
-        // Suggestion cards (only show on empty state)
+        // Suggestion cards
         document.querySelectorAll('.suggestion-card').forEach(card => {
             card.addEventListener('click', () => {
                 $('prompt').value = card.dataset.prompt;
@@ -591,8 +355,25 @@
 
         // New chat
         $('newChatBtn').addEventListener('click', () => {
-            chatHistory = [];
-            $('chat').innerHTML = '<div class="empty-state" id="emptyState"><h1>D\'QUILANE TK</h1><p>Multilingual LLM buatan sendiri. 30+ bahasa, native script, tanpa quantize.</p><div class="suggestions"><button class="suggestion-card" data-prompt="Indonesia adalah negara"><strong>Indonesia</strong><br>Ceritakan tentang Indonesia</button><button class="suggestion-card" data-prompt="日本語の三つの書き方"><strong>日本語</strong><br>Tiga sistem penulisan</button><button class="suggestion-card" data-prompt="العربية تكتب"><strong>العربية</strong><br>Arabic ditulis dari kanan</button><button class="suggestion-card" data-prompt="한국어는 한글을"><strong>한국어</strong><br>Hangul yang ilmiah</button></div></div>';
+            $('chat').innerHTML = `
+                <div class="empty-state" id="emptyState">
+                    <h1>D'QUILANE SD2</h1>
+                    <p>Multilingual LLM buatan sendiri. 30+ bahasa, native script, tanpa quantize.</p>
+                    <div class="suggestions">
+                        <button class="suggestion-card" data-prompt="Halo apa kabar?">
+                            <strong>Halo apa kabar?</strong><br>Sapa D'QUILANE
+                        </button>
+                        <button class="suggestion-card" data-prompt="Siapa presiden pertama Indonesia?">
+                            <strong>Presiden</strong><br>Siapa presiden pertama RI?
+                        </button>
+                        <button class="suggestion-card" data-prompt="Satu tambah satu?">
+                            <strong>Matematika</strong><br>Coba hitung 1+1
+                        </button>
+                        <button class="suggestion-card" data-prompt="Translate halo to English">
+                            <strong>Translate</strong><br>Halo ke English
+                        </button>
+                    </div>
+                </div>`;
             attachSuggestionHandlers();
         });
 
@@ -605,11 +386,6 @@
                 };
             });
         }
-
-        // Toggle sidebar (mobile)
-        $('toggleSidebar')?.addEventListener('click', () => {
-            $('sidebar').classList.toggle('open');
-        });
 
         // Auto-resize textarea
         const promptInput = $('prompt');
@@ -627,11 +403,15 @@
         });
         $('sendBtn').addEventListener('click', sendMessage);
 
-        // Send message
+        // Send message — AUTO mode detection
         async function sendMessage() {
             if (!model || generating) return;
             const prompt = $('prompt').value.trim();
             if (!prompt) return;
+
+            // Detect mode
+            const { mode, settings } = detectMode(prompt);
+            updateModeBadge(mode);
 
             // Remove empty state
             const empty = $('emptyState');
@@ -652,36 +432,28 @@
             generating = true;
             $('sendBtn').disabled = true;
 
-            // Get settings
-            const maxNew = parseInt($('maxNew').value);
-            const temp = parseFloat($('temp').value);
-            const topK = parseInt($('topK').value);
-            const topP = parseFloat($('topP').value);
-            const rep = parseFloat($('rep').value);
-            const context = $('context').value.trim();
-
-            // Build effective prompt with context
-            let effectivePrompt = prompt;
-            if (context) {
-                effectivePrompt = context + '\n\n' + prompt;
-            }
-
             const startTime = Date.now();
             let tokenCount = 0;
 
             try {
-                await model.generate(effectivePrompt, maxNew, temp, topK, topP, rep, (token, step) => {
-                    if (token !== undefined && token !== null) {
-                        // Insert before cursor
-                        body.insertBefore(document.createTextNode(token), cursor);
-                        tokenCount++;
-                        $('tokenCounter').textContent = `${step}/${maxNew} generating`;
+                await model.generate(
+                    prompt,
+                    settings.maxNew,
+                    settings.temp,
+                    settings.topK,
+                    settings.topP,
+                    settings.rep,
+                    (token, step) => {
+                        if (token !== undefined && token !== null) {
+                            body.insertBefore(document.createTextNode(token), cursor);
+                            tokenCount++;
+                            $('tokenCounter').textContent = `${step} tokens`;
+                        }
+                        const chat = $('chat');
+                        chat.scrollTop = chat.scrollHeight;
+                        return new Promise(r => setTimeout(r, 0));
                     }
-                    // auto scroll
-                    const chat = $('chat');
-                    chat.scrollTop = chat.scrollHeight;
-                    return new Promise(r => setTimeout(r, 0));
-                });
+                );
                 const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
                 $('tokenCounter').textContent = `${tokenCount} tokens · ${elapsed}s`;
             } catch (err) {
@@ -719,7 +491,6 @@
             msg.appendChild(msgContent);
             chat.appendChild(msg);
 
-            // scroll to bottom
             chat.scrollTop = chat.scrollHeight;
             return msg;
         }
