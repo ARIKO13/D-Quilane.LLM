@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'QUILANE Colab — Browser Training</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f8f9fa;
+            color: #202124;
+            min-height: 100vh;
+            font-size: 14px;
+        }
+        .topbar {
+            background: #fff;
+            border-bottom: 1px solid #dadce0;
+            padding: 12px 24px;
+            display: flex; align-items: center; justify-content: space-between;
+            position: sticky; top: 0; z-index: 100;
+        }
+        .brand { display: flex; align-items: center; gap: 12px; }
+        .logo {
+            width: 32px; height: 32px;
+            background: linear-gradient(135deg, #10a37f, #00d4ff);
+            border-radius: 6px;
+            display: flex; align-items: center; justify-content: center;
+            color: #000; font-weight: 700; font-size: 14px;
+        }
+        .brand-text { font-weight: 600; font-size: 16px; }
+        .brand-version { color: #5f6368; font-size: 12px; }
+        .status-badge {
+            background: rgba(16, 163, 127, 0.1);
+            color: #10a37f;
+            padding: 6px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+            border: 1px solid rgba(16, 163, 127, 0.3);
+            display: flex; align-items: center; gap: 6px;
+        }
+        .status-badge.warn {
+            background: rgba(247, 168, 0, 0.1);
+            color: #f7a800;
+            border-color: rgba(247, 168, 0, 0.3);
+        }
+        .container { max-width: 1000px; margin: 0 auto; padding: 24px; }
+        .cell {
+            background: #fff;
+            border: 1px solid #dadce0;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .cell-header {
+            background: #f1f3f4;
+            padding: 8px 16px;
+            border-bottom: 1px solid #dadce0;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        .cell-title { font-weight: 600; font-size: 13px; color: #5f6368; }
+        .cell-actions { display: flex; gap: 8px; }
+        .btn {
+            background: #10a37f;
+            color: #fff;
+            border: none;
+            padding: 6px 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 500;
+            display: flex; align-items: center; gap: 6px;
+        }
+        .btn:hover { background: #0d8a6a; }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .btn.secondary {
+            background: #fff;
+            color: #1a73e8;
+            border: 1px solid #dadce0;
+        }
+        .btn.secondary:hover { background: #f1f3f4; }
+        .code-area {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 12px 16px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            white-space: pre-wrap;
+            overflow-x: auto;
+            min-height: 60px;
+        }
+        .code-area textarea {
+            background: transparent;
+            color: inherit;
+            border: none;
+            outline: none;
+            font-family: inherit;
+            font-size: inherit;
+            width: 100%;
+            resize: vertical;
+            min-height: 60px;
+        }
+        .output-area {
+            background: #fafafa;
+            padding: 12px 16px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            color: #333;
+            min-height: 30px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .output-line { margin: 2px 0; }
+        .output-line.error { color: #d93025; }
+        .output-line.success { color: #10a37f; }
+        .output-line.info { color: #1a73e8; }
+        .output-line.warning { color: #f7a800; }
+        .progress-bar {
+            height: 4px;
+            background: #f1f3f4;
+            border-radius: 2px;
+            overflow: hidden;
+            margin: 8px 0;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #10a37f, #00d4ff);
+            transition: width 0.3s;
+            width: 0%;
+        }
+        .info-card {
+            background: #fff;
+            border: 1px solid #dadce0;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        .info-card h3 { color: #1a73e8; font-size: 14px; margin-bottom: 8px; }
+        .info-card p { color: #5f6368; font-size: 13px; line-height: 1.6; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-top: 12px;
+        }
+        .stat {
+            background: #f1f3f4;
+            padding: 8px 12px;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .stat-label { font-size: 11px; color: #5f6368; text-transform: uppercase; }
+        .stat-value { font-size: 16px; font-weight: 600; color: #1a73e8; }
+        .chat-test {
+            background: #fff;
+            border: 1px solid #dadce0;
+            border-radius: 8px;
+            padding: 16px;
+        }
+        .chat-test input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #dadce0;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: inherit;
+        }
+        .chat-test input:focus { outline: none; border-color: #1a73e8; }
+        .chat-response {
+            background: #f1f3f4;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 12px;
+            min-height: 40px;
+            font-family: monospace;
+            font-size: 13px;
+            white-space: pre-wrap;
+        }
+        footer {
+            text-align: center;
+            margin-top: 32px;
+            color: #5f6368;
+            font-size: 12px;
+            padding: 16px 0;
+            border-top: 1px solid #dadce0;
+        }
+        footer a { color: #1a73e8; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="brand">
+            <div class="logo">D</div>
+            <div>
+                <div class="brand-text">D'QUILANE Colab</div>
+                <div class="brand-version">v0.10 · Browser Training</div>
+            </div>
+        </div>
+        <div class="status-badge" id="gpuStatus">
+            <span id="gpuText">Detecting GPU...</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="info-card">
+            <h3>🧠 Tentang Page Ini</h3>
+            <p>Ini <strong>Google Colab versi D'QUILANE</strong> yang jalan langsung di browser kamu. Klik tombol "Run" di tiap cell untuk eksekusi. Training pakai vanilla JS (CPU) atau WebGPU (kalau browser support).</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-label">Vocab</div>
+                    <div class="stat-value" id="statVocab">—</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Params</div>
+                    <div class="stat-value" id="statParams">—</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Layers</div>
+                    <div class="stat-value" id="statLayers">—</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Context</div>
+                    <div class="stat-value" id="statContext">—</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cell 1: Load Model -->
+        <div class="cell">
+            <div class="cell-header">
+                <div class="cell-title">📊 Cell 1: Load Model</div>
+                <div class="cell-actions">
+                    <button class="btn" id="btnLoad" onclick="runCell(1)">▶ Run</button>
+                </div>
+            </div>
+            <div class="code-area"># Load existing pre-trained D'QUILANE model from server
+# Model udah pre-trained (loss 1.18) + SFT (loss 0.08)
+fetch('dquilane_model.json')</div>
+            <div class="output-area" id="output1">Click Run untuk load model...</div>
+        </div>
+
+        <!-- Cell 2: SFT Training -->
+        <div class="cell">
+            <div class="cell-header">
+                <div class="cell-title">🎓 Cell 2: SFT Fine-tuning (30 epochs, ~30s)</div>
+                <div class="cell-actions">
+                    <button class="btn" id="btnTrain" onclick="runCell(2)" disabled>▶ Run Training</button>
+                </div>
+            </div>
+            <div class="code-area"># SFT = Supervised Fine-Tuning
+# Train model dengan 34 instruction examples (Halo, matematika, dll)
+# Setiap response diakhiri EOS, model belajar STOP setelah jawab
+# 30 epochs cukup untuk converge (loss < 0.01)
+
+trainer = new DQuilaneTrainer(model)
+trainer.trainSFT(epochs=30, lr=0.0001)</div>
+            <div class="output-area" id="output2">Model harus di-load dulu (Cell 1)</div>
+            <div class="progress-bar" id="progress2"><div class="progress-fill"></div></div>
+        </div>
+
+        <!-- Cell 3: Test Model -->
+        <div class="cell">
+            <div class="cell-header">
+                <div class="cell-title">💬 Cell 3: Test Model</div>
+                <div class="cell-actions">
+                    <button class="btn" id="btnTest" onclick="runCell(3)" disabled>▶ Test</button>
+                </div>
+            </div>
+            <div class="code-area"># Test model yang udah di-train
+# Prompt → response (model stop natural saat EOS)
+
+trainer.generate(prompt)</div>
+            <div class="chat-test">
+                <input type="text" id="testPrompt" placeholder="Ketik prompt (mis: Halo, Satu tambah satu?, Apa ibu kota Jepang?)" value="Halo">
+                <div class="chat-response" id="testResponse">Run Cell 1 & 2 dulu, lalu ketik prompt di atas + klik Test</div>
+            </div>
+        </div>
+
+        <!-- Cell 4: Export Model -->
+        <div class="cell">
+            <div class="cell-header">
+                <div class="cell-title">💾 Cell 4: Export Model (download JSON)</div>
+                <div class="cell-actions">
+                    <button class="btn secondary" id="btnExport" onclick="runCell(4)" disabled>⬇ Download</button>
+                </div>
+            </div>
+            <div class="code-area"># Download model hasil training buat pakai di web tester
+# Atau upload ke repo GitHub Pages kamu
+
+trainer.exportModel()  # download .json</div>
+            <div class="output-area" id="output4">Disabled sampai training selesai</div>
+        </div>
+
+        <div class="info-card">
+            <h3>⚡ Performance Note</h3>
+            <p><strong>Vanilla JS (CPU):</strong> ~30s untuk 30 epochs SFT (34 examples). Cepat karena cuma SFT, bukan pre-training dari nol.</p>
+            <p><strong>WebGPU (GPU):</strong> Kalau browser support WebGPU (Chrome 113+, Edge 113+), bisa lebih cepat. Saat ini fallback ke CPU.</p>
+            <p><strong>GPU Usage:</strong> CPU/GPU cuma kepake pas training jalan. Setelah selesai, bebas.</p>
+        </div>
+
+        <footer>
+            D'QUILANE v0.10 Colab · <a href="index.html">Web Tester</a> · <a href="https://github.com/ARIKO13/D-Quilane.LLM" target="_blank">Source</a>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="trainer.js"></script>
+    <script>
+        let model = null;
+        let trainer = null;
+
+        // Detect GPU
+        (async () => {
+            const status = document.getElementById('gpuStatus');
+            const text = document.getElementById('gpuText');
+            try {
+                if ('gpu' in navigator) {
+                    const adapter = await navigator.gpu.requestAdapter();
+                    if (adapter) {
+                        text.textContent = '🎮 WebGPU: Available';
+                        status.classList.remove('warn');
+                    } else {
+                        text.textContent = '💻 CPU mode (WebGPU not available)';
+                        status.classList.add('warn');
+                    }
+                } else {
+                    text.textContent = '💻 CPU mode (no WebGPU)';
+                    status.classList.add('warn');
+                }
+            } catch (e) {
+                text.textContent = '💻 CPU mode';
+                status.classList.add('warn');
+            }
+        })();
+
+        function log(cellId, message, type = 'info') {
+            const out = document.getElementById('output' + cellId);
+            const line = document.createElement('div');
+            line.className = 'output-line ' + type;
+            line.textContent = message;
+            out.appendChild(line);
+            out.scrollTop = out.scrollHeight;
+        }
+
+        async function runCell(cellId) {
+            if (cellId === 1) {
+                await loadModel();
+            } else if (cellId === 2) {
+                await trainSFT();
+            } else if (cellId === 3) {
+                await testModel();
+            } else if (cellId === 4) {
+                await exportModel();
+            }
+        }
+
+        async function loadModel() {
+            const out = document.getElementById('output1');
+            out.innerHTML = '';
+            log(1, 'Loading model...', 'info');
+            try {
+                const response = await fetch('dquilane_model.json');
+                if (!response.ok) throw new Error('Model not found');
+                const data = await response.json();
+                model = data;
+                log(1, `✓ Model loaded`, 'success');
+                log(1, `  Vocab: ${data.config.vocab_size}`, 'info');
+                log(1, `  d_model: ${data.config.d_model}`, 'info');
+                log(1, `  n_layers: ${data.config.n_layers}`, 'info');
+                log(1, `  max_seq: ${data.config.max_seq}`, 'info');
+
+                // Update stats
+                document.getElementById('statVocab').textContent = data.config.vocab_size;
+                const totalParams = data.weights.tok_emb_weight.length * data.config.d_model +
+                                   data.weights.pos_emb_weight.length +
+                                   data.weights.norm1_weight.length +
+                                   data.weights.attn_qkv_weight.length +
+                                   data.weights.attn_out_weight.length +
+                                   data.weights.norm2_weight.length +
+                                   data.weights.ffn_gate_weight.length +
+                                   data.weights.ffn_val_weight.length +
+                                   data.weights.ffn_down_weight.length +
+                                   data.weights.norm_f_weight.length;
+                // Approximate params
+                document.getElementById('statParams').textContent = '~460K';
+                document.getElementById('statLayers').textContent = data.config.n_layers + ' (shared)';
+                document.getElementById('statContext').textContent = data.config.max_seq + ' chars';
+
+                document.getElementById('btnTrain').disabled = false;
+            } catch (err) {
+                log(1, `❌ Error: ${err.message}`, 'error');
+            }
+        }
+
+        async function trainSFT() {
+            if (!model) {
+                log(2, '❌ Load model dulu (Cell 1)', 'error');
+                return;
+            }
+            const btn = document.getElementById('btnTrain');
+            btn.disabled = true;
+            btn.textContent = '⏳ Training...';
+
+            const out = document.getElementById('output2');
+            out.innerHTML = '';
+            const progressFill = document.querySelector('#progress2 .progress-fill');
+
+            log(2, 'Initializing trainer...', 'info');
+            log(2, `GPU: ${navigator.gpu ? 'WebGPU available' : 'CPU mode (vanilla JS)'}`, 'info');
+            log(2, `SFT examples: ${SFT_EXAMPLES_BROWSER.length}`, 'info');
+
+            try {
+                trainer = new DQuilaneTrainer(model);
+                await new Promise(r => setTimeout(r, 100)); // let GPU detect
+                log(2, `Trainer ready. Starting SFT 30 epochs...`, 'success');
+                log(2, '', 'info');
+
+                const EPOCHS = 30;
+                const LR = 0.0001;
+                const startTime = Date.now();
+
+                for (let epoch = 0; epoch < EPOCHS; epoch++) {
+                    let totalLoss = 0;
+                    let nExamples = 0;
+                    const shuffled = [...SFT_EXAMPLES_BROWSER].sort(() => Math.random() - 0.5);
+
+                    for (const [prompt, response] of shuffled) {
+                        // Encode
+                        const full = prompt + ' ' + response;
+                        const ids = [];
+                        for (const c of full) {
+                            if (c in trainer.stoi) ids.push(trainer.stoi[c]);
+                        }
+                        ids.push(trainer.eos_id);
+                        const padId = trainer.stoi['<pad>'];
+
+                        if (ids.length > trainer.config.max_seq) continue;
+                        while (ids.length < trainer.config.max_seq) ids.push(padId);
+
+                        const promptLen = [...prompt].filter(c => c in trainer.stoi).length;
+                        const targets = [];
+                        for (let i = 0; i < trainer.config.max_seq - 1; i++) {
+                            if (i < promptLen - 1) {
+                                targets.push(-100);
+                            } else {
+                                const nextId = ids[i + 1] !== undefined ? ids[i + 1] : padId;
+                                targets.push(nextId === padId ? -100 : nextId);
+                            }
+                        }
+
+                        const loss = trainer.trainStep(ids.slice(0, -1), targets, LR);
+                        totalLoss += loss;
+                        nExamples++;
+                    }
+
+                    const avgLoss = totalLoss / Math.max(nExamples, 1);
+                    const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+                    const progress = ((epoch + 1) / EPOCHS * 100).toFixed(0);
+                    progressFill.style.width = progress + '%';
+
+                    if (epoch % 5 === 0 || epoch === EPOCHS - 1) {
+                        log(2, `epoch ${epoch+1}/${EPOCHS}  loss=${avgLoss.toFixed(4)}  t=${elapsed}s`, 'info');
+                    }
+
+                    // Yield to UI
+                    if (epoch % 3 === 0) {
+                        await new Promise(r => setTimeout(r, 0));
+                    }
+                }
+
+                log(2, '', 'info');
+                log(2, `✓ Training done in ${((Date.now() - startTime) / 1000).toFixed(1)}s`, 'success');
+                log(2, `Final loss: ${(totalLoss / SFT_EXAMPLES_BROWSER.length).toFixed(4)}`, 'success');
+
+                // Re-enable test/export buttons
+                document.getElementById('btnTest').disabled = false;
+                document.getElementById('btnExport').disabled = false;
+            } catch (err) {
+                log(2, `❌ Error: ${err.message}`, 'error');
+                console.error(err);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '▶ Run Training';
+            }
+        }
+
+        async function testModel() {
+            if (!trainer) {
+                log(3, '❌ Train model dulu (Cell 2)', 'error');
+                return;
+            }
+            const prompt = document.getElementById('testPrompt').value || 'Halo';
+            const response = document.getElementById('testResponse');
+            response.textContent = 'Generating...';
+
+            // Use the trainer's model (which has been updated by training)
+            // We need to create a DQuilane instance with the updated weights
+            const updatedModelData = trainer.exportModel();
+            const updatedModel = new DQuilane(updatedModelData);
+
+            const start = Date.now();
+            const out = await updatedModel.generate(prompt, 100, 0.4, 10, 0.9, 1.2, undefined, trainer.eos_id);
+            const elapsed = ((Date.now() - start) / 1000).toFixed(2);
+            response.textContent = `Prompt: "${prompt}"\nResponse: ${out}\n(${elapsed}s)`;
+        }
+
+        async function exportModel() {
+            if (!trainer) {
+                log(4, '❌ Train model dulu', 'error');
+                return;
+            }
+            const modelData = trainer.exportModel();
+            const blob = new Blob([JSON.stringify(modelData)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'dquilane_model_trained.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            log(4, `✓ Model exported (~${(blob.size / 1024 / 1024).toFixed(2)} MB)`, 'success');
+            log(4, 'Upload ke repo GitHub kamu di docs/ buat update production', 'info');
+        }
+    </script>
+</body>
+</html>
