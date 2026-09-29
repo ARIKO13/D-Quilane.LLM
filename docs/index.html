@@ -278,15 +278,15 @@
         let generating = false;
         const $ = id => document.getElementById(id);
 
-        // ===== AUTO-MODE DETECTION =====
-        // LLM "berpikir" sendiri kapan pakai mode apa berdasarkan prompt
+        // ===== AUTO-MODE DETECTION (smarter - detect keywords anywhere) =====
         function detectMode(prompt) {
             const p = prompt.toLowerCase().trim();
-            const hasQuestion = p.endsWith('?') || p.endsWith('?\n') ||
-                                /^(siapa|apa|berapa|dimana|kapan|kenapa|mengapa|bagaimana|gimana|who|what|where|when|why|how|is|are|do|does|can|could)\b/.test(p);
+            // Detect question words ANYWHERE (not just beginning)
+            const hasQuestionWord = /\b(siapa|apa|berapa|dimana|kapan|kenapa|mengapa|bagaimana|gimana|who|what|where|when|why|how|is|are|do|does|can|could)\b/.test(p) ||
+                                    p.endsWith('?') || p.endsWith('?\n');
             const isMath = /\b(tambah|kurang|kali|bagi|plus|minus|times|divided|dikali|dikurangi|dibagi)\b/.test(p) ||
                            /\d+\s*[+\-*/x×÷]\s*\d+/.test(p);
-            const isCreative = /\b(cerita|ceritakan|bikin|tulis|buat|story|write|create|pantun|puisi| puisi)\b/.test(p);
+            const isCreative = /\b(cerita|ceritakan|bikin|tulis|buat|story|write|create|pantun|puisi)\b/.test(p);
             const isTranslate = /\b(translate|terjemah|artikan)\b/.test(p);
             const isCount = /\b(hitung|count)\b/.test(p);
 
@@ -297,7 +297,7 @@
             } else if (isMath || isTranslate || isCount) {
                 mode = '🎯 precise';
                 settings = { temp: 0.3, topK: 5, topP: 0.85, rep: 1.3, maxNew: 150 };
-            } else if (hasQuestion) {
+            } else if (hasQuestionWord) {
                 mode = '⚖️ qa';
                 settings = { temp: 0.4, topK: 10, topP: 0.9, rep: 1.25, maxNew: 250 };
             } else {
