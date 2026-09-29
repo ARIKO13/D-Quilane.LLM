@@ -312,8 +312,8 @@ class DQuilane {
         return x;
     }
 
-    // ===== GENERATION dengan KV-cache =====
-    async generate(prompt, maxNew = 200, temp = 0.8, topK = 40, topP = 0.95, repPenalty = 1.1, onToken = null) {
+    // ===== GENERATION dengan KV-cache + EOS stop =====
+    async generate(prompt, maxNew = 200, temp = 0.8, topK = 40, topP = 0.95, repPenalty = 1.1, onToken = null, stopId = null) {
         let ids = this.encode(prompt);
         if (ids.length === 0) return prompt;
         const vocab = this.config.vocab_size;
@@ -322,6 +322,11 @@ class DQuilane {
         // Crop prompt to max_seq
         if (ids.length > maxSeq) {
             ids = ids.slice(ids.length - maxSeq);
+        }
+
+        // Use EOS_ID from config if available
+        if (stopId === null && this.config.eos_id !== undefined) {
+            stopId = this.config.eos_id;
         }
 
         // === Pass 1: forward full prompt to populate KV-cache ===
@@ -339,9 +344,6 @@ class DQuilane {
         for (let step = 0; step < maxNew; step++) {
             // Check if we exceeded context
             if (cache.T >= maxSeq) {
-                // Reset cache (sliding window: forget oldest)
-                // For simplicity, just truncate prompt + restart
-                // Actually let's just stop generating
                 break;
             }
 
@@ -408,6 +410,11 @@ class DQuilane {
                 if (r < cum) { nextId = i; break; }
             }
 
+            // STOP on EOS
+            if (stopId !== null && nextId === stopId) {
+                break;
+            }
+
             ids.push(nextId);
             if (onToken) {
                 const token = this.itos[String(nextId)] || '?';
@@ -421,7 +428,8 @@ class DQuilane {
             // Logits for the new token (which is the only one in T_new=1)
             for (let i = 0; i < vocab; i++) lastLogits[i] = logits[i];
         }
-        return this.decode(ids);
+        // Filter out EOS from output
+        return this.decode(ids.filter(id => id !== stopId));
     }
 }
 
