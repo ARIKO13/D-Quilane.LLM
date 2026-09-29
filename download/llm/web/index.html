@@ -382,8 +382,8 @@
             <div class="sidebar-section">
                 <h3>Generation</h3>
                 <div class="control">
-                    <label>Max tokens <span class="val" id="maxNewVal">200</span></label>
-                    <input type="range" id="maxNew" min="20" max="1000" value="200" step="10">
+                    <label>Max tokens <span class="val" id="maxNewVal">300</span></label>
+                    <input type="range" id="maxNew" min="20" max="2000" value="300" step="10">
                 </div>
                 <div class="control">
                     <label>Temperature <span class="val" id="tempVal">0.8</span></label>
@@ -562,10 +562,10 @@
 
         // Presets
         const presets = {
-            creative:  { temp: 1.1, topK: 50, topP: 0.95, rep: 1.1, maxNew: 300 },
-            precise:   { temp: 0.3, topK: 10, topP: 0.8,  rep: 1.2, maxNew: 150 },
-            balanced:  { temp: 0.8, topK: 40, topP: 0.95, rep: 1.1, maxNew: 200 },
-            wild:       { temp: 1.5, topK: 100, topP: 1.0, rep: 1.0, maxNew: 500 },
+            creative:  { temp: 1.1, topK: 50, topP: 0.95, rep: 1.1, maxNew: 500 },
+            precise:   { temp: 0.3, topK: 10, topP: 0.8,  rep: 1.2, maxNew: 300 },
+            balanced:  { temp: 0.8, topK: 40, topP: 0.95, rep: 1.1, maxNew: 500 },
+            wild:       { temp: 1.5, topK: 100, topP: 1.0, rep: 1.0, maxNew: 1500 },
         };
         document.querySelectorAll('.preset-btn').forEach(btn => {
             btn.addEventListener('click', () => {
