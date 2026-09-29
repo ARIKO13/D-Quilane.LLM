@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'QUILANE — Multilingual LLM</title>
+    <style>
+        :root {
+            --bg: #0f0f0f;
+            --surface: #1a1a1a;
+            --surface-2: #242424;
+            --border: #2a2a2a;
+            --text: #ececec;
+            --text-muted: #8e8e8e;
+            --accent: #10a37f;
+            --accent-hover: #1a8870;
+            --user-bg: #2f2f2f;
+            --warning: #f7a800;
+            --error: #ef4146;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body {
+            height: 100vh;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .app {
+            display: grid;
+            grid-template-rows: 56px 1fr auto;
+            height: 100vh;
+        }
+
+        /* HEADER */
+        header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 16px;
+        }
+        .brand { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+        .brand-logo {
+            width: 28px; height: 28px;
+            background: linear-gradient(135deg, #10a37f, #00d4ff);
+            border-radius: 6px;
+            display: flex; align-items: center; justify-content: center;
+            color: #000; font-weight: 700; font-size: 14px;
+        }
+        .brand-version { color: var(--text-muted); font-size: 12px; font-weight: normal; }
+        .header-actions { display: flex; gap: 8px; align-items: center; }
+        .icon-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 6px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            display: flex; align-items: center; gap: 6px;
+        }
+        .icon-btn:hover { background: var(--surface-2); }
+        .mode-badge {
+            background: rgba(16, 163, 127, 0.15);
+            color: var(--accent);
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            border: 1px solid rgba(16, 163, 127, 0.3);
+            display: flex; align-items: center; gap: 4px;
+        }
+
+        /* MAIN */
+        main {
+            overflow-y: auto;
+            padding: 24px 0;
+        }
+        .chat-container {
+            max-width: 768px;
+            margin: 0 auto;
+            width: 100%;
+            padding: 0 16px;
+        }
+        .message {
+            margin-bottom: 24px;
+            display: flex; gap: 12px;
+            animation: fadeIn 0.3s ease;
+        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; } }
+        .avatar {
+            width: 28px; height: 28px;
+            border-radius: 4px;
+            flex-shrink: 0;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 700; font-size: 12px; color: #000;
+        }
+        .avatar.user { background: #5436d0; }
+        .avatar.assistant { background: linear-gradient(135deg, #10a37f, #00d4ff); }
+        .message-content { flex: 1; padding-top: 2px; }
+        .message-content .role {
+            color: var(--text-muted); font-size: 12px; margin-bottom: 4px;
+        }
+        .message-content .body {
+            white-space: pre-wrap; word-wrap: break-word; line-height: 1.65;
+        }
+        .message.user .body {
+            background: var(--user-bg);
+            padding: 10px 14px;
+            border-radius: 8px;
+            display: inline-block; max-width: 100%;
+        }
+        .cursor {
+            display: inline-block; background: var(--accent);
+            width: 8px; height: 1em; vertical-align: text-bottom;
+            margin-left: 2px; animation: blink 1s infinite;
+        }
+        @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+        .empty-state {
+            text-align: center; padding: 80px 20px; color: var(--text-muted);
+        }
+        .empty-state h1 {
+            font-size: 32px; color: var(--text);
+            margin-bottom: 8px; font-weight: 600;
+        }
+        .empty-state p { font-size: 14px; margin-bottom: 24px; }
+        .suggestions {
+            display: grid; grid-template-columns: repeat(2, 1fr);
+            gap: 12px; max-width: 600px; margin: 0 auto;
+        }
+        .suggestion-card {
+            background: var(--surface); border: 1px solid var(--border);
+            padding: 16px; border-radius: 8px;
+            cursor: pointer; text-align: left; color: var(--text);
+            font-size: 13px; transition: all 0.15s;
+        }
+        .suggestion-card:hover {
+            background: var(--surface-2); border-color: var(--accent);
+        }
+
+        /* INPUT */
+        .input-area {
+            background: var(--bg);
+            border-top: 1px solid var(--border);
+            padding: 16px 0 24px;
+        }
+        .input-container {
+            max-width: 768px; margin: 0 auto;
+            padding: 0 16px; position: relative;
+        }
+        .input-box {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 12px; padding: 12px 56px 12px 16px;
+            display: flex; align-items: flex-end; gap: 8px;
+        }
+        .input-box:focus-within { border-color: var(--text-muted); }
+        #prompt {
+            flex: 1; background: transparent; border: none;
+            color: var(--text); font-size: 15px; font-family: inherit;
+            resize: none; outline: none; min-height: 24px; max-height: 200px;
+            line-height: 1.5;
+        }
+        .send-btn {
+            position: absolute; right: 12px; bottom: 12px;
+            background: var(--accent); color: #000; border: none;
+            width: 32px; height: 32px; border-radius: 6px;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 18px; font-weight: bold;
+        }
+        .send-btn:disabled { background: var(--surface-2); color: var(--text-muted); cursor: not-allowed; }
+        .input-footer {
+            display: flex; justify-content: space-between;
+            font-size: 11px; color: var(--text-muted);
+            margin-top: 8px; padding: 0 4px;
+        }
+        .token-counter {
+            display: inline-flex; align-items: center; gap: 4px;
+            background: var(--surface);
+            padding: 3px 8px; border-radius: 12px;
+            font-size: 11px; color: var(--text-muted);
+            border: 1px solid var(--border);
+        }
+        .token-counter.warn { color: var(--warning); border-color: var(--warning); }
+        .token-counter.error { color: var(--error); border-color: var(--error); }
+
+        /* LOADING OVERLAY */
+        .loading-overlay {
+            position: fixed; inset: 0;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex; align-items: center; justify-content: center;
+            flex-direction: column;
+            z-index: 1000; color: var(--text);
+        }
+        .loading-overlay .spinner {
+            border: 3px solid var(--surface-2);
+            border-top-color: var(--accent);
+            border-radius: 50%; width: 40px; height: 40px;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: 12px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .loading-overlay .msg { font-size: 14px; }
+        .loading-overlay .sub { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+        .loading-overlay.error .spinner { display: none; }
+        .loading-overlay.error { color: var(--error); }
+
+        /* SCROLLBAR */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--surface-2); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--border); }
+    </style>
+</head>
+<body>
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="spinner"></div>
+        <div class="msg">Loading D'QUILANE SD2...</div>
+        <div class="sub">Mengunduh model dari server (sekitar 8 MB)</div>
+    </div>
+
+    <div class="app">
+        <header>
+            <div class="brand">
+                <div class="brand-logo">D</div>
+                <span>D'QUILANE</span>
+                <span class="brand-version">v0.8.2 SD2 · Multilingual</span>
+            </div>
+            <div class="header-actions">
+                <span class="mode-badge" id="modeBadge" title="Mode otomatis berdasarkan prompt">🤖 auto</span>
+                <button class="icon-btn" id="newChatBtn">+ New Chat</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="chat-container" id="chat">
+                <div class="empty-state" id="emptyState">
+                    <h1>D'QUILANE SD2</h1>
+                    <p>Multilingual LLM buatan sendiri. 30+ bahasa, native script, tanpa quantize.</p>
+                    <div class="suggestions">
+                        <button class="suggestion-card" data-prompt="Halo apa kabar?">
+                            <strong>Halo apa kabar?</strong><br>Sapa D'QUILANE
+                        </button>
+                        <button class="suggestion-card" data-prompt="Siapa presiden pertama Indonesia?">
+                            <strong>Presiden</strong><br>Siapa presiden pertama RI?
+                        </button>
+                        <button class="suggestion-card" data-prompt="Satu tambah satu?">
+                            <strong>Matematika</strong><br>Coba hitung 1+1
+                        </button>
+                        <button class="suggestion-card" data-prompt="Translate halo to English">
+                            <strong>Translate</strong><br>Halo ke English
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="input-area">
+            <div class="input-container">
+                <div class="input-box">
+                    <textarea id="prompt" placeholder="Ketik apa saja... (apa bahasa yang kamu mau)" rows="1"></textarea>
+                    <button class="send-btn" id="sendBtn" disabled>↑</button>
+                </div>
+                <div class="input-footer">
+                    <span>D'QUILANE SD2 — otomatis pilih mode (precise/creative) berdasarkan prompt</span>
+                    <span class="token-counter" id="tokenCounter">0 / 80 tokens</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        let model = null;
+        let generating = false;
+        const $ = id => document.getElementById(id);
+
+        // ===== AUTO-MODE DETECTION (smarter - detect keywords anywhere) =====
+        function detectMode(prompt) {
+            const p = prompt.toLowerCase().trim();
+            // Detect question words ANYWHERE (not just beginning)
+            const hasQuestionWord = /\b(siapa|apa|berapa|dimana|kapan|kenapa|mengapa|bagaimana|gimana|who|what|where|when|why|how|is|are|do|does|can|could)\b/.test(p) ||
+                                    p.endsWith('?') || p.endsWith('?\n');
+            const isMath = /\b(tambah|kurang|kali|bagi|plus|minus|times|divided|dikali|dikurangi|dibagi)\b/.test(p) ||
+                           /\d+\s*[+\-*/x×÷]\s*\d+/.test(p);
+            const isCreative = /\b(cerita|ceritakan|bikin|tulis|buat|story|write|create|pantun|puisi)\b/.test(p);
+            const isTranslate = /\b(translate|terjemah|artikan)\b/.test(p);
+            const isCount = /\b(hitung|count)\b/.test(p);
+
+            let mode, settings;
+            if (isCreative) {
+                mode = '🎨 creative';
+                settings = { temp: 0.9, topK: 30, topP: 0.95, rep: 1.15, maxNew: 1000 };
+            } else if (isMath || isTranslate || isCount) {
+                mode = '🎯 precise';
+                settings = { temp: 0.3, topK: 5, topP: 0.85, rep: 1.3, maxNew: 200 };
+            } else if (hasQuestionWord) {
+                mode = '⚖️ qa';
+                settings = { temp: 0.4, topK: 10, topP: 0.9, rep: 1.25, maxNew: 400 };
+            } else {
+                mode = '🤖 auto';
+                settings = { temp: 0.5, topK: 15, topP: 0.9, rep: 1.2, maxNew: 600 };
+            }
+            return { mode, settings };
+        }
+
+        function updateModeBadge(mode) {
+            $('modeBadge').textContent = mode;
+        }
+
+        function updateTokenCounter() {
+            if (!model) return;
+            const prompt = $('prompt').value;
+            const ids = model.encode(prompt);
+            const max = model.config.max_seq;
+            const counter = $('tokenCounter');
+            counter.textContent = `${ids.length} / ${max} tokens`;
+            counter.className = 'token-counter';
+            if (ids.length > max) counter.className = 'token-counter error';
+            else if (ids.length > max * 0.8) counter.className = 'token-counter warn';
+        }
+
+        // Load model
+        fetch('dquilane_model.json')
+            .then(r => {
+                if (!r.ok) throw new Error('Model JSON tidak ditemukan');
+                return r.json();
+            })
+            .then(data => {
+                model = new DQuilane(data);
+                $('loadingOverlay').style.display = 'none';
+                $('sendBtn').disabled = false;
+                updateTokenCounter();
+            })
+            .catch(err => {
+                const ov = $('loadingOverlay');
+                ov.className = 'loading-overlay error';
+                ov.innerHTML = `<div>❌ ${err.message}</div><div class="sub">Pastikan dquilane_model.json ada di folder yang sama</div>`;
+                console.error(err);
+            });
+
+        $('prompt').addEventListener('input', updateTokenCounter);
+
+        // Suggestion cards
+        document.querySelectorAll('.suggestion-card').forEach(card => {
+            card.addEventListener('click', () => {
+                $('prompt').value = card.dataset.prompt;
+                updateTokenCounter();
+                sendMessage();
+            });
+        });
+
+        // New chat
+        $('newChatBtn').addEventListener('click', () => {
+            $('chat').innerHTML = `
+                <div class="empty-state" id="emptyState">
+                    <h1>D'QUILANE SD2</h1>
+                    <p>Multilingual LLM buatan sendiri. 30+ bahasa, native script, tanpa quantize.</p>
+                    <div class="suggestions">
+                        <button class="suggestion-card" data-prompt="Halo apa kabar?">
+                            <strong>Halo apa kabar?</strong><br>Sapa D'QUILANE
+                        </button>
+                        <button class="suggestion-card" data-prompt="Siapa presiden pertama Indonesia?">
+                            <strong>Presiden</strong><br>Siapa presiden pertama RI?
+                        </button>
+                        <button class="suggestion-card" data-prompt="Satu tambah satu?">
+                            <strong>Matematika</strong><br>Coba hitung 1+1
+                        </button>
+                        <button class="suggestion-card" data-prompt="Translate halo to English">
+                            <strong>Translate</strong><br>Halo ke English
+                        </button>
+                    </div>
+                </div>`;
+            attachSuggestionHandlers();
+        });
+
+        function attachSuggestionHandlers() {
+            document.querySelectorAll('.suggestion-card').forEach(card => {
+                card.onclick = () => {
+                    $('prompt').value = card.dataset.prompt;
+                    updateTokenCounter();
+                    sendMessage();
+                };
+            });
+        }
+
+        // Auto-resize textarea
+        const promptInput = $('prompt');
+        promptInput.addEventListener('input', () => {
+            promptInput.style.height = 'auto';
+            promptInput.style.height = Math.min(promptInput.scrollHeight, 200) + 'px';
+        });
+
+        // Enter to send
+        promptInput.addEventListener('keydown', e => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+        $('sendBtn').addEventListener('click', sendMessage);
+
+        // Send message — AUTO mode detection
+        async function sendMessage() {
+            if (!model || generating) return;
+            const prompt = $('prompt').value.trim();
+            if (!prompt) return;
+
+            // Detect mode
+            const { mode, settings } = detectMode(prompt);
+            updateModeBadge(mode);
+
+            // Remove empty state
+            const empty = $('emptyState');
+            if (empty) empty.remove();
+
+            // Add user message
+            addMessage('user', prompt);
+            $('prompt').value = '';
+            promptInput.style.height = 'auto';
+
+            // Add assistant placeholder
+            const assistantMsg = addMessage('assistant', '');
+            const body = assistantMsg.querySelector('.body');
+            const cursor = document.createElement('span');
+            cursor.className = 'cursor';
+            body.appendChild(cursor);
+
+            generating = true;
+            $('sendBtn').disabled = true;
+
+            const startTime = Date.now();
+            let tokenCount = 0;
+
+            try {
+                await model.generate(
+                    prompt,
+                    settings.maxNew,
+                    settings.temp,
+                    settings.topK,
+                    settings.topP,
+                    settings.rep,
+                    (token, step) => {
+                        if (token !== undefined && token !== null) {
+                            body.insertBefore(document.createTextNode(token), cursor);
+                            tokenCount++;
+                            $('tokenCounter').textContent = `${step} tokens`;
+                        }
+                        const chat = $('chat');
+                        chat.scrollTop = chat.scrollHeight;
+                        return new Promise(r => setTimeout(r, 0));
+                    }
+                );
+                const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
+                $('tokenCounter').textContent = `${tokenCount} tokens · ${elapsed}s`;
+            } catch (err) {
+                body.textContent = 'Error: ' + err.message;
+                console.error(err);
+            }
+
+            cursor.remove();
+            generating = false;
+            $('sendBtn').disabled = false;
+            updateTokenCounter();
+        }
+
+        function addMessage(role, content) {
+            const chat = $('chat');
+            const msg = document.createElement('div');
+            msg.className = 'message ' + role;
+
+            const avatar = document.createElement('div');
+            avatar.className = 'avatar ' + role;
+            avatar.textContent = role === 'user' ? 'U' : 'D';
+
+            const msgContent = document.createElement('div');
+            msgContent.className = 'message-content';
+            const roleDiv = document.createElement('div');
+            roleDiv.className = 'role';
+            roleDiv.textContent = role === 'user' ? 'You' : 'D\'QUILANE';
+            const bodyDiv = document.createElement('div');
+            bodyDiv.className = 'body';
+            if (content) bodyDiv.textContent = content;
+
+            msgContent.appendChild(roleDiv);
+            msgContent.appendChild(bodyDiv);
+            msg.appendChild(avatar);
+            msg.appendChild(msgContent);
+            chat.appendChild(msg);
+
+            chat.scrollTop = chat.scrollHeight;
+            return msg;
+        }
+    </script>
+</body>
+</html>
