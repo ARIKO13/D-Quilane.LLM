@@ -131,7 +131,73 @@ def export_gguf(model_json_path, gguf_path):
                    [config['d_model']])
     
     # Check architecture type
-    if 'experts_gate_weights' in weights:
+    if 'blocks' in weights:
+        # Blueprint v2.1 architecture (unified blocks list with mixed types)
+        print("Detected: Blueprint v2.1 architecture (LFM2 hybrid + Low-Rank + Sliding-Window + ReXMoE + AION)")
+        
+        # ReXMoE experts (4 shared)
+        n_experts = len(weights.get('experts_gate_weights', []))
+        for i in range(n_experts):
+            add_tensor(f'experts.{i}.gate.weight', weights['experts_gate_weights'][i],
+                       [config['d_ff'], config['d_model']])
+            add_tensor(f'experts.{i}.val.weight', weights['experts_val_weights'][i],
+                       [config['d_ff'], config['d_model']])
+            add_tensor(f'experts.{i}.down.weight', weights['experts_down_weights'][i],
+                       [config['d_model'], config['d_ff']])
+        
+        # Router
+        add_tensor('router.gate.weight', weights['router_weight'],
+                   [config.get('n_experts', 4), config['d_model']])
+        
+        # Unified blocks (v2.1)
+        blocks = weights['blocks']
+        for i, blk in enumerate(blocks):
+            btype = blk.get('type', 'unknown')
+            prefix = f'blocks.{i}'
+            
+            # Common: norm1, norm2
+            add_tensor(f'{prefix}.norm1.weight', blk['norm1'], [config['d_model']])
+            add_tensor(f'{prefix}.norm2.weight', blk['norm2'], [config['d_model']])
+            
+            if btype == 'conv':
+                # LFM2 Conv block
+                add_tensor(f'{prefix}.conv.weight', blk['conv_weight'],
+                           [2*config['d_model'], 1, config.get('conv_kernel', 4)])
+                if blk.get('conv_bias') is not None:
+                    add_tensor(f'{prefix}.conv.bias', blk['conv_bias'], [2*config['d_model']])
+                add_tensor(f'{prefix}.proj.weight', blk['proj'],
+                           [config['d_model'], config['d_model']])
+            elif btype == 'low_rank_attn':
+                # Low-Rank Attention (LatencySurgeon)
+                add_tensor(f'{prefix}.down_proj.weight', blk['down_proj'],
+                           [config.get('low_rank', 32), config['d_model']])
+                add_tensor(f'{prefix}.up_proj.weight', blk['up_proj'],
+                           [config['d_model'] + 2 * max(1, config.get('n_heads', 6) // 4) * (config['d_model'] // config.get('n_heads', 6)),
+                            config.get('low_rank', 32)])
+                add_tensor(f'{prefix}.out.weight', blk['out'],
+                           [config['d_model'], config['d_model']])
+            elif btype == 'sliding_attn':
+                # Sliding-Window GQA
+                add_tensor(f'{prefix}.q.weight', blk['q'],
+                           [config['d_model'], config['d_model']])
+                n_kv = max(1, config.get('n_heads', 6) // 4)
+                d_head = config['d_model'] // config.get('n_heads', 6)
+                add_tensor(f'{prefix}.kv.weight', blk['kv'],
+                           [2 * n_kv * d_head, config['d_model']])
+                add_tensor(f'{prefix}.out.weight', blk['out'],
+                           [config['d_model'], config['d_model']])
+            elif btype == 'global_attn':
+                # Global GQA
+                add_tensor(f'{prefix}.q.weight', blk['q'],
+                           [config['d_model'], config['d_model']])
+                n_kv = max(1, config.get('n_heads', 6) // 4)
+                d_head = config['d_model'] // config.get('n_heads', 6)
+                add_tensor(f'{prefix}.kv.weight', blk['kv'],
+                           [2 * n_kv * d_head, config['d_model']])
+                add_tensor(f'{prefix}.out.weight', blk['out'],
+                           [config['d_model'], config['d_model']])
+    
+    elif 'experts_gate_weights' in weights:
         # Blueprint v2 architecture (LFM2 + ReXMoE + AION)
         print("Detected: Blueprint v2 architecture (LFM2 hybrid + ReXMoE + AION)")
         
