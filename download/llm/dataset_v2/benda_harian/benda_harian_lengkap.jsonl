@@ -1,0 +1,15 @@
+{"bidang": "benda_harian", "judul": "Rumah", "subjudul": "Kursi", "prompt": "Apa itu kursi?", "response": "Kursi adalah tempat duduk."}
+{"bidang": "benda_harian", "judul": "Rumah", "subjudul": "Meja", "prompt": "Apa itu meja?", "response": "Meja adalah tempat meletakkan benda."}
+{"bidang": "benda_harian", "judul": "Rumah", "subjudul": "Kasur", "prompt": "Apa itu kasur?", "response": "Kasur adalah tempat tidur."}
+{"bidang": "benda_harian", "judul": "Rumah", "subjudul": "Lemari", "prompt": "Apa itu lemari?", "response": "Lemari adalah tempat menyimpan baju."}
+{"bidang": "benda_harian", "judul": "Sekolah", "subjudul": "Pensil", "prompt": "Apa itu pensil?", "response": "Pensil adalah alat tulis dari kayu."}
+{"bidang": "benda_harian", "judul": "Sekolah", "subjudul": "Buku", "prompt": "Apa itu buku?", "response": "Buku adalah kumpulan kertas bertulisan."}
+{"bidang": "benda_harian", "judul": "Sekolah", "subjudul": "Penghapus", "prompt": "Apa itu penghapus?", "response": "Penghapus menghapus tulisan pensil."}
+{"bidang": "benda_harian", "judul": "Sekolah", "subjudul": "Penggaris", "prompt": "Apa itu penggaris?", "response": "Penggaris mengukur panjang."}
+{"bidang": "benda_harian", "judul": "Dapur", "subjudul": "Sendok", "prompt": "Apa itu sendok?", "response": "Sendok adalah alat makan sup."}
+{"bidang": "benda_harian", "judul": "Dapur", "subjudul": "Garpu", "prompt": "Apa itu garpu?", "response": "Garpu adalah alat makan bertungkai."}
+{"bidang": "benda_harian", "judul": "Dapur", "subjudul": "Pisau", "prompt": "Apa itu pisau?", "response": "Pisau adalah alat memotong."}
+{"bidang": "benda_harian", "judul": "Dapur", "subjudul": "Piring", "prompt": "Apa itu piring?", "response": "Piring adalah tempat makanan."}
+{"bidang": "benda_harian", "judul": "Elektronik", "subjudul": "Lampu", "prompt": "Apa itu lampu?", "response": "Lampu memberi penerangan."}
+{"bidang": "benda_harian", "judul": "Elektronik", "subjudul": "Kipas", "prompt": "Apa itu kipas angin?", "response": "Kipas angin menghasilkan angin buatan."}
+{"bidang": "benda_harian", "judul": "Elektronik", "subjudul": "TV", "prompt": "Apa itu TV?", "response": "TV adalah televisi untuk hiburan dan informasi."}

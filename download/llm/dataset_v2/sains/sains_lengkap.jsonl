@@ -1,0 +1,145 @@
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Hukum Newton", "prompt": "Apa hukum Newton pertama?", "response": "Benda diam tetap diam, benda bergerak tetap bergerak kecuali ada gaya."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Hukum Newton", "prompt": "Apa hukum Newton kedua?", "response": "Gaya sama dengan massa dikali percepatan."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Hukum Newton", "prompt": "Apa hukum Newton ketiga?", "response": "Setiap aksi memiliki reaksi yang sama besar dan berlawanan arah."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Konsep Dasar", "prompt": "Apa itu gravitasi?", "response": "Gravitasi adalah gaya tarik bumi ke benda."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Konsep Dasar", "prompt": "Apa itu energi?", "response": "Energi adalah kemampuan untuk melakukan kerja."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Konsep Dasar", "prompt": "Apa itu massa?", "response": "Massa adalah jumlah materi dalam benda."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Konsep Dasar", "prompt": "Apa itu berat?", "response": "Berat adalah gaya gravitasi pada benda."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Konsep Dasar", "prompt": "Apa itu kecepatan?", "response": "Kecepatan adalah jarak per satuan waktu."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Konsep Dasar", "prompt": "Apa itu percepatan?", "response": "Percepatan adalah perubahan kecepatan per satuan waktu."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Konsep Dasar", "prompt": "Apa itu gaya?", "response": "Gaya adalah dorongan atau tarikan pada benda."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Konsep Dasar", "prompt": "Apa itu gesekan?", "response": "Gesekan adalah gaya yang melawan gerak benda."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Konsep Dasar", "prompt": "Apa itu momentum?", "response": "Momentum adalah massa dikali kecepatan."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Cahaya", "prompt": "Apa kecepatan cahaya?", "response": "Kecepatan cahaya sekitar tiga ratus ribu kilometer per detik."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Cahaya", "prompt": "Apa itu spektrum cahaya?", "response": "Spektrum cahaya adalah rentang warna dari merah ke ungu."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Cahaya", "prompt": "Apa warna pelangi?", "response": "Pelangi memiliki tujuh warna: merah, jingga, kuning, hijau, biru, nila, ungu."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Cahaya", "prompt": "Apa itu pemantulan cahaya?", "response": "Pemantulan adalah cahaya yang dipantulkan oleh cermin."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Cahaya", "prompt": "Apa itu pembiasan?", "response": "Pembiasan adalah pembelokan cahaya saat melewati medium berbeda."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Listrik", "prompt": "Apa itu arus listrik?", "response": "Arus listrik adalah aliran elektron melalui konduktor."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Listrik", "prompt": "Apa itu tegangan?", "response": "Tegangan adalah beda potensial listrik antara dua titik."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Listrik", "prompt": "Apa itu hambatan?", "response": "Hambatan adalah lawan terhadap aliran listrik."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Listrik", "prompt": "Apa hukum Ohm?", "response": "Tegangan sama dengan arus dikali hambatan."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Listrik", "prompt": "Apa itu rangkaian seri?", "response": "Rangkaian seri adalah rangkaian listrik yang disusun berurutan."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Listrik", "prompt": "Apa itu rangkaian paralel?", "response": "Rangkaian paralel adalah rangkaian listrik yang disusun bercabang."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Termodinamika", "prompt": "Apa titik didih air?", "response": "Air mendidih pada seratus derajat Celsius."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Termodinamika", "prompt": "Apa titik beku air?", "response": "Air membeku pada nol derajat Celsius."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Termodinamika", "prompt": "Apa itu suhu?", "response": "Suhu adalah ukuran panas atau dingin."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Termodinamika", "prompt": "Berapa suhu tubuh manusia?", "response": "Suhu tubuh manusia sekitar tiga puluh tujuh derajat Celsius."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Termodinamika", "prompt": "Apa itu kalor?", "response": "Kalor adalah energi panas yang berpindah."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Termodinamika", "prompt": "Apa itu konduktor?", "response": "Konduktor adalah benda yang menghantarkan panas atau listrik."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Termodinamika", "prompt": "Apa itu isolator?", "response": "Isolator adalah benda yang tidak menghantarkan."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Gelombang", "prompt": "Apa itu gelombang?", "response": "Gelombang adalah getaran yang merambat."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Gelombang", "prompt": "Apa itu frekuensi?", "response": "Frekuensi adalah jumlah getaran per detik."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Gelombang", "prompt": "Apa itu amplitudo?", "response": "Amplitudo adalah simpangan maksimum gelombang."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Gelombang", "prompt": "Apa itu panjang gelombang?", "response": "Panjang gelombang adalah jarak antara dua puncak gelombang."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Gelombang", "prompt": "Apa itu bunyi?", "response": "Bunyi adalah gelombang yang merambat melalui medium."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Magnet", "prompt": "Apa itu magnet?", "response": "Magnet adalah benda yang dapat menarik besi."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Magnet", "prompt": "Apa kutub magnet?", "response": "Magnet memiliki kutub utara dan selatan."}
+{"bidang": "sains", "judul": "Fisika", "subjudul": "Magnet", "prompt": "Apa itu elektromagnet?", "response": "Elektromagnet adalah magnet yang dibuat dengan arus listrik."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Materi", "prompt": "Apa itu atom?", "response": "Atom adalah satuan terkecil materi."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Materi", "prompt": "Apa itu molekul?", "response": "Molekul adalah gabungan dua atau lebih atom."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Materi", "prompt": "Apa itu elemen?", "response": "Elemen adalah zat murni yang tidak bisa dipecah lagi."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Materi", "prompt": "Apa itu senyawa?", "response": "Senyawa adalah gabungan dua atau lebih elemen."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Materi", "prompt": "Apa itu campuran?", "response": "Campuran adalah gabungan zat tanpa reaksi kimia."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Berapa elemen di tabel periodik?", "response": "Ada seratus delapan belas elemen."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa elemen paling ringan?", "response": "Hidrogen adalah elemen paling ringan."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa elemen paling banyak di alam?", "response": "Oksigen adalah elemen paling banyak."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa elemen paling berat?", "response": "Uranium adalah salah satu elemen paling berat."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa simbol hidrogen?", "response": "Simbol kimia hidrogen adalah H."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa simbol oksigen?", "response": "Simbol kimia oksigen adalah O."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa simbol karbon?", "response": "Simbol kimia karbon adalah C."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa simbol nitrogen?", "response": "Simbol kimia nitrogen adalah N."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa simbol besi?", "response": "Simbol kimia besi adalah Fe."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa simbol emas?", "response": "Simbol kimia emas adalah Au."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa simbol perak?", "response": "Simbol kimia perak adalah Ag."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa simbol tembaga?", "response": "Simbol kimia tembaga adalah Cu."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa simbol natrium?", "response": "Simbol kimia natrium adalah Na."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Tabel Periodik", "prompt": "Apa simbol klor?", "response": "Simbol kimia klor adalah Cl."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Reaksi", "prompt": "Apa itu reaksi kimia?", "response": "Reaksi kimia adalah proses perubahan zat menjadi zat baru."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Reaksi", "prompt": "Apa itu oksidasi?", "response": "Oksidasi adalah reaksi dengan oksigen."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Reaksi", "prompt": "Apa itu reduksi?", "response": "Reduksi adalah kebalikan dari oksidasi."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Reaksi", "prompt": "Apa itu pembakaran?", "response": "Pembakaran adalah reaksi cepat dengan oksigen."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Reaksi", "prompt": "Apa itu korosi?", "response": "Korosi adalah proses perusakan logam oleh lingkungan."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Reaksi", "prompt": "Apa itu karat?", "response": "Karat adalah hasil oksidasi besi."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Asam Basa", "prompt": "Apa itu asam?", "response": "Asam adalah zat dengan pH di bawah tujuh."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Asam Basa", "prompt": "Apa itu basa?", "response": "Basa adalah zat dengan pH di atas tujuh."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Asam Basa", "prompt": "Apa pH netral?", "response": "pH netral adalah tujuh."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Asam Basa", "prompt": "Apa pH air murni?", "response": "Air murni memiliki pH tujuh."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Asam Basa", "prompt": "Apa contoh asam?", "response": "Cuka dan jeruk adalah contoh asam."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Asam Basa", "prompt": "Apa contoh basa?", "response": "Sabun dan baking soda adalah contoh basa."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Senyawa", "prompt": "Apa rumus air?", "response": "Rumus kimia air adalah H2O."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Senyawa", "prompt": "Apa rumus garam dapur?", "response": "Rumus kimia garam dapur adalah NaCl."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Senyawa", "prompt": "Apa rumus karbon dioksida?", "response": "Rumus kimia karbon dioksida adalah CO2."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Senyawa", "prompt": "Apa rumus glukosa?", "response": "Rumus kimia glukosa adalah C6H12O6."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Senyawa", "prompt": "Apa rumus asam sulfat?", "response": "Rumus kimia asam sulfat adalah H2SO4."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Senyawa", "prompt": "Apa rumus amonia?", "response": "Rumus kimia amonia adalah NH3."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Senyawa", "prompt": "Apa rumus metana?", "response": "Rumus kimia metana adalah CH4."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Senyawa", "prompt": "Apa rumus etanol?", "response": "Rumus kimia etanol adalah C2H5OH."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Senyawa", "prompt": "Apa rumus hidrogen klorida?", "response": "Rumus kimia hidrogen klorida adalah HCl."}
+{"bidang": "sains", "judul": "Kimia", "subjudul": "Senyawa", "prompt": "Apa rumus kalsium karbonat?", "response": "Rumus kimia kalsium karbonat adalah CaCO3."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sel", "prompt": "Apa itu sel?", "response": "Sel adalah unit dasar kehidupan."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sel", "prompt": "Apa bagian sel yang menghasilkan energi?", "response": "Mitokondria menghasilkan energi untuk sel."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sel", "prompt": "Apa bagian sel yang menyimpan DNA?", "response": "Nukleus menyimpan DNA."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sel", "prompt": "Apa bagian sel yang membuat protein?", "response": "Ribosom membuat protein."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sel", "prompt": "Apa membran sel?", "response": "Membran sel adalah lapisan luar sel."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sel", "prompt": "Apa sitoplasma?", "response": "Sitoplasma adalah cairan dalam sel."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Klasifikasi", "prompt": "Apa lima kerajaan makhluk hidup?", "response": "Monera, Protista, Fungi, Plantae, Animalia."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Klasifikasi", "prompt": "Apa itu mamalia?", "response": "Mamalia adalah hewan yang menyusui anaknya."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Klasifikasi", "prompt": "Apa itu reptil?", "response": "Reptil adalah hewan bersisik yang bertelur."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Klasifikasi", "prompt": "Apa itu amfibi?", "response": "Amfibi hidup di darat dan air."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Klasifikasi", "prompt": "Apa itu serangga?", "response": "Serangga memiliki enam kaki dan tiga bagian tubuh."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Klasifikasi", "prompt": "Apa itu ikan?", "response": "Ikan hidup di air dan bernapas dengan insang."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Klasifikasi", "prompt": "Apa itu burung?", "response": "Burung memiliki bulu dan bisa terbang."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi jantung?", "response": "Jantung memompa darah ke seluruh tubuh."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi paru-paru?", "response": "Paru-paru menukar oksigen dan karbon dioksida."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi otak?", "response": "Otak mengendalikan seluruh fungsi tubuh."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi ginjal?", "response": "Ginjal menyaring darah dan menghasilkan urine."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi hati?", "response": "Hati menghasilkan empedu dan menyaring racun."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi lambung?", "response": "Lambung mencerna makanan."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi usus?", "response": "Usus menyerap nutrisi dari makanan."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi kulit?", "response": "Kulit melindungi tubuh dan merasakan sentuhan."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi tulang?", "response": "Tulang menopang tubuh dan melindungi organ."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi otot?", "response": "Otot menggerakkan tubuh."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi darah?", "response": "Darah mengangkut oksigen dan nutrisi."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi sel darah merah?", "response": "Sel darah merah mengangkut oksigen."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Sistem Tubuh", "prompt": "Apa fungsi sel darah putih?", "response": "Sel darah putih melawan infeksi."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Genetika", "prompt": "Apa itu DNA?", "response": "DNA adalah molekul yang menyimpan informasi genetik."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Genetika", "prompt": "Apa itu gen?", "response": "Gen adalah bagian DNA yang menentukan sifat."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Genetika", "prompt": "Apa itu kromosom?", "response": "Kromosom adalah struktur yang membawa gen."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Genetika", "prompt": "Berapa kromosom manusia?", "response": "Manusia memiliki empat puluh enam kromosom."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Genetika", "prompt": "Apa itu evolusi?", "response": "Evolusi adalah perubahan makhluk hidup dari waktu ke waktu."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Genetika", "prompt": "Siapa bapak evolusi?", "response": "Charles Darwin adalah bapak teori evolusi."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Tumbuhan", "prompt": "Apa itu fotosintesis?", "response": "Fotosintesis adalah proses tumbuhan membuat makanan dari cahaya."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Tumbuhan", "prompt": "Apa yang dibutuhkan tumbuhan?", "response": "Tumbuhan butuh air, cahaya, udara, dan nutrisi."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Tumbuhan", "prompt": "Apa fungsi klorofil?", "response": "Klorofil menyerap cahaya untuk fotosintesis."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Tumbuhan", "prompt": "Apa itu penyerbukan?", "response": "Penyerbukan adalah pemindahan serbuk sari ke putik."}
+{"bidang": "sains", "judul": "Biologi", "subjudul": "Tumbuhan", "prompt": "Apa itu penyebaran biji?", "response": "Penyebaran biji adalah persebaran biji ke tempat baru."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Struktur Bumi", "prompt": "Apa lapisan bumi?", "response": "Bumi memiliki kerak, mantel, dan inti."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Struktur Bumi", "prompt": "Apa lapisan terluar?", "response": "Kerak bumi adalah lapisan terluar."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Struktur Bumi", "prompt": "Apa lapisan terdalam?", "response": "Inti bumi adalah lapisan terdalam."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Struktur Bumi", "prompt": "Apa itu lempeng tektonik?", "response": "Lempeng tektonik adalah potongan kerak bumi yang bergerak."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Cuaca", "prompt": "Apa itu hujan?", "response": "Hujan adalah air yang turun dari langit."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Cuaca", "prompt": "Apa itu petir?", "response": "Petir adalah pelepasan listrik di atmosfer."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Cuaca", "prompt": "Apa itu angin?", "response": "Angin adalah udara yang bergerak."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Cuaca", "prompt": "Apa itu siklon?", "response": "Siklon adalah badai berputar besar."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Cuaca", "prompt": "Apa itu el nino?", "response": "El Nino adalah pemanasan air laut Pasifik."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Cuaca", "prompt": "Apa itu la nina?", "response": "La Nina adalah pendinginan air laut Pasifik."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Geologi", "prompt": "Apa itu gempa bumi?", "response": "Gempa bumi adalah getaran permukaan bumi."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Geologi", "prompt": "Apa itu gunung berapi?", "response": "Gunung berapi adalah bukit yang mengeluarkan magma."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Geologi", "prompt": "Apa itu tsunami?", "response": "Tsunami adalah gelombang besar dari gempa laut."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Geologi", "prompt": "Apa itu erosi?", "response": "Erosi adalah pengikisan tanah oleh air atau angin."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Berapa planet di tata surya?", "response": "Ada delapan planet di tata surya."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa planet terdekat dengan matahari?", "response": "Merkurius adalah planet terdekat dengan matahari."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa planet terbesar?", "response": "Jupiter adalah planet terbesar."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa planet berkening?", "response": "Saturnus adalah planet berkening."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa planet merah?", "response": "Mars adalah planet merah."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa planet terjauh?", "response": "Neptunus adalah planet terjauh."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa bintang terdekat dengan bumi?", "response": "Matahari adalah bintang terdekat."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa galaksi kita?", "response": "Bima Sakti adalah galaksi kita."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa satelit alami bumi?", "response": "Bulan adalah satelit alami bumi."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Berapa bulan bumi?", "response": "Bumi memiliki satu bulan."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa itu black hole?", "response": "Black hole adalah lubang hitam dengan gravitasi sangat kuat."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa itu meteor?", "response": "Meteor adalah benda kecil yang masuk atmosfer bumi."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa itu komet?", "response": "Komet adalah benda es yang berekor saat dekat matahari."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Apa kecepatan cahaya?", "response": "Kecepatan cahaya sekitar tiga ratus ribu km per detik."}
+{"bidang": "sains", "judul": "Ilmu Bumi", "subjudul": "Luar Angkasa", "prompt": "Siapa pertama ke bulan?", "response": "Neil Armstrong pertama mendarat di bulan."}

@@ -1,0 +1,16 @@
+{"bidang": "keluarga_sosial", "judul": "Keluarga", "subjudul": "Orang Tua", "prompt": "Siapa ayah dan ibu?", "response": "Ayah dan ibu adalah orang tua."}
+{"bidang": "keluarga_sosial", "judul": "Keluarga", "subjudul": "Kakak", "prompt": "Siapa kakak?", "response": "Kakak adalah saudara yang lebih tua."}
+{"bidang": "keluarga_sosial", "judul": "Keluarga", "subjudul": "Adik", "prompt": "Siapa adik?", "response": "Adik adalah saudara yang lebih muda."}
+{"bidang": "keluarga_sosial", "judul": "Keluarga", "subjudul": "Kakek", "prompt": "Siapa kakek?", "response": "Kakek adalah ayah dari orang tua."}
+{"bidang": "keluarga_sosial", "judul": "Keluarga", "subjudul": "Nenek", "prompt": "Siapa nenek?", "response": "Nenek adalah ibu dari orang tua."}
+{"bidang": "keluarga_sosial", "judul": "Keluarga", "subjudul": "Paman", "prompt": "Siapa paman?", "response": "Paman adalah saudara laki-laki orang tua."}
+{"bidang": "keluarga_sosial", "judul": "Keluarga", "subjudul": "Tante", "prompt": "Siapa tante?", "response": "Tante adalah saudara perempuan orang tua."}
+{"bidang": "keluarga_sosial", "judul": "Keluarga", "subjudul": "Sepupu", "prompt": "Siapa sepupu?", "response": "Sepupu adalah anak paman atau tante."}
+{"bidang": "keluarga_sosial", "judul": "Keluarga", "subjudul": "Keponakan", "prompt": "Siapa keponakan?", "response": "Keponakan adalah anak dari saudara."}
+{"bidang": "keluarga_sosial", "judul": "Sosial", "subjudul": "Antre", "prompt": "Apa itu antre?", "response": "Antre adalah menunggu giliran dengan tertib."}
+{"bidang": "keluarga_sosial", "judul": "Sosial", "subjudul": "Bergiliran", "prompt": "Apa itu bergiliran?", "response": "Bergiliran adalah mengambil giliran satu per satu."}
+{"bidang": "keluarga_sosial", "judul": "Sosial", "subjudul": "Berbagi", "prompt": "Apa itu berbagi?", "response": "Berbagi adalah memberi sebagian ke orang lain."}
+{"bidang": "keluarga_sosial", "judul": "Sopan", "subjudul": "Tolong", "prompt": "Apa kata minta tolong?", "response": "Tolong adalah kata sopan minta bantuan."}
+{"bidang": "keluarga_sosial", "judul": "Sopan", "subjudul": "Terima Kasih", "prompt": "Apa balasan terima kasih?", "response": "Sama-sama adalah balasan untuk terima kasih."}
+{"bidang": "keluarga_sosial", "judul": "Sopan", "subjudul": "Maaf", "prompt": "Apa kata minta maaf?", "response": "Maaf adalah kata untuk minta permisi."}
+{"bidang": "keluarga_sosial", "judul": "Sopan", "subjudul": "Permisi", "prompt": "Apa kata permisi?", "response": "Permisi adalah kata untuk melewati atau minta izin."}

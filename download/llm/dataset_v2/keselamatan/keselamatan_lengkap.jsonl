@@ -1,0 +1,13 @@
+{"bidang": "keselamatan", "judul": "Lalu Lintas", "subjudul": "Lampu Merah", "prompt": "Apa arti lampu merah?", "response": "Lampu merah berarti berhenti."}
+{"bidang": "keselamatan", "judul": "Lalu Lintas", "subjudul": "Lampu Hijau", "prompt": "Apa arti lampu hijau?", "response": "Lampu hijau berarti jalan."}
+{"bidang": "keselamatan", "judul": "Lalu Lintas", "subjudul": "Lampu Kuning", "prompt": "Apa arti lampu kuning?", "response": "Lampu kuning berarti hati-hati."}
+{"bidang": "keselamatan", "judul": "Lalu Lintas", "subjudul": "Helm", "prompt": "Kenapa pakai helm?", "response": "Helm melindungi kepala saat naik motor."}
+{"bidang": "keselamatan", "judul": "Lalu Lintas", "subjudul": "Sabuk Pengaman", "prompt": "Kenapa pakai sabuk pengaman?", "response": "Sabuk pengaman melindungi di mobil."}
+{"bidang": "keselamatan", "judul": "Darurat", "subjudul": "Polisi", "prompt": "Apa nomor polisi?", "response": "Nomor polisi adalah seratus sepuluh."}
+{"bidang": "keselamatan", "judul": "Darurat", "subjudul": "Pemadam", "prompt": "Apa nomor pemadam kebakaran?", "response": "Nomor pemadam kebakaran adalah seratus tiga belas."}
+{"bidang": "keselamatan", "judul": "Darurat", "subjudul": "Ambulans", "prompt": "Apa nomor ambulans?", "response": "Nomor ambulans adalah seratus sembilan."}
+{"bidang": "keselamatan", "judul": "Bahaya", "subjudul": "Api", "prompt": "Apa bahaya main api?", "response": "Main api bisa menyebabkan kebakaran."}
+{"bidang": "keselamatan", "judul": "Bahaya", "subjudul": "Listrik", "prompt": "Apa bahaya main listrik?", "response": "Main listrik bisa tersengat."}
+{"bidang": "keselamatan", "judul": "Bahaya", "subjudul": "Jalan", "prompt": "Kenapa tidak boleh main di jalan?", "response": "Bermain di jalan bisa tertabrak kendaraan."}
+{"bidang": "keselamatan", "judul": "Bahaya", "subjudul": "Orang Asing", "prompt": "Kenapa tidak boleh bicara ke orang asing?", "response": "Bicara ke orang asing bisa berbahaya."}
+{"bidang": "keselamatan", "judul": "Pertolongan", "subjudul": "P3K", "prompt": "Apa P3K?", "response": "P3K adalah pertolongan pertama pada kecelakaan."}

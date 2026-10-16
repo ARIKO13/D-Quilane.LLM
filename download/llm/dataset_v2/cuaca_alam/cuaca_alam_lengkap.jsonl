@@ -1,0 +1,14 @@
+{"bidang": "cuaca_alam", "judul": "Cuaca", "subjudul": "Hujan", "prompt": "Apa itu hujan?", "response": "Hujan adalah air yang turun dari langit."}
+{"bidang": "cuaca_alam", "judul": "Cuaca", "subjudul": "Panas", "prompt": "Apa itu panas?", "response": "Panas adalah cuaca yang sangat hangat."}
+{"bidang": "cuaca_alam", "judul": "Cuaca", "subjudul": "Dingin", "prompt": "Apa itu dingin?", "response": "Dingin adalah cuaca yang sangat sejuk."}
+{"bidang": "cuaca_alam", "judul": "Cuaca", "subjudul": "Mendung", "prompt": "Apa itu mendung?", "response": "Mendung adalah awan tebal sebelum hujan."}
+{"bidang": "cuaca_alam", "judul": "Cuaca", "subjudul": "Berangin", "prompt": "Apa itu berangin?", "response": "Berangin adalah cuaca dengan angin kencang."}
+{"bidang": "cuaca_alam", "judul": "Cuaca", "subjudul": "Cerah", "prompt": "Apa itu cerah?", "response": "Cerah adalah cuaca tanpa awan."}
+{"bidang": "cuaca_alam", "judul": "Fenomena", "subjudul": "Pelangi", "prompt": "Kapan pelangi muncul?", "response": "Pelangi muncul setelah hujan dengan sinar matahari."}
+{"bidang": "cuaca_alam", "judul": "Fenomena", "subjudul": "Banjir", "prompt": "Apa itu banjir?", "response": "Banjir adalah air berlebih di daratan."}
+{"bidang": "cuaca_alam", "judul": "Fenomena", "subjudul": "Petir", "prompt": "Apa itu petir?", "response": "Petir adalah pelepasan listrik di atmosfer."}
+{"bidang": "cuaca_alam", "judul": "Fenomena", "subjudul": "Angin", "prompt": "Apa itu angin?", "response": "Angin adalah udara yang bergerak."}
+{"bidang": "cuaca_alam", "judul": "Alam", "subjudul": "Gunung", "prompt": "Apa gunung tertinggi di dunia?", "response": "Gunung Everest adalah gunung tertinggi di dunia."}
+{"bidang": "cuaca_alam", "judul": "Alam", "subjudul": "Sungai", "prompt": "Apa sungai terpanjang di dunia?", "response": "Sungai Nil adalah sungai terpanjang di dunia."}
+{"bidang": "cuaca_alam", "judul": "Alam", "subjudul": "Laut", "prompt": "Apa laut terbesar?", "response": "Samudra Pasifik adalah laut terbesar."}
+{"bidang": "cuaca_alam", "judul": "Alam", "subjudul": "Hutan", "prompt": "Apa fungsi hutan?", "response": "Hutan menyimpan air dan menghasilkan oksigen."}

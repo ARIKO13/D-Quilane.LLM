@@ -1,0 +1,18 @@
+{"bidang": "pola_logika", "judul": "Pola Angka", "subjudul": "Satu Dua Tiga", "prompt": "Pola satu dua tiga empat. Berikutnya?", "response": "Berikutnya adalah lima."}
+{"bidang": "pola_logika", "judul": "Pola Angka", "subjudul": "Genap", "prompt": "Pola dua empat enam delapan. Berikutnya?", "response": "Berikutnya adalah sepuluh."}
+{"bidang": "pola_logika", "judul": "Pola Angka", "subjudul": "Lipat Dua", "prompt": "Pola lima sepuluh lima belas. Berikutnya?", "response": "Berikutnya adalah dua puluh."}
+{"bidang": "pola_logika", "judul": "Pola Angka", "subjudul": "Tiga Kali", "prompt": "Pola tiga enam sembilan. Berikutnya?", "response": "Berikutnya adalah dua belas."}
+{"bidang": "pola_logika", "judul": "Pola Huruf", "subjudul": "Alfabet", "prompt": "Pola A B C D. Berikutnya?", "response": "Berikutnya adalah E."}
+{"bidang": "pola_logika", "judul": "Pola Hari", "subjudul": "Senin Selasa", "prompt": "Pola Senin Selasa Rabu. Berikutnya?", "response": "Berikutnya adalah Kamis."}
+{"bidang": "pola_logika", "judul": "Pola Bulan", "subjudul": "Januari Februari", "prompt": "Pola Januari Februari Maret. Berikutnya?", "response": "Berikutnya adalah April."}
+{"bidang": "pola_logika", "judul": "Perbandingan", "subjudul": "Gajah Semut", "prompt": "Lebih besar gajah atau semut?", "response": "Gajah lebih besar dari semut."}
+{"bidang": "pola_logika", "judul": "Perbandingan", "subjudul": "Batu Kapas", "prompt": "Lebih berat batu atau kapas?", "response": "Batu lebih berat dari kapas."}
+{"bidang": "pola_logika", "judul": "Perbandingan", "subjudul": "Gunung Pohon", "prompt": "Lebih tinggi gunung atau pohon?", "response": "Gunung lebih tinggi dari pohon."}
+{"bidang": "pola_logika", "judul": "Perbandingan", "subjudul": "Cheetah Kura-kura", "prompt": "Lebih cepat cheetah atau kura-kura?", "response": "Cheetah lebih cepat dari kura-kura."}
+{"bidang": "pola_logika", "judul": "Sebab-Akibat", "subjudul": "Hujan", "prompt": "Kalau hujan, apa yang terjadi?", "response": "Kalau hujan, tanaman tumbuh subur."}
+{"bidang": "pola_logika", "judul": "Sebab-Akibat", "subjudul": "Lapar", "prompt": "Kalau tidak makan, apa yang terjadi?", "response": "Kalau tidak makan, perut menjadi lapar."}
+{"bidang": "pola_logika", "judul": "Sebab-Akibat", "subjudul": "Panas", "prompt": "Kalau panas, apa yang terjadi pada es?", "response": "Kalau panas, es akan mencair."}
+{"bidang": "pola_logika", "judul": "Sebab-Akibat", "subjudul": "Dingin", "prompt": "Kalau dingin, apa yang terjadi pada air?", "response": "Kalau dingin, air menjadi beku."}
+{"bidang": "pola_logika", "judul": "Sebab-Akibat", "subjudul": "Belajar", "prompt": "Kalau belajar rajin, apa yang terjadi?", "response": "Kalau belajar rajin, menjadi pintar."}
+{"bidang": "pola_logika", "judul": "Sebab-Akibat", "subjudul": "Tidur", "prompt": "Kalau tidak tidur, apa yang terjadi?", "response": "Kalau tidak tidur, menjadi lelah."}
+{"bidang": "pola_logika", "judul": "Sebab-Akibat", "subjudul": "Hujan Lebat", "prompt": "Kalau hujan terlalu lebat, apa terjadi?", "response": "Kalau hujan terlalu lebat, bisa banjir."}
