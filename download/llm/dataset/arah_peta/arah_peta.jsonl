@@ -1,0 +1,10 @@
+{"bidang": "arah_peta", "judul": "Arah", "subjudul": "Mata Angin", "prompt": "Utara adalah arah?", "response": "Utara adalah arah ke atas di peta."}
+{"bidang": "arah_peta", "judul": "Arah", "subjudul": "Mata Angin", "prompt": "Selatan adalah arah?", "response": "Selatan adalah arah ke bawah di peta."}
+{"bidang": "arah_peta", "judul": "Arah", "subjudul": "Mata Angin", "prompt": "Timur adalah arah?", "response": "Timur adalah arah ke kanan di peta."}
+{"bidang": "arah_peta", "judul": "Arah", "subjudul": "Mata Angin", "prompt": "Barat adalah arah?", "response": "Barat adalah arah ke kiri di peta."}
+{"bidang": "arah_peta", "judul": "Arah", "subjudul": "Mata Angin", "prompt": "Berapa mata angin?", "response": "Ada delapan mata angin."}
+{"bidang": "arah_peta", "judul": "Arah", "subjudul": "Mata Angin", "prompt": "Apa empat mata angin utama?", "response": "Utara, Selatan, Timur, Barat."}
+{"bidang": "arah_peta", "judul": "Arah", "subjudul": "Terbit Tenggelam", "prompt": "Matahari terbit di?", "response": "Matahari terbit di timur."}
+{"bidang": "arah_peta", "judul": "Arah", "subjudul": "Terbit Tenggelam", "prompt": "Matahari terbenam di?", "response": "Matahari terbenam di barat."}
+{"bidang": "arah_peta", "judul": "Arah", "subjudul": "Peta", "prompt": "Apa itu peta?", "response": "Peta adalah gambar wilayah di kertas."}
+{"bidang": "arah_peta", "judul": "Arah", "subjudul": "Peta", "prompt": "Apa itu kompas?", "response": "Kompas adalah alat penunjuk arah."}
