@@ -1,0 +1,470 @@
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Indonesia?", "response": "Ibu kota Indonesia adalah Jakarta."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Jakarta itu apa?", "response": "Jakarta adalah ibu kota Indonesia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Indonesia?", "response": "Mata uang Indonesia adalah rupiah."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Indonesia?", "response": "Bahasa resmi Indonesia adalah bahasa Indonesia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Indonesia di benua apa?", "response": "Indonesia berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Jepang?", "response": "Ibu kota Jepang adalah Tokyo."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Tokyo itu apa?", "response": "Tokyo adalah ibu kota Jepang."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Jepang?", "response": "Mata uang Jepang adalah yen."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Jepang?", "response": "Bahasa resmi Jepang adalah bahasa Jepang."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Jepang di benua apa?", "response": "Jepang berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Prancis?", "response": "Ibu kota Prancis adalah Paris."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Paris itu apa?", "response": "Paris adalah ibu kota Prancis."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Prancis?", "response": "Mata uang Prancis adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Prancis?", "response": "Bahasa resmi Prancis adalah bahasa Prancis."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Prancis di benua apa?", "response": "Prancis berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Inggris?", "response": "Ibu kota Inggris adalah London."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "London itu apa?", "response": "London adalah ibu kota Inggris."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Inggris?", "response": "Mata uang Inggris adalah pound sterling."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Inggris?", "response": "Bahasa resmi Inggris adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Inggris di benua apa?", "response": "Inggris berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Spanyol?", "response": "Ibu kota Spanyol adalah Madrid."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Madrid itu apa?", "response": "Madrid adalah ibu kota Spanyol."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Spanyol?", "response": "Mata uang Spanyol adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Spanyol?", "response": "Bahasa resmi Spanyol adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Spanyol di benua apa?", "response": "Spanyol berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Jerman?", "response": "Ibu kota Jerman adalah Berlin."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Berlin itu apa?", "response": "Berlin adalah ibu kota Jerman."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Jerman?", "response": "Mata uang Jerman adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Jerman?", "response": "Bahasa resmi Jerman adalah bahasa Jerman."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Jerman di benua apa?", "response": "Jerman berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Italia?", "response": "Ibu kota Italia adalah Roma."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Roma itu apa?", "response": "Roma adalah ibu kota Italia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Italia?", "response": "Mata uang Italia adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Italia?", "response": "Bahasa resmi Italia adalah bahasa Italia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Italia di benua apa?", "response": "Italia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Rusia?", "response": "Ibu kota Rusia adalah Moskow."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Moskow itu apa?", "response": "Moskow adalah ibu kota Rusia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Rusia?", "response": "Mata uang Rusia adalah ruble."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Rusia?", "response": "Bahasa resmi Rusia adalah bahasa Rusia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Rusia di benua apa?", "response": "Rusia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Utara", "prompt": "Apa ibu kota Amerika Serikat?", "response": "Ibu kota Amerika Serikat adalah Washington DC."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Washington DC itu apa?", "response": "Washington DC adalah ibu kota Amerika Serikat."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Utara", "prompt": "Apa mata uang Amerika Serikat?", "response": "Mata uang Amerika Serikat adalah dolar."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Utara", "prompt": "Apa bahasa resmi Amerika Serikat?", "response": "Bahasa resmi Amerika Serikat adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Amerika Serikat di benua apa?", "response": "Amerika Serikat berada di benua Amerika Utara."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Tiongkok?", "response": "Ibu kota Tiongkok adalah Beijing."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Beijing itu apa?", "response": "Beijing adalah ibu kota Tiongkok."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Tiongkok?", "response": "Mata uang Tiongkok adalah yuan."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Tiongkok?", "response": "Bahasa resmi Tiongkok adalah bahasa Mandarin."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Tiongkok di benua apa?", "response": "Tiongkok berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Korea Selatan?", "response": "Ibu kota Korea Selatan adalah Seoul."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Seoul itu apa?", "response": "Seoul adalah ibu kota Korea Selatan."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Korea Selatan?", "response": "Mata uang Korea Selatan adalah won."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Korea Selatan?", "response": "Bahasa resmi Korea Selatan adalah bahasa Korea."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Korea Selatan di benua apa?", "response": "Korea Selatan berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota India?", "response": "Ibu kota India adalah New Delhi."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "New Delhi itu apa?", "response": "New Delhi adalah ibu kota India."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang India?", "response": "Mata uang India adalah rupee."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi India?", "response": "Bahasa resmi India adalah bahasa Hindi."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "India di benua apa?", "response": "India berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Selatan", "prompt": "Apa ibu kota Brazil?", "response": "Ibu kota Brazil adalah Brasilia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Brasilia itu apa?", "response": "Brasilia adalah ibu kota Brazil."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Selatan", "prompt": "Apa mata uang Brazil?", "response": "Mata uang Brazil adalah real."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Selatan", "prompt": "Apa bahasa resmi Brazil?", "response": "Bahasa resmi Brazil adalah bahasa Portugal."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Brazil di benua apa?", "response": "Brazil berada di benua Amerika Selatan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Oseania", "prompt": "Apa ibu kota Australia?", "response": "Ibu kota Australia adalah Canberra."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Canberra itu apa?", "response": "Canberra adalah ibu kota Australia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Oseania", "prompt": "Apa mata uang Australia?", "response": "Mata uang Australia adalah dolar Australia."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Oseania", "prompt": "Apa bahasa resmi Australia?", "response": "Bahasa resmi Australia adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Australia di benua apa?", "response": "Australia berada di benua Oseania."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Utara", "prompt": "Apa ibu kota Kanada?", "response": "Ibu kota Kanada adalah Ottawa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Ottawa itu apa?", "response": "Ottawa adalah ibu kota Kanada."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Utara", "prompt": "Apa mata uang Kanada?", "response": "Mata uang Kanada adalah dolar Kanada."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Utara", "prompt": "Apa bahasa resmi Kanada?", "response": "Bahasa resmi Kanada adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Kanada di benua apa?", "response": "Kanada berada di benua Amerika Utara."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Mesir?", "response": "Ibu kota Mesir adalah Kairo."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Kairo itu apa?", "response": "Kairo adalah ibu kota Mesir."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Mesir?", "response": "Mata uang Mesir adalah pound Mesir."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Mesir?", "response": "Bahasa resmi Mesir adalah bahasa Arab."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Mesir di benua apa?", "response": "Mesir berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Thailand?", "response": "Ibu kota Thailand adalah Bangkok."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Bangkok itu apa?", "response": "Bangkok adalah ibu kota Thailand."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Thailand?", "response": "Mata uang Thailand adalah baht."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Thailand?", "response": "Bahasa resmi Thailand adalah bahasa Thai."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Thailand di benua apa?", "response": "Thailand berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Vietnam?", "response": "Ibu kota Vietnam adalah Hanoi."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Hanoi itu apa?", "response": "Hanoi adalah ibu kota Vietnam."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Vietnam?", "response": "Mata uang Vietnam adalah dong."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Vietnam?", "response": "Bahasa resmi Vietnam adalah bahasa Vietnam."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Vietnam di benua apa?", "response": "Vietnam berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Filipina?", "response": "Ibu kota Filipina adalah Manila."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Manila itu apa?", "response": "Manila adalah ibu kota Filipina."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Filipina?", "response": "Mata uang Filipina adalah peso."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Filipina?", "response": "Bahasa resmi Filipina adalah bahasa Filipino."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Filipina di benua apa?", "response": "Filipina berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Malaysia?", "response": "Ibu kota Malaysia adalah Kuala Lumpur."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Kuala Lumpur itu apa?", "response": "Kuala Lumpur adalah ibu kota Malaysia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Malaysia?", "response": "Mata uang Malaysia adalah ringgit."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Malaysia?", "response": "Bahasa resmi Malaysia adalah bahasa Melayu."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Malaysia di benua apa?", "response": "Malaysia berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Singapura?", "response": "Ibu kota Singapura adalah Singapura."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Singapura itu apa?", "response": "Singapura adalah ibu kota Singapura."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Singapura?", "response": "Mata uang Singapura adalah dolar Singapura."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Singapura?", "response": "Bahasa resmi Singapura adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Singapura di benua apa?", "response": "Singapura berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Brunei?", "response": "Ibu kota Brunei adalah Bandar Seri Begawan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Bandar Seri Begawan itu apa?", "response": "Bandar Seri Begawan adalah ibu kota Brunei."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Brunei?", "response": "Mata uang Brunei adalah dolar Brunei."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Brunei?", "response": "Bahasa resmi Brunei adalah bahasa Melayu."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Brunei di benua apa?", "response": "Brunei berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Selatan", "prompt": "Apa ibu kota Argentina?", "response": "Ibu kota Argentina adalah Buenos Aires."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Buenos Aires itu apa?", "response": "Buenos Aires adalah ibu kota Argentina."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Selatan", "prompt": "Apa mata uang Argentina?", "response": "Mata uang Argentina adalah peso."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Selatan", "prompt": "Apa bahasa resmi Argentina?", "response": "Bahasa resmi Argentina adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Argentina di benua apa?", "response": "Argentina berada di benua Amerika Selatan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Utara", "prompt": "Apa ibu kota Meksiko?", "response": "Ibu kota Meksiko adalah Mexico City."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Mexico City itu apa?", "response": "Mexico City adalah ibu kota Meksiko."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Utara", "prompt": "Apa mata uang Meksiko?", "response": "Mata uang Meksiko adalah peso."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Utara", "prompt": "Apa bahasa resmi Meksiko?", "response": "Bahasa resmi Meksiko adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Meksiko di benua apa?", "response": "Meksiko berada di benua Amerika Utara."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Turki?", "response": "Ibu kota Turki adalah Ankara."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Ankara itu apa?", "response": "Ankara adalah ibu kota Turki."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Turki?", "response": "Mata uang Turki adalah lira."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Turki?", "response": "Bahasa resmi Turki adalah bahasa Turki."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Turki di benua apa?", "response": "Turki berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Yunani?", "response": "Ibu kota Yunani adalah Athena."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Athena itu apa?", "response": "Athena adalah ibu kota Yunani."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Yunani?", "response": "Mata uang Yunani adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Yunani?", "response": "Bahasa resmi Yunani adalah bahasa Yunani."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Yunani di benua apa?", "response": "Yunani berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Belanda?", "response": "Ibu kota Belanda adalah Amsterdam."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Amsterdam itu apa?", "response": "Amsterdam adalah ibu kota Belanda."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Belanda?", "response": "Mata uang Belanda adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Belanda?", "response": "Bahasa resmi Belanda adalah bahasa Belanda."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Belanda di benua apa?", "response": "Belanda berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Belgia?", "response": "Ibu kota Belgia adalah Brussel."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Brussel itu apa?", "response": "Brussel adalah ibu kota Belgia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Belgia?", "response": "Mata uang Belgia adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Belgia?", "response": "Bahasa resmi Belgia adalah bahasa Belanda."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Belgia di benua apa?", "response": "Belgia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Swiss?", "response": "Ibu kota Swiss adalah Bern."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Bern itu apa?", "response": "Bern adalah ibu kota Swiss."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Swiss?", "response": "Mata uang Swiss adalah frank Swiss."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Swiss?", "response": "Bahasa resmi Swiss adalah bahasa Jerman."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Swiss di benua apa?", "response": "Swiss berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Austria?", "response": "Ibu kota Austria adalah Wina."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Wina itu apa?", "response": "Wina adalah ibu kota Austria."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Austria?", "response": "Mata uang Austria adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Austria?", "response": "Bahasa resmi Austria adalah bahasa Jerman."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Austria di benua apa?", "response": "Austria berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Swedia?", "response": "Ibu kota Swedia adalah Stockholm."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Stockholm itu apa?", "response": "Stockholm adalah ibu kota Swedia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Swedia?", "response": "Mata uang Swedia adalah krona."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Swedia?", "response": "Bahasa resmi Swedia adalah bahasa Swedia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Swedia di benua apa?", "response": "Swedia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Norwegia?", "response": "Ibu kota Norwegia adalah Oslo."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Oslo itu apa?", "response": "Oslo adalah ibu kota Norwegia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Norwegia?", "response": "Mata uang Norwegia adalah krone."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Norwegia?", "response": "Bahasa resmi Norwegia adalah bahasa Norwegia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Norwegia di benua apa?", "response": "Norwegia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Finlandia?", "response": "Ibu kota Finlandia adalah Helsinki."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Helsinki itu apa?", "response": "Helsinki adalah ibu kota Finlandia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Finlandia?", "response": "Mata uang Finlandia adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Finlandia?", "response": "Bahasa resmi Finlandia adalah bahasa Finlandia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Finlandia di benua apa?", "response": "Finlandia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Denmark?", "response": "Ibu kota Denmark adalah Kopenhagen."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Kopenhagen itu apa?", "response": "Kopenhagen adalah ibu kota Denmark."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Denmark?", "response": "Mata uang Denmark adalah krone."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Denmark?", "response": "Bahasa resmi Denmark adalah bahasa Denmark."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Denmark di benua apa?", "response": "Denmark berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Portugal?", "response": "Ibu kota Portugal adalah Lisbon."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Lisbon itu apa?", "response": "Lisbon adalah ibu kota Portugal."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Portugal?", "response": "Mata uang Portugal adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Portugal?", "response": "Bahasa resmi Portugal adalah bahasa Portugal."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Portugal di benua apa?", "response": "Portugal berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Polandia?", "response": "Ibu kota Polandia adalah Warsawa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Warsawa itu apa?", "response": "Warsawa adalah ibu kota Polandia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Polandia?", "response": "Mata uang Polandia adalah zloty."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Polandia?", "response": "Bahasa resmi Polandia adalah bahasa Polandia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Polandia di benua apa?", "response": "Polandia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Ceko?", "response": "Ibu kota Ceko adalah Praha."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Praha itu apa?", "response": "Praha adalah ibu kota Ceko."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Ceko?", "response": "Mata uang Ceko adalah koruna."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Ceko?", "response": "Bahasa resmi Ceko adalah bahasa Ceko."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Ceko di benua apa?", "response": "Ceko berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Ukraina?", "response": "Ibu kota Ukraina adalah Kyiv."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Kyiv itu apa?", "response": "Kyiv adalah ibu kota Ukraina."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Ukraina?", "response": "Mata uang Ukraina adalah hryvnia."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Ukraina?", "response": "Bahasa resmi Ukraina adalah bahasa Ukraina."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Ukraina di benua apa?", "response": "Ukraina berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Arab Saudi?", "response": "Ibu kota Arab Saudi adalah Riyadh."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Riyadh itu apa?", "response": "Riyadh adalah ibu kota Arab Saudi."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Arab Saudi?", "response": "Mata uang Arab Saudi adalah riyal."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Arab Saudi?", "response": "Bahasa resmi Arab Saudi adalah bahasa Arab."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Arab Saudi di benua apa?", "response": "Arab Saudi berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Israel?", "response": "Ibu kota Israel adalah Yerusalem."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Yerusalem itu apa?", "response": "Yerusalem adalah ibu kota Israel."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Israel?", "response": "Mata uang Israel adalah shekel."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Israel?", "response": "Bahasa resmi Israel adalah bahasa Ibrani."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Israel di benua apa?", "response": "Israel berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Iran?", "response": "Ibu kota Iran adalah Teheran."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Teheran itu apa?", "response": "Teheran adalah ibu kota Iran."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Iran?", "response": "Mata uang Iran adalah rial."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Iran?", "response": "Bahasa resmi Iran adalah bahasa Persia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Iran di benua apa?", "response": "Iran berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Pakistan?", "response": "Ibu kota Pakistan adalah Islamabad."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Islamabad itu apa?", "response": "Islamabad adalah ibu kota Pakistan."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Pakistan?", "response": "Mata uang Pakistan adalah rupee."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Pakistan?", "response": "Bahasa resmi Pakistan adalah bahasa Urdu."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Pakistan di benua apa?", "response": "Pakistan berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Bangladesh?", "response": "Ibu kota Bangladesh adalah Dhaka."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Dhaka itu apa?", "response": "Dhaka adalah ibu kota Bangladesh."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Bangladesh?", "response": "Mata uang Bangladesh adalah taka."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Bangladesh?", "response": "Bahasa resmi Bangladesh adalah bahasa Bengali."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Bangladesh di benua apa?", "response": "Bangladesh berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Myanmar?", "response": "Ibu kota Myanmar adalah Naypyidaw."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Naypyidaw itu apa?", "response": "Naypyidaw adalah ibu kota Myanmar."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Myanmar?", "response": "Mata uang Myanmar adalah kyat."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Myanmar?", "response": "Bahasa resmi Myanmar adalah bahasa Burma."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Myanmar di benua apa?", "response": "Myanmar berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Kamboja?", "response": "Ibu kota Kamboja adalah Phnom Penh."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Phnom Penh itu apa?", "response": "Phnom Penh adalah ibu kota Kamboja."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Kamboja?", "response": "Mata uang Kamboja adalah riel."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Kamboja?", "response": "Bahasa resmi Kamboja adalah bahasa Khmer."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Kamboja di benua apa?", "response": "Kamboja berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Laos?", "response": "Ibu kota Laos adalah Vientiane."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Vientiane itu apa?", "response": "Vientiane adalah ibu kota Laos."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Laos?", "response": "Mata uang Laos adalah kip."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Laos?", "response": "Bahasa resmi Laos adalah bahasa Lao."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Laos di benua apa?", "response": "Laos berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Maroko?", "response": "Ibu kota Maroko adalah Rabat."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Rabat itu apa?", "response": "Rabat adalah ibu kota Maroko."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Maroko?", "response": "Mata uang Maroko adalah dirham."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Maroko?", "response": "Bahasa resmi Maroko adalah bahasa Arab."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Maroko di benua apa?", "response": "Maroko berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Afrika Selatan?", "response": "Ibu kota Afrika Selatan adalah Pretoria."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Pretoria itu apa?", "response": "Pretoria adalah ibu kota Afrika Selatan."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Afrika Selatan?", "response": "Mata uang Afrika Selatan adalah rand."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Afrika Selatan?", "response": "Bahasa resmi Afrika Selatan adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Afrika Selatan di benua apa?", "response": "Afrika Selatan berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Nigeria?", "response": "Ibu kota Nigeria adalah Abuja."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Abuja itu apa?", "response": "Abuja adalah ibu kota Nigeria."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Nigeria?", "response": "Mata uang Nigeria adalah naira."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Nigeria?", "response": "Bahasa resmi Nigeria adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Nigeria di benua apa?", "response": "Nigeria berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Kenya?", "response": "Ibu kota Kenya adalah Nairobi."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Nairobi itu apa?", "response": "Nairobi adalah ibu kota Kenya."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Kenya?", "response": "Mata uang Kenya adalah shilling."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Kenya?", "response": "Bahasa resmi Kenya adalah bahasa Swahili."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Kenya di benua apa?", "response": "Kenya berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Utara", "prompt": "Apa ibu kota Kuba?", "response": "Ibu kota Kuba adalah Havana."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Havana itu apa?", "response": "Havana adalah ibu kota Kuba."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Utara", "prompt": "Apa mata uang Kuba?", "response": "Mata uang Kuba adalah peso."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Utara", "prompt": "Apa bahasa resmi Kuba?", "response": "Bahasa resmi Kuba adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Kuba di benua apa?", "response": "Kuba berada di benua Amerika Utara."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Selatan", "prompt": "Apa ibu kota Venezuela?", "response": "Ibu kota Venezuela adalah Caracas."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Caracas itu apa?", "response": "Caracas adalah ibu kota Venezuela."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Selatan", "prompt": "Apa mata uang Venezuela?", "response": "Mata uang Venezuela adalah bolivar."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Selatan", "prompt": "Apa bahasa resmi Venezuela?", "response": "Bahasa resmi Venezuela adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Venezuela di benua apa?", "response": "Venezuela berada di benua Amerika Selatan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Selatan", "prompt": "Apa ibu kota Ekuador?", "response": "Ibu kota Ekuador adalah Quito."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Quito itu apa?", "response": "Quito adalah ibu kota Ekuador."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Selatan", "prompt": "Apa mata uang Ekuador?", "response": "Mata uang Ekuador adalah dolar."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Selatan", "prompt": "Apa bahasa resmi Ekuador?", "response": "Bahasa resmi Ekuador adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Ekuador di benua apa?", "response": "Ekuador berada di benua Amerika Selatan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Selatan", "prompt": "Apa ibu kota Peru?", "response": "Ibu kota Peru adalah Lima."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Lima itu apa?", "response": "Lima adalah ibu kota Peru."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Selatan", "prompt": "Apa mata uang Peru?", "response": "Mata uang Peru adalah sol."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Selatan", "prompt": "Apa bahasa resmi Peru?", "response": "Bahasa resmi Peru adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Peru di benua apa?", "response": "Peru berada di benua Amerika Selatan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Selatan", "prompt": "Apa ibu kota Chili?", "response": "Ibu kota Chili adalah Santiago."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Santiago itu apa?", "response": "Santiago adalah ibu kota Chili."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Selatan", "prompt": "Apa mata uang Chili?", "response": "Mata uang Chili adalah peso."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Selatan", "prompt": "Apa bahasa resmi Chili?", "response": "Bahasa resmi Chili adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Chili di benua apa?", "response": "Chili berada di benua Amerika Selatan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Selatan", "prompt": "Apa ibu kota Kolombia?", "response": "Ibu kota Kolombia adalah Bogota."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Bogota itu apa?", "response": "Bogota adalah ibu kota Kolombia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Selatan", "prompt": "Apa mata uang Kolombia?", "response": "Mata uang Kolombia adalah peso."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Selatan", "prompt": "Apa bahasa resmi Kolombia?", "response": "Bahasa resmi Kolombia adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Kolombia di benua apa?", "response": "Kolombia berada di benua Amerika Selatan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Oseania", "prompt": "Apa ibu kota Selandia Baru?", "response": "Ibu kota Selandia Baru adalah Wellington."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Wellington itu apa?", "response": "Wellington adalah ibu kota Selandia Baru."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Oseania", "prompt": "Apa mata uang Selandia Baru?", "response": "Mata uang Selandia Baru adalah dolar Selandia Baru."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Oseania", "prompt": "Apa bahasa resmi Selandia Baru?", "response": "Bahasa resmi Selandia Baru adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Selandia Baru di benua apa?", "response": "Selandia Baru berada di benua Oseania."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Irlandia?", "response": "Ibu kota Irlandia adalah Dublin."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Dublin itu apa?", "response": "Dublin adalah ibu kota Irlandia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Irlandia?", "response": "Mata uang Irlandia adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Irlandia?", "response": "Bahasa resmi Irlandia adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Irlandia di benua apa?", "response": "Irlandia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Hongaria?", "response": "Ibu kota Hongaria adalah Budapest."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Budapest itu apa?", "response": "Budapest adalah ibu kota Hongaria."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Hongaria?", "response": "Mata uang Hongaria adalah forint."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Hongaria?", "response": "Bahasa resmi Hongaria adalah bahasa Hongaria."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Hongaria di benua apa?", "response": "Hongaria berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Rumania?", "response": "Ibu kota Rumania adalah Bukarest."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Bukarest itu apa?", "response": "Bukarest adalah ibu kota Rumania."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Rumania?", "response": "Mata uang Rumania adalah leu."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Rumania?", "response": "Bahasa resmi Rumania adalah bahasa Rumania."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Rumania di benua apa?", "response": "Rumania berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Kroasia?", "response": "Ibu kota Kroasia adalah Zagreb."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Zagreb itu apa?", "response": "Zagreb adalah ibu kota Kroasia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Kroasia?", "response": "Mata uang Kroasia adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Kroasia?", "response": "Bahasa resmi Kroasia adalah bahasa Kroasia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Kroasia di benua apa?", "response": "Kroasia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Serbia?", "response": "Ibu kota Serbia adalah Belgrade."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Belgrade itu apa?", "response": "Belgrade adalah ibu kota Serbia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Serbia?", "response": "Mata uang Serbia adalah dinar."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Serbia?", "response": "Bahasa resmi Serbia adalah bahasa Serbia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Serbia di benua apa?", "response": "Serbia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Bulgaria?", "response": "Ibu kota Bulgaria adalah Sofia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Sofia itu apa?", "response": "Sofia adalah ibu kota Bulgaria."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Bulgaria?", "response": "Mata uang Bulgaria adalah lev."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Bulgaria?", "response": "Bahasa resmi Bulgaria adalah bahasa Bulgaria."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Bulgaria di benua apa?", "response": "Bulgaria berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Uni Emirat Arab?", "response": "Ibu kota Uni Emirat Arab adalah Abu Dhabi."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Abu Dhabi itu apa?", "response": "Abu Dhabi adalah ibu kota Uni Emirat Arab."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Uni Emirat Arab?", "response": "Mata uang Uni Emirat Arab adalah dirham."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Uni Emirat Arab?", "response": "Bahasa resmi Uni Emirat Arab adalah bahasa Arab."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Uni Emirat Arab di benua apa?", "response": "Uni Emirat Arab berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Irak?", "response": "Ibu kota Irak adalah Baghdad."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Baghdad itu apa?", "response": "Baghdad adalah ibu kota Irak."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Irak?", "response": "Mata uang Irak adalah dinar."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Irak?", "response": "Bahasa resmi Irak adalah bahasa Arab."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Irak di benua apa?", "response": "Irak berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Sudan?", "response": "Ibu kota Sudan adalah Khartoum."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Khartoum itu apa?", "response": "Khartoum adalah ibu kota Sudan."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Sudan?", "response": "Mata uang Sudan adalah pound."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Sudan?", "response": "Bahasa resmi Sudan adalah bahasa Arab."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Sudan di benua apa?", "response": "Sudan berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Ethiopia?", "response": "Ibu kota Ethiopia adalah Addis Ababa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Addis Ababa itu apa?", "response": "Addis Ababa adalah ibu kota Ethiopia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Ethiopia?", "response": "Mata uang Ethiopia adalah birr."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Ethiopia?", "response": "Bahasa resmi Ethiopia adalah bahasa Amharic."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Ethiopia di benua apa?", "response": "Ethiopia berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Tanzania?", "response": "Ibu kota Tanzania adalah Dodoma."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Dodoma itu apa?", "response": "Dodoma adalah ibu kota Tanzania."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Tanzania?", "response": "Mata uang Tanzania adalah shilling."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Tanzania?", "response": "Bahasa resmi Tanzania adalah bahasa Swahili."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Tanzania di benua apa?", "response": "Tanzania berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Ghana?", "response": "Ibu kota Ghana adalah Accra."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Accra itu apa?", "response": "Accra adalah ibu kota Ghana."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Ghana?", "response": "Mata uang Ghana adalah cedi."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Ghana?", "response": "Bahasa resmi Ghana adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Ghana di benua apa?", "response": "Ghana berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Uganda?", "response": "Ibu kota Uganda adalah Kampala."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Kampala itu apa?", "response": "Kampala adalah ibu kota Uganda."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Uganda?", "response": "Mata uang Uganda adalah shilling."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Uganda?", "response": "Bahasa resmi Uganda adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Uganda di benua apa?", "response": "Uganda berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Aljazair?", "response": "Ibu kota Aljazair adalah Aljir."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Aljir itu apa?", "response": "Aljir adalah ibu kota Aljazair."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Aljazair?", "response": "Mata uang Aljazair adalah dinar."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Aljazair?", "response": "Bahasa resmi Aljazair adalah bahasa Arab."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Aljazair di benua apa?", "response": "Aljazair berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Afrika", "prompt": "Apa ibu kota Tunisia?", "response": "Ibu kota Tunisia adalah Tunis."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Tunis itu apa?", "response": "Tunis adalah ibu kota Tunisia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Afrika", "prompt": "Apa mata uang Tunisia?", "response": "Mata uang Tunisia adalah dinar."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Afrika", "prompt": "Apa bahasa resmi Tunisia?", "response": "Bahasa resmi Tunisia adalah bahasa Arab."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Tunisia di benua apa?", "response": "Tunisia berada di benua Afrika."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Utara", "prompt": "Apa ibu kota Jamaika?", "response": "Ibu kota Jamaika adalah Kingston."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Kingston itu apa?", "response": "Kingston adalah ibu kota Jamaika."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Utara", "prompt": "Apa mata uang Jamaika?", "response": "Mata uang Jamaika adalah dolar."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Utara", "prompt": "Apa bahasa resmi Jamaika?", "response": "Bahasa resmi Jamaika adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Jamaika di benua apa?", "response": "Jamaika berada di benua Amerika Utara."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Selatan", "prompt": "Apa ibu kota Bolivia?", "response": "Ibu kota Bolivia adalah Sucre."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Sucre itu apa?", "response": "Sucre adalah ibu kota Bolivia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Selatan", "prompt": "Apa mata uang Bolivia?", "response": "Mata uang Bolivia adalah boliviano."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Selatan", "prompt": "Apa bahasa resmi Bolivia?", "response": "Bahasa resmi Bolivia adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Bolivia di benua apa?", "response": "Bolivia berada di benua Amerika Selatan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Selatan", "prompt": "Apa ibu kota Paraguay?", "response": "Ibu kota Paraguay adalah Asuncion."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Asuncion itu apa?", "response": "Asuncion adalah ibu kota Paraguay."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Selatan", "prompt": "Apa mata uang Paraguay?", "response": "Mata uang Paraguay adalah guarani."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Selatan", "prompt": "Apa bahasa resmi Paraguay?", "response": "Bahasa resmi Paraguay adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Paraguay di benua apa?", "response": "Paraguay berada di benua Amerika Selatan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Amerika Selatan", "prompt": "Apa ibu kota Uruguay?", "response": "Ibu kota Uruguay adalah Montevideo."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Montevideo itu apa?", "response": "Montevideo adalah ibu kota Uruguay."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Amerika Selatan", "prompt": "Apa mata uang Uruguay?", "response": "Mata uang Uruguay adalah peso."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Amerika Selatan", "prompt": "Apa bahasa resmi Uruguay?", "response": "Bahasa resmi Uruguay adalah bahasa Spanyol."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Uruguay di benua apa?", "response": "Uruguay berada di benua Amerika Selatan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Oseania", "prompt": "Apa ibu kota Papua Nugini?", "response": "Ibu kota Papua Nugini adalah Port Moresby."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Port Moresby itu apa?", "response": "Port Moresby adalah ibu kota Papua Nugini."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Oseania", "prompt": "Apa mata uang Papua Nugini?", "response": "Mata uang Papua Nugini adalah kina."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Oseania", "prompt": "Apa bahasa resmi Papua Nugini?", "response": "Bahasa resmi Papua Nugini adalah bahasa Inggris."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Papua Nugini di benua apa?", "response": "Papua Nugini berada di benua Oseania."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Sri Lanka?", "response": "Ibu kota Sri Lanka adalah Sri Jayawardenepura Kotte."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Sri Jayawardenepura Kotte itu apa?", "response": "Sri Jayawardenepura Kotte adalah ibu kota Sri Lanka."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Sri Lanka?", "response": "Mata uang Sri Lanka adalah rupee."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Sri Lanka?", "response": "Bahasa resmi Sri Lanka adalah bahasa Sinhala."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Sri Lanka di benua apa?", "response": "Sri Lanka berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Timor Leste?", "response": "Ibu kota Timor Leste adalah Dili."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Dili itu apa?", "response": "Dili adalah ibu kota Timor Leste."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Timor Leste?", "response": "Mata uang Timor Leste adalah dolar AS."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Timor Leste?", "response": "Bahasa resmi Timor Leste adalah bahasa Portugis."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Timor Leste di benua apa?", "response": "Timor Leste berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Finlandia?", "response": "Ibu kota Finlandia adalah Helsinki."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Helsinki itu apa?", "response": "Helsinki adalah ibu kota Finlandia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Finlandia?", "response": "Mata uang Finlandia adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Finlandia?", "response": "Bahasa resmi Finlandia adalah bahasa Finlandia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Finlandia di benua apa?", "response": "Finlandia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Islandia?", "response": "Ibu kota Islandia adalah Reykjavik."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Reykjavik itu apa?", "response": "Reykjavik adalah ibu kota Islandia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Islandia?", "response": "Mata uang Islandia adalah krona."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Islandia?", "response": "Bahasa resmi Islandia adalah bahasa Islandia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Islandia di benua apa?", "response": "Islandia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Portugal?", "response": "Ibu kota Portugal adalah Lisbon."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Lisbon itu apa?", "response": "Lisbon adalah ibu kota Portugal."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Portugal?", "response": "Mata uang Portugal adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Portugal?", "response": "Bahasa resmi Portugal adalah bahasa Portugal."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Portugal di benua apa?", "response": "Portugal berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Luksemburg?", "response": "Ibu kota Luksemburg adalah Luksemburg."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Luksemburg itu apa?", "response": "Luksemburg adalah ibu kota Luksemburg."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Luksemburg?", "response": "Mata uang Luksemburg adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Luksemburg?", "response": "Bahasa resmi Luksemburg adalah bahasa Luksemburg."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Luksemburg di benua apa?", "response": "Luksemburg berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Monako?", "response": "Ibu kota Monako adalah Monako."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Monako itu apa?", "response": "Monako adalah ibu kota Monako."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Monako?", "response": "Mata uang Monako adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Monako?", "response": "Bahasa resmi Monako adalah bahasa Prancis."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Monako di benua apa?", "response": "Monako berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Malta?", "response": "Ibu kota Malta adalah Valletta."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Valletta itu apa?", "response": "Valletta adalah ibu kota Malta."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Malta?", "response": "Mata uang Malta adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Malta?", "response": "Bahasa resmi Malta adalah bahasa Malta."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Malta di benua apa?", "response": "Malta berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Siprus?", "response": "Ibu kota Siprus adalah Nicosia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Nicosia itu apa?", "response": "Nicosia adalah ibu kota Siprus."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Siprus?", "response": "Mata uang Siprus adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Siprus?", "response": "Bahasa resmi Siprus adalah bahasa Yunani."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Siprus di benua apa?", "response": "Siprus berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Montenegro?", "response": "Ibu kota Montenegro adalah Podgorica."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Podgorica itu apa?", "response": "Podgorica adalah ibu kota Montenegro."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Montenegro?", "response": "Mata uang Montenegro adalah euro."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Montenegro?", "response": "Bahasa resmi Montenegro adalah bahasa Montenegro."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Montenegro di benua apa?", "response": "Montenegro berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Moldova?", "response": "Ibu kota Moldova adalah Chisinau."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Chisinau itu apa?", "response": "Chisinau adalah ibu kota Moldova."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Moldova?", "response": "Mata uang Moldova adalah leu."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Moldova?", "response": "Bahasa resmi Moldova adalah bahasa Rumania."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Moldova di benua apa?", "response": "Moldova berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Georgia?", "response": "Ibu kota Georgia adalah Tbilisi."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Tbilisi itu apa?", "response": "Tbilisi adalah ibu kota Georgia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Georgia?", "response": "Mata uang Georgia adalah lari."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Georgia?", "response": "Bahasa resmi Georgia adalah bahasa Georgia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Georgia di benua apa?", "response": "Georgia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Eropa", "prompt": "Apa ibu kota Armenia?", "response": "Ibu kota Armenia adalah Yerevan."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Yerevan itu apa?", "response": "Yerevan adalah ibu kota Armenia."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Eropa", "prompt": "Apa mata uang Armenia?", "response": "Mata uang Armenia adalah dram."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Eropa", "prompt": "Apa bahasa resmi Armenia?", "response": "Bahasa resmi Armenia adalah bahasa Armenia."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Armenia di benua apa?", "response": "Armenia berada di benua Eropa."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Azerbaijan?", "response": "Ibu kota Azerbaijan adalah Baku."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Baku itu apa?", "response": "Baku adalah ibu kota Azerbaijan."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Azerbaijan?", "response": "Mata uang Azerbaijan adalah manat."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Azerbaijan?", "response": "Bahasa resmi Azerbaijan adalah bahasa Azerbaijan."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Azerbaijan di benua apa?", "response": "Azerbaijan berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Kazakhstan?", "response": "Ibu kota Kazakhstan adalah Astana."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Astana itu apa?", "response": "Astana adalah ibu kota Kazakhstan."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Kazakhstan?", "response": "Mata uang Kazakhstan adalah tenge."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Kazakhstan?", "response": "Bahasa resmi Kazakhstan adalah bahasa Kazakh."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Kazakhstan di benua apa?", "response": "Kazakhstan berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Uzbekistan?", "response": "Ibu kota Uzbekistan adalah Taskent."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Taskent itu apa?", "response": "Taskent adalah ibu kota Uzbekistan."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Uzbekistan?", "response": "Mata uang Uzbekistan adalah som."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Uzbekistan?", "response": "Bahasa resmi Uzbekistan adalah bahasa Uzbek."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Uzbekistan di benua apa?", "response": "Uzbekistan berada di benua Asia."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Asia", "prompt": "Apa ibu kota Turkmenistan?", "response": "Ibu kota Turkmenistan adalah Asykhabad."}
+{"bidang": "geografi", "judul": "Ibu Kota", "subjudul": "Reverse", "prompt": "Asykhabad itu apa?", "response": "Asykhabad adalah ibu kota Turkmenistan."}
+{"bidang": "uang_ekonomi", "judul": "Mata Uang", "subjudul": "Asia", "prompt": "Apa mata uang Turkmenistan?", "response": "Mata uang Turkmenistan adalah manat."}
+{"bidang": "bahasa", "judul": "Bahasa Resmi", "subjudul": "Asia", "prompt": "Apa bahasa resmi Turkmenistan?", "response": "Bahasa resmi Turkmenistan adalah bahasa Turkmen."}
+{"bidang": "geografi", "judul": "Benua", "subjudul": "Lokasi", "prompt": "Turkmenistan di benua apa?", "response": "Turkmenistan berada di benua Asia."}
