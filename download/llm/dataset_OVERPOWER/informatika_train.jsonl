@@ -1,0 +1,124 @@
+{"input": "How do you check type in JavaScript?", "output": "typeof x returns the type like \"number\" or \"string\"."}
+{"input": "Apa itu website?", "output": "Website adalah halaman informasi di internet."}
+{"input": "What is a variable in programming?", "output": "A variable is a named container for storing data."}
+{"input": "Apa itu Android?", "output": "Android adalah operating system untuk HP dari Google."}
+{"input": "Apa itu scanner?", "output": "Scanner adalah alat untuk mengubah gambar menjadi file digital."}
+{"input": "How do you concatenate strings in JavaScript?", "output": "Use + : \"Hello\" + \" \" + \"World\" = \"Hello World\"."}
+{"input": "How do you create a list in Python?", "output": "my_list = [1, 2, 3]"}
+{"input": "How do you write a for loop in JavaScript?", "output": "for (let i = 0; i < 5; i++) { console.log(i); }"}
+{"input": "How do you generate random numbers in Python?", "output": "import random; x = random.randint(1, 10)"}
+{"input": "What is a motherboard?", "output": "A motherboard is the main circuit board that connects all computer components."}
+{"input": "What is CSS?", "output": "CSS is the language for styling and laying out web pages."}
+{"input": "How do you try-except in Python?", "output": "try:\n    x = 1/0\nexcept ZeroDivisionError:\n    print(\"Error\")"}
+{"input": "Apa itu WhatsApp?", "output": "WhatsApp adalah aplikasi pesan instan."}
+{"input": "Apa itu if-else?", "output": "If-else adalah percabangan logika dalam program."}
+{"input": "What is debugging?", "output": "Debugging is finding and fixing bugs in code."}
+{"input": "Apa itu kode?", "output": "Kode adalah teks instruksi yang dipahami komputer."}
+{"input": "How many MB in a gigabyte?", "output": "There are 1,024 MB in a gigabyte (GB)."}
+{"input": "Apa itu monitor?", "output": "Monitor adalah layar untuk menampilkan output komputer."}
+{"input": "Apa itu software?", "output": "Software adalah program komputer."}
+{"input": "How do you write an if statement in Python?", "output": "if x > 5:\n    print(\"Big\")"}
+{"input": "What is a tablet?", "output": "A tablet is a portable device with a touchscreen, larger than a phone."}
+{"input": "How do you create a variable in Python?", "output": "x = 10"}
+{"input": "How do you write a comment in JavaScript?", "output": "// single line or /* multi-line */"}
+{"input": "What is software?", "output": "Software is programs and applications that tell hardware what to do."}
+{"input": "Apa itu komputer?", "output": "Komputer adalah mesin yang memproses data menjadi informasi."}
+{"input": "Apa itu aplikasi?", "output": "Aplikasi adalah program yang digunakan untuk tujuan tertentu."}
+{"input": "How do you create a function in Python?", "output": "def my_function():\n    return \"Hello\""}
+{"input": "How do you create a function in JavaScript?", "output": "function myFunc() { return \"Hello\"; }"}
+{"input": "What is a function?", "output": "A function is a reusable block of code that performs a task."}
+{"input": "What makes a strong password?", "output": "A strong password has 8+ characters, with uppercase, lowercase, numbers, and symbols."}
+{"input": "What is hardware?", "output": "Hardware is the physical parts of a computer you can touch."}
+{"input": "What is a database?", "output": "A database is an organized collection of data."}
+{"input": "What is a pixel?", "output": "A pixel is the smallest unit of a digital image."}
+{"input": "What is a bit?", "output": "A bit is the smallest unit of data, either 0 or 1."}
+{"input": "Apa itu TikTok?", "output": "TikTok adalah aplikasi berbagi video pendek."}
+{"input": "How do you remove from a list in Python?", "output": "my_list.remove(3) or my_list.pop()"}
+{"input": "What is a USB?", "output": "USB (Universal Serial Bus) is a standard for connecting devices to computers."}
+{"input": "What is HTML?", "output": "HTML is the language used to create web pages."}
+{"input": "Apa itu hardware?", "output": "Hardware adalah perangkat keras komputer."}
+{"input": "How do you write a comment in Python?", "output": "Use # for single line or \"\"\" for multi-line."}
+{"input": "What is a GUI?", "output": "A GUI (Graphical User Interface) lets users interact with a computer using icons and mouse."}
+{"input": "What is a loop?", "output": "A loop repeats code multiple times."}
+{"input": "How many KB in a megabyte?", "output": "There are 1,024 KB in a megabyte (MB)."}
+{"input": "Apa itu Linux?", "output": "Linux adalah operating system open source."}
+{"input": "Apa itu Google?", "output": "Google adalah mesin pencari di internet."}
+{"input": "Apa itu program komputer?", "output": "Program komputer adalah kumpulan instruksi untuk komputer."}
+{"input": "How do you use template literals in JavaScript?", "output": "`Hello ${name}!` uses backticks and ${}."}
+{"input": "Apa itu hard disk?", "output": "Hard disk adalah tempat menyimpan data permanen di komputer."}
+{"input": "What is a power supply?", "output": "A power supply converts electrical power for the computer components."}
+{"input": "How do you create a class in Python?", "output": "class Dog:\n    def __init__(self, name):\n        self.name = name"}
+{"input": "How do you find the length of a string?", "output": "len(\"hello\") returns 5."}
+{"input": "What does CSS stand for?", "output": "CSS stands for Cascading Style Sheets."}
+{"input": "What is resolution?", "output": "Resolution is the number of pixels in an image or screen."}
+{"input": "What is malware?", "output": "Malware is any software designed to harm or access a computer without permission."}
+{"input": "Apa itu float?", "output": "Float adalah tipe data berupa bilangan desimal."}
+{"input": "What is a smartphone?", "output": "A smartphone is a mobile phone with computing capabilities and apps."}
+{"input": "How do you create an array in JavaScript?", "output": "let arr = [1, 2, 3];"}
+{"input": "Apa itu YouTube?", "output": "YouTube adalah situs berbagi video."}
+{"input": "Apa itu RAM?", "output": "RAM adalah memori sementara komputer."}
+{"input": "What is a URL?", "output": "A URL is the address of a website, like https://www.google.com."}
+{"input": "Apa itu browser?", "output": "Browser adalah aplikasi untuk membuka website."}
+{"input": "What is a hard drive?", "output": "A hard drive is permanent storage that keeps data even when power is off."}
+{"input": "Apa itu CPU?", "output": "CPU adalah otak komputer yang memproses instruksi."}
+{"input": "How do you access object properties?", "output": "obj.name or obj[\"name\"]"}
+{"input": "What is a data structure?", "output": "A data structure is a way of organizing data, like arrays or lists."}
+{"input": "What is an array?", "output": "An array is a list of values stored together."}
+{"input": "How do you round a number in Python?", "output": "round(3.7) returns 4."}
+{"input": "Apa itu programming?", "output": "Programming adalah menulis instruksi untuk komputer."}
+{"input": "How do you print to console in JavaScript?", "output": "console.log(\"Hello, World!\");"}
+{"input": "How do you convert string to number?", "output": "Number(\"123\") or parseInt(\"123\")"}
+{"input": "Apa itu cloud?", "output": "Cloud adalah penyimpanan data di internet."}
+{"input": "Apa itu mouse?", "output": "Mouse adalah alat input untuk menggerakkan kursor di layar."}
+{"input": "How do you create a dictionary in Python?", "output": "my_dict = {\"key\": \"value\"}"}
+{"input": "How do you create an object in JavaScript?", "output": "let obj = { name: \"John\", age: 30 };"}
+{"input": "How do you concatenate strings in Python?", "output": "Use + : \"Hello\" + \" \" + \"World\" = \"Hello World\"."}
+{"input": "What is a byte?", "output": "A byte is 8 bits."}
+{"input": "How do you open a file in Python?", "output": "with open(\"file.txt\", \"r\") as f:\n    data = f.read()"}
+{"input": "Apa itu keyboard?", "output": "Keyboard adalah alat input dengan tombol huruf dan angka."}
+{"input": "Apa itu array?", "output": "Array adalah kumpulan data dalam satu variabel."}
+{"input": "What is a float?", "output": "A float is a number with decimals, like 3.14."}
+{"input": "How do you get element by ID in JavaScript?", "output": "document.getElementById(\"myId\")"}
+{"input": "Apa itu operating system?", "output": "Operating system adalah program yang mengelola komputer."}
+{"input": "How do you convert string to integer in Python?", "output": "x = int(\"123\")"}
+{"input": "Apa itu integer?", "output": "Integer adalah tipe data berupa bilangan bulat."}
+{"input": "What is RAM?", "output": "RAM (Random Access Memory) is temporary memory that loses data when power is off."}
+{"input": "What is a network?", "output": "A network is two or more computers connected to share data."}
+{"input": "How do you import a module in Python?", "output": "import math or from math import sqrt"}
+{"input": "How do you convert to lowercase in Python?", "output": "\"HELLO\".lower() returns \"hello\"."}
+{"input": "Apa itu robot?", "output": "Robot adalah mesin yang bisa bergerak dan berpikir seperti manusia."}
+{"input": "What is an if statement?", "output": "An if statement runs code only if a condition is true."}
+{"input": "How do you print Hello World in Python?", "output": "print(\"Hello, World!\")"}
+{"input": "What is a cookie (web)?", "output": "A cookie is a small file websites store on your device to remember you."}
+{"input": "What is Python?", "output": "Python is a popular, easy-to-learn programming language."}
+{"input": "What is a bug?", "output": "A bug is an error in a program that causes it to behave incorrectly."}
+{"input": "Apa itu printer?", "output": "Printer adalah alat untuk mencetak dokumen dari komputer."}
+{"input": "What is encryption?", "output": "Encryption is converting data into a code to prevent unauthorized access."}
+{"input": "How do you join a list into a string?", "output": "\",\".join([\"a\",\"b\"]) returns \"a,b\"."}
+{"input": "How do you write a for loop in Python?", "output": "for i in range(5):\n    print(i)"}
+{"input": "How many GB in a terabyte?", "output": "There are 1,024 GB in a terabyte (TB)."}
+{"input": "How do you check if a key is in a dictionary?", "output": "if \"key\" in my_dict:"}
+{"input": "Apa itu email?", "output": "Email adalah surat elektronik yang dikirim lewat internet."}
+{"input": "How do you split a string in Python?", "output": "\"a,b,c\".split(\",\") returns [\"a\", \"b\", \"c\"]."}
+{"input": "Apa itu string?", "output": "String adalah tipe data berupa teks."}
+{"input": "How do you create a string in Python?", "output": "name = \"Hello\""}
+{"input": "Apa itu input?", "output": "Input adalah perintah untuk menerima data dari pengguna."}
+{"input": "Apa itu macOS?", "output": "macOS adalah operating system dari Apple."}
+{"input": "What is HTTPS?", "output": "HTTPS is a secure version of HTTP that encrypts web traffic."}
+{"input": "What is JavaScript?", "output": "JavaScript is a programming language for making websites interactive."}
+{"input": "How do you add to an array in JavaScript?", "output": "arr.push(4);"}
+{"input": "What does HTML stand for?", "output": "HTML stands for HyperText Markup Language."}
+{"input": "What is an algorithm?", "output": "An algorithm is a step-by-step set of instructions to solve a problem."}
+{"input": "How do you get user input in Python?", "output": "name = input(\"Enter name: \")"}
+{"input": "Apa itu machine learning?", "output": "Machine learning adalah komputer yang belajar dari data."}
+{"input": "Apa itu Instagram?", "output": "Instagram adalah aplikasi berbagi foto."}
+{"input": "Apa itu loop?", "output": "Loop adalah pengulangan kode dalam program."}
+{"input": "How do you write a while loop in Python?", "output": "while x < 10:\n    x += 1"}
+{"input": "What is a string?", "output": "A string is a sequence of characters, like \"hello\"."}
+{"input": "What is a CPU?", "output": "The CPU (Central Processing Unit) is the \"brain\" of the computer."}
+{"input": "What is an API?", "output": "An API (Application Programming Interface) lets programs communicate with each other."}
+{"input": "How do you generate random in JavaScript?", "output": "Math.random() returns a number between 0 and 1."}
+{"input": "Apa itu boolean?", "output": "Boolean adalah tipe data berupa benar atau salah."}
+{"input": "What is a processor?", "output": "A processor (CPU) executes instructions and processes data in a computer."}
+{"input": "What is a virus (computer)?", "output": "A computer virus is a malicious program that can damage files and spread."}
+{"input": "What is an input device?", "output": "An input device sends data to the computer, like a keyboard or mouse."}

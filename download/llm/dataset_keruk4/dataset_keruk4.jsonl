@@ -1,0 +1,432 @@
+{"input": "What is the Renaissance?", "output": "The Renaissance was a period of cultural rebirth in Europe (14th-17th century).", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Impressionism?", "output": "Impressionism focuses on light and moment, like Monet and Renoir.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Cubism?", "output": "Cubism breaks objects into geometric shapes, pioneered by Picasso and Braque.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Surrealism?", "output": "Surrealism depicts dream-like scenes, like Dali and Magritte.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Pop Art?", "output": "Pop Art uses popular culture imagery, like Andy Warhol and Roy Lichtenstein.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Baroque?", "output": "Baroque is dramatic, ornate art from the 17th century, like Bernini and Caravaggio.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Realism?", "output": "Realism depicts everyday life accurately, like Courbet and Millet.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Abstract Art?", "output": "Abstract art uses shapes and colors instead of realistic images, like Kandinsky.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Romanticism?", "output": "Romanticism emphasizes emotion and nature, like Turner and Delacroix.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Expressionism?", "output": "Expressionism shows inner feelings rather than reality, like Munch and Kirchner.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Minimalism?", "output": "Minimalism uses simple forms and few elements.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Pointillism?", "output": "Pointillism uses small dots of color, like Seurat.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Art Nouveau?", "output": "Art Nouveau uses flowing, organic lines and decorative patterns.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Gothic art?", "output": "Gothic art features pointed arches and tall windows, common in cathedrals.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Neoclassicism?", "output": "Neoclassicism revives ancient Greek and Roman styles.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Fauvism?", "output": "Fauvism uses wild, unnatural colors, like Matisse.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Dadaism?", "output": "Dadaism is anti-art, rejecting traditional artistic values.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Conceptual Art?", "output": "Conceptual Art values the idea over the visual artwork.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Street Art?", "output": "Street Art is art in public spaces, like Banksy and graffiti.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Photography as art?", "output": "Photography captures real moments as artistic images.", "bidang": "culture", "judul": "Art Movements", "subjudul": "General"}
+{"input": "What is Beethoven's 5th Symphony?", "output": "Beethoven's 5th Symphony opens with the famous \"da-da-da-dum\" motif.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Beethoven's 9th Symphony?", "output": "Beethoven's 9th includes \"Ode to Joy,\" now the EU anthem.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Mozart's Eine kleine Nachtmusik?", "output": "It is a famous serenade by Mozart.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Vivaldi's Four Seasons?", "output": "Four Seasons is a set of violin concertos for spring, summer, autumn, winter.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Tchaikovsky's Swan Lake?", "output": "Swan Lake is a famous ballet by Tchaikovsky.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Tchaikovsky's Nutcracker?", "output": "The Nutcracker is a famous Christmas ballet by Tchaikovsky.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is The Beatles' Hey Jude?", "output": "Hey Jude is one of The Beatles' most famous songs.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Queen's Bohemian Rhapsody?", "output": "Bohemian Rhapsody is a complex rock opera by Queen.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is John Lennon's Imagine?", "output": "Imagine is a famous song about world peace.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Michael Jackson's Thriller?", "output": "Thriller is the best-selling album of all time.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Bob Marley's Redemption Song?", "output": "Redemption Song is a famous reggae song about freedom.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Elvis's Jailhouse Rock?", "output": "Jailhouse Rock is a famous rock and roll song by Elvis Presley.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is The Star-Spangled Banner?", "output": "The Star-Spangled Banner is the US national anthem.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is O Canada?", "output": "O Canada is the Canadian national anthem.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is God Save the King?", "output": "God Save the King is the UK national anthem.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is La Marseillaise?", "output": "La Marseillaise is the French national anthem.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Advance Australia Fair?", "output": "Advance Australia Fair is the Australian national anthem.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Kimigayo?", "output": "Kimigayo is the Japanese national anthem.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Arirang?", "output": "Arirang is a traditional Korean folk song.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Jana Gana Mana?", "output": "Jana Gana Mana is the Indian national anthem.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Garuda Pancasila?", "output": "Garuda Pancasila is a Indonesian patriotic song about the national symbol.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Indonesia Raya?", "output": "Indonesia Raya is the Indonesian national anthem, by W.R. Supratman.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Auld Lang Syne?", "output": "Auld Lang Syne is a Scottish song sung at New Year.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Happy Birthday?", "output": "Happy Birthday is the most recognized song in English.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Twinkle Twinkle Little Star?", "output": "Twinkle Twinkle is a children's nursery rhyme.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Row Row Row Your Boat?", "output": "Row Row Row Your Boat is a children's song that can be sung in rounds.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is The Alphabet Song?", "output": "The Alphabet Song teaches ABCs to the tune of Twinkle Twinkle.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Old MacDonald Had a Farm?", "output": "Old MacDonald is a children's song about farm animals.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is London Bridge is Falling Down?", "output": "London Bridge is a traditional nursery rhyme.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Frere Jacques?", "output": "Frere Jacques is a French nursery rhyme about a sleeping monk.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "What is Baby Shark?", "output": "Baby Shark is a viral children's song from Pinkfong.", "bidang": "culture", "judul": "Famous Songs", "subjudul": "World"}
+{"input": "Apa itu sopo ing basa Jawa?", "output": "Sopo artinya siapa dalam bahasa Jawa.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa iki ing basa Jawa?", "output": "Iki artinya ini dalam bahasa Jawa.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa iku ing basa Jawa?", "output": "Iku artinya itu dalam bahasa Jawa.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa nggih ing basa Jawa?", "output": "Nggih artinya ya dalam bahasa Jawa (halus).", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa mboten ing basa Jawa?", "output": "Mboten artinya tidak dalam bahasa Jawa (halus).", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa nopo ing basa Jawa?", "output": "Nopo artinya apa dalam bahasa Jawa.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa nyuwun pangapunten ing basa Jawa?", "output": "Nyuwun pangapunten artinya mohon maaf dalam bahasa Jawa (halus).", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa matur nuwun ing basa Jawa?", "output": "Matur nuwun artinya terima kasih dalam bahasa Jawa (halus).", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Naon arti naon dina basa Sunda?", "output": "Naon artinya apa dalam bahasa Sunda.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Naon arti ieu dina basa Sunda?", "output": "Ieu artinya ini dalam bahasa Sunda.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Naon arti eta dina basa Sunda?", "output": "Eta artinya itu dalam bahasa Sunda.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Naon arti hoyong dina basa Sunda?", "output": "Hoyong artinya mau/ingin dalam bahasa Sunda.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Naon arti teu dina basa Sunda?", "output": "Teu artinya tidak dalam bahasa Sunda.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Naon arti mangga dina basa Sunda?", "output": "Mangga artinya silakan dalam bahasa Sunda.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Naon arti hatur nuhun dina basa Sunda?", "output": "Hatur nuhun artinya terima kasih dalam bahasa Sunda.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Naon arti punten dina basa Sunda?", "output": "Punten artinya maaf dalam bahasa Sunda.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa artihoras dalam bahasa Batak?", "output": "Horas artinya selamat/sehat dalam bahasa Batak.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti inda dalam bahasa Batak?", "output": "Inda artinya tidak dalam bahasa Batak.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti au dalam bahasa Batak?", "output": "Au artinya saya dalam bahasa Batak.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti ho dalam bahasa Batak?", "output": "Ho artinya kamu dalam bahasa Batak.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa artiak dalam bahasa Minang?", "output": "Amak artinya ibu dalam bahasa Minang.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti apak dalam bahasa Minang?", "output": "Apak artinya ayah dalam bahasa Minang.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti den dalam bahasa Minang?", "output": "Den artinya saya (laki-laki) dalam bahasa Minang.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti undo dalam bahasa Minang?", "output": "Undo artinya saya (perempuan) dalam bahasa Minang.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti om swastiastu dalam bahasa Bali?", "output": "Om swastiastu adalah sapaan dalam bahasa Bali.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti suksma dalam bahasa Bali?", "output": "Suksma artinya terima kasih dalam bahasa Bali.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti ten within bahasa Bali?", "output": "Ten artinya tidak dalam bahasa Bali.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti salamatu dalam bahasa Bugis?", "output": "Salamatu artinya selamat dalam bahasa Bugis.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti TENRITENRITEN within bahasa Bugis?", "output": "Tenri artinya tidak dalam bahasa Bugis.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa arti assalamualaikum dalam bahasa Makassar?", "output": "Assalamualaikum adalah sapaan dalam bahasa Makassar.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Aceh?", "output": "Bahasa Aceh adalah bahasa daerah di Aceh.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Padang?", "output": "Bahasa Minang adalah bahasa daerah di Padang.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Bali?", "output": "Bahasa Bali adalah bahasa daerah di Bali.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Sunda?", "output": "Bahasa Sunda adalah bahasa daerah di Jawa Barat.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Jawa?", "output": "Bahasa Jawa adalah bahasa daerah di Jawa Tengah dan Jawa Timur.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Batak?", "output": "Bahasa Batak adalah bahasa daerah di Sumatra Utara.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Banjar?", "output": "Bahasa Banjar adalah bahasa daerah di Kalimantan Selatan.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Bugis?", "output": "Bahasa Bugis adalah bahasa daerah di Sulawesi Selatan.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Makassar?", "output": "Bahasa Makassar adalah bahasa daerah di Sulawesi Selatan.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Sasak?", "output": "Bahasa Sasak adalah bahasa daerah di Lombok.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Lampung?", "output": "Bahasa Lampung adalah bahasa daerah di Lampung.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Rejang?", "output": "Bahasa Rejang adalah bahasa daerah di Bengkulu.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Toraja?", "output": "Bahasa Toraja adalah bahasa daerah di Sulawesi Selatan.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Manado?", "output": "Bahasa Manado adalah bahasa daerah di Sulawesi Utara.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Ambon?", "output": "Bahasa Ambon adalah bahasa daerah di Maluku.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Papua?", "output": "Bahasa Papua memiliki ratusan bahasa daerah.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Nias?", "output": "Bahasa Nias adalah bahasa daerah di Sumatra Utara.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Madura?", "output": "Bahasa Madura adalah bahasa daerah di Madura, Jawa Timur.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Lombok?", "output": "Bahasa Sasak adalah bahasa daerah di Lombok.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "Apa bahasa daerah Timor?", "output": "Bahasa Uab Meto adalah bahasa daerah di NTT.", "bidang": "bahasa", "judul": "Bahasa Daerah", "subjudul": "Indonesia"}
+{"input": "What should I do if I'm lost?", "output": "Stay calm, find a safe place, ask a trusted adult or police for help, or call your family.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if there's a fire?", "output": "Get out immediately, stay low to avoid smoke, call 911 or 112, don't use elevators.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I'm being bullied?", "output": "Tell a trusted adult (parent, teacher, counselor). You are not alone and it's not your fault.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I feel sad?", "output": "Talk to someone you trust, do something you enjoy, get enough sleep, and exercise.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I find something online that makes me uncomfortable?", "output": "Tell a trusted adult immediately. Don't share personal information with strangers online.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do before crossing the street?", "output": "Stop, look left, look right, look left again, then cross when it's safe.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I'm home alone?", "output": "Keep doors locked, don't open to strangers, have emergency numbers ready.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I get a bad grade?", "output": "Don't give up. Ask the teacher for help, study more, and try again next time.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I'm stressed about a test?", "output": "Study in advance, get enough sleep, eat breakfast, take deep breaths, and do your best.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I disagree with a friend?", "output": "Talk calmly, listen to their side, find a compromise, and respect their opinion.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I see someone cheating?", "output": "It's not fair. Tell the teacher privately. Cheating hurts everyone.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I make a mistake?", "output": "Admit it, apologize, learn from it, and try to do better next time.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I'm hungry at school?", "output": "Eat a snack during break. If you don't have food, tell a teacher.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I lose something?", "output": "Retrace your steps, ask people if they've seen it, check lost and found.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I feel sick at school?", "output": "Tell the teacher immediately and go to the school nurse or office.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if someone is mean to me online?", "output": "Don't respond, take a screenshot, block them, and tell a trusted adult.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I'm worried about something?", "output": "Talk to someone you trust (parent, teacher, friend). Sharing helps.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I want to learn a new skill?", "output": "Start small, practice every day, be patient, and don't give up.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I'm bored?", "output": "Read a book, play a game, go outside, help someone, or learn something new.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I'm angry?", "output": "Take deep breaths, count to 10, walk away, talk to someone, or exercise.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I see a stranger following me?", "output": "Go to a safe place with people, tell an adult, don't go home if they're following.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I find a lost pet?", "output": "Check for a collar tag, ask neighbors, take it to a vet or animal shelter.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I want to help the environment?", "output": "Reduce, reuse, recycle, save water, turn off lights, plant trees.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I have too much homework?", "output": "Make a schedule, do the hardest first, take breaks, and ask for help if needed.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I'm being cyberbullied?", "output": "Save evidence, block the bully, tell an adult, and report to the platform.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I feel lonely?", "output": "Reach out to a friend, join a club, talk to family, or volunteer.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I want to make new friends?", "output": "Be friendly, join activities, share interests, and be yourself.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I'm scared of the dark?", "output": "Use a night light, keep a flashlight nearby, and remember you're safe.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I want to save money?", "output": "Set a goal, spend less than you earn, avoid impulse buying, and save regularly.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What should I do if I want to be healthy?", "output": "Eat balanced meals, exercise daily, sleep 8 hours, drink water, and be happy.", "bidang": "conversations", "judul": "Life Advice", "subjudul": "Situations"}
+{"input": "What is the capital of Antigua and Barbuda?", "output": "The capital of Antigua and Barbuda is Saint John's.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Bahamas?", "output": "The capital of Bahamas is Nassau.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Barbados?", "output": "The capital of Barbados is Bridgetown.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Dominica?", "output": "The capital of Dominica is Roseau.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Grenada?", "output": "The capital of Grenada is St. George's.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Saint Kitts and Nevis?", "output": "The capital of Saint Kitts and Nevis is Basseterre.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Saint Lucia?", "output": "The capital of Saint Lucia is Castries.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Saint Vincent?", "output": "The capital of Saint Vincent is Kingstown.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Trinidad and Tobago?", "output": "The capital of Trinidad and Tobago is Port of Spain.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Suriname?", "output": "The capital of Suriname is Paramaribo.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Guyana?", "output": "The capital of Guyana is Georgetown.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Belize?", "output": "The capital of Belize is Belmopan.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Vanuatu?", "output": "The capital of Vanuatu is Port Vila.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Solomon Islands?", "output": "The capital of Solomon Islands is Honiara.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Samoa?", "output": "The capital of Samoa is Apia.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Tonga?", "output": "The capital of Tonga is Nuku'alofa.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Kiribati?", "output": "The capital of Kiribati is South Tarawa.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Tuvalu?", "output": "The capital of Tuvalu is Funafuti.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Palau?", "output": "The capital of Palau is Ngerulmud.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Marshall Islands?", "output": "The capital of Marshall Islands is Majuro.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Micronesia?", "output": "The capital of Micronesia is Palikir.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Nauru?", "output": "The capital of Nauru is Yaren.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Andorra?", "output": "The capital of Andorra is Andorra la Vella.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Monaco?", "output": "The capital of Monaco is Monaco.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Liechtenstein?", "output": "The capital of Liechtenstein is Vaduz.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of San Marino?", "output": "The capital of San Marino is San Marino.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Vatican City?", "output": "The capital of Vatican City is Vatican City.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Malta?", "output": "The capital of Malta is Valletta.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Montenegro?", "output": "The capital of Montenegro is Podgorica.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the capital of Kosovo?", "output": "The capital of Kosovo is Pristina.", "bidang": "geography", "judul": "World Capitals", "subjudul": "Remaining"}
+{"input": "What is the national bird of the US?", "output": "The bald eagle is the national bird of the US.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national bird of India?", "output": "The peacock is the national bird of India.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national bird of Japan?", "output": "The green pheasant is the national bird of Japan.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national bird of the UK?", "output": "The European robin is the national bird of the UK.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national bird of Indonesia?", "output": "The Javan hawk-eagle is considered the national bird of Indonesia.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of India?", "output": "Hockey is the national sport of India.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of the US?", "output": "Baseball is considered the national sport of the US.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of Japan?", "output": "Sumo is the national sport of Japan.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of China?", "output": "Table tennis is the national sport of China.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of Bangladesh?", "output": "Cricket is the national sport of Bangladesh.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of Thailand?", "output": "Muay Thai (kickboxing) is the national sport of Thailand.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of South Korea?", "output": "Taekwondo is the national sport of South Korea.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of Canada?", "output": "Lacrosse and ice hockey are national sports of Canada.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of Australia?", "output": "Cricket is the national sport of Australia.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of Spain?", "output": "Football (soccer) is the national sport of Spain.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of Brazil?", "output": "Football (soccer) is the national sport of Brazil.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of Pakistan?", "output": "Field hockey is the national sport of Pakistan.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "What is the national sport of Sri Lanka?", "output": "Volleyball is the national sport of Sri Lanka.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Birds and Sports"}
+{"input": "Who is Usain Bolt?", "output": "Usain Bolt is the fastest man in the world, holding the 100m record.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Michael Jordan?", "output": "Michael Jordan is considered the greatest basketball player of all time.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Lionel Messi?", "output": "Messi is an Argentine soccer player, one of the greatest of all time.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Cristiano Ronaldo?", "output": "Ronaldo is a Portuguese soccer player, one of the greatest of all time.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Pelé?", "output": "Pelé is a Brazilian soccer legend, the only player to win 3 World Cups.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Muhammad Ali?", "output": "Muhammad Ali was a boxing legend and civil rights activist.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Serena Williams?", "output": "Serena Williams is one of the greatest tennis players of all time.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Roger Federer?", "output": "Federer is a Swiss tennis player with 20 Grand Slam titles.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Rafael Nadal?", "output": "Nadal is a Spanish tennis player known as the King of Clay.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Novak Djokovic?", "output": "Djokovic is a Serbian tennis player with the most Grand Slam titles.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Michael Phelps?", "output": "Phelps is the most decorated Olympian with 28 medals.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Simone Biles?", "output": "Simone Biles is an American gymnast with 7 Olympic medals.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Sachin Tendulkar?", "output": "Tendulkar is an Indian cricket legend, the highest run-scorer.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Tiger Woods?", "output": "Tiger Woods is one of the greatest golfers of all time.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is LeBron James?", "output": "LeBron James is an American basketball superstar.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Kobe Bryant?", "output": "Kobe Bryant was an American basketball legend who played for the Lakers.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Tom Brady?", "output": "Tom Brady is considered the greatest NFL quarterback.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Neymar?", "output": "Neymar is a Brazilian soccer star.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Mbappé?", "output": "Mbappé is a French soccer star who won the World Cup in 2018.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Steph Curry?", "output": "Stephen Curry is an American basketball player known for three-pointers.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Manny Pacquiao?", "output": "Pacquiao is a Filipino boxing champion and politician.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Virat Kohli?", "output": "Kohli is an Indian cricket captain and one of the best batters.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Lewis Hamilton?", "output": "Hamilton is a British Formula 1 driver with 7 world championships.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Max Verstappen?", "output": "Verstappen is a Dutch Formula 1 world champion.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Naomi Osaka?", "output": "Osaka is a Japanese tennis player and Grand Slam winner.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Sun Yang?", "output": "Sun Yang is a Chinese Olympic swimmer.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Eliud Kipchoge?", "output": "Kipchoge is a Kenyan marathon runner, the first to run under 2 hours.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Simone Biles?", "output": "Biles is an American gymnast, considered the greatest of all time.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Caeleb Dressel?", "output": "Dressel is an American Olympic swimmer with multiple gold medals.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "Who is Kylian Mbappé?", "output": "Mbappé is a French soccer star, World Cup winner in 2018.", "bidang": "PJOK", "judul": "Famous Athletes", "subjudul": "World"}
+{"input": "What is the story of Goldilocks?", "output": "Goldilocks enters a house of three bears and tries their things.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of Jack and the Beanstalk?", "output": "Jack climbs a magic beanstalk and finds a giant's castle.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of Beauty and the Beast?", "output": "A girl falls in love with a prince cursed to look like a beast.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of Aladdin?", "output": "Aladdin finds a magic lamp with a genie who grants wishes.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of Pinocchio?", "output": "Pinocchio is a wooden puppet whose nose grows when he lies.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of Rumpelstiltskin?", "output": "A magical creature helps a girl spin straw into gold.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of Rapunzel?", "output": "Rapunzel is locked in a tower and lets down her long hair.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of The Ugly Duckling?", "output": "An ugly duckling grows up to be a beautiful swan.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of The Emperor's New Clothes?", "output": "An emperor is tricked into wearing invisible clothes.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of The Princess and the Pea?", "output": "A princess feels a pea under many mattresses.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of Puss in Boots?", "output": "A clever cat helps his poor master become a prince.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of The Frog Prince?", "output": "A frog becomes a prince after a princess kisses him.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of The Little Mermaid?", "output": "A mermaid gives up her voice for a human prince.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of Peter Pan?", "output": "Peter Pan is a boy who never grows up in Neverland.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the story of Robin Hood?", "output": "Robin Hood steals from the rich to give to the poor.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Tortoise and the Hare?", "output": "Slow and steady wins the race.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Boy Who Cried Wolf?", "output": "Liars are not believed even when they tell the truth.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Ant and the Grasshopper?", "output": "Prepare for the future while you can.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Lion and the Mouse?", "output": "No act of kindness is ever wasted.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Fox and the Grapes?", "output": "It is easy to despise what you cannot have.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Crow and the Pitcher?", "output": "Necessity is the mother of invention.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Goose That Laid Golden Eggs?", "output": "Greed destroys the source of good fortune.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Wolf in Sheep's Clothing?", "output": "Appearances can be deceiving.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Frog and the Ox?", "output": "Don't try to be something you're not.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Wind and the Sun?", "output": "Gentleness is stronger than force.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Crab and His Mother?", "output": "Example is better than precept.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Dog and His Shadow?", "output": "Be content with what you have.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Stag at the Pool?", "output": "We often despise what is most useful to us.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of Belling the Cat?", "output": "It is easier said than done.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Fox and the Crow?'", "output": "Don't trust flatterers.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Town Mouse and Country Mouse?", "output": "Better simple and safe than luxurious and dangerous.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Wolf and the Crane?", "output": "You get nothing for helping the wicked.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Farmer and the Snake?", "output": "Kindness to evil is wasted.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Mouse and the Weasel?", "output": "Don't be too greedy.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Two Pots?", "output": "In adversity, the weak suffer more.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Wolf and the Lamb?", "output": "The tyrant will find a pretext for tyranny.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Oak and the Reed?", "output": "It is better to bend than to break.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Mice in Council?", "output": "Talk is cheap without action.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Fox Without a Tail?", "output": "Don't trust advice from those who benefit from it.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Eagle and the Arrow?", "output": "We often give our enemies the means for our own destruction.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What is the moral of The Thief and His Mother?", "output": "A small fault uncorrected becomes a great crime.", "bidang": "culture", "judul": "Fairy Tales and Fables", "subjudul": "World"}
+{"input": "What are the major climate zones?", "output": "Tropical, temperate, and polar are the major climate zones.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a tropical climate?", "output": "A tropical climate is hot and humid all year, near the equator.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a temperate climate?", "output": "A temperate climate has four seasons: spring, summer, autumn, winter.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a polar climate?", "output": "A polar climate is extremely cold all year, near the poles.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a desert climate?", "output": "A desert climate is very dry with little rain.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a Mediterranean climate?", "output": "A Mediterranean climate has hot dry summers and mild wet winters.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a monsoon climate?", "output": "A monsoon climate has seasonal winds that bring heavy rain.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a tundra climate?", "output": "A tundra climate is cold with permafrost (permanently frozen ground).", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a taiga climate?", "output": "A taiga climate has long cold winters and short cool summers.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a rainforest climate?", "output": "A rainforest climate is hot and wet all year.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a savanna climate?", "output": "A savanna climate has wet and dry seasons with grasslands.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is the equator?", "output": "The equator is an imaginary line at 0 degrees latitude, dividing Earth.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is the Tropic of Cancer?", "output": "The Tropic of Cancer is at 23.5 degrees north latitude.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is the Tropic of Capricorn?", "output": "The Tropic of Capricorn is at 23.5 degrees south latitude.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is the Arctic Circle?", "output": "The Arctic Circle is at 66.5 degrees north latitude.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is the Antarctic Circle?", "output": "The Antarctic Circle is at 66.5 degrees south latitude.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a thermometer?", "output": "A thermometer measures temperature.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a barometer?", "output": "A barometer measures air pressure.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a hygrometer?", "output": "A hygrometer measures humidity (moisture in air).", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is an anemometer?", "output": "An anemometer measures wind speed.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a rain gauge?", "output": "A rain gauge measures rainfall.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a wind vane?", "output": "A wind vane shows wind direction.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a weather satellite?", "output": "A weather satellite takes images of clouds and weather from space.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a weather balloon?", "output": "A weather balloon measures temperature, pressure, and humidity high in the atmosphere.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is Doppler radar?", "output": "Doppler radar detects rain and wind direction for weather forecasting.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a meteorologist?", "output": "A meteorologist is a scientist who studies and forecasts the weather.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a weather forecast?", "output": "A weather forecast predicts future weather conditions.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a hurricane warning?", "output": "A hurricane warning means a hurricane is expected within 36 hours.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a tornado watch?", "output": "A tornado watch means conditions are favorable for tornadoes.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is a tornado warning?", "output": "A tornado warning means a tornado has been spotted or detected.", "bidang": "science", "judul": "Climate and Weather", "subjudul": "Zones and Instruments"}
+{"input": "What is boiling?", "output": "Boiling is cooking in liquid at 100 degrees Celsius (water).", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is frying?", "output": "Frying is cooking in hot oil.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is baking?", "output": "Baking is cooking in an oven using dry heat.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is grilling?", "output": "Grilling is cooking over direct heat, usually fire or coals.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is steaming?", "output": "Steaming is cooking food over boiling water using steam.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is roasting?", "output": "Roasting is cooking in an oven, usually meat or vegetables.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is sautéing?", "output": "Sautéing is cooking quickly in a little oil over high heat.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is simmering?", "output": "Simmering is cooking in liquid just below boiling point.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is blending?", "output": "Blending is mixing ingredients until smooth, using a blender.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is kneading?", "output": "Kneading is working dough with hands to develop gluten.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is whisking?", "output": "Whisking is beating ingredients with a whisk to incorporate air.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is marinating?", "output": "Marinating is soaking food in seasoned liquid to add flavor.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a recipe?", "output": "A recipe is a set of instructions for preparing a dish.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What are ingredients?", "output": "Ingredients are the foods and items needed to make a dish.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a balanced meal?", "output": "A balanced meal includes protein, carbohydrates, vegetables, and fruits.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "How do you wash fruits?", "output": "Rinse fruits under running water before eating.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "How do you wash vegetables?", "output": "Rinse vegetables under running water before cooking.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a spatula used for?", "output": "A spatula is used for flipping or scraping food.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a whisk used for?", "output": "A whisk is used for beating eggs or mixing liquids.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a colander used for?", "output": "A colander is used for draining water from pasta or vegetables.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a cutting board?", "output": "A cutting board is a flat surface for cutting food safely.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a measuring cup?", "output": "A measuring cup measures liquid or dry ingredients accurately.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a rolling pin?", "output": "A rolling pin is used to flatten dough.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a peeler?", "output": "A peeler removes the skin from fruits and vegetables.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a grater?", "output": "A grater shreds food like cheese or carrots into small pieces.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a mixing bowl?", "output": "A mixing bowl is a bowl for combining ingredients.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a frying pan?", "output": "A frying pan is a flat pan for cooking food in oil.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a saucepan?", "output": "A saucepan is a deep pan with a handle for cooking liquids.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is an oven?", "output": "An oven is a kitchen appliance for baking and roasting.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is a microwave?", "output": "A microwave is a kitchen appliance that heats food using microwaves.", "bidang": "culture", "judul": "Cooking", "subjudul": "Basics"}
+{"input": "What is photosynthesis?", "output": "Photosynthesis is how plants make food from sunlight, water, and CO2.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What do plants need to grow?", "output": "Plants need sunlight, water, air (CO2), nutrients, and soil.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is composting?", "output": "Composting is turning food and plant waste into nutrient-rich soil.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is organic farming?", "output": "Organic farming grows food without synthetic pesticides or fertilizers.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is irrigation?", "output": "Irrigation is watering crops artificially using pipes or channels.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is a seed?", "output": "A seed contains a tiny plant and food, ready to grow when conditions are right.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is germination?", "output": "Germination is when a seed starts to grow into a plant.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What does a seed need to germinate?", "output": "A seed needs water, warmth, and oxygen to germinate.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is transplanting?", "output": "Transplanting is moving a plant from one place to another.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is pruning?", "output": "Pruning is cutting off dead or extra branches to help a plant grow better.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is weeding?", "output": "Weeding is removing unwanted plants that compete with crops.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is harvesting?", "output": "Harvesting is gathering ripe crops from the field.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is crop rotation?", "output": "Crop rotation is planting different crops in the same field each season to keep soil healthy.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is a greenhouse?", "output": "A greenhouse is a glass building where plants grow in controlled temperature.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is hydroponics?", "output": "Hydroponics is growing plants in water with nutrients, without soil.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is a fertilizer?", "output": "A fertilizer is a substance added to soil to help plants grow.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is a pesticide?", "output": "A pesticide is a chemical that kills insects that harm plants.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is pollination?", "output": "Pollination is the transfer of pollen from one flower to another.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What are pollinators?", "output": "Pollinators include bees, butterflies, birds, and bats.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is a deciduous tree?", "output": "A deciduous tree loses its leaves in winter.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is an evergreen tree?", "output": "An evergreen tree keeps its leaves year-round.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is photosynthesis formula?", "output": "CO2 + H2O + sunlight -> glucose (C6H12O6) + O2.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is chlorophyll?", "output": "Chlorophyll is the green pigment that captures sunlight for photosynthesis.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is transpiration?", "output": "Transpiration is water evaporating from plant leaves.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is xylem?", "output": "Xylem transports water from roots to leaves.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is phloem?", "output": "Phloem transports food (sugar) from leaves to the rest of the plant.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is the growing season?", "output": "The growing season is the time of year when plants can grow outdoors.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is mulch?", "output": "Mulch is a layer of material on soil to retain moisture and prevent weeds.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is vermiculture?", "output": "Vermiculture is using worms to compost organic waste.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is aquaponics?", "output": "Aquaponics combines fish farming with hydroponic plant growing.", "bidang": "science", "judul": "Gardening", "subjudul": "Agriculture"}
+{"input": "What is a map?", "output": "A map is a visual representation of an area on a flat surface.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a compass rose?", "output": "A compass rose shows directions (N, S, E, W) on a map.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a map legend?", "output": "A map legend explains the symbols and colors used on the map.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a scale on a map?", "output": "A scale shows the relationship between map distance and real distance.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is latitude?", "output": "Latitude measures north-south position, from equator (0) to poles (90).", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is longitude?", "output": "Longitude measures east-west position, from prime meridian (0) to 180.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is the equator?", "output": "The equator is 0 degrees latitude, dividing Earth into north and south.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is the prime meridian?", "output": "The prime meridian is 0 degrees longitude, passing through Greenwich, London.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What are coordinates?", "output": "Coordinates are pairs of numbers (latitude, longitude) showing a position.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a political map?", "output": "A political map shows boundaries, cities, and countries.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a physical map?", "output": "A physical map shows natural features like mountains, rivers, and lakes.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a topographic map?", "output": "A topographic map shows elevation using contour lines.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a road map?", "output": "A road map shows highways, roads, and streets for navigation.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a climate map?", "output": "A climate map shows different climate zones with colors.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a population map?", "output": "A population map shows where people live, with density shown by colors.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a globe?", "output": "A globe is a 3D model of Earth.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is the advantage of a globe over a map?", "output": "A globe shows the true shape and size of Earth without distortion.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is the disadvantage of a globe?", "output": "A globe is bulky and cannot show small areas in detail.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is GPS?", "output": "GPS (Global Positioning System) uses satellites to show your exact location on Earth.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "What is a contour line?", "output": "A contour line connects points of equal elevation on a topographic map.", "bidang": "geography", "judul": "Map Reading", "subjudul": "Skills"}
+{"input": "How do you print to console in JavaScript?", "output": "console.log(\"Hello, World!\");", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you create a variable in JavaScript?", "output": "let x = 10; or const y = \"hello\";", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you create a function in JavaScript?", "output": "function myFunc() { return \"Hello\"; }", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you write an if statement in JavaScript?", "output": "if (x > 5) { console.log(\"Big\"); }", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you write a for loop in JavaScript?", "output": "for (let i = 0; i < 5; i++) { console.log(i); }", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you create an array in JavaScript?", "output": "let arr = [1, 2, 3];", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you add to an array in JavaScript?", "output": "arr.push(4);", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you create an object in JavaScript?", "output": "let obj = { name: \"John\", age: 30 };", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you access object properties?", "output": "obj.name or obj[\"name\"]", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you write an arrow function?", "output": "const add = (a, b) => a + b;", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you concatenate strings in JavaScript?", "output": "Use + : \"Hello\" + \" \" + \"World\" = \"Hello World\".", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you convert string to number?", "output": "Number(\"123\") or parseInt(\"123\")", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you get element by ID in JavaScript?", "output": "document.getElementById(\"myId\")", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you add event listener in JavaScript?", "output": "element.addEventListener(\"click\", function() { ... })", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you write a comment in JavaScript?", "output": "// single line or /* multi-line */", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you use template literals in JavaScript?", "output": "`Hello ${name}!` uses backticks and ${}.", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you check type in JavaScript?", "output": "typeof x returns the type like \"number\" or \"string\".", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you round a number in JavaScript?", "output": "Math.round(3.7) returns 4.", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you generate random in JavaScript?", "output": "Math.random() returns a number between 0 and 1.", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "How do you convert to uppercase?", "output": "\"hello\".toUpperCase() returns \"HELLO\".", "bidang": "informatika", "judul": "JavaScript", "subjudul": "Code Snippets"}
+{"input": "What is a bar graph?", "output": "A bar graph uses bars of different heights to show data.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is a line graph?", "output": "A line graph uses points connected by lines to show trends over time.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is a pie chart?", "output": "A pie chart shows parts of a whole using slices of a circle.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is a pictograph?", "output": "A pictograph uses pictures or symbols to represent data.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is the x-axis?", "output": "The x-axis is the horizontal line on a graph.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is the y-axis?", "output": "The y-axis is the vertical line on a graph.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is the origin?", "output": "The origin is where the x-axis and y-axis meet (0, 0).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is the mean?", "output": "The mean is the average: sum of all values divided by count.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is the median?", "output": "The median is the middle value when data is sorted.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is the mode?", "output": "The mode is the value that appears most often.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is the range?", "output": "The range is the difference between highest and lowest values.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is probability?", "output": "Probability is how likely something is to happen, from 0 (impossible) to 1 (certain).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is the probability of flipping heads on a coin?", "output": "The probability of heads is 1/2 or 50%.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is the probability of rolling a 6 on a die?", "output": "The probability is 1/6.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is the probability of rolling an even number on a die?", "output": "The probability is 3/6 = 1/2.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is a certain event?", "output": "A certain event has probability 1 (100%).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is an impossible event?", "output": "An impossible event has probability 0 (0%).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is a fair coin?", "output": "A fair coin has equal probability of heads and tails.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is a standard die?", "output": "A standard die has 6 faces numbered 1-6, each equally likely.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is sample space?", "output": "The sample space is all possible outcomes of an experiment.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is a ratio?", "output": "A ratio compares two quantities, like 2:3.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is a proportion?", "output": "A proportion is two equal ratios, like 1/2 = 2/4.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "If 3 apples cost $6, how much is 1 apple?", "output": "1 apple costs $6 / 3 = $2.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "If 5 pens cost $10, how much is 1 pen?", "output": "1 pen costs $10 / 5 = $2.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "If a recipe needs 2 cups of flour for 4 servings, how much for 8 servings?", "output": "4 cups of flour for 8 servings.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "If a car travels 60 km in 1 hour, how far in 3 hours?", "output": "180 km in 3 hours.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "If 1 cm on a map = 10 km real, what is 5 cm on the map?", "output": "50 km real distance.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is a unit rate?", "output": "A unit rate is a rate per 1 unit, like 60 km per hour.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "If 8 workers build a wall in 4 days, how long for 2 workers?", "output": "16 days (inverse proportion).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is a percentage?", "output": "A percentage is a fraction out of 100, like 50% = 50/100 = 0.5.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "How many millimeters in a centimeter?", "output": "10 mm = 1 cm.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "How many centimeters in a meter?", "output": "100 cm = 1 m.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "How many meters in a kilometer?", "output": "1000 m = 1 km.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "How many grams in a kilogram?", "output": "1000 g = 1 kg.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "How many milligrams in a gram?", "output": "1000 mg = 1 g.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "How many milliliters in a liter?", "output": "1000 mL = 1 L.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "How many liters in a cubic meter?", "output": "1000 L = 1 m³.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "How to convert Celsius to Fahrenheit?", "output": "F = (C x 9/5) + 32.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "How to convert Fahrenheit to Celsius?", "output": "C = (F - 32) x 5/9.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is 0 degrees Celsius in Fahrenheit?", "output": "0°C = 32°F (freezing point of water).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is 100 degrees Celsius in Fahrenheit?", "output": "100°C = 212°F (boiling point of water).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "What is 37 degrees Celsius in Fahrenheit?", "output": "37°C = 98.6°F (body temperature).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "A store sells 3 pencils for $1. How much for 12 pencils?", "output": "12 pencils = $4 (4 sets of 3).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "A train travels 120 km in 2 hours. What is its speed?", "output": "Speed = 120 / 2 = 60 km/h.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "A rectangle has length 8 and width 5. What is the perimeter?", "output": "Perimeter = 2 x (8 + 5) = 26.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "A rectangle has length 8 and width 5. What is the area?", "output": "Area = 8 x 5 = 40 square units.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "A triangle has base 6 and height 4. What is the area?", "output": "Area = 1/2 x 6 x 4 = 12 square units.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "A circle has radius 7. What is the circumference? (pi = 22/7)", "output": "Circumference = 2 x 22/7 x 7 = 44 units.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "A cube has side 3. What is the volume?", "output": "Volume = 3 x 3 x 3 = 27 cubic units.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "A box is 4 x 3 x 2. What is the volume?", "output": "Volume = 4 x 3 x 2 = 24 cubic units.", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "If 20% of a number is 10, what is the number?", "output": "The number is 50 (10 / 0.20 = 50).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}
+{"input": "If 25% of students are boys and there are 200 students, how many boys?", "output": "50 boys (200 x 0.25 = 50).", "bidang": "matematika", "judul": "Advanced", "subjudul": "Data and Probability"}

@@ -1,0 +1,31 @@
+{"input": "How do you round a number in JavaScript?", "output": "Math.round(3.7) returns 4."}
+{"input": "Apa itu variabel?", "output": "Variabel adalah tempat menyimpan data dalam program."}
+{"input": "How many bytes in a kilobyte?", "output": "There are 1,024 bytes in a kilobyte (KB)."}
+{"input": "How do you write an if statement in JavaScript?", "output": "if (x > 5) { console.log(\"Big\"); }"}
+{"input": "Apa itu print?", "output": "Print adalah perintah untuk menampilkan teks di layar."}
+{"input": "Apa itu tipe data?", "output": "Tipe data adalah jenis data seperti angka, teks, atau boolean."}
+{"input": "Apa itu fungsi?", "output": "Fungsi adalah blok kode yang bisa dipanggil berulang."}
+{"input": "What is a binary number?", "output": "Binary is a number system using only 0 and 1, used by computers."}
+{"input": "What is a command line?", "output": "A command line lets users interact with a computer by typing text commands."}
+{"input": "Apa itu CSS?", "output": "CSS adalah bahasa untuk mengatur tampilan web."}
+{"input": "What is an output device?", "output": "An output device shows results, like a monitor or printer."}
+{"input": "How do you convert to uppercase?", "output": "\"hello\".toUpperCase() returns \"HELLO\"."}
+{"input": "What is a laptop?", "output": "A laptop is a portable computer with a built-in screen and keyboard."}
+{"input": "Apa itu Windows?", "output": "Windows adalah operating system dari Microsoft."}
+{"input": "How do you convert to uppercase in Python?", "output": "\"hello\".upper() returns \"HELLO\"."}
+{"input": "Apa itu iOS?", "output": "iOS adalah operating system untuk HP dari Apple."}
+{"input": "How do you sort a list in Python?", "output": "my_list.sort() or sorted(my_list)"}
+{"input": "Apa itu HTML?", "output": "HTML adalah bahasa untuk membuat halaman web."}
+{"input": "How do you add to a list in Python?", "output": "my_list.append(4)"}
+{"input": "How do you write to a file in Python?", "output": "with open(\"file.txt\", \"w\") as f:\n    f.write(\"Hello\")"}
+{"input": "How do you get a dictionary value in Python?", "output": "my_dict[\"key\"] or my_dict.get(\"key\")"}
+{"input": "What is a graphics card?", "output": "A graphics card (GPU) processes images and video for the computer."}
+{"input": "What is an integer?", "output": "An integer is a whole number, like 5 or -3."}
+{"input": "What is a boolean?", "output": "A boolean is a value that is either true or false."}
+{"input": "What is a computer?", "output": "A computer is a machine that processes data into useful information."}
+{"input": "How do you create a variable in JavaScript?", "output": "let x = 10; or const y = \"hello\";"}
+{"input": "How do you write an arrow function?", "output": "const add = (a, b) => a + b;"}
+{"input": "How do you add event listener in JavaScript?", "output": "element.addEventListener(\"click\", function() { ... })"}
+{"input": "What is a firewall?", "output": "A firewall is a security system that blocks unauthorized access to a network."}
+{"input": "What are the main parts of a computer?", "output": "CPU, memory (RAM), storage, input devices, output devices."}
+{"input": "Apa itu flashdisk?", "output": "Flashdisk adalah alat penyimpanan data portabel."}

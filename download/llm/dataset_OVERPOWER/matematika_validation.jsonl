@@ -1,0 +1,11 @@
+{"input": "A rectangle has length 8 and width 5. What is the area?", "output": "Area = 8 x 5 = 40 square units."}
+{"input": "If 25% of students are boys and there are 200 students, how many boys?", "output": "50 boys (200 x 0.25 = 50)."}
+{"input": "What is an impossible event?", "output": "An impossible event has probability 0 (0%)."}
+{"input": "What is probability?", "output": "Probability is how likely something is to happen, from 0 (impossible) to 1 (certain)."}
+{"input": "What is the mode?", "output": "The mode is the value that appears most often."}
+{"input": "What is a standard die?", "output": "A standard die has 6 faces numbered 1-6, each equally likely."}
+{"input": "What is the range?", "output": "The range is the difference between highest and lowest values."}
+{"input": "How many milligrams in a gram?", "output": "1000 mg = 1 g."}
+{"input": "What is the origin?", "output": "The origin is where the x-axis and y-axis meet (0, 0)."}
+{"input": "What is the mean?", "output": "The mean is the average: sum of all values divided by count."}
+{"input": "What is the y-axis?", "output": "The y-axis is the vertical line on a graph."}

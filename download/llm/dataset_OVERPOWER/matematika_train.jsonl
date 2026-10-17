@@ -1,0 +1,41 @@
+{"input": "What is a pie chart?", "output": "A pie chart shows parts of a whole using slices of a circle."}
+{"input": "What is a unit rate?", "output": "A unit rate is a rate per 1 unit, like 60 km per hour."}
+{"input": "How many milliliters in a liter?", "output": "1000 mL = 1 L."}
+{"input": "What is 0 degrees Celsius in Fahrenheit?", "output": "0°C = 32°F (freezing point of water)."}
+{"input": "What is 37 degrees Celsius in Fahrenheit?", "output": "37°C = 98.6°F (body temperature)."}
+{"input": "A train travels 120 km in 2 hours. What is its speed?", "output": "Speed = 120 / 2 = 60 km/h."}
+{"input": "If 5 pens cost $10, how much is 1 pen?", "output": "1 pen costs $10 / 5 = $2."}
+{"input": "What is the probability of rolling an even number on a die?", "output": "The probability is 3/6 = 1/2."}
+{"input": "What is a proportion?", "output": "A proportion is two equal ratios, like 1/2 = 2/4."}
+{"input": "If a car travels 60 km in 1 hour, how far in 3 hours?", "output": "180 km in 3 hours."}
+{"input": "What is a fair coin?", "output": "A fair coin has equal probability of heads and tails."}
+{"input": "A store sells 3 pencils for $1. How much for 12 pencils?", "output": "12 pencils = $4 (4 sets of 3)."}
+{"input": "What is a bar graph?", "output": "A bar graph uses bars of different heights to show data."}
+{"input": "If 8 workers build a wall in 4 days, how long for 2 workers?", "output": "16 days (inverse proportion)."}
+{"input": "If 3 apples cost $6, how much is 1 apple?", "output": "1 apple costs $6 / 3 = $2."}
+{"input": "How many centimeters in a meter?", "output": "100 cm = 1 m."}
+{"input": "What is a certain event?", "output": "A certain event has probability 1 (100%)."}
+{"input": "How many liters in a cubic meter?", "output": "1000 L = 1 m³."}
+{"input": "A triangle has base 6 and height 4. What is the area?", "output": "Area = 1/2 x 6 x 4 = 12 square units."}
+{"input": "How many meters in a kilometer?", "output": "1000 m = 1 km."}
+{"input": "If 20% of a number is 10, what is the number?", "output": "The number is 50 (10 / 0.20 = 50)."}
+{"input": "A box is 4 x 3 x 2. What is the volume?", "output": "Volume = 4 x 3 x 2 = 24 cubic units."}
+{"input": "A cube has side 3. What is the volume?", "output": "Volume = 3 x 3 x 3 = 27 cubic units."}
+{"input": "How many millimeters in a centimeter?", "output": "10 mm = 1 cm."}
+{"input": "What is the probability of flipping heads on a coin?", "output": "The probability of heads is 1/2 or 50%."}
+{"input": "What is the median?", "output": "The median is the middle value when data is sorted."}
+{"input": "What is a percentage?", "output": "A percentage is a fraction out of 100, like 50% = 50/100 = 0.5."}
+{"input": "What is the probability of rolling a 6 on a die?", "output": "The probability is 1/6."}
+{"input": "What is the x-axis?", "output": "The x-axis is the horizontal line on a graph."}
+{"input": "How to convert Fahrenheit to Celsius?", "output": "C = (F - 32) x 5/9."}
+{"input": "How many grams in a kilogram?", "output": "1000 g = 1 kg."}
+{"input": "If a recipe needs 2 cups of flour for 4 servings, how much for 8 servings?", "output": "4 cups of flour for 8 servings."}
+{"input": "What is 100 degrees Celsius in Fahrenheit?", "output": "100°C = 212°F (boiling point of water)."}
+{"input": "How to convert Celsius to Fahrenheit?", "output": "F = (C x 9/5) + 32."}
+{"input": "What is a line graph?", "output": "A line graph uses points connected by lines to show trends over time."}
+{"input": "A rectangle has length 8 and width 5. What is the perimeter?", "output": "Perimeter = 2 x (8 + 5) = 26."}
+{"input": "What is a ratio?", "output": "A ratio compares two quantities, like 2:3."}
+{"input": "What is a pictograph?", "output": "A pictograph uses pictures or symbols to represent data."}
+{"input": "A circle has radius 7. What is the circumference? (pi = 22/7)", "output": "Circumference = 2 x 22/7 x 7 = 44 units."}
+{"input": "If 1 cm on a map = 10 km real, what is 5 cm on the map?", "output": "50 km real distance."}
+{"input": "What is sample space?", "output": "The sample space is all possible outcomes of an experiment."}
