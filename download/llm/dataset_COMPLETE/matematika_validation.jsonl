@@ -1,0 +1,44 @@
+{"input": "-7 - (-5) = ?", "output": "-2"}
+{"input": "16 + (13) = ?", "output": "29"}
+{"input": "6.0 - 0.3 = ?", "output": "5.7"}
+{"input": "1 - (-12) = ?", "output": "13"}
+{"input": "1.8 - 4.4 = ?", "output": "-2.6"}
+{"input": "20 - (-4) = ?", "output": "24"}
+{"input": "14 + (-7) = ?", "output": "7"}
+{"input": "What is the area of a triangle with base 8 and height 5?", "output": "Area = 1/2 x 8 x 5 = 20 square units."}
+{"input": "17 + (10) = ?", "output": "27"}
+{"input": "What is the perimeter of a rectangle with length 7 and width 3?", "output": "Perimeter = 2 x (7 + 3) = 20 units."}
+{"input": "2.8 - 1.9 = ?", "output": "0.9"}
+{"input": "9.9 + 5.3 = ?", "output": "15.2"}
+{"input": "8.0 + 7.3 = ?", "output": "15.3"}
+{"input": "2.9 - 0.5 = ?", "output": "2.4"}
+{"input": "What is the area of a triangle with base 7 and height 6?", "output": "Area = 1/2 x 7 x 6 = 21 square units."}
+{"input": "-17 + (-10) = ?", "output": "-27"}
+{"input": "2.0 - 1.5 = ?", "output": "0.5"}
+{"input": "4.8 - 0.9 = ?", "output": "3.9"}
+{"input": "-17 + (-17) = ?", "output": "-34"}
+{"input": "15 - (6) = ?", "output": "9"}
+{"input": "What is the area of a triangle with base 5 and height 10?", "output": "Area = 1/2 x 5 x 10 = 25 square units."}
+{"input": "3.2 - 4.4 = ?", "output": "-1.2"}
+{"input": "7 + (15) = ?", "output": "22"}
+{"input": "19 + (13) = ?", "output": "32"}
+{"input": "18 - (-7) = ?", "output": "25"}
+{"input": "What is the perimeter of a rectangle with length 6 and width 6?", "output": "Perimeter = 2 x (6 + 6) = 24 units."}
+{"input": "0 + (-16) = ?", "output": "-16"}
+{"input": "5 + (-12) = ?", "output": "-7"}
+{"input": "8.4 + 6.0 = ?", "output": "14.4"}
+{"input": "9.8 + 6.4 = ?", "output": "16.2"}
+{"input": "19 - (-11) = ?", "output": "30"}
+{"input": "-10 + (6) = ?", "output": "-4"}
+{"input": "-19 - (-9) = ?", "output": "-10"}
+{"input": "-13 - (-16) = ?", "output": "3"}
+{"input": "9 + (-2) = ?", "output": "7"}
+{"input": "8.7 - 0.3 = ?", "output": "8.4"}
+{"input": "15 - (-20) = ?", "output": "35"}
+{"input": "3.1 - 1.5 = ?", "output": "1.6"}
+{"input": "-17 + (0) = ?", "output": "-17"}
+{"input": "-12 + (2) = ?", "output": "-10"}
+{"input": "-18 - (2) = ?", "output": "-20"}
+{"input": "1.1 + 2.8 = ?", "output": "3.9"}
+{"input": "9.2 - 4.8 = ?", "output": "4.4"}
+{"input": "What is the perimeter of a rectangle with length 3 and width 3?", "output": "Perimeter = 2 x (3 + 3) = 12 units."}
