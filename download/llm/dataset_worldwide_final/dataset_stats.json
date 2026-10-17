@@ -1,0 +1,40 @@
+{
+  "total": 7245,
+  "train": 5782,
+  "validation": 1463,
+  "categories": {
+    "Australia_elementary": 25,
+    "China_elementary": 48,
+    "Europe_elementary": 48,
+    "IPA": 104,
+    "India_elementary": 26,
+    "Japan_elementary": 51,
+    "PJOK": 64,
+    "PKn": 85,
+    "SD2": 252,
+    "SD3": 160,
+    "SD4": 41,
+    "SD5": 7,
+    "SD6": 56,
+    "UK_primary": 36,
+    "US_elementary": 231,
+    "angka_berhitung": 1400,
+    "bahasa": 507,
+    "dataset": 3006,
+    "informatika": 47,
+    "konversasi": 22,
+    "multibahasa": 216,
+    "seni_budaya": 57,
+    "unknown": 327,
+    "world_facts": 81,
+    "world_history": 47,
+    "world_languages": 243,
+    "world_science": 58
+  },
+  "total_categories": 27,
+  "format": "jsonl",
+  "keys": [
+    "input",
+    "output"
+  ]
+}

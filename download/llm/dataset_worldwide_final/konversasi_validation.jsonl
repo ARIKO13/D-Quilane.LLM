@@ -1,0 +1,5 @@
+{"input": "Halo apa kabar?", "output": "Halo! Aku baik-baik saja, terima kasih."}
+{"input": "Jam berapa sekarang", "output": "Aku tidak tahu jam berapa sekarang, cek jam."}
+{"input": "Goodbye", "output": "Sampai jumpa! Semoga harimu menyenangkan."}
+{"input": "kamu pintar?", "output": "Aku belajar dari data. Coba tanya aku!"}
+{"input": "apa kabar", "output": "Aku baik-baik saja, terima kasih sudah bertanya!"}

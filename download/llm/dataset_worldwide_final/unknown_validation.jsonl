@@ -1,0 +1,66 @@
+{"input": "2 kuadrat = ?", "output": "4"}
+{"input": "8 x 9 + 3 = ?", "output": "75"}
+{"input": "Semua DNA menyimpan informasi genetik. DNA manusia adalah DNA.", "output": "Kesimpulan: DNA manusia menyimpan informasi genetik."}
+{"input": "14 x 3 + 6 = ?", "output": "48"}
+{"input": "11 x 4 + 5 = ?", "output": "49"}
+{"input": "Besar : kecil :: tinggi : ?", "output": "pendek"}
+{"input": "12 + 2 + 6 = ?", "output": "20"}
+{"input": "Apa ibu kota provinsi Jawa Barat?", "output": "Ibu kota provinsi Jawa Barat adalah Bandung."}
+{"input": "8 + 9 + 8 = ?", "output": "25"}
+{"input": "18 - 7 + 9 = ?", "output": "20"}
+{"input": "10 - 14 + 6 = ?", "output": "2"}
+{"input": "2 + 1 + 2 = ?", "output": "5"}
+{"input": "1 - 4 + 9 = ?", "output": "6"}
+{"input": "8 - 2 + 6 = ?", "output": "12"}
+{"input": "11 - 7 + 8 = ?", "output": "12"}
+{"input": "18 x 17 + 1 = ?", "output": "307"}
+{"input": "Tidak ada air yang mendidih pada seratus derajat. air di gelas adalah air.", "output": "Kesimpulan: air di gelas tidak mendidih pada seratus derajat."}
+{"input": "Akar kuadrat dari 25 = ?", "output": "5"}
+{"input": "Apa itu refraksi cahaya?", "output": "Refraksi cahaya adalah pembelokan cahaya saat melewati medium berbeda."}
+{"input": "Pintu : rumah :: gerbang : ?", "output": "halaman"}
+{"input": "5 x 8 + 7 = ?", "output": "47"}
+{"input": "20 kuadrat = ?", "output": "400"}
+{"input": "2 jam 30 menit + 1 jam 45 menit = ?", "output": "4 jam 15 menit"}
+{"input": "Apa itu arus searah (DC)?", "output": "DC adalah arus listrik yang mengalir satu arah."}
+{"input": "Semua hewan butuh makan. singa adalah hewan.", "output": "Kesimpulan: singa butuh makan."}
+{"input": "Belanja Rp 23,500 dengan uang Rp 50,000. Berapa kembalian?", "output": "Kembalian Rp 26,500"}
+{"input": "Apa itu massa jenis?", "output": "Massa jenis adalah massa per satuan volume (rho = m/V)."}
+{"input": "Apa itu resonansi?", "output": "Resonansi adalah ikut bergetarnya benda karena getaran lain dengan frekuensi sama."}
+{"input": "Komputer : data :: otak : ?", "output": "pikiran"}
+{"input": "Sebagian planet mengelilingi matahari. Bumi adalah planet.", "output": "Kesimpulan: Bumi mungkin mengelilingi matahari."}
+{"input": "10 - 13 + 6 = ?", "output": "3"}
+{"input": "Tidak ada pilot yang bisa mendaratkan pesawat. Kapten Budi adalah pilot.", "output": "Kesimpulan: Kapten Budi tidak bisa mendaratkan pesawat."}
+{"input": "Apa ibu kota provinsi Sulawesi Utara?", "output": "Ibu kota provinsi Sulawesi Utara adalah Manado."}
+{"input": "14 + 18 + 8 = ?", "output": "40"}
+{"input": "3 - 8 + 6 = ?", "output": "1"}
+{"input": "9 + 2 + 7 = ?", "output": "18"}
+{"input": "Sebagian benda cair mengikuti bentuk wadah. air adalah benda cair.", "output": "Kesimpulan: air mungkin mengikuti bentuk wadah."}
+{"input": "Sebagian dokter menyembuhkan pasien. dr. Siti adalah dokter.", "output": "Kesimpulan: dr. Siti mungkin menyembuhkan pasien."}
+{"input": "Tidak ada benda gas yang memenuhi ruangan. udara adalah benda gas.", "output": "Kesimpulan: udara tidak memenuhi ruangan."}
+{"input": "Apa ibu kota provinsi Papua?", "output": "Ibu kota provinsi Papua adalah Jayapura."}
+{"input": "4 jam 10 menit + 1 jam 20 menit = ?", "output": "5 jam 30 menit"}
+{"input": "11 x 14 + 10 = ?", "output": "164"}
+{"input": "Apa ibu kota provinsi Gorontalo?", "output": "Ibu kota provinsi Gorontalo adalah Gorontalo."}
+{"input": "Semua mahasiswa punya KTM. Andi adalah mahasiswa.", "output": "Kesimpulan: Andi punya KTM."}
+{"input": "10 - 8 + 5 = ?", "output": "7"}
+{"input": "Apa ibu kota provinsi Lampung?", "output": "Ibu kota provinsi Lampung adalah Bandar Lampung."}
+{"input": "Semua ilmuwan meneliti alam. Einstein adalah ilmuwan.", "output": "Kesimpulan: Einstein meneliti alam."}
+{"input": "12 x 12 + 4 = ?", "output": "148"}
+{"input": "Sebagian mahasiswa punya KTM. Andi adalah mahasiswa.", "output": "Kesimpulan: Andi mungkin punya KTM."}
+{"input": "Apa itu efek rumah kaca?", "output": "Efek rumah kaca adalah gas di atmosfer menangkap panas matahari."}
+{"input": "Pilot : pesawat :: masinis : ?", "output": "kereta"}
+{"input": "13 x 8 + 3 = ?", "output": "107"}
+{"input": "Apa ibu kota provinsi Kepulauan Bangka Belitung?", "output": "Ibu kota provinsi Kepulauan Bangka Belitung adalah Pangkalpinang."}
+{"input": "3 km = ? m", "output": "3000 m"}
+{"input": "Jika hari ini Senin, besok apa?", "output": "Besok adalah Selasa."}
+{"input": "Sebagian satelit mengelilingi planet. Bulan adalah satelit.", "output": "Kesimpulan: Bulan mungkin mengelilingi planet."}
+{"input": "5 x 6 + 7 = ?", "output": "37"}
+{"input": "Tidak ada logam yang menghantarkan listrik. tembaga adalah logam.", "output": "Kesimpulan: tembaga tidak menghantarkan listrik."}
+{"input": "4 - 4 + 7 = ?", "output": "7"}
+{"input": "Apa ibu kota provinsi Papua Barat Daya?", "output": "Ibu kota provinsi Papua Barat Daya adalah Sorong."}
+{"input": "Apa ibu kota provinsi Sulawesi Tengah?", "output": "Ibu kota provinsi Sulawesi Tengah adalah Palu."}
+{"input": "Tidak ada burung yang bisa terbang. Garuda adalah burung.", "output": "Kesimpulan: Garuda tidak bisa terbang."}
+{"input": "6 + 17 + 8 = ?", "output": "31"}
+{"input": "18 + 8 + 6 = ?", "output": "32"}
+{"input": "20 - 3 + 8 = ?", "output": "25"}
+{"input": "Jika air didinginkan sampai 0 derajat, apa yang terjadi?", "output": "Air akan membeku menjadi es."}
