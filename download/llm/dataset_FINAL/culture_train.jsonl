@@ -1,0 +1,88 @@
+{"input": "Who was William Shakespeare?", "output": "Shakespeare was an English playwright, considered the greatest writer in English."}
+{"input": "What is classical music?", "output": "Classical music is Western art music from the 11th century to present."}
+{"input": "Who was Auguste Rodin?", "output": "Rodin was a French sculptor, creator of The Thinker."}
+{"input": "What is meditation?", "output": "Meditation is a practice for calming the mind, used in Buddhism and Hinduism."}
+{"input": "Who painted The Birth of Venus?", "output": "Sandro Botticelli painted The Birth of Venus."}
+{"input": "What are the major world religions?", "output": "The major religions are Christianity, Islam, Hinduism, Buddhism, Judaism."}
+{"input": "What is polytheism?", "output": "Polytheism is belief in many gods (Hinduism, ancient Greek)."}
+{"input": "Who was Salvador Dali?", "output": "Dali was a Spanish Surrealist painter, known for melting clocks."}
+{"input": "Who was Rembrandt?", "output": "Rembrandt was a Dutch painter known for light and shadow (chiaroscuro)."}
+{"input": "What is rock music?", "output": "Rock is a genre from the 1950s, using electric guitars and drums."}
+{"input": "What is The Thinker?", "output": "The Thinker is a bronze sculpture by Auguste Rodin."}
+{"input": "Who was Bob Marley?", "output": "Bob Marley was a Jamaican reggae musician."}
+{"input": "What is reincarnation?", "output": "Reincarnation is the belief that the soul is reborn in a new body."}
+{"input": "Who was Raphael?", "output": "Raphael was an Italian Renaissance painter, known for Madonnas."}
+{"input": "Who wrote Frankenstein?", "output": "Mary Shelley wrote Frankenstein."}
+{"input": "What is Judaism?", "output": "Judaism is one of the oldest monotheistic religions, founded by Abraham."}
+{"input": "Who was Elvis Presley?", "output": "Elvis Presley was the \"King of Rock and Roll.\""}
+{"input": "What is Ramadan?", "output": "Ramadan is the Islamic holy month of fasting."}
+{"input": "Who wrote Winnie the Pooh?", "output": "A.A. Milne wrote Winnie the Pooh."}
+{"input": "What is the Venus de Milo?", "output": "The Venus de Milo is an ancient Greek statue of the goddess Aphrodite."}
+{"input": "Who wrote Pride and Prejudice?", "output": "Jane Austen wrote Pride and Prejudice."}
+{"input": "What is hip hop?", "output": "Hip hop is a culture from the 1970s, including rap music, DJing, and breakdancing."}
+{"input": "Who wrote The Odyssey?", "output": "Homer wrote The Odyssey."}
+{"input": "What is jazz?", "output": "Jazz is a music genre from African American communities, known for improvisation."}
+{"input": "What is the Hajj?", "output": "The Hajj is the Islamic pilgrimage to Mecca."}
+{"input": "Who painted The Starry Night?", "output": "Vincent van Gogh painted The Starry Night."}
+{"input": "Where was Buddhism founded?", "output": "Buddhism was founded in India (Nepal)."}
+{"input": "Who wrote the Harry Potter series?", "output": "J.K. Rowling wrote the Harry Potter series."}
+{"input": "What is Rosh Hashanah?", "output": "Rosh Hashanah is the Jewish New Year."}
+{"input": "Who wrote The Iliad?", "output": "Homer wrote The Iliad."}
+{"input": "Who wrote The Adventures of Tom Sawyer?", "output": "Mark Twain wrote The Adventures of Tom Sawyer."}
+{"input": "What is Eid?", "output": "Eid al-Fitr celebrates the end of Ramadan fasting."}
+{"input": "Who wrote Dracula?", "output": "Bram Stoker wrote Dracula."}
+{"input": "What is the holy book of Judaism?", "output": "The Torah is the holy book of Judaism."}
+{"input": "Who wrote Oliver Twist?", "output": "Charles Dickens wrote Oliver Twist."}
+{"input": "What is the holy book of Sikhism?", "output": "The Guru Granth Sahib is the holy book of Sikhism."}
+{"input": "What is a church?", "output": "A church is a place of worship for Christians."}
+{"input": "Who painted The Great Wave?", "output": "Hokusai painted The Great Wave off Kanagawa."}
+{"input": "Who wrote The Lord of the Rings?", "output": "J.R.R. Tolkien wrote The Lord of the Rings."}
+{"input": "What is the Four Noble Truths?", "output": "The Four Noble Truths explain the nature of suffering and the path to end it."}
+{"input": "Who was Michael Jackson?", "output": "Michael Jackson was the \"King of Pop.\""}
+{"input": "Where was Islam founded?", "output": "Islam was founded in Mecca, Saudi Arabia."}
+{"input": "Where was Christianity founded?", "output": "Christianity was founded in the Middle East (Jerusalem)."}
+{"input": "What is reggae?", "output": "Reggae is a genre from Jamaica, associated with Bob Marley."}
+{"input": "What is Vesak?", "output": "Vesak celebrates the birth, enlightenment, and death of Buddha."}
+{"input": "What is folk music?", "output": "Folk music is traditional music passed down through generations."}
+{"input": "Who painted The Scream?", "output": "Edvard Munch painted The Scream."}
+{"input": "Where is the Mona Lisa displayed?", "output": "The Mona Lisa is displayed at the Louvre Museum in Paris."}
+{"input": "What is Hinduism?", "output": "Hinduism is one of the oldest religions, originating in India."}
+{"input": "Who painted The Last Supper?", "output": "Leonardo da Vinci painted The Last Supper."}
+{"input": "Who wrote 1984?", "output": "George Orwell wrote 1984."}
+{"input": "Who wrote Alice in Wonderland?", "output": "Lewis Carroll wrote Alice in Wonderland."}
+{"input": "Who wrote A Christmas Carol?", "output": "Charles Dickens wrote A Christmas Carol."}
+{"input": "Who was Bach?", "output": "Johann Sebastian Bach was a German Baroque composer."}
+{"input": "What is moksha?", "output": "Moksha is the Hindu concept of liberation from the cycle of rebirth."}
+{"input": "What is a mosque?", "output": "A mosque is a place of worship for Muslims."}
+{"input": "Who was Claude Monet?", "output": "Monet was a French Impressionist painter, known for water lilies."}
+{"input": "Who was Vincent van Gogh?", "output": "Van Gogh was a Dutch Post-Impressionist painter known for vivid colors."}
+{"input": "Who was Chopin?", "output": "Frederic Chopin was a Polish composer known for piano music."}
+{"input": "What is the Eightfold Path?", "output": "The Eightfold Path is the Buddhist path to enlightenment."}
+{"input": "What is Hanukkah?", "output": "Hanukkah is the Jewish festival of lights."}
+{"input": "Who wrote The Little Prince?", "output": "Antoine de Saint-Exupery wrote The Little Prince."}
+{"input": "What is Sikhism?", "output": "Sikhism is a religion founded in India by Guru Nanak."}
+{"input": "What is opera?", "output": "Opera is a theatrical performance with singing and orchestra."}
+{"input": "Who painted Sunflowers?", "output": "Vincent van Gogh painted the Sunflowers series."}
+{"input": "Where was Judaism founded?", "output": "Judaism was founded in the Middle East (Canaan)."}
+{"input": "What is a temple?", "output": "A temple is a place of worship for Hindus, Buddhists, and others."}
+{"input": "What is the holy book of Christianity?", "output": "The Bible is the holy book of Christianity."}
+{"input": "What is karma?", "output": "Karma is the concept that actions have consequences in this life or the next."}
+{"input": "What is monotheism?", "output": "Monotheism is belief in one God (Christianity, Islam, Judaism)."}
+{"input": "Who wrote Don Quixote?", "output": "Miguel de Cervantes wrote Don Quixote."}
+{"input": "What is blues?", "output": "Blues is a genre from African American communities, expressing sadness and struggle."}
+{"input": "What is Passover?", "output": "Passover celebrates the Jewish exodus from Egypt."}
+{"input": "What are Hindu holy books?", "output": "The Vedas, Upanishads, and Bhagavad Gita are Hindu holy books."}
+{"input": "Who was The Beatles?", "output": "The Beatles were a famous British rock band: John, Paul, George, Ringo."}
+{"input": "What is Yom Kippur?", "output": "Yom Kippur is the Jewish Day of Atonement."}
+{"input": "Who wrote The Cat in the Hat?", "output": "Dr. Seuss wrote The Cat in the Hat."}
+{"input": "Who wrote War and Peace?", "output": "Leo Tolstoy wrote War and Peace."}
+{"input": "What is a synagogue?", "output": "A synagogue is a place of worship for Jews."}
+{"input": "What is Easter?", "output": "Easter celebrates the resurrection of Jesus Christ."}
+{"input": "What is the holy book of Islam?", "output": "The Quran is the holy book of Islam."}
+{"input": "What is pop music?", "output": "Pop music is popular music with catchy melodies and simple structures."}
+{"input": "Who was the Buddha?", "output": "The Buddha was Siddhartha Gautama, who achieved enlightenment."}
+{"input": "What is electronic music?", "output": "Electronic music uses synthesizers and computers to create sound."}
+{"input": "What is nirvana?", "output": "Nirvana is the Buddhist state of perfect peace and liberation from suffering."}
+{"input": "Who wrote Romeo and Juliet?", "output": "William Shakespeare wrote Romeo and Juliet."}
+{"input": "Who was Frida Kahlo?", "output": "Frida Kahlo was a Mexican painter known for self-portraits."}
+{"input": "What is the Statue of David?", "output": "Michelangelo's David is 5.17 meters tall and carved from marble."}

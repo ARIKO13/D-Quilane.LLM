@@ -1,0 +1,484 @@
+{"input": "Lebah in English?", "output": "Lebah in English is Bee."}
+{"input": "What is the official language of Cameroon?", "output": "The official language of Cameroon is French."}
+{"input": "Apa bahasa resmi Islandia?", "output": "Bahasa resmi Islandia adalah bahasa Islandia."}
+{"input": "Buruk in English?", "output": "Buruk in English is Bad."}
+{"input": "Cepat in English?", "output": "Cepat in English is Fast."}
+{"input": "Sapi in English?", "output": "Sapi in English is Cow."}
+{"input": "Speak in Indonesian?", "output": "Speak in Indonesian is Bicara."}
+{"input": "Love in Indonesian?", "output": "Love in Indonesian is Cinta."}
+{"input": "Kemeja in English?", "output": "Kemeja in English is Shirt."}
+{"input": "Blue in Indonesian?", "output": "Blue in Indonesian is Biru."}
+{"input": "What is the official language of Burkina Faso?", "output": "The official language of Burkina Faso is French."}
+{"input": "Apa bahasa resmi Bolivia?", "output": "Bahasa resmi Bolivia adalah bahasa Spanyol."}
+{"input": "Spoon in Indonesian?", "output": "Spoon in Indonesian is Sendok."}
+{"input": "What is the official language of Eritrea?", "output": "The official language of Eritrea is Tigrinya."}
+{"input": "What is the official language of Central African Republic?", "output": "The official language of Central African Republic is French."}
+{"input": "Berdiri in English?", "output": "Berdiri in English is Stand."}
+{"input": "Kertas in English?", "output": "Kertas in English is Paper."}
+{"input": "Cantik in English?", "output": "Cantik in English is Beautiful."}
+{"input": "Apa bahasa resmi Georgia?", "output": "Bahasa resmi Georgia adalah bahasa Georgia."}
+{"input": "What is the official language of Panama?", "output": "The official language of Panama is Spanish."}
+{"input": "Apa bahasa resmi Paraguay?", "output": "Bahasa resmi Paraguay adalah bahasa Spanyol."}
+{"input": "Truck in Indonesian?", "output": "Truck in Indonesian is Truk."}
+{"input": "Tiger in Indonesian?", "output": "Tiger in Indonesian is Harimau."}
+{"input": "Earth in Indonesian?", "output": "Earth in Indonesian is Bumi."}
+{"input": "Keju in English?", "output": "Keju in English is Cheese."}
+{"input": "Tebal in English?", "output": "Tebal in English is Thick."}
+{"input": "Plate in Indonesian?", "output": "Plate in Indonesian is Piring."}
+{"input": "Apa bahasa resmi Portugal?", "output": "Bahasa resmi Portugal adalah bahasa Portugal."}
+{"input": "Eraser in Indonesian?", "output": "Eraser in Indonesian is Penghapus."}
+{"input": "What is the official language of Belarus?", "output": "The official language of Belarus is Belarusian."}
+{"input": "Need in Indonesian?", "output": "Need in Indonesian is Butuh."}
+{"input": "Apa bahasa resmi Kolombia?", "output": "Bahasa resmi Kolombia adalah bahasa Spanyol."}
+{"input": "What is the official language of Namibia?", "output": "The official language of Namibia is English."}
+{"input": "Apa bahasa resmi Mesir?", "output": "Bahasa resmi Mesir adalah bahasa Arab."}
+{"input": "What is the official language of San Marino?", "output": "The official language of San Marino is Italian."}
+{"input": "What is the official language of Barbados?", "output": "The official language of Barbados is English."}
+{"input": "Apa bahasa resmi Spanyol?", "output": "Bahasa resmi Spanyol adalah bahasa Spanyol."}
+{"input": "Bathroom in Indonesian?", "output": "Bathroom in Indonesian is Kamar mandi."}
+{"input": "Beautiful in Indonesian?", "output": "Beautiful in Indonesian is Cantik."}
+{"input": "Apa bahasa resmi Armenia?", "output": "Bahasa resmi Armenia adalah bahasa Armenia."}
+{"input": "Open in Indonesian?", "output": "Open in Indonesian is Membuka."}
+{"input": "Snake in Indonesian?", "output": "Snake in Indonesian is Ular."}
+{"input": "Keponakan laki-laki in English?", "output": "Keponakan laki-laki in English is Nephew."}
+{"input": "Kapal in English?", "output": "Kapal in English is Ship."}
+{"input": "Air in English?", "output": "Air in English is Water."}
+{"input": "Apa bahasa resmi Aljazair?", "output": "Bahasa resmi Aljazair adalah bahasa Arab."}
+{"input": "What is the official language of Tuvalu?", "output": "The official language of Tuvalu is Tuvaluan."}
+{"input": "Tidur in English?", "output": "Tidur in English is Sleep."}
+{"input": "Hate in Indonesian?", "output": "Hate in Indonesian is Benci."}
+{"input": "Apa bahasa resmi Pakistan?", "output": "Bahasa resmi Pakistan adalah bahasa Urdu."}
+{"input": "Bee in Indonesian?", "output": "Bee in Indonesian is Lebah."}
+{"input": "Window in Indonesian?", "output": "Window in Indonesian is Jendela."}
+{"input": "Wind in Indonesian?", "output": "Wind in Indonesian is Angin."}
+{"input": "Botol in English?", "output": "Botol in English is Bottle."}
+{"input": "Ungu in English?", "output": "Ungu in English is Purple."}
+{"input": "Sedih in English?", "output": "Sedih in English is Sad."}
+{"input": "Apa bahasa resmi Uzbekistan?", "output": "Bahasa resmi Uzbekistan adalah bahasa Uzbek."}
+{"input": "What is the official language of Honduras?", "output": "The official language of Honduras is Spanish."}
+{"input": "Apa bahasa resmi Nigeria?", "output": "Bahasa resmi Nigeria adalah bahasa Inggris."}
+{"input": "Kamar in English?", "output": "Kamar in English is Room."}
+{"input": "Pull in Indonesian?", "output": "Pull in Indonesian is Menarik."}
+{"input": "Apa bahasa resmi Timor Leste?", "output": "Bahasa resmi Timor Leste adalah bahasa Portugis."}
+{"input": "Menjual in English?", "output": "Menjual in English is Sell."}
+{"input": "Apa bahasa resmi Israel?", "output": "Bahasa resmi Israel adalah bahasa Ibrani."}
+{"input": "What is the official language of Angola?", "output": "The official language of Angola is Portuguese."}
+{"input": "Cow in Indonesian?", "output": "Cow in Indonesian is Sapi."}
+{"input": "Hujan in English?", "output": "Hujan in English is Rain."}
+{"input": "What is the official language of Albania?", "output": "The official language of Albania is Albanian."}
+{"input": "Butuh in English?", "output": "Butuh in English is Need."}
+{"input": "Close in Indonesian?", "output": "Close in Indonesian is Menutup."}
+{"input": "Bus in Indonesian?", "output": "Bus in Indonesian is Bus."}
+{"input": "Grandmother in Indonesian?", "output": "Grandmother in Indonesian is Nenek."}
+{"input": "Apa bahasa resmi Kanada?", "output": "Bahasa resmi Kanada adalah bahasa Inggris."}
+{"input": "Purple in Indonesian?", "output": "Purple in Indonesian is Ungu."}
+{"input": "Abu-abu in English?", "output": "Abu-abu in English is Gray."}
+{"input": "Lantai in English?", "output": "Lantai in English is Floor."}
+{"input": "Gaun in English?", "output": "Gaun in English is Dress."}
+{"input": "Uncle in Indonesian?", "output": "Uncle in Indonesian is Paman."}
+{"input": "Rain in Indonesian?", "output": "Rain in Indonesian is Hujan."}
+{"input": "What is the official language of Chad?", "output": "The official language of Chad is French."}
+{"input": "Storm in Indonesian?", "output": "Storm in Indonesian is Badai."}
+{"input": "What is the official language of Jordan?", "output": "The official language of Jordan is Arabic."}
+{"input": "Apa bahasa resmi Montenegro?", "output": "Bahasa resmi Montenegro adalah bahasa Montenegro."}
+{"input": "Fast in Indonesian?", "output": "Fast in Indonesian is Cepat."}
+{"input": "Apa bahasa resmi Uruguay?", "output": "Bahasa resmi Uruguay adalah bahasa Spanyol."}
+{"input": "Water in Indonesian?", "output": "Water in Indonesian is Air."}
+{"input": "Ayah in English?", "output": "Ayah in English is Father."}
+{"input": "What is the official language of Comoros?", "output": "The official language of Comoros is Comorian."}
+{"input": "Apa bahasa resmi Moldova?", "output": "Bahasa resmi Moldova adalah bahasa Rumania."}
+{"input": "Bread in Indonesian?", "output": "Bread in Indonesian is Roti."}
+{"input": "Ruler in Indonesian?", "output": "Ruler in Indonesian is Penggaris."}
+{"input": "What is the official language of Malta?", "output": "The official language of Malta is Maltese."}
+{"input": "What is the official language of Rwanda?", "output": "The official language of Rwanda is Kinyarwanda."}
+{"input": "Pen in Indonesian?", "output": "Pen in Indonesian is Pulpen."}
+{"input": "Apa bahasa resmi Luksemburg?", "output": "Bahasa resmi Luksemburg adalah bahasa Luksemburg."}
+{"input": "Panas in English?", "output": "Panas in English is Hot."}
+{"input": "House in Indonesian?", "output": "House in Indonesian is Rumah."}
+{"input": "What is the official language of Costa Rica?", "output": "The official language of Costa Rica is Spanish."}
+{"input": "Bad in Indonesian?", "output": "Bad in Indonesian is Buruk."}
+{"input": "Daun in English?", "output": "Daun in English is Leaf."}
+{"input": "Pintu in English?", "output": "Pintu in English is Door."}
+{"input": "Ikan in English?", "output": "Ikan in English is Fish."}
+{"input": "Apa bahasa resmi Norwegia?", "output": "Bahasa resmi Norwegia adalah bahasa Norwegia."}
+{"input": "Payung in English?", "output": "Payung in English is Umbrella."}
+{"input": "Gajah in English?", "output": "Gajah in English is Elephant."}
+{"input": "Lambat in English?", "output": "Lambat in English is Slow."}
+{"input": "What is the official language of Somalia?", "output": "The official language of Somalia is Somali."}
+{"input": "Green in Indonesian?", "output": "Green in Indonesian is Hijau."}
+{"input": "Give in Indonesian?", "output": "Give in Indonesian is Memberi."}
+{"input": "Meja in English?", "output": "Meja in English is Table."}
+{"input": "Cangkir in English?", "output": "Cangkir in English is Cup."}
+{"input": "Slow in Indonesian?", "output": "Slow in Indonesian is Lambat."}
+{"input": "Makan in English?", "output": "Makan in English is Eat."}
+{"input": "Membayar in English?", "output": "Membayar in English is Pay."}
+{"input": "What is the official language of Nicaragua?", "output": "The official language of Nicaragua is Spanish."}
+{"input": "Haus in English?", "output": "Haus in English is Thirsty."}
+{"input": "What is the official language of Kosovo?", "output": "The official language of Kosovo is Albanian."}
+{"input": "Es in English?", "output": "Es in English is Ice."}
+{"input": "Brother in Indonesian?", "output": "Brother in Indonesian is Saudara laki-laki."}
+{"input": "Telur in English?", "output": "Telur in English is Egg."}
+{"input": "Salju in English?", "output": "Salju in English is Snow."}
+{"input": "Pay in Indonesian?", "output": "Pay in Indonesian is Membayar."}
+{"input": "Singa in English?", "output": "Singa in English is Lion."}
+{"input": "Do in Indonesian?", "output": "Do in Indonesian is Melakukan."}
+{"input": "Pants in Indonesian?", "output": "Pants in Indonesian is Celana."}
+{"input": "Merah in English?", "output": "Merah in English is Red."}
+{"input": "Lupa in English?", "output": "Lupa in English is Forget."}
+{"input": "Wide in Indonesian?", "output": "Wide in Indonesian is Lebar."}
+{"input": "Suami in English?", "output": "Suami in English is Husband."}
+{"input": "Dirty in Indonesian?", "output": "Dirty in Indonesian is Kotor."}
+{"input": "Root in Indonesian?", "output": "Root in Indonesian is Akar."}
+{"input": "Kucing in English?", "output": "Kucing in English is Cat."}
+{"input": "Awan in English?", "output": "Awan in English is Cloud."}
+{"input": "Pencil in Indonesian?", "output": "Pencil in Indonesian is Pensil."}
+{"input": "Melakukan in English?", "output": "Melakukan in English is Do."}
+{"input": "Star in Indonesian?", "output": "Star in Indonesian is Bintang."}
+{"input": "Apa bahasa resmi Swiss?", "output": "Bahasa resmi Swiss adalah bahasa Jerman."}
+{"input": "Mother in Indonesian?", "output": "Mother in Indonesian is Ibu."}
+{"input": "Kopi in English?", "output": "Kopi in English is Coffee."}
+{"input": "Noodle in Indonesian?", "output": "Noodle in Indonesian is Mie."}
+{"input": "Learn in Indonesian?", "output": "Learn in Indonesian is Belajar."}
+{"input": "Keponakan perempuan in English?", "output": "Keponakan perempuan in English is Niece."}
+{"input": "Baby in Indonesian?", "output": "Baby in Indonesian is Bayi."}
+{"input": "Helikopter in English?", "output": "Helikopter in English is Helicopter."}
+{"input": "Tinggi in English?", "output": "Tinggi in English is Tall."}
+{"input": "Wash in Indonesian?", "output": "Wash in Indonesian is Mencuci."}
+{"input": "Dinding in English?", "output": "Dinding in English is Wall."}
+{"input": "Teh in English?", "output": "Teh in English is Tea."}
+{"input": "What is the official language of Estonia?", "output": "The official language of Estonia is Estonian."}
+{"input": "Bebek in English?", "output": "Bebek in English is Duck."}
+{"input": "Piring in English?", "output": "Piring in English is Plate."}
+{"input": "Chair in Indonesian?", "output": "Chair in Indonesian is Kursi."}
+{"input": "Cheese in Indonesian?", "output": "Cheese in Indonesian is Keju."}
+{"input": "Sempit in English?", "output": "Sempit in English is Narrow."}
+{"input": "What is the official language of Senegal?", "output": "The official language of Senegal is French."}
+{"input": "Pelangi in English?", "output": "Pelangi in English is Rainbow."}
+{"input": "Apa bahasa resmi Ukraina?", "output": "Bahasa resmi Ukraina adalah bahasa Ukraina."}
+{"input": "What is the official language of Bahamas?", "output": "The official language of Bahamas is English."}
+{"input": "What is the official language of Madagascar?", "output": "The official language of Madagascar is Malagasy."}
+{"input": "Apa bahasa resmi Kuba?", "output": "Bahasa resmi Kuba adalah bahasa Spanyol."}
+{"input": "Apa bahasa resmi Argentina?", "output": "Bahasa resmi Argentina adalah bahasa Spanyol."}
+{"input": "Ice in Indonesian?", "output": "Ice in Indonesian is Es."}
+{"input": "Thirsty in Indonesian?", "output": "Thirsty in Indonesian is Haus."}
+{"input": "Coffee in Indonesian?", "output": "Coffee in Indonesian is Kopi."}
+{"input": "Akar in English?", "output": "Akar in English is Root."}
+{"input": "Bayi in English?", "output": "Bayi in English is Baby."}
+{"input": "What is the official language of Iceland?", "output": "The official language of Iceland is Icelandic."}
+{"input": "Apa bahasa resmi Denmark?", "output": "Bahasa resmi Denmark adalah bahasa Denmark."}
+{"input": "Domba in English?", "output": "Domba in English is Sheep."}
+{"input": "Grandfather in Indonesian?", "output": "Grandfather in Indonesian is Kakek."}
+{"input": "Baik in English?", "output": "Baik in English is Good."}
+{"input": "Garpu in English?", "output": "Garpu in English is Fork."}
+{"input": "Apa bahasa resmi Swedia?", "output": "Bahasa resmi Swedia adalah bahasa Swedia."}
+{"input": "What is the official language of Mauritania?", "output": "The official language of Mauritania is Arabic."}
+{"input": "Mencuci in English?", "output": "Mencuci in English is Wash."}
+{"input": "Bunga in English?", "output": "Bunga in English is Flower."}
+{"input": "Hungry in Indonesian?", "output": "Hungry in Indonesian is Lapar."}
+{"input": "Snow in Indonesian?", "output": "Snow in Indonesian is Salju."}
+{"input": "Biru in English?", "output": "Biru in English is Blue."}
+{"input": "Pintar in English?", "output": "Pintar in English is Smart."}
+{"input": "Menutup in English?", "output": "Menutup in English is Close."}
+{"input": "Ambil in English?", "output": "Ambil in English is Take."}
+{"input": "Celana in English?", "output": "Celana in English is Pants."}
+{"input": "Ular in English?", "output": "Ular in English is Snake."}
+{"input": "Thunder in Indonesian?", "output": "Thunder in Indonesian is Guntur."}
+{"input": "Have in Indonesian?", "output": "Have in Indonesian is Punya."}
+{"input": "Tall in Indonesian?", "output": "Tall in Indonesian is Tinggi."}
+{"input": "Buy in Indonesian?", "output": "Buy in Indonesian is Membeli."}
+{"input": "Room in Indonesian?", "output": "Room in Indonesian is Kamar."}
+{"input": "Motorcycle in Indonesian?", "output": "Motorcycle in Indonesian is Motor."}
+{"input": "Hangat in English?", "output": "Hangat in English is Warm."}
+{"input": "Red in Indonesian?", "output": "Red in Indonesian is Merah."}
+{"input": "Apa bahasa resmi Serbia?", "output": "Bahasa resmi Serbia adalah bahasa Serbia."}
+{"input": "What is the official language of Slovenia?", "output": "The official language of Slovenia is Slovene."}
+{"input": "Angin in English?", "output": "Angin in English is Wind."}
+{"input": "Apa bahasa resmi Ethiopia?", "output": "Bahasa resmi Ethiopia adalah bahasa Amharic."}
+{"input": "What is the official language of Haiti?", "output": "The official language of Haiti is French."}
+{"input": "Pesawat in English?", "output": "Pesawat in English is Plane."}
+{"input": "Sit in Indonesian?", "output": "Sit in Indonesian is Duduk."}
+{"input": "What is the official language of South Sudan?", "output": "The official language of South Sudan is English."}
+{"input": "Cake in Indonesian?", "output": "Cake in Indonesian is Kue."}
+{"input": "Apa bahasa resmi Yunani?", "output": "Bahasa resmi Yunani adalah bahasa Yunani."}
+{"input": "Father in Indonesian?", "output": "Father in Indonesian is Ayah."}
+{"input": "Putih in English?", "output": "Putih in English is White."}
+{"input": "Read in Indonesian?", "output": "Read in Indonesian is Membaca."}
+{"input": "Atap in English?", "output": "Atap in English is Roof."}
+{"input": "Petir in English?", "output": "Petir in English is Lightning."}
+{"input": "Bed in Indonesian?", "output": "Bed in Indonesian is Kasur."}
+{"input": "Ayam in English?", "output": "Ayam in English is Chicken."}
+{"input": "Want in Indonesian?", "output": "Want in Indonesian is Ingin."}
+{"input": "Memasak in English?", "output": "Memasak in English is Cook."}
+{"input": "Rumput in English?", "output": "Rumput in English is Grass."}
+{"input": "Mengajar in English?", "output": "Mengajar in English is Teach."}
+{"input": "Sayur in English?", "output": "Sayur in English is Vegetable."}
+{"input": "Bulan in English?", "output": "Bulan in English is Moon."}
+{"input": "What is the official language of Syria?", "output": "The official language of Syria is Arabic."}
+{"input": "Gula in English?", "output": "Gula in English is Sugar."}
+{"input": "Kuda in English?", "output": "Kuda in English is Horse."}
+{"input": "Saudara laki-laki in English?", "output": "Saudara laki-laki in English is Brother."}
+{"input": "Nenek in English?", "output": "Nenek in English is Grandmother."}
+{"input": "Floor in Indonesian?", "output": "Floor in Indonesian is Lantai."}
+{"input": "Sun in Indonesian?", "output": "Sun in Indonesian is Matahari."}
+{"input": "What is the official language of El Salvador?", "output": "The official language of El Salvador is Spanish."}
+{"input": "Apa bahasa resmi Papua Nugini?", "output": "Bahasa resmi Papua Nugini adalah bahasa Inggris."}
+{"input": "Apa bahasa resmi Singapura?", "output": "Bahasa resmi Singapura adalah bahasa Inggris."}
+{"input": "Dahan in English?", "output": "Dahan in English is Branch."}
+{"input": "What is the official language of Guinea?", "output": "The official language of Guinea is French."}
+{"input": "Apa bahasa resmi Selandia Baru?", "output": "Bahasa resmi Selandia Baru adalah bahasa Inggris."}
+{"input": "Knife in Indonesian?", "output": "Knife in Indonesian is Pisau."}
+{"input": "Chicken in Indonesian?", "output": "Chicken in Indonesian is Ayam."}
+{"input": "Sendok in English?", "output": "Sendok in English is Spoon."}
+{"input": "What is the official language of Guyana?", "output": "The official language of Guyana is English."}
+{"input": "Apa bahasa resmi Rumania?", "output": "Bahasa resmi Rumania adalah bahasa Rumania."}
+{"input": "Apa bahasa resmi Azerbaijan?", "output": "Bahasa resmi Azerbaijan adalah bahasa Azerbaijan."}
+{"input": "Saudara perempuan in English?", "output": "Saudara perempuan in English is Sister."}
+{"input": "Istri in English?", "output": "Istri in English is Wife."}
+{"input": "Buku in English?", "output": "Buku in English is Book."}
+{"input": "Apa bahasa resmi Chili?", "output": "Bahasa resmi Chili adalah bahasa Spanyol."}
+{"input": "What is the official language of Zambia?", "output": "The official language of Zambia is English."}
+{"input": "What is the official language of Burundi?", "output": "The official language of Burundi is Kirundi."}
+{"input": "Roof in Indonesian?", "output": "Roof in Indonesian is Atap."}
+{"input": "Beras in English?", "output": "Beras in English is Rice."}
+{"input": "Paper in Indonesian?", "output": "Paper in Indonesian is Kertas."}
+{"input": "What is the official language of Trinidad and Tobago?", "output": "The official language of Trinidad and Tobago is English."}
+{"input": "Apa bahasa resmi Siprus?", "output": "Bahasa resmi Siprus adalah bahasa Yunani."}
+{"input": "Apa bahasa resmi Bulgaria?", "output": "Bahasa resmi Bulgaria adalah bahasa Bulgaria."}
+{"input": "Ship in Indonesian?", "output": "Ship in Indonesian is Kapal."}
+{"input": "Langit in English?", "output": "Langit in English is Sky."}
+{"input": "Motor in English?", "output": "Motor in English is Motorcycle."}
+{"input": "Berjalan in English?", "output": "Berjalan in English is Walk."}
+{"input": "Clean in Indonesian?", "output": "Clean in Indonesian is Bersih."}
+{"input": "What is the official language of DR Congo?", "output": "The official language of DR Congo is French."}
+{"input": "Penggaris in English?", "output": "Penggaris in English is Ruler."}
+{"input": "Like in Indonesian?", "output": "Like in Indonesian is Suka."}
+{"input": "Baru in English?", "output": "Baru in English is New."}
+{"input": "Table in Indonesian?", "output": "Table in Indonesian is Meja."}
+{"input": "What is the official language of Lesotho?", "output": "The official language of Lesotho is English."}
+{"input": "Guntur in English?", "output": "Guntur in English is Thunder."}
+{"input": "What is the official language of Latvia?", "output": "The official language of Latvia is Latvian."}
+{"input": "Kue in English?", "output": "Kue in English is Cake."}
+{"input": "Narrow in Indonesian?", "output": "Narrow in Indonesian is Sempit."}
+{"input": "Butterfly in Indonesian?", "output": "Butterfly in Indonesian is Kupu-kupu."}
+{"input": "Moon in Indonesian?", "output": "Moon in Indonesian is Bulan."}
+{"input": "Apa bahasa resmi Turkmenistan?", "output": "Bahasa resmi Turkmenistan adalah bahasa Turkmen."}
+{"input": "Apa bahasa resmi Polandia?", "output": "Bahasa resmi Polandia adalah bahasa Polandia."}
+{"input": "What is the official language of Cape Verde?", "output": "The official language of Cape Verde is Portuguese."}
+{"input": "Smart in Indonesian?", "output": "Smart in Indonesian is Pintar."}
+{"input": "Apa bahasa resmi Brunei?", "output": "Bahasa resmi Brunei adalah bahasa Melayu."}
+{"input": "Bicycle in Indonesian?", "output": "Bicycle in Indonesian is Sepeda."}
+{"input": "Benci in English?", "output": "Benci in English is Hate."}
+{"input": "What is the official language of Lebanon?", "output": "The official language of Lebanon is Arabic."}
+{"input": "Kuning in English?", "output": "Kuning in English is Yellow."}
+{"input": "Cloud in Indonesian?", "output": "Cloud in Indonesian is Awan."}
+{"input": "White in Indonesian?", "output": "White in Indonesian is Putih."}
+{"input": "What is the official language of Luxembourg?", "output": "The official language of Luxembourg is Luxembourgish."}
+{"input": "What is the official language of Montenegro?", "output": "The official language of Montenegro is Montenegrin."}
+{"input": "Apa bahasa resmi Tanzania?", "output": "Bahasa resmi Tanzania adalah bahasa Swahili."}
+{"input": "Lelah in English?", "output": "Lelah in English is Tired."}
+{"input": "Kamar tidur in English?", "output": "Kamar tidur in English is Bedroom."}
+{"input": "Apa bahasa resmi Afrika Selatan?", "output": "Bahasa resmi Afrika Selatan adalah bahasa Inggris."}
+{"input": "Long in Indonesian?", "output": "Long in Indonesian is Panjang."}
+{"input": "What is the official language of Fiji?", "output": "The official language of Fiji is English."}
+{"input": "Light in Indonesian?", "output": "Light in Indonesian is Ringan."}
+{"input": "Beruang in English?", "output": "Beruang in English is Bear."}
+{"input": "Nephew in Indonesian?", "output": "Nephew in Indonesian is Keponakan laki-laki."}
+{"input": "Menulis in English?", "output": "Menulis in English is Write."}
+{"input": "Sup in English?", "output": "Sup in English is Soup."}
+{"input": "Hot in Indonesian?", "output": "Hot in Indonesian is Panas."}
+{"input": "Cook in Indonesian?", "output": "Cook in Indonesian is Memasak."}
+{"input": "Apa bahasa resmi Laos?", "output": "Bahasa resmi Laos adalah bahasa Lao."}
+{"input": "Black in Indonesian?", "output": "Black in Indonesian is Hitam."}
+{"input": "Umbrella in Indonesian?", "output": "Umbrella in Indonesian is Payung."}
+{"input": "Melihat in English?", "output": "Melihat in English is See."}
+{"input": "Boat in Indonesian?", "output": "Boat in Indonesian is Perahu."}
+{"input": "Pohon in English?", "output": "Pohon in English is Tree."}
+{"input": "Sejuk in English?", "output": "Sejuk in English is Cool."}
+{"input": "What is the official language of Palau?", "output": "The official language of Palau is English."}
+{"input": "Apa bahasa resmi Brazil?", "output": "Bahasa resmi Brazil adalah bahasa Portugal."}
+{"input": "Come in Indonesian?", "output": "Come in Indonesian is Datang."}
+{"input": "Apa bahasa resmi Venezuela?", "output": "Bahasa resmi Venezuela adalah bahasa Spanyol."}
+{"input": "Apa bahasa resmi Malta?", "output": "Bahasa resmi Malta adalah bahasa Malta."}
+{"input": "What is the official language of Kuwait?", "output": "The official language of Kuwait is Arabic."}
+{"input": "Takut in English?", "output": "Takut in English is Afraid."}
+{"input": "Flower in Indonesian?", "output": "Flower in Indonesian is Bunga."}
+{"input": "What is the official language of Mauritius?", "output": "The official language of Mauritius is English."}
+{"input": "Niece in Indonesian?", "output": "Niece in Indonesian is Keponakan perempuan."}
+{"input": "Panjang in English?", "output": "Panjang in English is Long."}
+{"input": "Apa bahasa resmi Myanmar?", "output": "Bahasa resmi Myanmar adalah bahasa Burma."}
+{"input": "Cup in Indonesian?", "output": "Cup in Indonesian is Cangkir."}
+{"input": "What is the official language of Afghanistan?", "output": "The official language of Afghanistan is Dari."}
+{"input": "Thick in Indonesian?", "output": "Thick in Indonesian is Tebal."}
+{"input": "Bowl in Indonesian?", "output": "Bowl in Indonesian is Mangkuk."}
+{"input": "Merah muda in English?", "output": "Merah muda in English is Pink."}
+{"input": "Anak laki-laki in English?", "output": "Anak laki-laki in English is Son."}
+{"input": "Car in Indonesian?", "output": "Car in Indonesian is Mobil."}
+{"input": "Truk in English?", "output": "Truk in English is Truck."}
+{"input": "Salt in Indonesian?", "output": "Salt in Indonesian is Garam."}
+{"input": "Anjing in English?", "output": "Anjing in English is Dog."}
+{"input": "Bottle in Indonesian?", "output": "Bottle in Indonesian is Botol."}
+{"input": "Kursi in English?", "output": "Kursi in English is Chair."}
+{"input": "Anak in English?", "output": "Anak in English is Child."}
+{"input": "Bicara in English?", "output": "Bicara in English is Speak."}
+{"input": "What is the official language of Congo?", "output": "The official language of Congo is French."}
+{"input": "Sister in Indonesian?", "output": "Sister in Indonesian is Saudara perempuan."}
+{"input": "What is the official language of Yemen?", "output": "The official language of Yemen is Arabic."}
+{"input": "Sky in Indonesian?", "output": "Sky in Indonesian is Langit."}
+{"input": "Fruit in Indonesian?", "output": "Fruit in Indonesian is Buah."}
+{"input": "Pisau in English?", "output": "Pisau in English is Knife."}
+{"input": "Senang in English?", "output": "Senang in English is Happy."}
+{"input": "Old in Indonesian?", "output": "Old in Indonesian is Tua."}
+{"input": "What is the official language of Kiribati?", "output": "The official language of Kiribati is English."}
+{"input": "Mendorong in English?", "output": "Mendorong in English is Push."}
+{"input": "What is the official language of Cyprus?", "output": "The official language of Cyprus is Greek."}
+{"input": "What is the official language of Mozambique?", "output": "The official language of Mozambique is Portuguese."}
+{"input": "Duduk in English?", "output": "Duduk in English is Sit."}
+{"input": "Sepupu in English?", "output": "Sepupu in English is Cousin."}
+{"input": "Apa bahasa resmi Meksiko?", "output": "Bahasa resmi Meksiko adalah bahasa Spanyol."}
+{"input": "What is the official language of Botswana?", "output": "The official language of Botswana is English."}
+{"input": "Tas in English?", "output": "Tas in English is Bag."}
+{"input": "What is the official language of Maldives?", "output": "The official language of Maldives is Dhivehi."}
+{"input": "Orang tua in English?", "output": "Orang tua in English is Parent."}
+{"input": "Sell in Indonesian?", "output": "Sell in Indonesian is Menjual."}
+{"input": "Ugly in Indonesian?", "output": "Ugly in Indonesian is Jelek."}
+{"input": "Tree in Indonesian?", "output": "Tree in Indonesian is Pohon."}
+{"input": "Happy in Indonesian?", "output": "Happy in Indonesian is Senang."}
+{"input": "Apa bahasa resmi Ghana?", "output": "Bahasa resmi Ghana adalah bahasa Inggris."}
+{"input": "Apa bahasa resmi Peru?", "output": "Bahasa resmi Peru adalah bahasa Spanyol."}
+{"input": "Write in Indonesian?", "output": "Write in Indonesian is Menulis."}
+{"input": "Jelek in English?", "output": "Jelek in English is Ugly."}
+{"input": "Shoe in Indonesian?", "output": "Shoe in Indonesian is Sepatu."}
+{"input": "Cinta in English?", "output": "Cinta in English is Love."}
+{"input": "Ibu in English?", "output": "Ibu in English is Mother."}
+{"input": "Vegetable in Indonesian?", "output": "Vegetable in Indonesian is Sayur."}
+{"input": "Short in Indonesian?", "output": "Short in Indonesian is Pendek."}
+{"input": "Kereta in English?", "output": "Kereta in English is Train."}
+{"input": "What is the official language of Moldova?", "output": "The official language of Moldova is Romanian."}
+{"input": "Lion in Indonesian?", "output": "Lion in Indonesian is Singa."}
+{"input": "Angry in Indonesian?", "output": "Angry in Indonesian is Marah."}
+{"input": "Son in Indonesian?", "output": "Son in Indonesian is Anak laki-laki."}
+{"input": "Paman in English?", "output": "Paman in English is Uncle."}
+{"input": "Milk in Indonesian?", "output": "Milk in Indonesian is Susu."}
+{"input": "New in Indonesian?", "output": "New in Indonesian is Baru."}
+{"input": "Matahari in English?", "output": "Matahari in English is Sun."}
+{"input": "Orange in Indonesian?", "output": "Orange in Indonesian is Oranye."}
+{"input": "Dapur in English?", "output": "Dapur in English is Kitchen."}
+{"input": "What is the official language of Bhutan?", "output": "The official language of Bhutan is Dzongkha."}
+{"input": "Think in Indonesian?", "output": "Think in Indonesian is Berpikir."}
+{"input": "Teach in Indonesian?", "output": "Teach in Indonesian is Mengajar."}
+{"input": "See in Indonesian?", "output": "See in Indonesian is Melihat."}
+{"input": "Kambing in English?", "output": "Kambing in English is Goat."}
+{"input": "Fork in Indonesian?", "output": "Fork in Indonesian is Garpu."}
+{"input": "Berlari in English?", "output": "Berlari in English is Run."}
+{"input": "Small in Indonesian?", "output": "Small in Indonesian is Kecil."}
+{"input": "Make in Indonesian?", "output": "Make in Indonesian is Membuat."}
+{"input": "Apa bahasa resmi Ekuador?", "output": "Bahasa resmi Ekuador adalah bahasa Spanyol."}
+{"input": "Daging in English?", "output": "Daging in English is Meat."}
+{"input": "Pergi in English?", "output": "Pergi in English is Go."}
+{"input": "Bus in English?", "output": "Bus in English is Bus."}
+{"input": "Juice in Indonesian?", "output": "Juice in Indonesian is Jus."}
+{"input": "Go in Indonesian?", "output": "Go in Indonesian is Pergi."}
+{"input": "Goat in Indonesian?", "output": "Goat in Indonesian is Kambing."}
+{"input": "Kaus kaki in English?", "output": "Kaus kaki in English is Sock."}
+{"input": "What is the official language of Sierra Leone?", "output": "The official language of Sierra Leone is English."}
+{"input": "What is the official language of Niger?", "output": "The official language of Niger is French."}
+{"input": "Push in Indonesian?", "output": "Push in Indonesian is Mendorong."}
+{"input": "Ingat in English?", "output": "Ingat in English is Remember."}
+{"input": "Grass in Indonesian?", "output": "Grass in Indonesian is Rumput."}
+{"input": "Bear in Indonesian?", "output": "Bear in Indonesian is Beruang."}
+{"input": "Pensil in English?", "output": "Pensil in English is Pencil."}
+{"input": "What is the official language of Jamaica?", "output": "The official language of Jamaica is English."}
+{"input": "Meat in Indonesian?", "output": "Meat in Indonesian is Daging."}
+{"input": "What is the official language of Tonga?", "output": "The official language of Tonga is Tongan."}
+{"input": "What is the official language of Slovakia?", "output": "The official language of Slovakia is Slovak."}
+{"input": "Apa bahasa resmi Bangladesh?", "output": "Bahasa resmi Bangladesh adalah bahasa Bengali."}
+{"input": "Lapar in English?", "output": "Lapar in English is Hungry."}
+{"input": "What is the official language of Mali?", "output": "The official language of Mali is French."}
+{"input": "Jus in English?", "output": "Jus in English is Juice."}
+{"input": "Apa bahasa resmi Tiongkok?", "output": "Bahasa resmi Tiongkok adalah bahasa Mandarin."}
+{"input": "Elephant in Indonesian?", "output": "Elephant in Indonesian is Gajah."}
+{"input": "Jump in Indonesian?", "output": "Jump in Indonesian is Melompat."}
+{"input": "Burung in English?", "output": "Burung in English is Bird."}
+{"input": "Pendek in English?", "output": "Pendek in English is Short."}
+{"input": "Kupu-kupu in English?", "output": "Kupu-kupu in English is Butterfly."}
+{"input": "Horse in Indonesian?", "output": "Horse in Indonesian is Kuda."}
+{"input": "Apa bahasa resmi Filipina?", "output": "Bahasa resmi Filipina adalah bahasa Filipino."}
+{"input": "What is the official language of Micronesia?", "output": "The official language of Micronesia is English."}
+{"input": "Friend in Indonesian?", "output": "Friend in Indonesian is Teman."}
+{"input": "Kecil in English?", "output": "Kecil in English is Small."}
+{"input": "Egg in Indonesian?", "output": "Egg in Indonesian is Telur."}
+{"input": "Tante in English?", "output": "Tante in English is Aunt."}
+{"input": "What is the official language of Eswatini?", "output": "The official language of Eswatini is English."}
+{"input": "What is the official language of Lithuania?", "output": "The official language of Lithuania is Lithuanian."}
+{"input": "What is the official language of Guatemala?", "output": "The official language of Guatemala is Spanish."}
+{"input": "Tea in Indonesian?", "output": "Tea in Indonesian is Teh."}
+{"input": "Apa bahasa resmi Rusia?", "output": "Bahasa resmi Rusia adalah bahasa Rusia."}
+{"input": "Kakek in English?", "output": "Kakek in English is Grandfather."}
+{"input": "Remember in Indonesian?", "output": "Remember in Indonesian is Ingat."}
+{"input": "Sugar in Indonesian?", "output": "Sugar in Indonesian is Gula."}
+{"input": "Run in Indonesian?", "output": "Run in Indonesian is Berlari."}
+{"input": "Soup in Indonesian?", "output": "Soup in Indonesian is Sup."}
+{"input": "Duck in Indonesian?", "output": "Duck in Indonesian is Bebek."}
+{"input": "Bersih in English?", "output": "Bersih in English is Clean."}
+{"input": "Apa bahasa resmi India?", "output": "Bahasa resmi India adalah bahasa Hindi."}
+{"input": "Sad in Indonesian?", "output": "Sad in Indonesian is Sedih."}
+{"input": "Gray in Indonesian?", "output": "Gray in Indonesian is Abu-abu."}
+{"input": "Parent in Indonesian?", "output": "Parent in Indonesian is Orang tua."}
+{"input": "Pig in Indonesian?", "output": "Pig in Indonesian is Babi."}
+{"input": "Marah in English?", "output": "Marah in English is Angry."}
+{"input": "Lightning in Indonesian?", "output": "Lightning in Indonesian is Petir."}
+{"input": "Buah in English?", "output": "Buah in English is Fruit."}
+{"input": "Apa bahasa resmi Jamaika?", "output": "Bahasa resmi Jamaika adalah bahasa Inggris."}
+{"input": "Bedroom in Indonesian?", "output": "Bedroom in Indonesian is Kamar tidur."}
+{"input": "Bumi in English?", "output": "Bumi in English is Earth."}
+{"input": "What is the official language of Oman?", "output": "The official language of Oman is Arabic."}
+{"input": "Glasses in Indonesian?", "output": "Glasses in Indonesian is Kacamata."}
+{"input": "What is the official language of Nauru?", "output": "The official language of Nauru is Nauruan."}
+{"input": "Family in Indonesian?", "output": "Family in Indonesian is Keluarga."}
+{"input": "Apa bahasa resmi Belanda?", "output": "Bahasa resmi Belanda adalah bahasa Belanda."}
+{"input": "Forget in Indonesian?", "output": "Forget in Indonesian is Lupa."}
+{"input": "Bag in Indonesian?", "output": "Bag in Indonesian is Tas."}
+{"input": "Rumah in English?", "output": "Rumah in English is House."}
+{"input": "Suka in English?", "output": "Suka in English is Like."}
+{"input": "Cousin in Indonesian?", "output": "Cousin in Indonesian is Sepupu."}
+{"input": "Kitchen in Indonesian?", "output": "Kitchen in Indonesian is Dapur."}
+{"input": "What is the official language of Marshall Islands?", "output": "The official language of Marshall Islands is English."}
+{"input": "Sleep in Indonesian?", "output": "Sleep in Indonesian is Tidur."}
+{"input": "What is the official language of Nepal?", "output": "The official language of Nepal is Nepali."}
+{"input": "Yellow in Indonesian?", "output": "Yellow in Indonesian is Kuning."}
+{"input": "Membaca in English?", "output": "Membaca in English is Read."}
+{"input": "Apa bahasa resmi Vietnam?", "output": "Bahasa resmi Vietnam adalah bahasa Vietnam."}
+{"input": "Apa bahasa resmi Uganda?", "output": "Bahasa resmi Uganda adalah bahasa Inggris."}
+{"input": "Daughter in Indonesian?", "output": "Daughter in Indonesian is Anak perempuan."}
+{"input": "Apa bahasa resmi Malaysia?", "output": "Bahasa resmi Malaysia adalah bahasa Melayu."}
+{"input": "Apa bahasa resmi Maroko?", "output": "Bahasa resmi Maroko adalah bahasa Arab."}
+{"input": "Rainbow in Indonesian?", "output": "Rainbow in Indonesian is Pelangi."}
+{"input": "Wall in Indonesian?", "output": "Wall in Indonesian is Dinding."}
+{"input": "Book in Indonesian?", "output": "Book in Indonesian is Buku."}
+{"input": "Apa bahasa resmi Monako?", "output": "Bahasa resmi Monako adalah bahasa Prancis."}
+{"input": "Sepatu in English?", "output": "Sepatu in English is Shoe."}
+{"input": "Leaf in Indonesian?", "output": "Leaf in Indonesian is Daun."}
+{"input": "Harimau in English?", "output": "Harimau in English is Tiger."}
+{"input": "What is the official language of Monaco?", "output": "The official language of Monaco is French."}
+{"input": "Warm in Indonesian?", "output": "Warm in Indonesian is Hangat."}
+{"input": "What is the official language of Gabon?", "output": "The official language of Gabon is French."}
+{"input": "Mendengar in English?", "output": "Mendengar in English is Hear."}
+{"input": "Apa bahasa resmi Belgia?", "output": "Bahasa resmi Belgia adalah bahasa Belanda."}
+{"input": "Brown in Indonesian?", "output": "Brown in Indonesian is Coklat."}
+{"input": "Hear in Indonesian?", "output": "Hear in Indonesian is Mendengar."}
+{"input": "Apa bahasa resmi Kroasia?", "output": "Bahasa resmi Kroasia adalah bahasa Kroasia."}
+{"input": "Apa bahasa resmi Jerman?", "output": "Bahasa resmi Jerman adalah bahasa Jerman."}
+{"input": "Berat in English?", "output": "Berat in English is Heavy."}
+{"input": "What is the official language of Ivory Coast?", "output": "The official language of Ivory Coast is French."}
+{"input": "Api in English?", "output": "Api in English is Fire."}
+{"input": "Minum in English?", "output": "Minum in English is Drink."}
+{"input": "Membuka in English?", "output": "Membuka in English is Open."}
+{"input": "What is the official language of Tajikistan?", "output": "The official language of Tajikistan is Tajik."}
+{"input": "Fire in Indonesian?", "output": "Fire in Indonesian is Api."}
+{"input": "Train in Indonesian?", "output": "Train in Indonesian is Kereta."}
+{"input": "What is the official language of Seychelles?", "output": "The official language of Seychelles is French."}
+{"input": "What is the official language of Bosnia and Herzegovina?", "output": "The official language of Bosnia and Herzegovina is Bosnian."}
+{"input": "Eat in Indonesian?", "output": "Eat in Indonesian is Makan."}
+{"input": "What is the official language of Bahrain?", "output": "The official language of Bahrain is Arabic."}
+{"input": "Garam in English?", "output": "Garam in English is Salt."}
+{"input": "Susu in English?", "output": "Susu in English is Milk."}

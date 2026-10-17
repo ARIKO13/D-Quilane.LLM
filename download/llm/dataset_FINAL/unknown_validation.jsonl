@@ -1,0 +1,42 @@
+{"input": "4 + 3 + 9 = ?", "output": "16"}
+{"input": "Apa ibu kota provinsi Bengkulu?", "output": "Ibu kota provinsi Bengkulu adalah Bengkulu."}
+{"input": "Mobil : jalan :: kapal : ?", "output": "berlayar"}
+{"input": "15 kuadrat = ?", "output": "225"}
+{"input": "Apel : buah :: mawar : ?", "output": "bunga"}
+{"input": "Apa itu alel resesif?", "output": "Alel resesif adalah gen yang muncul hanya jika pasangannya sama."}
+{"input": "Semua sel adalah unit kehidupan. sel manusia adalah sel.", "output": "Kesimpulan: sel manusia adalah unit kehidupan."}
+{"input": "Sebagian pedagang menjual barang. Ibu Penjual adalah pedagang.", "output": "Kesimpulan: Ibu Penjual mungkin menjual barang."}
+{"input": "Tidak ada penyanyi yang menyanyi lagu. Agnes adalah penyanyi.", "output": "Kesimpulan: Agnes tidak menyanyi lagu."}
+{"input": "Api : panas :: es : ?", "output": "dingin"}
+{"input": "9 x 6 + 8 = ?", "output": "62"}
+{"input": "Apa ibu kota provinsi Papua Barat?", "output": "Ibu kota provinsi Papua Barat adalah Manokwari."}
+{"input": "Siapa penemu televisi?", "output": "John Logie Baird menemukan televisi."}
+{"input": "Apa itu bidang miring?", "output": "Bidang miring adalah alat sederhana untuk memudahkan mengangkat beban."}
+{"input": "Siapa penemu telepon seluler?", "output": "Martin Cooper menemukan ponsel pertama."}
+{"input": "Tidak ada siswa yang wajib seragam. Doni adalah siswa.", "output": "Kesimpulan: Doni tidak wajib seragam."}
+{"input": "Siapa astronot perempuan pertama?", "output": "Valentina Tereshkova adalah astronot perempuan pertama."}
+{"input": "Semua molekul terdiri dari atom. molekul air adalah molekul.", "output": "Kesimpulan: molekul air terdiri dari atom."}
+{"input": "Apa itu daya listrik?", "output": "Daya listrik adalah tegangan dikali arus (P = V x I)."}
+{"input": "Tidak ada reptil yang bertelur telur. buaya adalah reptil.", "output": "Kesimpulan: buaya tidak bertelur telur."}
+{"input": "Sebagian siswa wajib seragam. Doni adalah siswa.", "output": "Kesimpulan: Doni mungkin wajib seragam."}
+{"input": "Apa itu alel dominan?", "output": "Alel dominan adalah gen yang selalu muncul jika ada."}
+{"input": "Bulan : satelit :: bumi : ?", "output": "planet"}
+{"input": "Siapa penemu World Wide Web?", "output": "Tim Berners-Lee menemukan WWW."}
+{"input": "Siapa presiden Afrika Selatan pertama setelah apartheid?", "output": "Nelson Mandela adalah presiden pertama setelah apartheid."}
+{"input": "Mata : melihat :: telinga : ?", "output": "mendengar"}
+{"input": "6 x 3 + 5 = ?", "output": "23"}
+{"input": "Apa itu lapisan ozon?", "output": "Lapisan ozon melindungi bumi dari radiasi UV matahari."}
+{"input": "Sebagian manusia butuh air. Siti adalah manusia.", "output": "Kesimpulan: Siti mungkin butuh air."}
+{"input": "Penyanyi : lagu :: penulis : ?", "output": "buku"}
+{"input": "Apa itu larutan asam?", "output": "Larutan asam memiliki pH di bawah 7 dan rasanya masam."}
+{"input": "9 - 5 + 4 = ?", "output": "8"}
+{"input": "Apa itu mutasi gen?", "output": "Mutasi gen adalah perubahan DNA yang bisa diwariskan."}
+{"input": "3 x 9 + 6 = ?", "output": "33"}
+{"input": "19 + 9 + 1 = ?", "output": "29"}
+{"input": "14 x 19 + 10 = ?", "output": "276"}
+{"input": "Akar kuadrat dari 9 = ?", "output": "3"}
+{"input": "Semua air membeku pada nol derajat. air di freezer adalah air.", "output": "Kesimpulan: air di freezer membeku pada nol derajat."}
+{"input": "18 - 8 + 2 = ?", "output": "12"}
+{"input": "Sebagian molekul terdiri dari atom. molekul air adalah molekul.", "output": "Kesimpulan: molekul air mungkin terdiri dari atom."}
+{"input": "Apa itu tekanan atmosfer?", "output": "Tekanan atmosfer adalah tekanan udara di permukaan bumi."}
+{"input": "Siapa penemu telegraf?", "output": "Samuel Morse menemukan telegraf."}

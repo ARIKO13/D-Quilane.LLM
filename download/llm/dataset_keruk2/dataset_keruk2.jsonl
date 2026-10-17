@@ -1,0 +1,1098 @@
+{"input": "Angka 1 dalam kata?", "output": "Angka 1 adalah satu.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 2 dalam kata?", "output": "Angka 2 adalah dua.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 3 dalam kata?", "output": "Angka 3 adalah tiga.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 4 dalam kata?", "output": "Angka 4 adalah empat.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 5 dalam kata?", "output": "Angka 5 adalah lima.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 6 dalam kata?", "output": "Angka 6 adalah enam.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 7 dalam kata?", "output": "Angka 7 adalah tujuh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 8 dalam kata?", "output": "Angka 8 adalah delapan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 9 dalam kata?", "output": "Angka 9 adalah sembilan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 10 dalam kata?", "output": "Angka 10 adalah sepuluh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 11 dalam kata?", "output": "Angka 11 adalah sebelas.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 12 dalam kata?", "output": "Angka 12 adalah sebelas.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 13 dalam kata?", "output": "Angka 13 adalah sebelas.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 14 dalam kata?", "output": "Angka 14 adalah sebelas.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 15 dalam kata?", "output": "Angka 15 adalah sebelas.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 16 dalam kata?", "output": "Angka 16 adalah sebelas.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 17 dalam kata?", "output": "Angka 17 adalah sebelas.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 18 dalam kata?", "output": "Angka 18 adalah sebelas.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 19 dalam kata?", "output": "Angka 19 adalah sebelas.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 20 dalam kata?", "output": "Angka 20 adalah dua puluh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 21 dalam kata?", "output": "Angka 21 adalah dua puluh satu.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 22 dalam kata?", "output": "Angka 22 adalah dua puluh dua.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 23 dalam kata?", "output": "Angka 23 adalah dua puluh tiga.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 24 dalam kata?", "output": "Angka 24 adalah dua puluh empat.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 25 dalam kata?", "output": "Angka 25 adalah dua puluh lima.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 26 dalam kata?", "output": "Angka 26 adalah dua puluh enam.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 27 dalam kata?", "output": "Angka 27 adalah dua puluh tujuh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 28 dalam kata?", "output": "Angka 28 adalah dua puluh delapan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 29 dalam kata?", "output": "Angka 29 adalah dua puluh sembilan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 30 dalam kata?", "output": "Angka 30 adalah tiga puluh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 31 dalam kata?", "output": "Angka 31 adalah tiga puluh satu.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 32 dalam kata?", "output": "Angka 32 adalah tiga puluh dua.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 33 dalam kata?", "output": "Angka 33 adalah tiga puluh tiga.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 34 dalam kata?", "output": "Angka 34 adalah tiga puluh empat.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 35 dalam kata?", "output": "Angka 35 adalah tiga puluh lima.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 36 dalam kata?", "output": "Angka 36 adalah tiga puluh enam.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 37 dalam kata?", "output": "Angka 37 adalah tiga puluh tujuh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 38 dalam kata?", "output": "Angka 38 adalah tiga puluh delapan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 39 dalam kata?", "output": "Angka 39 adalah tiga puluh sembilan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 40 dalam kata?", "output": "Angka 40 adalah empat puluh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 41 dalam kata?", "output": "Angka 41 adalah empat puluh satu.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 42 dalam kata?", "output": "Angka 42 adalah empat puluh dua.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 43 dalam kata?", "output": "Angka 43 adalah empat puluh tiga.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 44 dalam kata?", "output": "Angka 44 adalah empat puluh empat.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 45 dalam kata?", "output": "Angka 45 adalah empat puluh lima.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 46 dalam kata?", "output": "Angka 46 adalah empat puluh enam.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 47 dalam kata?", "output": "Angka 47 adalah empat puluh tujuh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 48 dalam kata?", "output": "Angka 48 adalah empat puluh delapan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 49 dalam kata?", "output": "Angka 49 adalah empat puluh sembilan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 50 dalam kata?", "output": "Angka 50 adalah lima puluh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 51 dalam kata?", "output": "Angka 51 adalah lima puluh satu.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 52 dalam kata?", "output": "Angka 52 adalah lima puluh dua.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 53 dalam kata?", "output": "Angka 53 adalah lima puluh tiga.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 54 dalam kata?", "output": "Angka 54 adalah lima puluh empat.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 55 dalam kata?", "output": "Angka 55 adalah lima puluh lima.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 56 dalam kata?", "output": "Angka 56 adalah lima puluh enam.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 57 dalam kata?", "output": "Angka 57 adalah lima puluh tujuh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 58 dalam kata?", "output": "Angka 58 adalah lima puluh delapan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 59 dalam kata?", "output": "Angka 59 adalah lima puluh sembilan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 60 dalam kata?", "output": "Angka 60 adalah enam puluh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 61 dalam kata?", "output": "Angka 61 adalah enam puluh satu.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 62 dalam kata?", "output": "Angka 62 adalah enam puluh dua.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 63 dalam kata?", "output": "Angka 63 adalah enam puluh tiga.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 64 dalam kata?", "output": "Angka 64 adalah enam puluh empat.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 65 dalam kata?", "output": "Angka 65 adalah enam puluh lima.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 66 dalam kata?", "output": "Angka 66 adalah enam puluh enam.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 67 dalam kata?", "output": "Angka 67 adalah enam puluh tujuh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 68 dalam kata?", "output": "Angka 68 adalah enam puluh delapan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 69 dalam kata?", "output": "Angka 69 adalah enam puluh sembilan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 70 dalam kata?", "output": "Angka 70 adalah tujuh puluh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 71 dalam kata?", "output": "Angka 71 adalah tujuh puluh satu.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 72 dalam kata?", "output": "Angka 72 adalah tujuh puluh dua.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 73 dalam kata?", "output": "Angka 73 adalah tujuh puluh tiga.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 74 dalam kata?", "output": "Angka 74 adalah tujuh puluh empat.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 75 dalam kata?", "output": "Angka 75 adalah tujuh puluh lima.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 76 dalam kata?", "output": "Angka 76 adalah tujuh puluh enam.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 77 dalam kata?", "output": "Angka 77 adalah tujuh puluh tujuh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 78 dalam kata?", "output": "Angka 78 adalah tujuh puluh delapan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 79 dalam kata?", "output": "Angka 79 adalah tujuh puluh sembilan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 80 dalam kata?", "output": "Angka 80 adalah delapan puluh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 81 dalam kata?", "output": "Angka 81 adalah delapan puluh satu.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 82 dalam kata?", "output": "Angka 82 adalah delapan puluh dua.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 83 dalam kata?", "output": "Angka 83 adalah delapan puluh tiga.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 84 dalam kata?", "output": "Angka 84 adalah delapan puluh empat.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 85 dalam kata?", "output": "Angka 85 adalah delapan puluh lima.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 86 dalam kata?", "output": "Angka 86 adalah delapan puluh enam.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 87 dalam kata?", "output": "Angka 87 adalah delapan puluh tujuh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 88 dalam kata?", "output": "Angka 88 adalah delapan puluh delapan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 89 dalam kata?", "output": "Angka 89 adalah delapan puluh sembilan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 90 dalam kata?", "output": "Angka 90 adalah sembilan puluh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 91 dalam kata?", "output": "Angka 91 adalah sembilan puluh satu.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 92 dalam kata?", "output": "Angka 92 adalah sembilan puluh dua.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 93 dalam kata?", "output": "Angka 93 adalah sembilan puluh tiga.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 94 dalam kata?", "output": "Angka 94 adalah sembilan puluh empat.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 95 dalam kata?", "output": "Angka 95 adalah sembilan puluh lima.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 96 dalam kata?", "output": "Angka 96 adalah sembilan puluh enam.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 97 dalam kata?", "output": "Angka 97 adalah sembilan puluh tujuh.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 98 dalam kata?", "output": "Angka 98 adalah sembilan puluh delapan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 99 dalam kata?", "output": "Angka 99 adalah sembilan puluh sembilan.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "Angka 100 dalam kata?", "output": "Angka 100 adalah seratus.", "bidang": "SD1", "judul": "Berhitung", "subjudul": "Bilangan"}
+{"input": "satu tambah dua?", "output": "satu tambah dua sama dengan tiga.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "satu tambah delapan?", "output": "satu tambah delapan sama dengan sembilan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "satu tambah sepuluh?", "output": "satu tambah sepuluh sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "satu tambah sebelas?", "output": "satu tambah sebelas sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "satu tambah sebelas?", "output": "satu tambah sebelas sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "satu tambah dua puluh?", "output": "satu tambah dua puluh sama dengan dua puluh satu.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "dua tambah empat?", "output": "dua tambah empat sama dengan enam.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "dua tambah tujuh?", "output": "dua tambah tujuh sama dengan sembilan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "dua tambah delapan?", "output": "dua tambah delapan sama dengan sepuluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tiga tambah dua?", "output": "tiga tambah dua sama dengan lima.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tiga tambah lima?", "output": "tiga tambah lima sama dengan delapan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tiga tambah tujuh?", "output": "tiga tambah tujuh sama dengan sepuluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tiga tambah sebelas?", "output": "tiga tambah sebelas sama dengan dua puluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tiga tambah sebelas?", "output": "tiga tambah sebelas sama dengan dua puluh dua.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "empat tambah delapan?", "output": "empat tambah delapan sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "lima tambah sembilan?", "output": "lima tambah sembilan sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "lima tambah sepuluh?", "output": "lima tambah sepuluh sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "lima tambah sebelas?", "output": "lima tambah sebelas sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "lima tambah sebelas?", "output": "lima tambah sebelas sama dengan dua puluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "enam tambah satu?", "output": "enam tambah satu sama dengan tujuh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "enam tambah tujuh?", "output": "enam tambah tujuh sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "enam tambah sebelas?", "output": "enam tambah sebelas sama dengan dua puluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "enam tambah dua puluh?", "output": "enam tambah dua puluh sama dengan dua puluh enam.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tujuh tambah lima?", "output": "tujuh tambah lima sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tujuh tambah tujuh?", "output": "tujuh tambah tujuh sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tujuh tambah sebelas?", "output": "tujuh tambah sebelas sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tujuh tambah sebelas?", "output": "tujuh tambah sebelas sama dengan dua puluh dua.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tujuh tambah sebelas?", "output": "tujuh tambah sebelas sama dengan dua puluh empat.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "tujuh tambah dua puluh?", "output": "tujuh tambah dua puluh sama dengan dua puluh tujuh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "delapan tambah sebelas?", "output": "delapan tambah sebelas sama dengan dua puluh tiga.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sembilan tambah satu?", "output": "sembilan tambah satu sama dengan sepuluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sembilan tambah enam?", "output": "sembilan tambah enam sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sembilan tambah sepuluh?", "output": "sembilan tambah sepuluh sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sembilan tambah sebelas?", "output": "sembilan tambah sebelas sama dengan dua puluh lima.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sembilan tambah sebelas?", "output": "sembilan tambah sebelas sama dengan dua puluh enam.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sepuluh tambah empat?", "output": "sepuluh tambah empat sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sepuluh tambah sembilan?", "output": "sepuluh tambah sembilan sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sepuluh tambah sebelas?", "output": "sepuluh tambah sebelas sama dengan dua puluh delapan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah empat?", "output": "sebelas tambah empat sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah delapan?", "output": "sebelas tambah delapan sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah lima?", "output": "sebelas tambah lima sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sembilan?", "output": "sebelas tambah sembilan sama dengan dua puluh satu.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan dua puluh tiga.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan dua puluh empat.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan dua puluh delapan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan dua puluh enam.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah empat?", "output": "sebelas tambah empat sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sepuluh?", "output": "sebelas tambah sepuluh sama dengan dua puluh empat.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan dua puluh sembilan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh satu.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah delapan?", "output": "sebelas tambah delapan sama dengan dua puluh tiga.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan dua puluh enam.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh tiga.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh empat.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah lima?", "output": "sebelas tambah lima sama dengan dua puluh satu.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah enam?", "output": "sebelas tambah enam sama dengan dua puluh dua.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh lima.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah lima?", "output": "sebelas tambah lima sama dengan dua puluh dua.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh satu.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah tiga?", "output": "sebelas tambah tiga sama dengan dua puluh satu.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah empat?", "output": "sebelas tambah empat sama dengan dua puluh dua.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh dua.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh empat.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh tujuh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sembilan?", "output": "sebelas tambah sembilan sama dengan dua puluh delapan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "sebelas tambah sebelas?", "output": "sebelas tambah sebelas sama dengan tiga puluh lima.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "dua puluh tambah tujuh?", "output": "dua puluh tambah tujuh sama dengan dua puluh tujuh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "dua puluh tambah sebelas?", "output": "dua puluh tambah sebelas sama dengan tiga puluh lima.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Penjumlahan"}
+{"input": "enam dikurangi tiga?", "output": "enam dikurangi tiga sama dengan tiga.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "delapan dikurangi satu?", "output": "delapan dikurangi satu sama dengan tujuh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "delapan dikurangi lima?", "output": "delapan dikurangi lima sama dengan tiga.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sembilan dikurangi enam?", "output": "sembilan dikurangi enam sama dengan tiga.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sepuluh dikurangi satu?", "output": "sepuluh dikurangi satu sama dengan sembilan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sepuluh dikurangi enam?", "output": "sepuluh dikurangi enam sama dengan empat.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi satu?", "output": "sebelas dikurangi satu sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi enam?", "output": "sebelas dikurangi enam sama dengan tujuh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi sepuluh?", "output": "sebelas dikurangi sepuluh sama dengan tiga.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi sepuluh?", "output": "sebelas dikurangi sepuluh sama dengan empat.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi sembilan?", "output": "sebelas dikurangi sembilan sama dengan enam.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi satu?", "output": "sebelas dikurangi satu sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi tiga?", "output": "sebelas dikurangi tiga sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi enam?", "output": "sebelas dikurangi enam sama dengan sepuluh.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi delapan?", "output": "sebelas dikurangi delapan sama dengan delapan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi sepuluh?", "output": "sebelas dikurangi sepuluh sama dengan enam.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi empat?", "output": "sebelas dikurangi empat sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi lima?", "output": "sebelas dikurangi lima sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi sebelas?", "output": "sebelas dikurangi sebelas sama dengan dua.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi satu?", "output": "sebelas dikurangi satu sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi sepuluh?", "output": "sebelas dikurangi sepuluh sama dengan delapan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi sebelas?", "output": "sebelas dikurangi sebelas sama dengan lima.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi sebelas?", "output": "sebelas dikurangi sebelas sama dengan empat.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi tiga?", "output": "sebelas dikurangi tiga sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi enam?", "output": "sebelas dikurangi enam sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "sebelas dikurangi sepuluh?", "output": "sebelas dikurangi sepuluh sama dengan sembilan.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "dua puluh dikurangi dua?", "output": "dua puluh dikurangi dua sama dengan sebelas.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "dua puluh dikurangi sebelas?", "output": "dua puluh dikurangi sebelas sama dengan satu.", "bidang": "SD1", "judul": "Matematika", "subjudul": "Pengurangan"}
+{"input": "Huruf setelah Z?", "output": "Setelah Z adalah A.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah A?", "output": "Setelah A adalah B.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah B?", "output": "Setelah B adalah C.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah C?", "output": "Setelah C adalah D.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah D?", "output": "Setelah D adalah E.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah E?", "output": "Setelah E adalah F.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah F?", "output": "Setelah F adalah G.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah G?", "output": "Setelah G adalah H.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah H?", "output": "Setelah H adalah I.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah I?", "output": "Setelah I adalah J.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah J?", "output": "Setelah J adalah K.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah K?", "output": "Setelah K adalah L.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah L?", "output": "Setelah L adalah M.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah M?", "output": "Setelah M adalah N.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah N?", "output": "Setelah N adalah O.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah O?", "output": "Setelah O adalah P.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah P?", "output": "Setelah P adalah Q.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah Q?", "output": "Setelah Q adalah R.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah R?", "output": "Setelah R adalah S.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah S?", "output": "Setelah S adalah T.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah T?", "output": "Setelah T adalah U.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah U?", "output": "Setelah U adalah V.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah V?", "output": "Setelah V adalah W.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah W?", "output": "Setelah W adalah X.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah X?", "output": "Setelah X adalah Y.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Huruf setelah Y?", "output": "Setelah Y adalah Z.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Huruf"}
+{"input": "Sebutkan huruf A-Z?", "output": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z.", "bidang": "SD1", "judul": "Membaca", "subjudul": "Alfabet"}
+{"input": "Apa warna langit?", "output": "Warna langit adalah biru.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa warna rumput?", "output": "Warna rumput adalah hijau.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa warna darah?", "output": "Warna darah adalah merah.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa warna matahari?", "output": "Warna matahari adalah kuning.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa warna awan?", "output": "Warna awan adalah putih.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa warna malam?", "output": "Warna malam adalah hitam.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa warna bendera Indonesia?", "output": "Bendera Indonesia adalah merah putih.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa suara kucing?", "output": "Kucing bersuara meong.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa suara anjing?", "output": "Anjing bersuara guk guk.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa suara sapi?", "output": "Sapi bersuara moo.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa suara kambing?", "output": "Kambing bersuara mbek mbek.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa suara ayam jantan?", "output": "Ayam jantan bersuara kukuruyuk.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa suara bebek?", "output": "Bebek bersuara kwek kwek.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa fungsi mata?", "output": "Mata adalah alat untuk melihat.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa fungsi hidung?", "output": "Hidung adalah alat untuk mencium bau.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa fungsi mulut?", "output": "Mulut adalah alat untuk makan dan bicara.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa fungsi telinga?", "output": "Telinga adalah alat untuk mendengar.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa fungsi tangan?", "output": "Tangan adalah alat untuk memegang.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa fungsi kaki?", "output": "Kaki adalah alat untuk berjalan.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Berapa jari di tangan?", "output": "Ada lima jari di setiap tangan.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Berapa jari di kaki?", "output": "Ada lima jari di setiap kaki.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Berapa hari dalam seminggu?", "output": "Ada tujuh hari dalam seminggu.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa tujuh hari?", "output": "Senin Selasa Rabu Kamis Jumat Sabtu Minggu.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Berapa bulan dalam setahun?", "output": "Ada dua belas bulan dalam setahun.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Siapa ayah dan ibu?", "output": "Ayah dan ibu adalah orang tua.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Siapa kakak?", "output": "Kakak adalah saudara yang lebih tua.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Siapa adik?", "output": "Adik adalah saudara yang lebih muda.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Siapa kakek?", "output": "Kakek adalah ayah dari orang tua.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Siapa nenek?", "output": "Nenek adalah ibu dari orang tua.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa itu sekolah?", "output": "Sekolah adalah tempat belajar.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa itu PR?", "output": "PR adalah pekerjaan rumah dari sekolah.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Setelah Senin adalah?", "output": "Setelah Senin adalah Selasa.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Setelah Selasa adalah?", "output": "Setelah Selasa adalah Rabu.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Setelah Rabu adalah?", "output": "Setelah Rabu adalah Kamis.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Setelah Kamis adalah?", "output": "Setelah Kamis adalah Jumat.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Setelah Jumat adalah?", "output": "Setelah Jumat adalah Sabtu.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Setelah Sabtu adalah?", "output": "Setelah Sabtu adalah Minggu.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Setelah Minggu adalah?", "output": "Setelah Minggu adalah Senin.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Setelah Januari adalah?", "output": "Setelah Januari adalah Februari.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa itu mandi?", "output": "Mandi adalah membersihkan tubuh dengan air.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa itu sarapan?", "output": "Sarapan adalah makan pagi sebelum aktivitas.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa itu tidur?", "output": "Tidur adalah beristirahat di malam hari.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa bentuk bola?", "output": "Bentuk bola adalah lingkaran.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa bentuk buku?", "output": "Bentuk buku adalah persegi.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Berapa sisi segitiga?", "output": "Segitiga punya tiga sisi.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Berapa sisi persegi?", "output": "Persegi punya empat sisi.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa itu antre?", "output": "Antre adalah menunggu giliran dengan tertib.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa itu berbagi?", "output": "Berbagi adalah memberi sebagian ke orang lain.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa kata tolong?", "output": "Tolong adalah kata sopan minta bantuan.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa balasan terima kasih?", "output": "Sama-sama adalah balasan untuk terima kasih.", "bidang": "SD1", "judul": "Pengetahuan Umum", "subjudul": "Dasar"}
+{"input": "Apa itu sudut siku-siku?", "output": "Sudut siku-siku adalah 90 derajat.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu sudut lurus?", "output": "Sudut lurus adalah 180 derajat.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu sudut penuh?", "output": "Sudut penuh adalah 360 derajat.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa sudut lancip?", "output": "Sudut lancip kurang dari 90 derajat.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa sudut tumpul?", "output": "Sudut tumpul lebih dari 90 derajat.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa rumus luas persegi?", "output": "Luas persegi = sisi x sisi.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa rumus luas persegi panjang?", "output": "Luas persegi panjang = panjang x lebar.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa rumus luas segitiga?", "output": "Luas segitiga = 1/2 x alas x tinggi.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa rumus keliling persegi?", "output": "Keliling persegi = 4 x sisi.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa rumus keliling persegi panjang?", "output": "Keliling = 2 x (panjang + lebar).", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa rumus luas lingkaran?", "output": "Luas lingkaran = pi x r x r.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa rumus keliling lingkaran?", "output": "Keliling lingkaran = 2 x pi x r.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Berapa nilai pi?", "output": "Pi kira-kira 3.14.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu siklus air?", "output": "Siklus air: evaporasi, kondensasi, presipitasi, koleksi.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu evaporasi?", "output": "Evaporasi adalah air berubah menjadi uap karena panas.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu kondensasi?", "output": "Kondensasi adalah uap berubah menjadi air karena dingin.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu presipitasi?", "output": "Presipitasi adalah air turun sebagai hujan atau salju.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu listrik?", "output": "Listrik adalah aliran elektron melalui konduktor.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa konduktor listrik?", "output": "Konduktor adalah benda yang menghantarkan listrik, seperti logam.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa isolator listrik?", "output": "Isolator adalah benda yang tidak menghantarkan listrik, seperti plastik.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu rangkaian seri?", "output": "Rangkaian seri adalah komponen yang disusun berurutan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu rangkaian paralel?", "output": "Rangkaian paralel adalah komponen yang disusun bercabang.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa sumber listrik?", "output": "Listrik berasal dari pembangkit listrik.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa hukum Ohm?", "output": "Hukum Ohm: tegangan = arus x hambatan (V = I x R).", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa globalisasi?", "output": "Globalisasi adalah hubungan antar negara yang semakin dekat.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa demokrasi?", "output": "Demokrasi adalah pemerintahan dari rakyat untuk rakyat.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa ASEAN?", "output": "ASEAN adalah perkumpulan negara Asia Tenggara, 10 anggota.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Siapa anggota ASEAN?", "output": "Indonesia, Malaysia, Singapura, Thailand, Filipina, Brunei, Vietnam, Laos, Kamboja, Myanmar.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa Pancasila?", "output": "Pancasila adalah dasar negara Indonesia dengan 5 sila.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa sila pertama?", "output": "Sila 1: Ketuhanan Yang Maha Esa.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa sila kedua?", "output": "Sila 2: Kemanusiaan yang adil dan beradab.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa sila ketiga?", "output": "Sila 3: Persatuan Indonesia.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa sila keempat?", "output": "Sila 4: Kerakyatan yang dipimpin hikmat kebijaksanaan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa sila kelima?", "output": "Sila 5: Keadilan sosial bagi seluruh rakyat Indonesia.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa lambang Garuda?", "output": "Garuda Pancasila adalah lambang negara Indonesia.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa Bhinneka Tunggal Ika?", "output": "Bhinneka Tunggal Ika berarti berbeda-beda tetapi tetap satu.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa UUD 1945?", "output": "UUD 1945 adalah konstitusi/hukum dasar Indonesia.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu pemilu?", "output": "Pemilu adalah pemilihan umum untuk memilih wakil rakyat.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa hak warga negara?", "output": "Hak: pendidikan, pekerjaan, perlindungan hukum.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa kewajiban warga negara?", "output": "Kewajiban: taat hukum, bayar pajak, bela negara.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa fotosintesis?", "output": "Fotosintesis adalah tumbuhan membuat makanan dari cahaya matahari.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa rumus fotosintesis?", "output": "CO2 + H2O + cahaya -> glukosa + O2.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa penyerbukan?", "output": "Penyerbukan adalah pemindahan serbuk sari ke putik.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa penyebaran biji?", "output": "Penyebaran biji adalah persebaran biji oleh angin, air, atau hewan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu adaptasi?", "output": "Adaptasi adalah kemampuan makhluk hidup menyesuaikan diri.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa contoh adaptasi kaktus?", "output": "Kaktus punya daun berduri untuk mengurangi penguapan di gurun.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa struktur bumi?", "output": "Bumi memiliki kerak, mantel, dan inti.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa lempeng tektonik?", "output": "Lempeng tektonik adalah potongan kerak bumi yang bergerak.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa penyebab gempa?", "output": "Gempa disebabkan pergerakan lempeng tektonik.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa penyebab gunung berapi?", "output": "Gunung berapi meletus karena magma keluar dari bumi.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu tsunami?", "output": "Tsunami adalah gelombang besar yang disebabkan gempa laut.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Berapa planet di tata surya?", "output": "Ada 8 planet di tata surya.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa planet terdekat matahari?", "output": "Merkurius adalah planet terdekat matahari.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa planet terbesar?", "output": "Jupiter adalah planet terbesar.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa planet berkening?", "output": "Saturnus adalah planet berkening.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa planet merah?", "output": "Mars adalah planet merah.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa itu black hole?", "output": "Black hole adalah lubang hitam dengan gravitasi sangat kuat.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa galaksi kita?", "output": "Bima Sakti adalah galaksi kita.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa bintang terdekat bumi?", "output": "Matahari adalah bintang terdekat bumi.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Siapa Neil Armstrong?", "output": "Neil Armstrong adalah orang pertama mendarat di bulan tahun 1969.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa DNA?", "output": "DNA adalah molekul yang menyimpan informasi genetik.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa sel?", "output": "Sel adalah unit dasar kehidupan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa mitokondria?", "output": "Mitokondria adalah pabrik energi sel.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa nukleus?", "output": "Nukleus adalah bagian sel yang menyimpan DNA.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa ekosistem?", "output": "Ekosistem adalah hubungan makhluk hidup dan lingkungan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa rantai makanan?", "output": "Rantai makanan adalah urutan makan dan dimakan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa produsen?", "output": "Produsen adalah tumbuhan yang membuat makanan sendiri.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa konsumen?", "output": "Konsumen adalah hewan yang makan tumbuhan atau hewan lain.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa pengurai?", "output": "Pengurai adalah bakteri dan jamur yang mengurai sisa makhluk hidup.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa herbivore?", "output": "Herbivore adalah hewan pemakan tumbuhan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa carnivore?", "output": "Carnivore adalah hewan pemakan daging.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa omnivore?", "output": "Omnivore adalah hewan pemakan tumbuhan dan daging.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa simbiosis mutualisme?", "output": "Mutualisme adalah hubungan yang saling menguntungkan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa simbiosis parasitisme?", "output": "Parasitisme adalah hubungan yang menguntungkan satu pihak.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa simbiosis komensalisme?", "output": "Komensalisme adalah hubungan yang menguntungkan satu pihak tanpa merugikan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa energi terbarukan?", "output": "Energi terbarukan: surya, angin, air, biomassa.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa energi tak terbarukan?", "output": "Energi tak terbarukan: minyak bumi, batu bara, gas alam.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa pemanasan global?", "output": "Pemanasan global adalah naiknya suhu bumi karena gas rumah kaca.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa 3R?", "output": "3R: Reduce (kurangi), Reuse (pakai lagi), Recycle (daur ulang).", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa deforestasi?", "output": "Deforestasi adalah penebangan hutan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa polusi?", "output": "Polusi adalah pencemaran lingkungan.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa penyebab pemanasan global?", "output": "Pemanasan global disebabkan gas rumah kaca seperti CO2.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa efek rumah kaca?", "output": "Efek rumah kaca adalah gas menangkap panas di atmosfer.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa lapisan ozon?", "output": "Lapisan ozon melindungi bumi dari radiasi UV.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa kebakaran hutan?", "output": "Kebakaran hutan merusak ekosistem dan menyebabkan polusi.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa conservation?", "output": "Conservation adalah melindungi alam dan makhluk hidup.", "bidang": "SD4", "judul": "Kurikulum SD4", "subjudul": "Lengkap"}
+{"input": "Apa perbandingan?", "output": "Perbandingan adalah membandingkan dua nilai dengan titik dua, seperti 2:3.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa skala?", "output": "Skala adalah perbandingan ukuran peta dengan ukuran sebenarnya.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa rumus kecepatan?", "output": "Kecepatan = jarak / waktu.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa rumus jarak?", "output": "Jarak = kecepatan x waktu.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa rumus waktu?", "output": "Waktu = jarak / kecepatan.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Mobil 60 km/jam selama 2 jam, berapa jarak?", "output": "Jarak = 60 x 2 = 120 km.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Mobil 80 km/jam selama 3 jam, berapa jarak?", "output": "Jarak = 80 x 3 = 240 km.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Jarak 120 km ditempuh 2 jam, berapa kecepatan?", "output": "Kecepatan = 120 / 2 = 60 km/jam.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa volume balok?", "output": "Volume balok = panjang x lebar x tinggi.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa volume kubus?", "output": "Volume kubus = sisi x sisi x sisi.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa volume tabung?", "output": "Volume tabung = pi x r x r x tinggi.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa volume bola?", "output": "Volume bola = 4/3 x pi x r x r x r.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa rumus luas permukaan kubus?", "output": "Luas permukaan kubus = 6 x sisi x sisi.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa aljabar?", "output": "Aljabar adalah matematika yang menggunakan huruf untuk mewakili angka.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Jika x + 5 = 12, berapa x?", "output": "x = 12 - 5 = 7.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Jika 3x = 21, berapa x?", "output": "x = 21 / 3 = 7.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Jika x - 4 = 8, berapa x?", "output": "x = 8 + 4 = 12.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Jika x/2 = 6, berapa x?", "output": "x = 6 x 2 = 12.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Jika 2x + 3 = 11, berapa x?", "output": "2x = 8, x = 4.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa variabel?", "output": "Variabel adalah huruf yang mewakili angka, seperti x atau y.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa konstanta?", "output": "Konstanta adalah angka yang nilainya tetap.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa koefisien?", "output": "Koefisien adalah angka di depan variabel, seperti 3 dalam 3x.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa persamaan linear?", "output": "Persamaan linear adalah persamaan dengan pangkat 1, seperti 2x + 3 = 7.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa kerak bumi?", "output": "Kerak bumi adalah lapisan terluar bumi.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa mantel bumi?", "output": "Mantel bumi adalah lapisan tengah bumi.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa inti bumi?", "output": "Inti bumi adalah lapisan terdalam bumi.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa batuan beku?", "output": "Batuan beku terbentuk dari magma yang membeku, seperti granit.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa batuan sedimen?", "output": "Batuan sedimen terbentuk dari endapan, seperti batupasir.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa batuan metamorf?", "output": "Batuan metamorf terbentuk dari panas dan tekanan, seperti marmer.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa siklus batuan?", "output": "Siklus batuan adalah perubahan batuan dari satu jenis ke jenis lain.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa fossil?", "output": "Fosil adalah sisa makhluk hidup yang telah membatu.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Kapan dinosaur punah?", "output": "Dinosaurus punah sekitar 65 juta tahun lalu.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa penyebab kepunahan dinosaur?", "output": "Asteroid besar menghantam bumi.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa perbedaan cuaca dan iklim?", "output": "Cuaca adalah kondisi harian, iklim adalah rata-rata cuaca jangka panjang.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa El Nino?", "output": "El Nino adalah pemanasan air laut Pasifik.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa La Nina?", "output": "La Nina adalah pendinginan air laut Pasifik.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa tata surya?", "output": "Tata surya adalah matahari dan 8 planet yang mengelilinginya.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa planet terdekat matahari?", "output": "Merkurius.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa planet terbesar?", "output": "Jupiter.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa planet berkening?", "output": "Saturnus.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa planet merah?", "output": "Mars.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa planet terjauh?", "output": "Neptunus.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa bulan?", "output": "Bulan adalah satelit alami bumi.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa galaksi?", "output": "Galaksi adalah kumpulan miliaran bintang.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa nama galaksi kita?", "output": "Bima Sakti.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa black hole?", "output": "Black hole adalah lubang hitam dengan gravitasi sangat kuat.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa kecepatan cahaya?", "output": "Kecepatan cahaya sekitar 300.000 km/detik.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa fotosintesis?", "output": "Fotosintesis: CO2 + H2O + cahaya -> glukosa + O2.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa klorofil?", "output": "Klorofil adalah pigmen hijau yang menyerap cahaya matahari.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa transpirasi?", "output": "Transpirasi adalah penguapan air dari daun.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa respirasi tumbuhan?", "output": "Respirasi tumbuhan adalah proses memecah glukosa untuk energi.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa adaptasi morfologi?", "output": "Adaptasi morfologi adalah perubahan bentuk tubuh.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa adaptasi fisiologi?", "output": "Adaptasi fisiologi adalah perubahan fungsi organ.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa adaptasi tingkah laku?", "output": "Adaptasi tingkah laku adalah perubahan perilaku.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa Soekarno?", "output": "Soekarno adalah presiden pertama Indonesia.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa Soeharto?", "output": "Soeharto adalah presiden kedua Indonesia.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa Habibie?", "output": "Habibie adalah presiden ketiga Indonesia.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa Abdurrahman Wahid?", "output": "Abdurrahman Wahid adalah presiden keempat Indonesia.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa Megawati?", "output": "Megawati adalah presiden kelima Indonesia.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa SBY?", "output": "SBY (Susilo Bambang Yudhoyono) adalah presiden keenam Indonesia.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa Jokowi?", "output": "Jokowi (Joko Widodo) adalah presiden ketujuh Indonesia.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa kerajaan Kutai?", "output": "Kutai adalah kerajaan Hindu pertama di Indonesia.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa kerajaan Majapahit?", "output": "Majapahit adalah kerajaan maritim terbesar di Nusantara.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa kerajaan Sriwijaya?", "output": "Sriwijaya adalah kerajaan Buddha terbesar di Indonesia.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa pencetus Pancasila?", "output": "Soekarno adalah pencetus Pancasila.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa lima sila Pancasila?", "output": "1. Ketuhanan, 2. Kemanusiaan, 3. Persatuan, 4. Kerakyatan, 5. Keadilan sosial.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa pahlawan dari Aceh?", "output": "Cut Nyak Dien dan Tjut Meutia.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa pahlawan dari Jawa Tengah?", "output": "Pangeran Diponegoro.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa pahlawan emansipasi wanita?", "output": "R.A. Kartini.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa Bapak Pendidikan Indonesia?", "output": "Ki Hajar Dewantara.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa Bapak Koperasi Indonesia?", "output": "Mohammad Hatta.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Kapan proklamasi kemerdekaan?", "output": "17 Agustus 1945.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Siapa proklamator Indonesia?", "output": "Soekarno dan Hatta.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "Apa sumpah pemuda?", "output": "Sumpah pemuda diikrarkan 28 Oktober 1928.", "bidang": "SD5", "judul": "Kurikulum SD5", "subjudul": "Lengkap"}
+{"input": "What is the chemical symbol for Hydrogen?", "output": "The chemical symbol for Hydrogen is H.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol H?", "output": "H is the symbol for Hydrogen.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Hydrogen?", "output": "The atomic number of Hydrogen is 1.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Hydrogen at room temperature?", "output": "Hydrogen is gas at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Helium?", "output": "The chemical symbol for Helium is He.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol He?", "output": "He is the symbol for Helium.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Helium?", "output": "The atomic number of Helium is 2.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Helium at room temperature?", "output": "Helium is gas at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Lithium?", "output": "The chemical symbol for Lithium is Li.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Li?", "output": "Li is the symbol for Lithium.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Lithium?", "output": "The atomic number of Lithium is 3.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Lithium at room temperature?", "output": "Lithium is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Beryllium?", "output": "The chemical symbol for Beryllium is Be.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Be?", "output": "Be is the symbol for Beryllium.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Beryllium?", "output": "The atomic number of Beryllium is 4.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Beryllium at room temperature?", "output": "Beryllium is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Boron?", "output": "The chemical symbol for Boron is B.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol B?", "output": "B is the symbol for Boron.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Boron?", "output": "The atomic number of Boron is 5.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Boron at room temperature?", "output": "Boron is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Carbon?", "output": "The chemical symbol for Carbon is C.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol C?", "output": "C is the symbol for Carbon.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Carbon?", "output": "The atomic number of Carbon is 6.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Carbon at room temperature?", "output": "Carbon is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Nitrogen?", "output": "The chemical symbol for Nitrogen is N.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol N?", "output": "N is the symbol for Nitrogen.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Nitrogen?", "output": "The atomic number of Nitrogen is 7.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Nitrogen at room temperature?", "output": "Nitrogen is gas at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Oxygen?", "output": "The chemical symbol for Oxygen is O.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol O?", "output": "O is the symbol for Oxygen.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Oxygen?", "output": "The atomic number of Oxygen is 8.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Oxygen at room temperature?", "output": "Oxygen is gas at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Fluorine?", "output": "The chemical symbol for Fluorine is F.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol F?", "output": "F is the symbol for Fluorine.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Fluorine?", "output": "The atomic number of Fluorine is 9.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Fluorine at room temperature?", "output": "Fluorine is gas at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Neon?", "output": "The chemical symbol for Neon is Ne.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Ne?", "output": "Ne is the symbol for Neon.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Neon?", "output": "The atomic number of Neon is 10.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Neon at room temperature?", "output": "Neon is gas at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Sodium?", "output": "The chemical symbol for Sodium is Na.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Na?", "output": "Na is the symbol for Sodium.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Sodium?", "output": "The atomic number of Sodium is 11.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Sodium at room temperature?", "output": "Sodium is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Magnesium?", "output": "The chemical symbol for Magnesium is Mg.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Mg?", "output": "Mg is the symbol for Magnesium.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Magnesium?", "output": "The atomic number of Magnesium is 12.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Magnesium at room temperature?", "output": "Magnesium is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Aluminium?", "output": "The chemical symbol for Aluminium is Al.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Al?", "output": "Al is the symbol for Aluminium.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Aluminium?", "output": "The atomic number of Aluminium is 13.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Aluminium at room temperature?", "output": "Aluminium is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Silicon?", "output": "The chemical symbol for Silicon is Si.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Si?", "output": "Si is the symbol for Silicon.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Silicon?", "output": "The atomic number of Silicon is 14.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Silicon at room temperature?", "output": "Silicon is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Phosphorus?", "output": "The chemical symbol for Phosphorus is P.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol P?", "output": "P is the symbol for Phosphorus.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Phosphorus?", "output": "The atomic number of Phosphorus is 15.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Phosphorus at room temperature?", "output": "Phosphorus is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Sulfur?", "output": "The chemical symbol for Sulfur is S.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol S?", "output": "S is the symbol for Sulfur.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Sulfur?", "output": "The atomic number of Sulfur is 16.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Sulfur at room temperature?", "output": "Sulfur is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Chlorine?", "output": "The chemical symbol for Chlorine is Cl.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Cl?", "output": "Cl is the symbol for Chlorine.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Chlorine?", "output": "The atomic number of Chlorine is 17.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Chlorine at room temperature?", "output": "Chlorine is gas at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Argon?", "output": "The chemical symbol for Argon is Ar.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Ar?", "output": "Ar is the symbol for Argon.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Argon?", "output": "The atomic number of Argon is 18.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Argon at room temperature?", "output": "Argon is gas at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Potassium?", "output": "The chemical symbol for Potassium is K.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol K?", "output": "K is the symbol for Potassium.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Potassium?", "output": "The atomic number of Potassium is 19.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Potassium at room temperature?", "output": "Potassium is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Calcium?", "output": "The chemical symbol for Calcium is Ca.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Ca?", "output": "Ca is the symbol for Calcium.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Calcium?", "output": "The atomic number of Calcium is 20.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Calcium at room temperature?", "output": "Calcium is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Iron?", "output": "The chemical symbol for Iron is Fe.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Fe?", "output": "Fe is the symbol for Iron.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Iron?", "output": "The atomic number of Iron is 26.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Iron at room temperature?", "output": "Iron is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Copper?", "output": "The chemical symbol for Copper is Cu.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Cu?", "output": "Cu is the symbol for Copper.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Copper?", "output": "The atomic number of Copper is 29.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Copper at room temperature?", "output": "Copper is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Zinc?", "output": "The chemical symbol for Zinc is Zn.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Zn?", "output": "Zn is the symbol for Zinc.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Zinc?", "output": "The atomic number of Zinc is 30.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Zinc at room temperature?", "output": "Zinc is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Silver?", "output": "The chemical symbol for Silver is Ag.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Ag?", "output": "Ag is the symbol for Silver.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Silver?", "output": "The atomic number of Silver is 47.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Silver at room temperature?", "output": "Silver is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Tin?", "output": "The chemical symbol for Tin is Sn.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Sn?", "output": "Sn is the symbol for Tin.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Tin?", "output": "The atomic number of Tin is 50.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Tin at room temperature?", "output": "Tin is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Iodine?", "output": "The chemical symbol for Iodine is I.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol I?", "output": "I is the symbol for Iodine.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Iodine?", "output": "The atomic number of Iodine is 53.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Iodine at room temperature?", "output": "Iodine is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Platinum?", "output": "The chemical symbol for Platinum is Pt.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Pt?", "output": "Pt is the symbol for Platinum.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Platinum?", "output": "The atomic number of Platinum is 78.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Platinum at room temperature?", "output": "Platinum is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Gold?", "output": "The chemical symbol for Gold is Au.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Au?", "output": "Au is the symbol for Gold.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Gold?", "output": "The atomic number of Gold is 79.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Gold at room temperature?", "output": "Gold is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Mercury?", "output": "The chemical symbol for Mercury is Hg.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Hg?", "output": "Hg is the symbol for Mercury.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Mercury?", "output": "The atomic number of Mercury is 80.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Mercury at room temperature?", "output": "Mercury is liquid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Lead?", "output": "The chemical symbol for Lead is Pb.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol Pb?", "output": "Pb is the symbol for Lead.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Lead?", "output": "The atomic number of Lead is 82.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Lead at room temperature?", "output": "Lead is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical symbol for Uranium?", "output": "The chemical symbol for Uranium is U.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What element has the symbol U?", "output": "U is the symbol for Uranium.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the atomic number of Uranium?", "output": "The atomic number of Uranium is 92.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What state is Uranium at room temperature?", "output": "Uranium is solid at room temperature.", "bidang": "science", "judul": "Chemistry", "subjudul": "Periodic Table"}
+{"input": "What is the chemical formula for water?", "output": "The chemical formula for water is H2O.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for salt?", "output": "The chemical formula for table salt is NaCl.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for carbon dioxide?", "output": "The chemical formula for CO2 is CO2.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for glucose?", "output": "The chemical formula for glucose is C6H12O6.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for methane?", "output": "The chemical formula for methane is CH4.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for ammonia?", "output": "The chemical formula for ammonia is NH3.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for sulfuric acid?", "output": "The chemical formula for sulfuric acid is H2SO4.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for hydrochloric acid?", "output": "The chemical formula for HCl is HCl.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for baking soda?", "output": "The chemical formula for baking soda is NaHCO3.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for hydrogen peroxide?", "output": "The chemical formula is H2O2.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for ethanol?", "output": "The chemical formula for ethanol is C2H5OH.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for calcium carbonate?", "output": "The chemical formula is CaCO3.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for ozone?", "output": "The chemical formula for ozone is O3.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for nitrogen gas?", "output": "The chemical formula for nitrogen gas is N2.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the chemical formula for oxygen gas?", "output": "The chemical formula for oxygen gas is O2.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a chemical reaction?", "output": "A chemical reaction is a process where substances change into new substances.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What are reactants?", "output": "Reactants are the starting substances in a chemical reaction.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What are products?", "output": "Products are the new substances formed in a chemical reaction.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is combustion?", "output": "Combustion is a reaction where a substance burns in oxygen.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is oxidation?", "output": "Oxidation is a reaction where oxygen is added or electrons are lost.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is reduction?", "output": "Reduction is a reaction where oxygen is removed or electrons are gained.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is rusting?", "output": "Rusting is the oxidation of iron, forming iron oxide (Fe2O3).", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is corrosion?", "output": "Corrosion is the gradual destruction of metals by chemical reactions.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a catalyst?", "output": "A catalyst speeds up a chemical reaction without being consumed.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is an exothermic reaction?", "output": "An exothermic reaction releases heat to the surroundings.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is an endothermic reaction?", "output": "An endothermic reaction absorbs heat from the surroundings.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a mixture?", "output": "A mixture is a combination of substances that are not chemically bonded.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a compound?", "output": "A compound is a substance made of two or more elements chemically bonded.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is an element?", "output": "An element is a pure substance that cannot be broken down further.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is an atom?", "output": "An atom is the smallest unit of an element that retains its properties.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a molecule?", "output": "A molecule is two or more atoms chemically bonded together.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What are the parts of an atom?", "output": "An atom has protons (positive), neutrons (neutral), and electrons (negative).", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "Where are protons located?", "output": "Protons are in the nucleus (center) of the atom.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "Where are electrons located?", "output": "Electrons orbit around the nucleus in electron shells.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the charge of a proton?", "output": "A proton has a positive charge.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the charge of an electron?", "output": "An electron has a negative charge.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is the charge of a neutron?", "output": "A neutron has no charge (neutral).", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is an ion?", "output": "An ion is an atom that has gained or lost electrons, giving it a charge.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a cation?", "output": "A cation is a positively charged ion (lost electrons).", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is an anion?", "output": "An anion is a negatively charged ion (gained electrons).", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a covalent bond?", "output": "A covalent bond is when atoms share electrons.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is an ionic bond?", "output": "An ionic bond is when one atom gives electrons to another.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is pH?", "output": "pH measures how acidic or basic a solution is, from 0 to 14.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What pH is neutral?", "output": "pH 7 is neutral (pure water).", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What pH is acidic?", "output": "pH below 7 is acidic.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What pH is basic?", "output": "pH above 7 is basic (alkaline).", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is an acid?", "output": "An acid is a substance with pH below 7 that tastes sour.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a base?", "output": "A base is a substance with pH above 7 that tastes bitter and feels slippery.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is neutralization?", "output": "Neutralization is when an acid and base react to form water and salt.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a solution?", "output": "A solution is a mixture where one substance dissolves in another.", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a solvent?", "output": "A solvent is the substance that dissolves the solute (e.g., water).", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What is a solute?", "output": "A solute is the substance that dissolves in the solvent (e.g., salt).", "bidang": "science", "judul": "Chemistry", "subjudul": "Reactions"}
+{"input": "What are the major world religions?", "output": "The major religions are Christianity, Islam, Hinduism, Buddhism, Judaism.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Christianity?", "output": "Christianity is a religion based on the teachings of Jesus Christ.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is the holy book of Christianity?", "output": "The Bible is the holy book of Christianity.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "Where was Christianity founded?", "output": "Christianity was founded in the Middle East (Jerusalem).", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Islam?", "output": "Islam is a religion based on the teachings of Prophet Muhammad.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is the holy book of Islam?", "output": "The Quran is the holy book of Islam.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "Where was Islam founded?", "output": "Islam was founded in Mecca, Saudi Arabia.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What are the Five Pillars of Islam?", "output": "The Five Pillars are: faith, prayer, charity, fasting, pilgrimage.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Hinduism?", "output": "Hinduism is one of the oldest religions, originating in India.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What are Hindu holy books?", "output": "The Vedas, Upanishads, and Bhagavad Gita are Hindu holy books.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "Where was Hinduism founded?", "output": "Hinduism originated in the Indus Valley, India.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Buddhism?", "output": "Buddhism is a religion based on the teachings of Siddhartha Gautama (Buddha).", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "Who was the Buddha?", "output": "The Buddha was Siddhartha Gautama, who achieved enlightenment.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "Where was Buddhism founded?", "output": "Buddhism was founded in India (Nepal).", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is the Four Noble Truths?", "output": "The Four Noble Truths explain the nature of suffering and the path to end it.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is the Eightfold Path?", "output": "The Eightfold Path is the Buddhist path to enlightenment.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Judaism?", "output": "Judaism is one of the oldest monotheistic religions, founded by Abraham.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is the holy book of Judaism?", "output": "The Torah is the holy book of Judaism.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "Where was Judaism founded?", "output": "Judaism was founded in the Middle East (Canaan).", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Shinto?", "output": "Shinto is the indigenous religion of Japan, focusing on nature spirits (kami).", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Confucianism?", "output": "Confucianism is a philosophy based on the teachings of Confucius.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Taoism?", "output": "Taoism is a Chinese philosophy emphasizing harmony with the Tao (the way).", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Sikhism?", "output": "Sikhism is a religion founded in India by Guru Nanak.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is the holy book of Sikhism?", "output": "The Guru Granth Sahib is the holy book of Sikhism.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is atheism?", "output": "Atheism is the lack of belief in gods or deities.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is monotheism?", "output": "Monotheism is belief in one God (Christianity, Islam, Judaism).", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is polytheism?", "output": "Polytheism is belief in many gods (Hinduism, ancient Greek).", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is a mosque?", "output": "A mosque is a place of worship for Muslims.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is a church?", "output": "A church is a place of worship for Christians.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is a temple?", "output": "A temple is a place of worship for Hindus, Buddhists, and others.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is a synagogue?", "output": "A synagogue is a place of worship for Jews.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Christmas?", "output": "Christmas celebrates the birth of Jesus Christ on December 25.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Easter?", "output": "Easter celebrates the resurrection of Jesus Christ.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Ramadan?", "output": "Ramadan is the Islamic holy month of fasting.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Eid?", "output": "Eid al-Fitr celebrates the end of Ramadan fasting.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Diwali?", "output": "Diwali is the Hindu festival of lights.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Holi?", "output": "Holi is the Hindu festival of colors.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Vesak?", "output": "Vesak celebrates the birth, enlightenment, and death of Buddha.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Rosh Hashanah?", "output": "Rosh Hashanah is the Jewish New Year.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Yom Kippur?", "output": "Yom Kippur is the Jewish Day of Atonement.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Passover?", "output": "Passover celebrates the Jewish exodus from Egypt.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is Hanukkah?", "output": "Hanukkah is the Jewish festival of lights.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is the Hajj?", "output": "The Hajj is the Islamic pilgrimage to Mecca.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is the Sabbath?", "output": "The Sabbath is a day of rest (Friday for Muslims, Saturday for Jews, Sunday for Christians).", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is meditation?", "output": "Meditation is a practice for calming the mind, used in Buddhism and Hinduism.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is yoga?", "output": "Yoga is a physical and mental practice originating in India.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is karma?", "output": "Karma is the concept that actions have consequences in this life or the next.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is reincarnation?", "output": "Reincarnation is the belief that the soul is reborn in a new body.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is nirvana?", "output": "Nirvana is the Buddhist state of perfect peace and liberation from suffering.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is moksha?", "output": "Moksha is the Hindu concept of liberation from the cycle of rebirth.", "bidang": "culture", "judul": "World Religions", "subjudul": "General"}
+{"input": "What is the national animal of India?", "output": "The Bengal tiger is the national animal of India.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Australia?", "output": "The kangaroo is the national animal of Australia.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of China?", "output": "The giant panda is the national animal of China.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of the US?", "output": "The bald eagle is the national animal of the US.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Indonesia?", "output": "The Komodo dragon is the national animal of Indonesia.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Malaysia?", "output": "The Malayan tiger is the national animal of Malaysia.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Thailand?", "output": "The elephant is the national animal of Thailand.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Bangladesh?", "output": "The Royal Bengal tiger is the national animal of Bangladesh.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Pakistan?", "output": "The Markhor is the national animal of Pakistan.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Sri Lanka?", "output": "The lion is the national animal of Sri Lanka.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of South Africa?", "output": "The springbok is the national animal of South Africa.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Canada?", "output": "The beaver is the national animal of Canada.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Russia?", "output": "The brown bear is the national animal of Russia.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of the UK?", "output": "The lion is the national animal of the UK.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Japan?", "output": "The green pheasant is the national animal of Japan.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national animal of Kenya?", "output": "The lion is the national animal of Kenya.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of Japan?", "output": "The cherry blossom (sakura) is the national flower of Japan.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of Indonesia?", "output": "The melati (jasmine) is the national flower of Indonesia.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of India?", "output": "The lotus is the national flower of India.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of China?", "output": "The peony is the national flower of China.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of the US?", "output": "The rose is the national flower of the US.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of the UK?", "output": "The rose is the national flower of England.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of France?", "output": "The iris is the national flower of France.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of Italy?", "output": "The lily is the national flower of Italy.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of Spain?", "output": "The carnation is the national flower of Spain.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of Germany?", "output": "The cornflower is the national flower of Germany.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of Russia?", "output": "The chamomile is the national flower of Russia.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of Malaysia?", "output": "The hibiscus is the national flower of Malaysia.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of Thailand?", "output": "The golden shower flower is the national flower of Thailand.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What is the national flower of South Korea?", "output": "The rose of Sharon is the national flower of South Korea.", "bidang": "geography", "judul": "National Symbols", "subjudul": "Animals and Flowers"}
+{"input": "What has keys but cannot open locks?", "output": "A piano.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has a face but cannot smile?", "output": "A clock.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has hands but cannot clap?", "output": "A clock.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has legs but cannot walk?", "output": "A table.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has a neck but no head?", "output": "A bottle.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What gets wetter as it dries?", "output": "A towel.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What goes up but never comes down?", "output": "Your age.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has one eye but cannot see?", "output": "A needle.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has many teeth but cannot bite?", "output": "A comb.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has a thumb and fingers but is not alive?", "output": "A glove.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What can travel around the world while staying in a corner?", "output": "A stamp.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What is full of holes but still holds water?", "output": "A sponge.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has a head and a tail but no body?", "output": "A coin.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What comes down but never goes up?", "output": "Rain.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "I am tall when I am young and short when I am old. What am I?", "output": "A candle.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has cities but no houses, forests but no trees, water but no fish?", "output": "A map.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What can you catch but not throw?", "output": "A cold.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has words but never speaks?", "output": "A book.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What begins with T, ends with T, and has T in it?", "output": "A teapot.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What is so fragile that saying its name breaks it?", "output": "Silence.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What belongs to you but others use it more?", "output": "Your name.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "I have seas without water, coasts without sand, towns without people, and mountains without land. What am I?", "output": "A map.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What can run but never walks, has a mouth but never talks?", "output": "A river.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has a ring but no finger?", "output": "A telephone.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "I fly without wings. I cry without eyes. What am I?", "output": "A cloud.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "The more you take, the more you leave behind. What are they?", "output": "Footsteps.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What goes up when rain comes down?", "output": "An umbrella.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "I have four legs but cannot walk. What am I?", "output": "A table or chair.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has a bank but no money?", "output": "A river.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has no beginning, end, or middle?", "output": "A donut.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What question can you never answer yes to?", "output": "Are you asleep yet?", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What can hold water but is full of holes?", "output": "A sponge.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "I am not alive, but I have 5 fingers. What am I?", "output": "A glove.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has no doors but has keys?", "output": "A piano.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What tree can you carry in your hand?", "output": "A palm (of your hand).", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has to be broken before you can use it?", "output": "An egg.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "I am higher without a head. What am I?", "output": "A pillow.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What gets bigger the more you take away from it?", "output": "A hole.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "Forward I am heavy, but backward I am not. What am I?", "output": "The word \"ton\".", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What can you hold in your right hand but not your left?", "output": "Your left elbow.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has many rings but no fingers?", "output": "A telephone.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What starts with a T, ends with a T, and has T in it?", "output": "A teapot.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What is always in front of you but cannot be seen?", "output": "The future.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What is at the end of a rainbow?", "output": "The letter W.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What can you keep after giving it to someone?", "output": "Your word.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "I shave every day but my beard stays the same. What am I?", "output": "A barber.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What has words but never speaks?", "output": "A book.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What can fill a room but takes up no space?", "output": "Light.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "I have keys but no locks. I have space but no room. What am I?", "output": "A keyboard.", "bidang": "logika", "judul": "Brain Teasers", "subjudul": "Riddles"}
+{"input": "What is economics?", "output": "Economics is the study of how people produce, distribute, and consume goods and services.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is supply and demand?", "output": "Supply is how much is available. Demand is how much people want. Price is determined by both.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What happens when demand is high but supply is low?", "output": "When demand is high and supply is low, prices go up.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What happens when supply is high but demand is low?", "output": "When supply is high and demand is low, prices go down.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is money?", "output": "Money is a medium of exchange used to buy goods and services.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What are the functions of money?", "output": "Money serves as: medium of exchange, unit of account, store of value, and standard of deferred payment.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a bank?", "output": "A bank is a financial institution that accepts deposits and makes loans.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is interest?", "output": "Interest is the cost of borrowing money or the return on saving money.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a loan?", "output": "A loan is borrowed money that must be repaid with interest.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is saving?", "output": "Saving is keeping money for future use instead of spending it now.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is investing?", "output": "Investing is using money to buy assets (like stocks) hoping they will increase in value.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a budget?", "output": "A budget is a plan for how to spend and save money.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is income?", "output": "Income is money earned from work, investments, or other sources.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is an expense?", "output": "An expense is money spent on goods and services.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is profit?", "output": "Profit is the money left after subtracting costs from revenue.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is loss?", "output": "A loss is when costs are greater than revenue.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a market?", "output": "A market is where buyers and sellers exchange goods and services.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is trade?", "output": "Trade is the exchange of goods and services between people or countries.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is export?", "output": "Export is selling goods to another country.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is import?", "output": "Import is buying goods from another country.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is GDP?", "output": "GDP (Gross Domestic Product) is the total value of goods and services produced in a country.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is inflation?", "output": "Inflation is a general increase in prices over time.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is deflation?", "output": "Deflation is a general decrease in prices over time.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is tax?", "output": "Tax is money collected by the government from citizens to fund public services.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a stock market?", "output": "A stock market is where shares of companies are bought and sold.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a share?", "output": "A share is a unit of ownership in a company.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a company?", "output": "A company is a business organization that sells goods or services.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is entrepreneurship?", "output": "Entrepreneurship is starting and running a new business.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is competition?", "output": "Competition is when businesses try to attract the same customers.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is monopoly?", "output": "A monopoly is when one company controls an entire market.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is scarcity?", "output": "Scarcity is when there is not enough of something to meet demand.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is opportunity cost?", "output": "Opportunity cost is what you give up when you choose one option over another.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a consumer?", "output": "A consumer is a person who buys and uses goods and services.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a producer?", "output": "A producer is a person or company that makes goods or services.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is needs vs wants?", "output": "Needs are things you must have to survive. Wants are things you would like to have.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is barter?", "output": "Barter is trading goods directly without using money.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a wage?", "output": "A wage is payment for work, usually per hour.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a salary?", "output": "A salary is fixed payment for work, usually per month or year.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a discount?", "output": "A discount is a reduction in the price of something.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a coupon?", "output": "A coupon gives you a discount on a purchase.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a credit card?", "output": "A credit card lets you borrow money to pay for things, which you repay later.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a debit card?", "output": "A debit card takes money directly from your bank account when you pay.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is online shopping?", "output": "Online shopping is buying goods through the internet.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a receipt?", "output": "A receipt is a document showing proof of purchase.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is an invoice?", "output": "An invoice is a bill requesting payment for goods or services.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is insurance?", "output": "Insurance is protection against possible future loss, paid as premiums.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is a mortgage?", "output": "A mortgage is a loan used to buy a house, paid back over many years.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is rent?", "output": "Rent is payment for using someone else's property, like a house.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is unemployment?", "output": "Unemployment is when people who want to work cannot find jobs.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is poverty?", "output": "Poverty is not having enough money to meet basic needs.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is wealth?", "output": "Wealth is having a lot of money, property, or other valuable assets.", "bidang": "uang_ekonomi", "judul": "Economics", "subjudul": "Basics"}
+{"input": "What is democracy?", "output": "Democracy is government by the people, through elected representatives.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a republic?", "output": "A republic is a government without a monarch, headed by elected leaders.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a monarchy?", "output": "A monarchy is government with a king or queen as head of state.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a constitutional monarchy?", "output": "A constitutional monarchy has a king/queen with limited power, plus an elected government.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a dictatorship?", "output": "A dictatorship is government by one person with total power, no elections.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is communism?", "output": "Communism is a system where the government owns all property and businesses.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a federation?", "output": "A federation is a country with a central government and state/provincial governments.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a unitary state?", "output": "A unitary state has all power in the central government.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a confederation?", "output": "A confederation is a loose alliance of independent states.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is an theocracy?", "output": "A theocracy is government based on religion, with religious leaders in charge.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is an oligarchy?", "output": "An oligarchy is government by a small group of powerful people.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is an aristocracy?", "output": "An aristocracy is government by the nobility or elite class.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is anarchy?", "output": "Anarchy is the absence of government or law.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a parliament?", "output": "A parliament is a legislative body that makes laws and represents the people.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a congress?", "output": "A congress is a legislative body, like in the United States.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a constitution?", "output": "A constitution is the fundamental law of a country.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is an amendment?", "output": "An amendment is a change or addition to a constitution.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a bill of rights?", "output": "A bill of rights lists the basic rights of citizens.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is separation of powers?", "output": "Separation of powers divides government into legislative, executive, and judicial branches.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What are checks and balances?", "output": "Checks and balances ensure no branch of government becomes too powerful.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is voting?", "output": "Voting is how citizens choose their representatives in a democracy.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a referendum?", "output": "A referendum is a direct vote by citizens on a specific issue.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is impeachment?", "output": "Impeachment is the process of removing a public official from office for misconduct.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is a treaty?", "output": "A treaty is a formal agreement between countries.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is diplomacy?", "output": "Diplomacy is managing relations between countries through negotiation, not war.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is the United Nations?", "output": "The UN is an international organization of 193 countries working for peace.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "When was the UN founded?", "output": "The UN was founded in 1945 after World War II.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is NATO?", "output": "NATO is a military alliance of North American and European countries.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is the European Union?", "output": "The EU is a political and economic union of 27 European countries.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is ASEAN?", "output": "ASEAN is the Association of Southeast Asian Nations, with 10 member countries.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is the G20?", "output": "The G20 is a group of 20 major economies that discuss global issues.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is the World Health Organization?", "output": "The WHO is a UN agency for international public health.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is UNESCO?", "output": "UNESCO is a UN agency for education, science, and culture, designating World Heritage Sites.", "bidang": "PKn", "judul": "Forms of Government", "subjudul": "General"}
+{"input": "What is the Eiffel Tower?", "output": "The Eiffel Tower is a famous iron tower in Paris, France, built in 1889.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "How tall is the Eiffel Tower?", "output": "The Eiffel Tower is 330 meters tall.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Statue of Liberty?", "output": "The Statue of Liberty is a gift from France in New York Harbor, symbolizing freedom.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "Where is the Statue of Liberty?", "output": "The Statue of Liberty is in New York Harbor, USA.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Taj Mahal?", "output": "The Taj Mahal is a white marble mausoleum in Agra, India.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "Who built the Taj Mahal?", "output": "Shah Jahan built the Taj Mahal for his wife Mumtaz Mahal.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Great Wall of China?", "output": "The Great Wall is a massive wall built to protect China from invaders.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "How long is the Great Wall?", "output": "The Great Wall is about 21,000 km long.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Colosseum?", "output": "The Colosseum is an ancient Roman amphitheater in Rome, Italy.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Parthenon?", "output": "The Parthenon is an ancient Greek temple in Athens, Greece.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What are the Pyramids of Giza?", "output": "The Pyramids of Giza are ancient Egyptian tombs, built over 4,500 years ago.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Sphinx?", "output": "The Sphinx is a statue with a lion body and human head, near the pyramids in Egypt.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Stonehenge?", "output": "Stonehenge is an ancient stone circle in England, about 5,000 years old.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Big Ben?", "output": "Big Ben is the famous clock tower in London, England.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Tower of London?", "output": "The Tower of London is a historic castle, once a prison and royal residence.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Buckingham Palace?", "output": "Buckingham Palace is the residence of the British monarch in London.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Sydney Opera House?", "output": "The Sydney Opera House is a famous performing arts center in Australia.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Golden Gate Bridge?", "output": "The Golden Gate Bridge is a famous suspension bridge in San Francisco, USA.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Grand Canyon?", "output": "The Grand Canyon is a massive canyon in Arizona, USA.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Niagara Falls?", "output": "Niagara Falls is a famous waterfall on the US-Canada border.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Machu Picchu?", "output": "Machu Picchu is an ancient Incan city in Peru, South America.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Statue of Christ the Redeemer?", "output": "Christ the Redeemer is a statue in Rio de Janeiro, Brazil.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Petra?", "output": "Petra is an ancient city carved in rock in Jordan.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Taj Mahal?", "output": "The Taj Mahal is a white marble mausoleum in Agra, India.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Leaning Tower of Pisa?", "output": "The Leaning Tower of Pisa is a tilted bell tower in Italy.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Sagrada Familia?", "output": "The Sagrada Familia is a famous church in Barcelona, Spain, designed by Gaudi.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Burj Khalifa?", "output": "The Burj Khalifa in Dubai is the tallest building in the world, 828 meters.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the CN Tower?", "output": "The CN Tower is a communications tower in Toronto, Canada.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the London Eye?", "output": "The London Eye is a giant Ferris wheel in London.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Times Square?", "output": "Times Square is a famous intersection in New York City with bright lights.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the White House?", "output": "The White House is the residence of the US President in Washington DC.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Pentagon?", "output": "The Pentagon is the US Department of Defense headquarters.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Mount Rushmore?", "output": "Mount Rushmore has carved faces of 4 US presidents in South Dakota.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "Which presidents are on Mount Rushmore?", "output": "Washington, Jefferson, Roosevelt, and Lincoln.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Lincoln Memorial?", "output": "The Lincoln Memorial is a monument to Abraham Lincoln in Washington DC.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Washington Monument?", "output": "The Washington Monument is an obelisk in Washington DC.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Hollywood Sign?", "output": "The Hollywood Sign is a landmark in Los Angeles, California.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Forbidden City?", "output": "The Forbidden City is the former imperial palace in Beijing, China.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Terracotta Army?", "output": "The Terracotta Army is thousands of clay soldiers in Xi'an, China.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Tokyo Tower?", "output": "Tokyo Tower is a communications tower in Tokyo, inspired by the Eiffel Tower.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Petronas Towers?", "output": "The Petronas Towers are twin skyscrapers in Kuala Lumpur, Malaysia.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Marina Bay Sands?", "output": "Marina Bay Sands is a famous hotel with a boat-shaped rooftop in Singapore.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Borobudur?", "output": "Borobudur is the largest Buddhist temple in the world, in Central Java, Indonesia.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Prambanan?", "output": "Prambanan is the largest Hindu temple in Indonesia, in Central Java.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Monas?", "output": "Monas (Monumen Nasional) is Indonesia's national monument in Jakarta.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Krakatoa?", "output": "Krakatoa is a famous volcano in Indonesia that erupted in 1883.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Lake Toba?", "output": "Lake Toba is the largest volcanic lake in the world, in North Sumatra, Indonesia.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Raja Ampat?", "output": "Raja Ampat is a famous marine area in West Papua, Indonesia, known for biodiversity.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Komodo Island?", "output": "Komodo Island is home to the Komodo dragon, the largest lizard in the world.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Great Barrier Reef?", "output": "The Great Barrier Reef is the largest coral reef system, in Australia.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Uluru (Ayers Rock)?", "output": "Uluru is a large sandstone rock formation in central Australia.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Amazon Rainforest?", "output": "The Amazon Rainforest is the largest rainforest, in South America.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Sahara Desert?", "output": "The Sahara is the largest hot desert, in North Africa.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Mount Everest?", "output": "Mount Everest is the highest mountain in the world, 8,849 meters.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Dead Sea?", "output": "The Dead Sea is so salty that people float easily on it.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Northern Lights (Aurora)?", "output": "The Northern Lights are natural light displays in polar regions.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Grand Canyon?", "output": "The Grand Canyon is a massive canyon carved by the Colorado River.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Yellowstone National Park?", "output": "Yellowstone is the first national park, in Wyoming, USA, with geysers.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Old Faithful?", "output": "Old Faithful is a famous geyser in Yellowstone National Park.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Vatican City?", "output": "Vatican City is the smallest country in the world, inside Rome, Italy.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is St. Peter's Basilica?", "output": "St. Peter's Basilica is the largest church in the world, in Vatican City.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Acropolis?", "output": "The Acropolis is an ancient citadel in Athens, Greece, with the Parthenon.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Stonehenge?", "output": "Stonehenge is a prehistoric stone circle in England.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Berlin Wall?", "output": "The Berlin Wall divided East and West Berlin from 1961 to 1989.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Brandenburg Gate?", "output": "The Brandenburg Gate is a famous landmark in Berlin, Germany.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Kremlin?", "output": "The Kremlin is a fortified complex in Moscow, the seat of Russian government.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Red Square?", "output": "Red Square is a large public square in Moscow, Russia.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Taj Mahal?", "output": "The Taj Mahal is a UNESCO World Heritage Site in Agra, India.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Angkor Wat?", "output": "Angkor Wat is the largest religious monument in the world, in Cambodia.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Petronas Towers?", "output": "The Petronas Towers were the tallest buildings in the world from 1998-2004.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Shard?", "output": "The Shard is the tallest building in the UK, in London.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Burj Al Arab?", "output": "The Burj Al Arab is a luxury hotel in Dubai shaped like a sail.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Golden Temple?", "output": "The Golden Temple is the holiest shrine of Sikhism, in Amritsar, India.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Kaaba?", "output": "The Kaaba is the holiest site in Islam, in Mecca, Saudi Arabia.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Western Wall?", "output": "The Western Wall (Wailing Wall) is a holy site in Jerusalem.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Blue Mosque?", "output": "The Blue Mosque (Sultan Ahmed Mosque) is a famous mosque in Istanbul, Turkey.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Hagia Sophia?", "output": "Hagia Sophia is a historic building in Istanbul, once a church then mosque.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Notre Dame?", "output": "Notre Dame is a famous cathedral in Paris, France.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is Westminster Abbey?", "output": "Westminster Abbey is a famous church in London where monarchs are crowned.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Tower Bridge?", "output": "Tower Bridge is a famous bascule bridge over the River Thames in London.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Edinburgh Castle?", "output": "Edinburgh Castle is a historic fortress on a hill in Scotland.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Mont Saint-Michel?", "output": "Mont Saint-Michel is an island commune with a medieval monastery in France.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "What is the Colosseum?", "output": "The Colosseum could hold 50,000 spectators for gladiator games in ancient Rome.", "bidang": "geography", "judul": "World Landmarks", "subjudul": "Famous"}
+{"input": "Who painted the Mona Lisa?", "output": "Leonardo da Vinci painted the Mona Lisa.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Where is the Mona Lisa displayed?", "output": "The Mona Lisa is displayed at the Louvre Museum in Paris.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who painted The Starry Night?", "output": "Vincent van Gogh painted The Starry Night.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who painted The Scream?", "output": "Edvard Munch painted The Scream.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who painted The Last Supper?", "output": "Leonardo da Vinci painted The Last Supper.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who painted Guernica?", "output": "Pablo Picasso painted Guernica.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who painted The Birth of Venus?", "output": "Sandro Botticelli painted The Birth of Venus.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who painted Sunflowers?", "output": "Vincent van Gogh painted the Sunflowers series.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who painted The Persistence of Memory?", "output": "Salvador Dali painted The Persistence of Memory.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who painted The Great Wave?", "output": "Hokusai painted The Great Wave off Kanagawa.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Leonardo da Vinci?", "output": "Leonardo da Vinci was an Italian Renaissance artist, inventor, and scientist.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Michelangelo?", "output": "Michelangelo was an Italian sculptor and painter, creator of the David statue and Sistine Chapel ceiling.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Pablo Picasso?", "output": "Picasso was a Spanish painter, co-founder of Cubism.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Vincent van Gogh?", "output": "Van Gogh was a Dutch Post-Impressionist painter known for vivid colors.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Claude Monet?", "output": "Monet was a French Impressionist painter, known for water lilies.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Frida Kahlo?", "output": "Frida Kahlo was a Mexican painter known for self-portraits.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Rembrandt?", "output": "Rembrandt was a Dutch painter known for light and shadow (chiaroscuro).", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Auguste Rodin?", "output": "Rodin was a French sculptor, creator of The Thinker.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Salvador Dali?", "output": "Dali was a Spanish Surrealist painter, known for melting clocks.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Raphael?", "output": "Raphael was an Italian Renaissance painter, known for Madonnas.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is the David statue?", "output": "The David is a marble sculpture by Michelangelo, in Florence, Italy.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is The Thinker?", "output": "The Thinker is a bronze sculpture by Auguste Rodin.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is the Venus de Milo?", "output": "The Venus de Milo is an ancient Greek statue of the goddess Aphrodite.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is the Statue of David?", "output": "Michelangelo's David is 5.17 meters tall and carved from marble.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is classical music?", "output": "Classical music is Western art music from the 11th century to present.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is jazz?", "output": "Jazz is a music genre from African American communities, known for improvisation.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is rock music?", "output": "Rock is a genre from the 1950s, using electric guitars and drums.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is pop music?", "output": "Pop music is popular music with catchy melodies and simple structures.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is hip hop?", "output": "Hip hop is a culture from the 1970s, including rap music, DJing, and breakdancing.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is blues?", "output": "Blues is a genre from African American communities, expressing sadness and struggle.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is country music?", "output": "Country is a genre from the southern US, featuring guitars and storytelling.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is reggae?", "output": "Reggae is a genre from Jamaica, associated with Bob Marley.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is electronic music?", "output": "Electronic music uses synthesizers and computers to create sound.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is opera?", "output": "Opera is a theatrical performance with singing and orchestra.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is folk music?", "output": "Folk music is traditional music passed down through generations.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Mozart?", "output": "Mozart was an Austrian composer, one of the greatest in history.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Beethoven?", "output": "Beethoven was a German composer who became deaf but kept composing.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Bach?", "output": "Johann Sebastian Bach was a German Baroque composer.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Chopin?", "output": "Frederic Chopin was a Polish composer known for piano music.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Elvis Presley?", "output": "Elvis Presley was the \"King of Rock and Roll.\"", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Michael Jackson?", "output": "Michael Jackson was the \"King of Pop.\"", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Bob Marley?", "output": "Bob Marley was a Jamaican reggae musician.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was The Beatles?", "output": "The Beatles were a famous British rock band: John, Paul, George, Ringo.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was Ludwig van Beethoven?", "output": "Beethoven composed 9 symphonies, including the famous Ode to Joy.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Romeo and Juliet?", "output": "William Shakespeare wrote Romeo and Juliet.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Hamlet?", "output": "William Shakespeare wrote Hamlet.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who was William Shakespeare?", "output": "Shakespeare was an English playwright, considered the greatest writer in English.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote the Harry Potter series?", "output": "J.K. Rowling wrote the Harry Potter series.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Alice in Wonderland?", "output": "Lewis Carroll wrote Alice in Wonderland.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Charlie and the Chocolate Factory?", "output": "Roald Dahl wrote Charlie and the Chocolate Factory.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote The Little Prince?", "output": "Antoine de Saint-Exupery wrote The Little Prince.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Treasure Island?", "output": "Robert Louis Stevenson wrote Treasure Island.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote A Christmas Carol?", "output": "Charles Dickens wrote A Christmas Carol.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Oliver Twist?", "output": "Charles Dickens wrote Oliver Twist.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Pride and Prejudice?", "output": "Jane Austen wrote Pride and Prejudice.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote The Adventures of Tom Sawyer?", "output": "Mark Twain wrote The Adventures of Tom Sawyer.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote The Cat in the Hat?", "output": "Dr. Seuss wrote The Cat in the Hat.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote The Lord of the Rings?", "output": "J.R.R. Tolkien wrote The Lord of the Rings.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote 1984?", "output": "George Orwell wrote 1984.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote To Kill a Mockingbird?", "output": "Harper Lee wrote To Kill a Mockingbird.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote The Odyssey?", "output": "Homer wrote The Odyssey.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote The Iliad?", "output": "Homer wrote The Iliad.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Don Quixote?", "output": "Miguel de Cervantes wrote Don Quixote.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote The Divine Comedy?", "output": "Dante Alighieri wrote The Divine Comedy.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote War and Peace?", "output": "Leo Tolstoy wrote War and Peace.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Anne of Green Gables?", "output": "L.M. Montgomery wrote Anne of Green Gables.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Peter Pan?", "output": "J.M. Barrie wrote Peter Pan.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote The Jungle Book?", "output": "Rudyard Kipling wrote The Jungle Book.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Winnie the Pooh?", "output": "A.A. Milne wrote Winnie the Pooh.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Frankenstein?", "output": "Mary Shelley wrote Frankenstein.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote Dracula?", "output": "Bram Stoker wrote Dracula.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "Who wrote The Hitchhiker's Guide to the Galaxy?", "output": "Douglas Adams wrote The Hitchhiker's Guide to the Galaxy.", "bidang": "culture", "judul": "World Arts", "subjudul": "Music, Art, Literature"}
+{"input": "What is an earthquake?", "output": "An earthquake is a sudden shaking of the ground caused by tectonic plate movement.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What causes earthquakes?", "output": "Earthquakes are caused by movement of tectonic plates or volcanic activity.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is the Richter scale?", "output": "The Richter scale measures the magnitude (strength) of earthquakes.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a tsunami?", "output": "A tsunami is a series of large ocean waves caused by underwater earthquakes.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a volcanic eruption?", "output": "A volcanic eruption is when magma, gas, and ash are expelled from a volcano.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is lava?", "output": "Lava is molten rock that flows from a volcano onto the surface.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is ash in a volcanic eruption?", "output": "Ash is tiny particles of pulverized rock and glass blown into the air.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a flood?", "output": "A flood is when water overflows onto normally dry land.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What causes floods?", "output": "Floods are caused by heavy rain, melting snow, or dam failures.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a drought?", "output": "A drought is a long period with little or no rain.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a hurricane?", "output": "A hurricane is a large rotating storm that forms over warm ocean water.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a typhoon?", "output": "A typhoon is the same as a hurricane but in the Pacific Ocean.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a cyclone?", "output": "A cyclone is the same as a hurricane but in the Indian Ocean.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is the eye of a hurricane?", "output": "The eye is the calm center of a hurricane.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a tornado?", "output": "A tornado is a spinning column of air that touches the ground.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a wildfire?", "output": "A wildfire is an uncontrolled fire in a forest or grassland.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a landslide?", "output": "A landslide is when rocks and soil slide down a slope.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is an avalanche?", "output": "An avalanche is a mass of snow rapidly sliding down a mountain.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a heatwave?", "output": "A heatwave is a period of abnormally high temperatures.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a blizzard?", "output": "A blizzard is a severe snowstorm with strong winds.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a hailstorm?", "output": "A hailstorm produces balls of ice (hail) that fall from clouds.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a thunderstorm?", "output": "A thunderstorm has thunder, lightning, and heavy rain.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is lightning?", "output": "Lightning is a giant electric spark between clouds or cloud to ground.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What causes thunder?", "output": "Thunder is the sound of air rapidly heated by lightning.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What should you do during an earthquake?", "output": "Drop, cover, and hold on. Stay away from windows.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What should you do during a fire?", "output": "Get out immediately. Call emergency services. Don't use elevators.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What should you do during a flood?", "output": "Move to higher ground. Don't walk or drive through flood water.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What should you do during a tornado?", "output": "Go to a basement or interior room. Stay away from windows.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What should you do during a thunderstorm?", "output": "Stay indoors. Avoid water and electrical appliances.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is an emergency kit?", "output": "An emergency kit has food, water, first aid, flashlight, and supplies for disasters.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What should be in an emergency kit?", "output": "Water, non-perishable food, first aid kit, flashlight, batteries, radio, blankets.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is the emergency number in Indonesia?", "output": "The emergency number in Indonesia is 112.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is the emergency number in the US?", "output": "The emergency number in the US is 911.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is the emergency number in Europe?", "output": "The emergency number in Europe is 112.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is the emergency number in Japan?", "output": "The emergency number in Japan is 110 (police) and 119 (fire/ambulance).", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is the emergency number in the UK?", "output": "The emergency number in the UK is 999 or 112.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is the emergency number in Australia?", "output": "The emergency number in Australia is 000.", "bidang": "science", "judul": "Natural Disasters", "subjudul": "General"}
+{"input": "What is a computer?", "output": "A computer is a machine that processes data into useful information.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What are the main parts of a computer?", "output": "CPU, memory (RAM), storage, input devices, output devices.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a CPU?", "output": "The CPU (Central Processing Unit) is the \"brain\" of the computer.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is RAM?", "output": "RAM (Random Access Memory) is temporary memory that loses data when power is off.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a hard drive?", "output": "A hard drive is permanent storage that keeps data even when power is off.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is an operating system?", "output": "An operating system (OS) manages the computer, like Windows, macOS, Linux, Android.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is software?", "output": "Software is programs and applications that tell hardware what to do.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is hardware?", "output": "Hardware is the physical parts of a computer you can touch.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is an input device?", "output": "An input device sends data to the computer, like a keyboard or mouse.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is an output device?", "output": "An output device shows results, like a monitor or printer.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a file?", "output": "A file is a collection of data stored on a computer.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a folder?", "output": "A folder is a container for organizing files.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a network?", "output": "A network is two or more computers connected to share data.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is the internet?", "output": "The internet is a global network connecting billions of devices.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is WiFi?", "output": "WiFi is a technology for wireless internet connection.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is Bluetooth?", "output": "Bluetooth is for short-range wireless communication between devices.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a browser?", "output": "A browser is software for viewing websites, like Chrome, Safari, Firefox.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a search engine?", "output": "A search engine finds information on the internet, like Google.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a URL?", "output": "A URL is the address of a website, like https://www.google.com.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is HTML?", "output": "HTML is the language used to create web pages.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What does HTML stand for?", "output": "HTML stands for HyperText Markup Language.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is CSS?", "output": "CSS is the language for styling and laying out web pages.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What does CSS stand for?", "output": "CSS stands for Cascading Style Sheets.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is JavaScript?", "output": "JavaScript is a programming language for making websites interactive.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is Python?", "output": "Python is a popular, easy-to-learn programming language.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a variable in programming?", "output": "A variable is a named container for storing data.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a string?", "output": "A string is a sequence of characters, like \"hello\".", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is an integer?", "output": "An integer is a whole number, like 5 or -3.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a float?", "output": "A float is a number with decimals, like 3.14.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a boolean?", "output": "A boolean is a value that is either true or false.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is an array?", "output": "An array is a list of values stored together.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a loop?", "output": "A loop repeats code multiple times.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is an if statement?", "output": "An if statement runs code only if a condition is true.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a function?", "output": "A function is a reusable block of code that performs a task.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a bug?", "output": "A bug is an error in a program that causes it to behave incorrectly.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is debugging?", "output": "Debugging is finding and fixing bugs in code.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is an algorithm?", "output": "An algorithm is a step-by-step set of instructions to solve a problem.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a data structure?", "output": "A data structure is a way of organizing data, like arrays or lists.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is artificial intelligence?", "output": "AI is when computers can think and learn like humans.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is machine learning?", "output": "Machine learning is when computers learn patterns from data without being explicitly programmed.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is deep learning?", "output": "Deep learning uses neural networks with many layers to learn complex patterns.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a neural network?", "output": "A neural network is a computer system inspired by the human brain.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a chatbot?", "output": "A chatbot is a program that can converse with humans.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a database?", "output": "A database is an organized collection of data.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is cloud computing?", "output": "Cloud computing is using remote servers over the internet to store and process data.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is cybersecurity?", "output": "Cybersecurity is protecting computers, networks, and data from attacks.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a password?", "output": "A password is a secret code that protects your accounts.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What makes a strong password?", "output": "A strong password has 8+ characters, with uppercase, lowercase, numbers, and symbols.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is phishing?", "output": "Phishing is tricking people into revealing passwords or personal information.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a virus (computer)?", "output": "A computer virus is a malicious program that can damage files and spread.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is malware?", "output": "Malware is any software designed to harm or access a computer without permission.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a firewall?", "output": "A firewall is a security system that blocks unauthorized access to a network.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is encryption?", "output": "Encryption is converting data into a code to prevent unauthorized access.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is HTTPS?", "output": "HTTPS is a secure version of HTTP that encrypts web traffic.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a cookie (web)?", "output": "A cookie is a small file websites store on your device to remember you.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a download?", "output": "Downloading is transferring data from the internet to your device.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is an upload?", "output": "Uploading is transferring data from your device to the internet.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is streaming?", "output": "Streaming is watching or listening to media without downloading it first.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is an app?", "output": "An app (application) is software designed for a specific purpose.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is an API?", "output": "An API (Application Programming Interface) lets programs communicate with each other.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is open source?", "output": "Open source software has code that anyone can view, modify, and share.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a binary number?", "output": "Binary is a number system using only 0 and 1, used by computers.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a bit?", "output": "A bit is the smallest unit of data, either 0 or 1.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a byte?", "output": "A byte is 8 bits.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "How many bytes in a kilobyte?", "output": "There are 1,024 bytes in a kilobyte (KB).", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "How many KB in a megabyte?", "output": "There are 1,024 KB in a megabyte (MB).", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "How many MB in a gigabyte?", "output": "There are 1,024 MB in a gigabyte (GB).", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "How many GB in a terabyte?", "output": "There are 1,024 GB in a terabyte (TB).", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a pixel?", "output": "A pixel is the smallest unit of a digital image.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is resolution?", "output": "Resolution is the number of pixels in an image or screen.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a GUI?", "output": "A GUI (Graphical User Interface) lets users interact with a computer using icons and mouse.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a command line?", "output": "A command line lets users interact with a computer by typing text commands.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a USB?", "output": "USB (Universal Serial Bus) is a standard for connecting devices to computers.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a processor?", "output": "A processor (CPU) executes instructions and processes data in a computer.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a graphics card?", "output": "A graphics card (GPU) processes images and video for the computer.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a motherboard?", "output": "A motherboard is the main circuit board that connects all computer components.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a power supply?", "output": "A power supply converts electrical power for the computer components.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a laptop?", "output": "A laptop is a portable computer with a built-in screen and keyboard.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a tablet?", "output": "A tablet is a portable device with a touchscreen, larger than a phone.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
+{"input": "What is a smartphone?", "output": "A smartphone is a mobile phone with computing capabilities and apps.", "bidang": "informatika", "judul": "Computer Science", "subjudul": "Basics"}
