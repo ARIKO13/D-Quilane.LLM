@@ -49,6 +49,11 @@ model = ChimeraModel(cfg)
 n = model.count_params()
 print(f"\n[Model] {n:,} unique params, {n*4/1024/1024:.2f} MB FP32")
 
+# Save original cfg backup (Phase 1 mutates model.cfg, need this to restore)
+ORIG_CFG = dict(cfg)  # shallow copy of cfg dict
+ORIG_N_REPEAT = model.n_repeat
+print(f"[Backup] original cfg: n_blocks={ORIG_CFG['n_blocks']}, n_repeat={ORIG_N_REPEAT}")
+
 # Smoke test
 x = torch.randint(0, cfg['vocab_size'], (1, 16))
 _, loss, aux = model(x, targets=x, return_aux=True)
@@ -179,8 +184,12 @@ for rep in [2, 3]:
 
 # Phase 3: Expert activation — 20% = 12 steps
 print(f"\nPhase 3: Expert activation (ReXMoE + load balancing) — 12 steps")
-model.cfg['n_blocks'] = cfg['n_blocks']
-model.n_repeat = cfg['n_repeat']
+# Restore from backup (model.cfg was mutated by Phase 1)
+model.cfg['n_blocks'] = ORIG_CFG['n_blocks']
+model.cfg['n_repeat'] = ORIG_CFG['n_repeat']
+model.n_repeat = ORIG_N_REPEAT
+print(f"  Restored: n_blocks={model.cfg['n_blocks']}, n_repeat={model.n_repeat}")
+print(f"  Current param count: {model.count_params():,}")
 opt = torch.optim.AdamW(model.parameters(), lr=5e-4, weight_decay=0.1)
 for step in range(12):
     samples = random.sample(encoded, batch_size)
@@ -215,6 +224,16 @@ for step in range(33):
 
 train_time = time.time() - t0
 print(f"\n[Training done in {train_time:.1f}s]")
+
+# Verify model structure intact after training
+print(f"\n[Verify] model.cfg['n_blocks']={model.cfg['n_blocks']} (should be {ORIG_CFG['n_blocks']})")
+print(f"[Verify] model.n_repeat={model.n_repeat} (should be {ORIG_N_REPEAT})")
+print(f"[Verify] len(model.blocks)={len(model.blocks)} (ModuleList should have {ORIG_CFG['n_blocks']} blocks)")
+print(f"[Verify] param count: {model.count_params():,} (should match base = {n:,})")
+assert model.cfg['n_blocks'] == ORIG_CFG['n_blocks'], "n_blocks not restored!"
+assert len(model.blocks) == ORIG_CFG['n_blocks'], "ModuleList wrong size!"
+assert model.count_params() == n, f"Param count changed: {model.count_params()} vs {n}"
+print(f"[Verify] ✓ All checks passed")
 
 # Build AION engram from ALL training data (50 pairs)
 print(f"\n[Build AION engram from {len(data)} training samples]")
