@@ -1,135 +1,96 @@
 # D'QUILANE — Model Card
 
-> **D'QUILANE** — *Dynamic QUantum-free Intelligent Language Architecture with Nested Efficiency*
-> LLM pertama milik pengguna, dibangun dari nol, sandbox edition.
-
----
-
-## 🪪 Identitas Model
+## Model details
 
 | Field | Value |
-|-------|-------|
-| Nama | **D'QUILANE** |
-| Versi | v0.1-sandbox |
-| Tanggal lahir | 2026-09-28 |
-| Asal | Dibuat dari nol di sandbox Z.ai |
-| Tagline | "Kecil file-nya, dalam dalam pikirannya." |
+|---|---|
+| **Name** | D'QUILANE |
+| **Architecture** | blueprint_v2.1 (current shipped model) |
+| **Target architecture** | chimera_8b_effective (spec only, code TBD) |
+| **Version** | 2.1 (shipped) / 3.2 audit-fix (spec) |
+| **Precision** | FP32 (no quantisation) |
+| **Unique params** | ~218K (sandbox-scale, shipped) |
+| **Size** | ~2.5 MB FP32 (shipped) |
+| **License** | MIT |
 
----
+## Shipped model (`trained/model.gguf`)
 
-## 🧬 Spesifikasi Teknis
+Architecture: **blueprint_v2.1** (LFM2 hybrid conv+attention)
 
-| Spec | Nilai |
-|------|-------|
-| Arsitektur | Decoder-only Transformer (GPT-style) |
-| Tokenizer | BPE buatan sendiri, 384 vocab |
-| Unique parameters | 191,136 |
-| Virtual depth | 12 layer (parameter sharing, ALBERT-style) |
-| Effective depth | setara 12-layer GPT |
-| Effective params | ~2.29M (kalau tanpa sharing) |
-| File size (fp32) | 750 KB (TANPA quantize) |
-| Quantize? | **TIDAK** — file asli fp32 |
+| Component | Value |
+|---|---|
 | d_model | 96 |
-| n_heads | 6 |
-| d_ff | 384 |
-| Context window | 64 token |
-| Activation | SwiGLU |
-| Normalisasi | RMSNorm |
-| Weight tying | Output head = token embedding |
-| KV-cache | Ya, untuk fast generation |
+| Layers | 6 conv + 6 attention (12 effective) |
+| Experts | 4 (ReXMoE shared) |
+| Vocab | 140 (char-level) |
+| Max seq | 80 |
+| AION engram | 87 Q&A pairs (Indonesian) |
+| Char tokenizer | Built from dataset |
 
----
+**Pipeline**:
+1. Web search trigger detection (`search:` prefix, `terbaru/sekarang/hari ini` keywords)
+2. AION bypass (O(1) engram lookup, 0.04s)
+3. Transformer forward (12 effective layers + ReXMoE)
+4. Token sampling (top-k, top-p, EntroCut)
 
-## ✨ Skill yang D'QUILANE Punya (v0.1)
+## Target architecture (`chimera_8b_effective` spec)
 
-### 🟢 Bisa (terbatas)
-1. **Text Generation** — autoregressive next-token prediction
-2. **Sampling kontrol** — top-k + temperature
-3. **KV-cache generation** — sampling cepat
-4. **Bahasa Indonesia dasar** — vocab sudah belajar token "Indonesia", "yang", "dan"
-5. **Prompt continuation** — kasih prompt "Indonesia", dia lanjutin
-6. **Bobot portable** — file .pt bisa di-load di device mana pun (CPU/GPU/HP?)
+Documented in `base/docs/` — code TBD (chimera_model.py was lost in session reset).
 
-### 🟡 Belum Bener-bener Bisa
-1. **Kalimat koheren** — output masih setengah acak (loss 4.59, target <3)
-2. **Menghafal pattern** — beberapa kata training muncul, tapi tidak konsisten
+### Configs
 
-### 🔴 Belum Bisa Sama Sekali (perlu versi selanjutnya)
-1. ❌ Instruction following — belum ada SFT
-2. ❌ Chat / conversation — belum ada chat template
-3. ❌ Coding — belum pernah lihat code
-4. ❌ Translation — belum dilatih bilingual
-5. ❌ Reasoning — model terlalu kecil
-6. ❌ Long context — max 64 token
-7. ❌ Q&A — belum ada data instruction
+| Config | d_model | n_blocks × n_repeat | n_experts | attn_rank | ffn_hidden | vocab | Params | FP32 size |
+|---|---|---|---|---|---|---|---|---|
+| sandbox | 96 | 4×3 | 4 | 32 | 48 | 144 | 218K | 0.84 MB |
+| rtx3050 | 1024 | 6×4 | 6 | 128 | 512 | 4K | ~33M | ~125 MB |
+| chimera_s | 2048 | 6×4 | 6 | 256 | 1024 | 16K | ~148M | ~563 MB |
+| **chimera_1gb** | **2048** | **6×4** | **6** | **256** | **1024** | **32K** | **~180M** | **~688 MB** ✅ |
+| chimera | 3072 | 6×4 | 6 | 384 | 1536 | 32K | ~357M | ~1361 MB |
 
----
+### Techniques (implemented in spec)
 
-## 🛣️ Roadmap Skill D'QUILANE
+1. Low-Rank Attention (rank=256-384)
+2. FFN Bottleneck (d→d/2→d, SwiGLU)
+3. ReXMoE (6 experts shared, top-2 routing)
+4. Weight Tying (tok_emb = output head)
+5. LayerScale (init=1e-1, prevents identity collapse)
+6. RMSNorm (pre-norm)
+7. RoPE (parameter-free positional)
+8. AION Adaptive (substring + word-overlap bypass)
+9. EntroCut (stop at conf>0.95)
+10. Sliding-Window Attention (1024 on odd blocks)
+11. Progressive Stacking (4 phases: warmup→stacking→expert→full+early stop)
+12. Grouped Query Attention (24 Q / 6 KV heads, 4× reduction)
+13. Load Balancing Loss (Switch Transformer)
+14. Router Z-Loss (ST-MoE)
+15. Dropout (0.1, training only)
+16. Weight Decay (0.1 in AdamW)
+17. Gradient Checkpointing (for full chimera on 24GB GPU)
 
-### v0.2 — Kaggle GPU (minggu depan)
-- [ ] d_model 256, depth 24
-- [ ] Train di T4 GPU, 2000 epoch
-- [ ] Dataset 1MB+ teks Indonesia
-- [ ] Output mulai masuk akal (loss < 3)
+## Dataset
 
-### v0.3 — Instruction tuning (bulan depan)
-- [ ] Tambah SFT (Supervised Fine-Tuning) dengan data instruction Indonesia
-- [ ] Chat template: `<user>...</user><assistant>...</assistant>`
-- [ ] Bisa ikutin perintah sederhana ("translate", "ringkas")
+- 10,268 Q&A pairs in `trained/dataset/`
+- 22 Parquet files (519 KB uncompressed, 297 KB compressed in dataset.zip)
+- Categories: matematika, bahasa, sains, sejarah, geografi, multibahasa, logika, conversations, etc.
+- Sources: Indonesian SD curriculum + India/China/Japan/Australia/Europe elementary
+- Format: Parquet + ZSTD compression
 
-### v0.4 — Alignment (2 bulan)
-- [ ] DPO (Direct Preference Optimization) — tanpa RLHF mahal
-- [ ] Personality & safety alignment
-- [ ] Nama "D'QUILANE" di-burn-in ke system prompt
+## Inference modes
 
-### v1.0 — Production
-- [ ] Vocab 8K-32K
-- [ ] d_model 512-768
-- [ ] 48 layer virtual
-- [ ] Effective params 100M-300M
-- [ ] Fine-tune ke domain spesifik (kalau ada)
-- [ ] Deploy ke web app atau API
+| Mode | Trigger | Latency | Quality |
+|---|---|---|---|
+| Web search | `search:`/`cari:` prefix OR `terbaru/sekarang` keywords | 0.5-2s (fresh), <0.01s (cached) | High (real-time data) |
+| AION bypass | Exact/substring/word-overlap match in engram | 0.04s | High (curated Q&A) |
+| Transformer | Fallback (no trigger, no AION match) | 1-5s (sandbox) | Low (untrained sandbox) |
 
----
+## Limitations
 
-## 🎨 Personality D'QUILANE (proposed)
+- **Shipped model is sandbox-scale** (218K params, untrained, random init for transformer weights)
+- Only AION bypass + web search return meaningful responses currently
+- To get full Chimera-8B-Effective responses: rebuild `chimera_model.py` from spec, train on GPU 12GB+ for 1-2 weeks
+- Char-level tokenizer (vocab=140) — would need BPE for real performance
+- Pure-Python inference is slow (0.6 tok/s) — needs native AVX2 kernels for >20 tok/s target
 
-Karena D'QUILANE = nama panggung yang elegan & powerful:
-- **Tone**: tenang, elegan, puitis (ala bahasa sastra Indonesia)
-- **Keahlian**: ngomong soal sejarah Indonesia, teknologi, dan filsafat
-- **Motto**: *"Kecil bukan berarti lemah. Dalam bukan berarti lamban."*
+## License
 
----
-
-## 📁 File D'QUILANE
-
-| File | Lokasi | Ukuran |
-|------|--------|--------|
-| Bobot | `/home/z/my-project/download/llm/mini_llm.pt` | 750 KB |
-| Tokenizer | `/home/z/my-project/download/llm/tokenizer.json` | 2.5 KB |
-| Source code | `/home/z/my-project/scripts/` | — |
-| Notebook Kaggle | `/home/z/my-project/download/llm/kaggle_notebook.ipynb` | 24 KB |
-| Model card ini | `/home/z/my-project/download/llm/MODEL_CARD.md` | — |
-
----
-
-## 💡 Cara Pakai D'QUILANE
-
-```bash
-python3 /home/z/my-project/scripts/infer.py "Indonesia"
-```
-
-Atau di Python:
-```python
-import sys
-sys.path.insert(0, "/home/z/my-project/scripts")
-from infer import load_model_and_tokenizer, generate
-
-model, tok = load_model_and_tokenizer()
-print(generate(model, tok, "Indonesia", max_new_tokens=40, temperature=0.7, top_k=20))
-```
-
----
-
-*—"Tidak ada LLM yang lahir dewasa. D'QUILANE dimulai dari 750 KB."*
+MIT.

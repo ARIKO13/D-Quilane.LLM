@@ -1,7 +1,0 @@
-{
-  "category": "bahasa",
-  "total_items": 507,
-  "train_items": 405,
-  "validation_items": 102,
-  "split_ratio": "80/20"
-}

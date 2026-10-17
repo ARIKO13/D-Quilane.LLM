@@ -1,7 +1,0 @@
-{
-  "category": "SD6",
-  "total_items": 56,
-  "train_items": 44,
-  "validation_items": 12,
-  "split_ratio": "80/20"
-}

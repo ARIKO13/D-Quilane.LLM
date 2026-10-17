@@ -1,7 +1,0 @@
-{
-  "category": "unknown",
-  "total_items": 512,
-  "train_items": 409,
-  "validation_items": 103,
-  "split_ratio": "80/20"
-}

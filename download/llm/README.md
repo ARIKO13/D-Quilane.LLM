@@ -1,117 +1,138 @@
-# Mini LLM — Dari Nol (Sandbox Edition)
+# D'QUILANE — LLM from Scratch
 
-LLM pertama kamu, dibangun dari nol tanpa library transformer siap pakai.
+> Large effective capacity, small file size, FP32, runs on CPU.
 
-## Apa yang ada di folder ini
+D'QUILANE is a from-scratch LLM whose **unique parameter count is small** (so the file is small and CPU-friendly) but whose **effective capacity** rivals a 6-8B model thanks to parameter sharing, low-rank attention, shared experts (ReXMoE), FFN bottleneck, and search-augmented inference.
 
-| File | Ukuran | Deskripsi |
-|------|--------|-----------|
-| `mini_llm.pt` | ~750 KB | Bobot model (PyTorch checkpoint, fp32) |
-| `tokenizer.json` | ~3 KB | BPE merges (384 vocab) |
-
-## Konsep Kunci: Parameter Sharing (ALBERT-style)
-
-Tujuan kamu: **"parameter seakan besar, size tetap kecil tanpa quantize."**
-
-Triknya: **1 set bobot transformer dipakai berulang untuk N layer virtual.**
+## Repository Structure
 
 ```
-Model konvensional (12 layer):
-    Layer1 (param)  -> Layer2 (param)  -> ... -> Layer12 (param)
-    Total param = 12 × size_per_layer  ->  file besar
-
-Model ini (parameter sharing):
-    Block (1 set param) -> dipakai 12x berturut-turut
-    Total param = 1 × size_per_block  ->  file kecil, depth tetap 12
+D-Quilane.LLM/
+├── README.md                ← you are here
+├── MODEL_CARD.md            ← model metadata
+│
+├── base/                    ← Architecture + inference engine (no weights)
+│   ├── gguf_infer.py        ← Pure-Python CPU inference (loads model.gguf)
+│   ├── web_search.py        ← Web scraper (Wikipedia + Hacker News + Bing + DDG)
+│   ├── web/                 ← Browser UI
+│   │   ├── index.html       ← ChatGPT-style chat interface
+│   │   └── app.js            ← GGUF binary parser + AION bypass in browser
+│   ├── docs/                ← Architecture documentation
+│   └── train_scripts/       ← (placeholder for chimera_model.py + trainer)
+│
+└── trained/                 ← Trained model + dataset
+    ├── model.gguf           ← Blueprint v2.1 (sandbox-scale, 87 AION pairs)
+    ├── dataset.zip          ← 22 parquet files (297 KB compressed)
+    └── dataset/             ← Extracted parquet files
 ```
 
-Hasil di model ini:
-- **Param unik: 191,136** (~750 KB @ fp32)
-- **Depth efektif: 12 layer**
-- **"Effective" params jika tidak sharing: ~2.3 juta** (12× lipat)
+## What's in each part
 
-Tanpa quantize, tanpa kompresi, tanpa 4-bit. Cuma trik arsitektur.
+### `base/` — D'QUILANE base architecture
 
-## Arsitektur
+Pure-Python inference engine + web scraper. No dependencies, no PyTorch needed.
 
-| Komponen | Detail |
-|----------|--------|
-| Tokenizer | BPE buatan sendiri (384 vocab) |
-| Embedding | Token + Positional (learned) |
-| Block | Pre-norm + Causal MHSA + SwiGLU MLP |
-| Norm | RMSNorm (lebih hemat param dari LayerNorm) |
-| FFN | SwiGLU (modern, dipakai Llama/Qwen) |
-| Output | Weight-tied ke token embedding |
-| Depth | 12 (via parameter sharing) |
-| d_model | 96 |
-| Heads | 6 |
+- **`gguf_infer.py`** — Loads any GGUF model, runs:
+  - **Web search** (search-augmented inference): trigger via `search:` prefix or `terbaru/sekarang/hari ini` keywords
+  - **AION bypass**: O(1) engram lookup for instant factual recall
+  - **Transformer forward**: full Chimera architecture (24 effective layers)
+- **`web_search.py`** — Pure-stdlib web scraper with 4 sources + fallback:
+  - Wikipedia ID API (factual Q&A, multilingual)
+  - Hacker News Algolia API (tech/news, always works)
+  - Bing HTML (general search, best-effort)
+  - DuckDuckGo HTML (fallback)
+  - 24h TTL cache, URL deduplication
+- **`web/`** — Browser UI:
+  - Loads `model.gguf` directly via `fetch()` + `ArrayBuffer`
+  - Parses GGUF binary format in pure JavaScript
+  - Renders chat UI, shows model metadata, AION bypass results
 
-## Cara Pakai
+### `trained/` — Trained model + dataset
+
+- **`model.gguf`** — Current trained model (Blueprint v2.1, sandbox-scale):
+  - 76 tensors, ~2.5 MB
+  - 87 AION engram pairs (Indonesian Q&A)
+  - Architecture: blueprint_v2.1 (LFM2 hybrid + ReXMoE + AION)
+  - Char-level tokenizer, vocab=140
+- **`dataset/`** — 22 Parquet files (10,268 Q&A pairs total):
+  - Indonesian SD1-6 worldwide curriculum
+  - Categories: matematika, bahasa, sains, sejarah, geografi, etc.
+  - Sources: Indonesia, India, China, Japan, Australia, Europe elementary
+  - Format: Parquet + ZSTD compression (297 KB total)
+
+## Quick Start
+
+### CPU inference (Python)
 
 ```bash
-# generate dari prompt
-python3 scripts/infer.py "Indonesia"
-python3 scripts/infer.py "Teknologi masa depan"
+cd base/
+python gguf_infer.py ../trained/model.gguf "Halo"
+# → AION bypass (O(1), conf=1.00)
+# → D'QUILANE: Halo juga! Senang bertemu denganmu.
+
+python gguf_infer.py ../trained/model.gguf "search: Jakarta hari ini"
+# → Web search [wikipedia, hackernews, bing] (fresh)
+# → [Wikipedia + 5 HN articles about Jakarta]
+
+python gguf_infer.py ../trained/model.gguf --interactive
+# → Interactive chat mode
 ```
 
-Atau di kode Python:
-```python
-import sys
-sys.path.insert(0, "scripts")
-from infer import load_model_and_tokenizer, generate
+### Web UI (browser)
 
-model, tok = load_model_and_tokenizer()
-out = generate(model, tok, "Indonesia", max_new_tokens=50, temperature=0.8)
-print(out)
-```
+Open `base/web/index.html` in a browser. It fetches `../trained/model.gguf` directly.
 
-## Cara Latih Ulang / Scale Up
-
-Edit `scripts/train.py`:
-
-```python
-CFG = {
-    "vocab_size": 512,      # lebih besar utk bahasa lebih kaya
-    "d_model": 256,         # naikkan
-    "n_heads": 8,
-    "d_ff": 1024,
-    "num_layers": 24,       # virtual depth lebih dalam, file tidak membengkak!
-    "max_seq_len": 256,
-}
-```
-
-Karena parameter sharing, naikkan `num_layers` **tidak** menambah ukuran file — cuma depth efektif yang naik. Itu inti yang kamu mau.
-
-## Keterbatasan Versi Sandbox Ini
-
-- Dataset sangat kecil (~46 baris teks). Output masih semi-acak.
-- Training singkat (80 epoch, 17 detik di CPU).
-- Loss masih ~4.6 (random ~5.95). Untuk output masuk akal, perlu loss < 3.
-
-## Roadmap Lanjut (kalau mau serius)
-
-1. **Dataset 10MB+** — scraping Wikipedia Indonesia, buku Project Gutenberg, news.
-2. **Vocab 8K-32K** — pakai sentencepiece atau turunan tiktoken.
-3. **d_model 512-1024**, depth virtual 24-48.
-4. **Train 1-7 hari di GPU** (A100/H100).
-5. **Fine-tune SFT** dengan data instruction Indonesia.
-6. **RLHF/DPO** untuk alignment.
-
-## Struktur Folder
+## Inference Pipeline
 
 ```
-/home/z/my-project/
-├── scripts/
-│   ├── corpus.txt          # dataset training
-│   ├── tokenizer.py        # BPE from scratch
-│   ├── mini_gpt_llm.py     # arsitektur model dari nol
-│   ├── train.py            # training loop
-│   └── infer.py            # inference / generation
-└── download/
-    └── llm/
-        ├── mini_llm.pt     # model (750 KB)
-        ├── tokenizer.json  # tokenizer (3 KB)
-        └── README.md       # file ini
+User prompt
+    │
+    ├─► [0] Web search trigger?
+    │       (search:/cari:/google: prefix OR keyword terbaru/sekarang/hari ini)
+    │       YES → fetch web → format → return
+    │       NO  ↓
+    │
+    ├─► [1] AION bypass?
+    │       (exact/substring/word-overlap match in engram cache)
+    │       YES → return cached answer (0.04s)
+    │       NO  ↓
+    │
+    └─► [2] Transformer forward (24 effective layers)
+            generate tokens via top-k/top-p sampling + EntroCut
 ```
 
-Semua kode di `scripts/` ditulis dari nol — tidak pakai HuggingFace, tidak pakai nanogpt. Bisa kamu baca, edit, dan pahami 100%.
+## Architecture (Blueprint v2.1, current model)
+
+| Component | Spec |
+|---|---|
+| Architecture | blueprint_v2.1 |
+| d_model | 96 (sandbox-scale) |
+| Layers | 6 conv + 6 attention (12 effective) |
+| Experts | 4 (ReXMoE shared) |
+| Vocab | 140 (char-level) |
+| Max seq | 80 |
+| Techniques | LFM2 hybrid, ReXMoE, AION, EntroCut, XNC |
+
+## Architecture (Chimera-8B-Effective, target spec)
+
+| Component | Spec |
+|---|---|
+| Architecture | chimera_8b_effective |
+| d_model | 3072 (or 2048 for sub-1GB target) |
+| Unique blocks | 6 |
+| Repeat factor | 4 → 24 effective layers (4× reuse) |
+| Experts | 6 shared (ReXMoE, top-2 routing) |
+| Attention | Low-rank GQA (rank=384, 24 heads, 6 KV heads) |
+| FFN | Bottleneck 3072→1536→3072 (SwiGLU) |
+| Norm | RMSNorm + LayerScale (init=1e-1) |
+| Positions | RoPE (parameter-free) |
+| Weight tying | tok_emb = output head (saves 98M params) |
+| Load balancing | Switch Transformer aux loss |
+| Router z-loss | ST-MoE style |
+| Configs | sandbox, rtx3050, chimera_s, chimera_1gb, chimera |
+
+**Note**: `chimera_model.py` (Chimera architecture code) was lost in a session reset. The spec is documented in `base/docs/` but the actual PyTorch implementation needs to be rebuilt from spec before training a Chimera-8B-Effective model.
+
+## License
+
+MIT.

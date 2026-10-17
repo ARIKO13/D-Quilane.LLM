@@ -1,7 +1,0 @@
-{
-  "category": "SD5",
-  "total_items": 156,
-  "train_items": 124,
-  "validation_items": 32,
-  "split_ratio": "80/20"
-}

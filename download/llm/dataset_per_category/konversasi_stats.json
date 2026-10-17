@@ -1,7 +1,0 @@
-{
-  "category": "konversasi",
-  "total_items": 35,
-  "train_items": 28,
-  "validation_items": 7,
-  "split_ratio": "80/20"
-}

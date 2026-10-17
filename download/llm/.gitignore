@@ -1,0 +1,14 @@
+# Auto-generated files
+web_cache.json
+*.pyc
+__pycache__/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+.vscode/
+.idea/
