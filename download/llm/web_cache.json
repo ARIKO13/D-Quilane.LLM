@@ -1,0 +1,48 @@
+{
+  "latest ai news": {
+    "ts": 1792227752.9552312,
+    "results": {
+      "query": "latest ai news",
+      "cached": false,
+      "ts": 1792227752.1962059,
+      "web_results": [
+        {
+          "title": "Show HN: Emergent Mind – The latest AI news, curated and explained by AI",
+          "url": "https://www.emergentmind.com/",
+          "snippet": "Hacker News score: 12 | comments: 2",
+          "source": "hackernews"
+        },
+        {
+          "title": "Show HN: The latest AI news, explained like you're 5 (ELI5) by GPT-4",
+          "url": "https://www.emergentmind.com/eli5",
+          "snippet": "Hacker News score: 10 | comments: 1",
+          "source": "hackernews"
+        },
+        {
+          "title": "The latest AI news we announced in December",
+          "url": "https://blog.google/technology/ai/google-ai-updates-december-2025/",
+          "snippet": "Hacker News score: 3 | comments: 0",
+          "source": "hackernews"
+        },
+        {
+          "title": "AI Basics and AI Latest News: Machine Learning Articles",
+          "url": "https://hackernoon.com/ai-basics-and-news-must-read-machine-learning-articles-ve1w32m4",
+          "snippet": "Hacker News score: 3 | comments: 0",
+          "source": "hackernews"
+        },
+        {
+          "title": "Latest AI Agents news topics",
+          "url": "https://aiagentslive.com/news",
+          "snippet": "Hacker News score: 2 | comments: 1",
+          "source": "hackernews"
+        }
+      ],
+      "wiki": null,
+      "sources_tried": [
+        "wikipedia",
+        "hackernews",
+        "bing"
+      ]
+    }
+  }
+}
