@@ -1,0 +1,792 @@
+{"input": "Pintu in English?", "output": "Pintu in English is Door."}
+{"input": "Read: \"The brain controls the body.\" What controls the body?", "output": "The brain controls the body."}
+{"input": "Berjalan in English?", "output": "Berjalan in English is Walk."}
+{"input": "What compound word is made from hair + brush?", "output": "hair + brush = hairbrush."}
+{"input": "Apa bahasa resmi Selandia Baru?", "output": "Bahasa resmi Selandia Baru adalah bahasa Inggris."}
+{"input": "Fish in Indonesian?", "output": "Fish in Indonesian is Ikan."}
+{"input": "What is a synonym for loud?", "output": "A synonym for loud is deafening."}
+{"input": "Keluarga in English?", "output": "Keluarga in English is Family."}
+{"input": "What is a homophone for rode?", "output": "A homophone for rode is road (and possibly )."}
+{"input": "What is the past tense of buy?", "output": "The past tense of buy is bought."}
+{"input": "What is the official language of Cape Verde?", "output": "The official language of Cape Verde is Portuguese."}
+{"input": "Ular in English?", "output": "Ular in English is Snake."}
+{"input": "Apa bahasa resmi Tiongkok?", "output": "Bahasa resmi Tiongkok adalah bahasa Mandarin."}
+{"input": "Apa bahasa resmi Belanda?", "output": "Bahasa resmi Belanda adalah bahasa Belanda."}
+{"input": "What compound word is made from rain + bow?", "output": "rain + bow = rainbow."}
+{"input": "What is the past tense of write?", "output": "The past tense of write is wrote."}
+{"input": "Baik in English?", "output": "Baik in English is Good."}
+{"input": "Cake in Indonesian?", "output": "Cake in Indonesian is Kue."}
+{"input": "Read: \"Plants need sunlight, water, and air.\" What do plants need?", "output": "Plants need sunlight, water, and air."}
+{"input": "What is the official language of Congo?", "output": "The official language of Congo is French."}
+{"input": "What does the suffix -able mean?", "output": "The suffix -able means capable of."}
+{"input": "Run in Indonesian?", "output": "Run in Indonesian is Berlari."}
+{"input": "Lebah in English?", "output": "Lebah in English is Bee."}
+{"input": "Apa bahasa resmi Laos?", "output": "Bahasa resmi Laos adalah bahasa Lao."}
+{"input": "What is the official language of Trinidad and Tobago?", "output": "The official language of Trinidad and Tobago is English."}
+{"input": "What compound word is made from butter + fly?", "output": "butter + fly = butterfly."}
+{"input": "Apa bahasa resmi Mesir?", "output": "Bahasa resmi Mesir adalah bahasa Arab."}
+{"input": "Apa bahasa resmi Malta?", "output": "Bahasa resmi Malta adalah bahasa Malta."}
+{"input": "Read: \"The human body is about 60% water.\" How much of the body is water?", "output": "About 60%."}
+{"input": "What is the future tense?", "output": "Future tense describes actions that will happen."}
+{"input": "Gray in Indonesian?", "output": "Gray in Indonesian is Abu-abu."}
+{"input": "What is a homophone for tail?", "output": "A homophone for tail is tale (and possibly )."}
+{"input": "What is a synonym for think?", "output": "A synonym for think is ponder."}
+{"input": "Dahan in English?", "output": "Dahan in English is Branch."}
+{"input": "Speak in Indonesian?", "output": "Speak in Indonesian is Bicara."}
+{"input": "What is hyperbole?", "output": "Hyperbole is extreme exaggeration (I've told you a million times)."}
+{"input": "What is the opposite of begin?", "output": "The opposite of begin is end."}
+{"input": "Mie in English?", "output": "Mie in English is Noodle."}
+{"input": "What is the official language of Micronesia?", "output": "The official language of Micronesia is English."}
+{"input": "Apa bahasa resmi Kamboja?", "output": "Bahasa resmi Kamboja adalah bahasa Khmer."}
+{"input": "What compound word is made from note + book?", "output": "note + book = notebook."}
+{"input": "Buy in Indonesian?", "output": "Buy in Indonesian is Membeli."}
+{"input": "What is the official language of Marshall Islands?", "output": "The official language of Marshall Islands is English."}
+{"input": "What is the official language of Madagascar?", "output": "The official language of Madagascar is Malagasy."}
+{"input": "What is the official language of Nepal?", "output": "The official language of Nepal is Nepali."}
+{"input": "Child in Indonesian?", "output": "Child in Indonesian is Anak."}
+{"input": "What is a homophone for wood?", "output": "A homophone for wood is would (and possibly )."}
+{"input": "Apa bahasa resmi Spanyol?", "output": "Bahasa resmi Spanyol adalah bahasa Spanyol."}
+{"input": "Takut in English?", "output": "Takut in English is Afraid."}
+{"input": "What is a synonym for sell?", "output": "A synonym for sell is vend."}
+{"input": "What is the past tense of swim?", "output": "The past tense of swim is swam."}
+{"input": "What is a synonym for sad?", "output": "A synonym for sad is sorrowful."}
+{"input": "Tua in English?", "output": "Tua in English is Old."}
+{"input": "Green in Indonesian?", "output": "Green in Indonesian is Hijau."}
+{"input": "What is the opposite of accept?", "output": "The opposite of accept is reject."}
+{"input": "What is a collective noun?", "output": "A collective noun names a group (herd, flock, team)."}
+{"input": "What is a homophone for sail?", "output": "A homophone for sail is sale (and possibly )."}
+{"input": "Celana in English?", "output": "Celana in English is Pants."}
+{"input": "What is the official language of Zimbabwe?", "output": "The official language of Zimbabwe is English."}
+{"input": "What is a homophone for poor?", "output": "A homophone for poor is pour (and possibly )."}
+{"input": "Apa bahasa resmi Paraguay?", "output": "Bahasa resmi Paraguay adalah bahasa Spanyol."}
+{"input": "Jendela in English?", "output": "Jendela in English is Window."}
+{"input": "Mendorong in English?", "output": "Mendorong in English is Push."}
+{"input": "Brother in Indonesian?", "output": "Brother in Indonesian is Saudara laki-laki."}
+{"input": "Apa bahasa resmi Monako?", "output": "Bahasa resmi Monako adalah bahasa Prancis."}
+{"input": "What is a simile for heavy?", "output": "As heavy as lead."}
+{"input": "What is a verb?", "output": "A verb shows action or state of being."}
+{"input": "What does the prefix in- mean?", "output": "The prefix in- means not, into."}
+{"input": "What is onomatopoeia for a cow?", "output": "Moo."}
+{"input": "Bedroom in Indonesian?", "output": "Bedroom in Indonesian is Kamar tidur."}
+{"input": "What does the suffix -ly mean?", "output": "The suffix -ly means in a way that."}
+{"input": "Apa bahasa resmi Polandia?", "output": "Bahasa resmi Polandia adalah bahasa Polandia."}
+{"input": "Api in English?", "output": "Api in English is Fire."}
+{"input": "What is the opposite of first?", "output": "The opposite of first is last."}
+{"input": "Saudara perempuan in English?", "output": "Saudara perempuan in English is Sister."}
+{"input": "What is a metaphor?", "output": "A metaphor compares without like or as (Time is money)."}
+{"input": "What does the prefix non- mean?", "output": "The prefix non- means not."}
+{"input": "Tante in English?", "output": "Tante in English is Aunt."}
+{"input": "What is a synonym for walk?", "output": "A synonym for walk is stroll."}
+{"input": "Pen in Indonesian?", "output": "Pen in Indonesian is Pulpen."}
+{"input": "Truck in Indonesian?", "output": "Truck in Indonesian is Truk."}
+{"input": "What is an interjection?", "output": "An interjection expresses emotion (Wow! Ouch! Oh!)."}
+{"input": "What is a synonym for exhausted?", "output": "A synonym for exhausted is tired."}
+{"input": "Love in Indonesian?", "output": "Love in Indonesian is Cinta."}
+{"input": "What is the official language of Niger?", "output": "The official language of Niger is French."}
+{"input": "What is a compound sentence?", "output": "A compound sentence joins two independent clauses with and, but, or."}
+{"input": "Apa bahasa resmi Vietnam?", "output": "Bahasa resmi Vietnam adalah bahasa Vietnam."}
+{"input": "Sun in Indonesian?", "output": "Sun in Indonesian is Matahari."}
+{"input": "What is a common noun?", "output": "A common noun names any person, place, or thing (dog, city)."}
+{"input": "What is the official language of Slovakia?", "output": "The official language of Slovakia is Slovak."}
+{"input": "What is a noun?", "output": "A noun names a person, place, thing, or idea."}
+{"input": "Read: \"The Pacific is the largest ocean.\" What is the largest ocean?", "output": "The Pacific Ocean."}
+{"input": "What is the past tense of sing?", "output": "The past tense of sing is sang."}
+{"input": "Beruang in English?", "output": "Beruang in English is Bear."}
+{"input": "What is the official language of Comoros?", "output": "The official language of Comoros is Comorian."}
+{"input": "What is the past tense of teach?", "output": "The past tense of teach is taught."}
+{"input": "What is the official language of Kuwait?", "output": "The official language of Kuwait is Arabic."}
+{"input": "Star in Indonesian?", "output": "Star in Indonesian is Bintang."}
+{"input": "Babi in English?", "output": "Babi in English is Pig."}
+{"input": "What does the suffix -less mean?", "output": "The suffix -less means without."}
+{"input": "Bintang in English?", "output": "Bintang in English is Star."}
+{"input": "Kursi in English?", "output": "Kursi in English is Chair."}
+{"input": "What is a synonym for take?", "output": "A synonym for take is seize."}
+{"input": "What is the official language of Burundi?", "output": "The official language of Burundi is Kirundi."}
+{"input": "What is the official language of Mauritania?", "output": "The official language of Mauritania is Arabic."}
+{"input": "Memasak in English?", "output": "Memasak in English is Cook."}
+{"input": "What is a synonym for silent?", "output": "A synonym for silent is quiet."}
+{"input": "Apa bahasa resmi Aljazair?", "output": "Bahasa resmi Aljazair adalah bahasa Arab."}
+{"input": "What compound word is made from school + house?", "output": "school + house = schoolhouse."}
+{"input": "What is the past tense of come?", "output": "The past tense of come is came."}
+{"input": "Light in Indonesian?", "output": "Light in Indonesian is Ringan."}
+{"input": "Sky in Indonesian?", "output": "Sky in Indonesian is Langit."}
+{"input": "Family in Indonesian?", "output": "Family in Indonesian is Keluarga."}
+{"input": "Perahu in English?", "output": "Perahu in English is Boat."}
+{"input": "What is a homophone for board?", "output": "A homophone for board is bored (and possibly )."}
+{"input": "What is the official language of Tonga?", "output": "The official language of Tonga is Tongan."}
+{"input": "What is a synonym for donate?", "output": "A synonym for donate is give."}
+{"input": "Sheep in Indonesian?", "output": "Sheep in Indonesian is Domba."}
+{"input": "What is a contraction?", "output": "A contraction shortens words (don't = do not)."}
+{"input": "Apa bahasa resmi Brunei?", "output": "Bahasa resmi Brunei adalah bahasa Melayu."}
+{"input": "Bumi in English?", "output": "Bumi in English is Earth."}
+{"input": "Apa bahasa resmi Kenya?", "output": "Bahasa resmi Kenya adalah bahasa Swahili."}
+{"input": "What is the opposite of left?", "output": "The opposite of left is right."}
+{"input": "Nephew in Indonesian?", "output": "Nephew in Indonesian is Keponakan laki-laki."}
+{"input": "Apa bahasa resmi Venezuela?", "output": "Bahasa resmi Venezuela adalah bahasa Spanyol."}
+{"input": "What is the official language of Angola?", "output": "The official language of Angola is Portuguese."}
+{"input": "Apa bahasa resmi Austria?", "output": "Bahasa resmi Austria adalah bahasa Jerman."}
+{"input": "Hat in Indonesian?", "output": "Hat in Indonesian is Topi."}
+{"input": "Bus in Indonesian?", "output": "Bus in Indonesian is Bus."}
+{"input": "What is the official language of Ivory Coast?", "output": "The official language of Ivory Coast is French."}
+{"input": "What is the official language of Gabon?", "output": "The official language of Gabon is French."}
+{"input": "Orange in Indonesian?", "output": "Orange in Indonesian is Oranye."}
+{"input": "What is a synonym for observe?", "output": "A synonym for observe is see."}
+{"input": "Ambil in English?", "output": "Ambil in English is Take."}
+{"input": "Kue in English?", "output": "Kue in English is Cake."}
+{"input": "Bersih in English?", "output": "Bersih in English is Clean."}
+{"input": "What does the prefix out- mean?", "output": "The prefix out- means surpass."}
+{"input": "What does the prefix tele- mean?", "output": "The prefix tele- means distant."}
+{"input": "Read: \"The heart pumps blood.\" What does the heart do?", "output": "The heart pumps blood."}
+{"input": "Dirty in Indonesian?", "output": "Dirty in Indonesian is Kotor."}
+{"input": "What is a homophone for to?", "output": "A homophone for to is too (and possibly two)."}
+{"input": "Apa bahasa resmi Islandia?", "output": "Bahasa resmi Islandia adalah bahasa Islandia."}
+{"input": "What is a synonym for furious?", "output": "A synonym for furious is angry."}
+{"input": "Apa bahasa resmi Inggris?", "output": "Bahasa resmi Inggris adalah bahasa Inggris."}
+{"input": "What is a synonym for create?", "output": "A synonym for create is make."}
+{"input": "What is the opposite of peace?", "output": "The opposite of peace is war."}
+{"input": "What is a proper noun?", "output": "A proper noun names a specific person, place, or thing (Rex, Paris)."}
+{"input": "What is the official language of Botswana?", "output": "The official language of Botswana is English."}
+{"input": "Spoon in Indonesian?", "output": "Spoon in Indonesian is Sendok."}
+{"input": "What is a homophone for hole?", "output": "A homophone for hole is whole (and possibly )."}
+{"input": "Bottle in Indonesian?", "output": "Bottle in Indonesian is Botol."}
+{"input": "Melakukan in English?", "output": "Melakukan in English is Do."}
+{"input": "Berdiri in English?", "output": "Berdiri in English is Stand."}
+{"input": "What is a simile for cold?", "output": "As cold as ice."}
+{"input": "Tidur in English?", "output": "Tidur in English is Sleep."}
+{"input": "Thirsty in Indonesian?", "output": "Thirsty in Indonesian is Haus."}
+{"input": "Noodle in Indonesian?", "output": "Noodle in Indonesian is Mie."}
+{"input": "Think in Indonesian?", "output": "Think in Indonesian is Berpikir."}
+{"input": "Apa bahasa resmi Argentina?", "output": "Bahasa resmi Argentina adalah bahasa Spanyol."}
+{"input": "Ruler in Indonesian?", "output": "Ruler in Indonesian is Penggaris."}
+{"input": "Pulpen in English?", "output": "Pulpen in English is Pen."}
+{"input": "Old in Indonesian?", "output": "Old in Indonesian is Tua."}
+{"input": "See in Indonesian?", "output": "See in Indonesian is Melihat."}
+{"input": "Cup in Indonesian?", "output": "Cup in Indonesian is Cangkir."}
+{"input": "What does the prefix multi- mean?", "output": "The prefix multi- means many."}
+{"input": "Ayah in English?", "output": "Ayah in English is Father."}
+{"input": "What is a synonym for bad?", "output": "A synonym for bad is terrible."}
+{"input": "What is the past tense of leave?", "output": "The past tense of leave is left."}
+{"input": "What does the prefix bi- mean?", "output": "The prefix bi- means two."}
+{"input": "Wash in Indonesian?", "output": "Wash in Indonesian is Mencuci."}
+{"input": "Apa bahasa resmi Finlandia?", "output": "Bahasa resmi Finlandia adalah bahasa Finlandia."}
+{"input": "Apa bahasa resmi Nigeria?", "output": "Bahasa resmi Nigeria adalah bahasa Inggris."}
+{"input": "Husband in Indonesian?", "output": "Husband in Indonesian is Suami."}
+{"input": "Bee in Indonesian?", "output": "Bee in Indonesian is Lebah."}
+{"input": "Tipis in English?", "output": "Tipis in English is Thin."}
+{"input": "What is the opposite of rich?", "output": "The opposite of rich is poor."}
+{"input": "What is the official language of Somalia?", "output": "The official language of Somalia is Somali."}
+{"input": "Elephant in Indonesian?", "output": "Elephant in Indonesian is Gajah."}
+{"input": "What is the official language of Benin?", "output": "The official language of Benin is French."}
+{"input": "What is a synonym for intelligent?", "output": "A synonym for intelligent is smart."}
+{"input": "What is the official language of North Macedonia?", "output": "The official language of North Macedonia is Macedonian."}
+{"input": "Cepat in English?", "output": "Cepat in English is Fast."}
+{"input": "What is a synonym for hear?", "output": "A synonym for hear is listen."}
+{"input": "What is a pronoun?", "output": "A pronoun replaces a noun (he, she, it, they)."}
+{"input": "What is a homophone for meet?", "output": "A homophone for meet is meat (and possibly )."}
+{"input": "Apa bahasa resmi Meksiko?", "output": "Bahasa resmi Meksiko adalah bahasa Spanyol."}
+{"input": "What is the past tense of see?", "output": "The past tense of see is saw."}
+{"input": "What does the prefix anti- mean?", "output": "The prefix anti- means against."}
+{"input": "What is the official language of DR Congo?", "output": "The official language of DR Congo is French."}
+{"input": "Hijau in English?", "output": "Hijau in English is Green."}
+{"input": "What is the opposite of heavy?", "output": "The opposite of heavy is light."}
+{"input": "What is a synonym for eat?", "output": "A synonym for eat is consume."}
+{"input": "Branch in Indonesian?", "output": "Branch in Indonesian is Dahan."}
+{"input": "Tebal in English?", "output": "Tebal in English is Thick."}
+{"input": "What is a synonym for see?", "output": "A synonym for see is observe."}
+{"input": "What is a synonym for freezing?", "output": "A synonym for freezing is cold."}
+{"input": "What is a synonym for write?", "output": "A synonym for write is scribe."}
+{"input": "What does the prefix fore- mean?", "output": "The prefix fore- means before."}
+{"input": "When do you use a dash?", "output": "Use a dash for emphasis or interruption."}
+{"input": "What is a simile?", "output": "A simile compares using like or as (as brave as a lion)."}
+{"input": "What is a synonym for sprint?", "output": "A synonym for sprint is run."}
+{"input": "What is the official language of Djibouti?", "output": "The official language of Djibouti is French."}
+{"input": "What is a homophone for sea?", "output": "A homophone for sea is see (and possibly )."}
+{"input": "Understand in Indonesian?", "output": "Understand in Indonesian is Mengerti."}
+{"input": "What is the official language of Costa Rica?", "output": "The official language of Costa Rica is Spanish."}
+{"input": "Apa bahasa resmi Kanada?", "output": "Bahasa resmi Kanada adalah bahasa Inggris."}
+{"input": "Narrow in Indonesian?", "output": "Narrow in Indonesian is Sempit."}
+{"input": "Apa bahasa resmi Montenegro?", "output": "Bahasa resmi Montenegro adalah bahasa Montenegro."}
+{"input": "What is a synonym for scorching?", "output": "A synonym for scorching is hot."}
+{"input": "What compound word is made from wind + mill?", "output": "wind + mill = windmill."}
+{"input": "Ikan in English?", "output": "Ikan in English is Fish."}
+{"input": "What is a synonym for new?", "output": "A synonym for new is fresh."}
+{"input": "Apa bahasa resmi Kazakhstan?", "output": "Bahasa resmi Kazakhstan adalah bahasa Kazakh."}
+{"input": "Roof in Indonesian?", "output": "Roof in Indonesian is Atap."}
+{"input": "Thin in Indonesian?", "output": "Thin in Indonesian is Tipis."}
+{"input": "Menjual in English?", "output": "Menjual in English is Sell."}
+{"input": "What does the suffix -en mean?", "output": "The suffix -en means made of, become."}
+{"input": "Apa bahasa resmi Maroko?", "output": "Bahasa resmi Maroko adalah bahasa Arab."}
+{"input": "Lion in Indonesian?", "output": "Lion in Indonesian is Singa."}
+{"input": "Jump in Indonesian?", "output": "Jump in Indonesian is Melompat."}
+{"input": "Motorcycle in Indonesian?", "output": "Motorcycle in Indonesian is Motor."}
+{"input": "What is a homophone for flue?", "output": "A homophone for flue is flew (and possibly )."}
+{"input": "Ungu in English?", "output": "Ungu in English is Purple."}
+{"input": "Belajar in English?", "output": "Belajar in English is Learn."}
+{"input": "Uncle in Indonesian?", "output": "Uncle in Indonesian is Paman."}
+{"input": "Water in Indonesian?", "output": "Water in Indonesian is Air."}
+{"input": "What is the official language of El Salvador?", "output": "The official language of El Salvador is Spanish."}
+{"input": "What does the prefix ir- mean?", "output": "The prefix ir- means not (before r)."}
+{"input": "Singa in English?", "output": "Singa in English is Lion."}
+{"input": "Sedih in English?", "output": "Sedih in English is Sad."}
+{"input": "What is a synonym for run?", "output": "A synonym for run is sprint."}
+{"input": "Garpu in English?", "output": "Garpu in English is Fork."}
+{"input": "What does the suffix -ment mean?", "output": "The suffix -ment means act or process."}
+{"input": "Piring in English?", "output": "Piring in English is Plate."}
+{"input": "Kaus kaki in English?", "output": "Kaus kaki in English is Sock."}
+{"input": "Rumah in English?", "output": "Rumah in English is House."}
+{"input": "What is the opposite of advance?", "output": "The opposite of advance is retreat."}
+{"input": "Apa bahasa resmi Georgia?", "output": "Bahasa resmi Georgia adalah bahasa Georgia."}
+{"input": "Apa bahasa resmi Papua Nugini?", "output": "Bahasa resmi Papua Nugini adalah bahasa Inggris."}
+{"input": "What is the official language of Burkina Faso?", "output": "The official language of Burkina Faso is French."}
+{"input": "What is the official language of Bhutan?", "output": "The official language of Bhutan is Dzongkha."}
+{"input": "Apa bahasa resmi Thailand?", "output": "Bahasa resmi Thailand adalah bahasa Thai."}
+{"input": "What does the prefix en- mean?", "output": "The prefix en- means make, put into."}
+{"input": "Sister in Indonesian?", "output": "Sister in Indonesian is Saudara perempuan."}
+{"input": "What is the opposite of strong?", "output": "The opposite of strong is weak."}
+{"input": "What is the official language of Eritrea?", "output": "The official language of Eritrea is Tigrinya."}
+{"input": "What is a synonym for hot?", "output": "A synonym for hot is scorching."}
+{"input": "What is a synonym for rich?", "output": "A synonym for rich is wealthy."}
+{"input": "Sugar in Indonesian?", "output": "Sugar in Indonesian is Gula."}
+{"input": "Sock in Indonesian?", "output": "Sock in Indonesian is Kaus kaki."}
+{"input": "Make in Indonesian?", "output": "Make in Indonesian is Membuat."}
+{"input": "What is a synonym for cold?", "output": "A synonym for cold is freezing."}
+{"input": "Small in Indonesian?", "output": "Small in Indonesian is Kecil."}
+{"input": "What is the official language of Mozambique?", "output": "The official language of Mozambique is Portuguese."}
+{"input": "Push in Indonesian?", "output": "Push in Indonesian is Mendorong."}
+{"input": "Open in Indonesian?", "output": "Open in Indonesian is Membuka."}
+{"input": "Grandfather in Indonesian?", "output": "Grandfather in Indonesian is Kakek."}
+{"input": "Gajah in English?", "output": "Gajah in English is Elephant."}
+{"input": "Juice in Indonesian?", "output": "Juice in Indonesian is Jus."}
+{"input": "What is a synonym for strong?", "output": "A synonym for strong is powerful."}
+{"input": "Sit in Indonesian?", "output": "Sit in Indonesian is Duduk."}
+{"input": "Read: \"There are 7 continents.\" How many continents are there?", "output": "There are 7 continents."}
+{"input": "Flower in Indonesian?", "output": "Flower in Indonesian is Bunga."}
+{"input": "Glasses in Indonesian?", "output": "Glasses in Indonesian is Kacamata."}
+{"input": "What compound word is made from play + ground?", "output": "play + ground = playground."}
+{"input": "Apa bahasa resmi Peru?", "output": "Bahasa resmi Peru adalah bahasa Spanyol."}
+{"input": "Apa bahasa resmi Irak?", "output": "Bahasa resmi Irak adalah bahasa Arab."}
+{"input": "What is a homophone for red?", "output": "A homophone for red is read (and possibly )."}
+{"input": "Shirt in Indonesian?", "output": "Shirt in Indonesian is Kemeja."}
+{"input": "Anjing in English?", "output": "Anjing in English is Dog."}
+{"input": "What is the past tense of catch?", "output": "The past tense of catch is caught."}
+{"input": "Apa bahasa resmi Arab Saudi?", "output": "Bahasa resmi Arab Saudi adalah bahasa Arab."}
+{"input": "What is a regular verb?", "output": "A regular verb forms past tense with -ed (walk-walked)."}
+{"input": "Hot in Indonesian?", "output": "Hot in Indonesian is Panas."}
+{"input": "What is the past tense of eat?", "output": "The past tense of eat is ate."}
+{"input": "What is a synonym for big?", "output": "A synonym for big is large."}
+{"input": "Sayur in English?", "output": "Sayur in English is Vegetable."}
+{"input": "Apa bahasa resmi Hongaria?", "output": "Bahasa resmi Hongaria adalah bahasa Hongaria."}
+{"input": "Read: \"The cat sat on the mat.\" Where is the cat?", "output": "The cat is on the mat."}
+{"input": "What is a title?", "output": "A title is the name of a book, song, or movie."}
+{"input": "What is the opposite of full?", "output": "The opposite of full is empty."}
+{"input": "What compound word is made from text + book?", "output": "text + book = textbook."}
+{"input": "What is a homophone for pair?", "output": "A homophone for pair is pear (and possibly )."}
+{"input": "What is the official language of Samoa?", "output": "The official language of Samoa is Samoan."}
+{"input": "Mobil in English?", "output": "Mobil in English is Car."}
+{"input": "Tea in Indonesian?", "output": "Tea in Indonesian is Teh."}
+{"input": "Cold in Indonesian?", "output": "Cold in Indonesian is Dingin."}
+{"input": "Sempit in English?", "output": "Sempit in English is Narrow."}
+{"input": "Rumput in English?", "output": "Rumput in English is Grass."}
+{"input": "Yellow in Indonesian?", "output": "Yellow in Indonesian is Kuning."}
+{"input": "What is a homophone for plain?", "output": "A homophone for plain is plane (and possibly )."}
+{"input": "Purple in Indonesian?", "output": "Purple in Indonesian is Ungu."}
+{"input": "Fire in Indonesian?", "output": "Fire in Indonesian is Api."}
+{"input": "What is a synonym for scribe?", "output": "A synonym for scribe is write."}
+{"input": "Akar in English?", "output": "Akar in English is Root."}
+{"input": "What is a homophone for flower?", "output": "A homophone for flower is flour (and possibly )."}
+{"input": "What does the suffix -ful mean?", "output": "The suffix -ful means full of."}
+{"input": "Anak laki-laki in English?", "output": "Anak laki-laki in English is Son."}
+{"input": "What is the official language of Estonia?", "output": "The official language of Estonia is Estonian."}
+{"input": "Sepatu in English?", "output": "Sepatu in English is Shoe."}
+{"input": "What is a synonym for joyful?", "output": "A synonym for joyful is happy."}
+{"input": "What is a homophone for knew?", "output": "A homophone for knew is new (and possibly )."}
+{"input": "Pergi in English?", "output": "Pergi in English is Go."}
+{"input": "Pendek in English?", "output": "Pendek in English is Short."}
+{"input": "Telur in English?", "output": "Telur in English is Egg."}
+{"input": "Apa bahasa resmi Singapura?", "output": "Bahasa resmi Singapura adalah bahasa Inggris."}
+{"input": "What is the official language of Solomon Islands?", "output": "The official language of Solomon Islands is English."}
+{"input": "Tiger in Indonesian?", "output": "Tiger in Indonesian is Harimau."}
+{"input": "What is a homophone for ring?", "output": "A homophone for ring is wring (and possibly )."}
+{"input": "Keju in English?", "output": "Keju in English is Cheese."}
+{"input": "What is a synonym for terrible?", "output": "A synonym for terrible is bad."}
+{"input": "What is alliteration?", "output": "Alliteration repeats starting sounds (Peter Piper picked)."}
+{"input": "What is a synonym for excellent?", "output": "A synonym for excellent is good."}
+{"input": "Apa bahasa resmi Prancis?", "output": "Bahasa resmi Prancis adalah bahasa Prancis."}
+{"input": "What compound word is made from water + fall?", "output": "water + fall = waterfall."}
+{"input": "What is the official language of San Marino?", "output": "The official language of San Marino is Italian."}
+{"input": "Burung in English?", "output": "Burung in English is Bird."}
+{"input": "Do in Indonesian?", "output": "Do in Indonesian is Melakukan."}
+{"input": "What does the suffix -al mean?", "output": "The suffix -al means relating to."}
+{"input": "Membaca in English?", "output": "Membaca in English is Read."}
+{"input": "Bulan in English?", "output": "Bulan in English is Moon."}
+{"input": "Dapur in English?", "output": "Dapur in English is Kitchen."}
+{"input": "Apa bahasa resmi Rusia?", "output": "Bahasa resmi Rusia adalah bahasa Rusia."}
+{"input": "House in Indonesian?", "output": "House in Indonesian is Rumah."}
+{"input": "What does the prefix ex- mean?", "output": "The prefix ex- means former, out of."}
+{"input": "What is the official language of Chad?", "output": "The official language of Chad is French."}
+{"input": "What is a synonym for quick?", "output": "A synonym for quick is fast."}
+{"input": "Istri in English?", "output": "Istri in English is Wife."}
+{"input": "What is a synonym for happy?", "output": "A synonym for happy is joyful."}
+{"input": "Es in English?", "output": "Es in English is Ice."}
+{"input": "Read: \"Mount Everest is the highest mountain.\" What is the highest mountain?", "output": "Mount Everest."}
+{"input": "Cloud in Indonesian?", "output": "Cloud in Indonesian is Awan."}
+{"input": "Kuda in English?", "output": "Kuda in English is Horse."}
+{"input": "Penghapus in English?", "output": "Penghapus in English is Eraser."}
+{"input": "Apa bahasa resmi Australia?", "output": "Bahasa resmi Australia adalah bahasa Inggris."}
+{"input": "What is a synonym for stroll?", "output": "A synonym for stroll is walk."}
+{"input": "Read: \"A butterfly comes from a caterpillar.\" Where does a butterfly come from?", "output": "A butterfly comes from a caterpillar."}
+{"input": "What compound word is made from hand + bag?", "output": "hand + bag = handbag."}
+{"input": "What is the official language of Nicaragua?", "output": "The official language of Nicaragua is Spanish."}
+{"input": "Cow in Indonesian?", "output": "Cow in Indonesian is Sapi."}
+{"input": "What is a complex sentence?", "output": "A complex sentence has one independent and one dependent clause."}
+{"input": "What does the suffix -er mean?", "output": "The suffix -er means one who does."}
+{"input": "What is the official language of Oman?", "output": "The official language of Oman is Arabic."}
+{"input": "Read: \"Bees make honey.\" What do bees make?", "output": "Bees make honey."}
+{"input": "What is the opposite of buy?", "output": "The opposite of buy is sell."}
+{"input": "When do you use a question mark?", "output": "Use a question mark at the end of a question."}
+{"input": "What is a synonym for fast?", "output": "A synonym for fast is quick."}
+{"input": "Sleep in Indonesian?", "output": "Sleep in Indonesian is Tidur."}
+{"input": "Apa bahasa resmi Tanzania?", "output": "Bahasa resmi Tanzania adalah bahasa Swahili."}
+{"input": "What is a homophone for there?", "output": "A homophone for there is their (and possibly they're)."}
+{"input": "Shoe in Indonesian?", "output": "Shoe in Indonesian is Sepatu."}
+{"input": "Apa bahasa resmi Jamaika?", "output": "Bahasa resmi Jamaika adalah bahasa Inggris."}
+{"input": "Apa bahasa resmi Serbia?", "output": "Bahasa resmi Serbia adalah bahasa Serbia."}
+{"input": "What is the official language of Slovenia?", "output": "The official language of Slovenia is Slovene."}
+{"input": "What is the past tense of feel?", "output": "The past tense of feel is felt."}
+{"input": "What is the opposite of arrive?", "output": "The opposite of arrive is depart."}
+{"input": "Bag in Indonesian?", "output": "Bag in Indonesian is Tas."}
+{"input": "What does the prefix trans- mean?", "output": "The prefix trans- means across."}
+{"input": "What does the suffix -ish mean?", "output": "The suffix -ish means like, similar to."}
+{"input": "What is a synonym for tiny?", "output": "A synonym for tiny is small."}
+{"input": "Close in Indonesian?", "output": "Close in Indonesian is Menutup."}
+{"input": "What is a homophone for its?", "output": "A homophone for its is it's (and possibly )."}
+{"input": "Want in Indonesian?", "output": "Want in Indonesian is Ingin."}
+{"input": "Dinding in English?", "output": "Dinding in English is Wall."}
+{"input": "Kertas in English?", "output": "Kertas in English is Paper."}
+{"input": "What is the official language of Nauru?", "output": "The official language of Nauru is Nauruan."}
+{"input": "What is the official language of Barbados?", "output": "The official language of Barbados is English."}
+{"input": "Need in Indonesian?", "output": "Need in Indonesian is Butuh."}
+{"input": "Apa bahasa resmi Ceko?", "output": "Bahasa resmi Ceko adalah bahasa Ceko."}
+{"input": "What is the opposite of long?", "output": "The opposite of long is short."}
+{"input": "Son in Indonesian?", "output": "Son in Indonesian is Anak laki-laki."}
+{"input": "What is a simile for slow?", "output": "As slow as a turtle."}
+{"input": "Gula in English?", "output": "Gula in English is Sugar."}
+{"input": "What is a homophone for their?", "output": "A homophone for their is there (and possibly )."}
+{"input": "What is a metaphor for knowledge?", "output": "Knowledge is power."}
+{"input": "Stand in Indonesian?", "output": "Stand in Indonesian is Berdiri."}
+{"input": "Buah in English?", "output": "Buah in English is Fruit."}
+{"input": "What is the official language of Cameroon?", "output": "The official language of Cameroon is French."}
+{"input": "Root in Indonesian?", "output": "Root in Indonesian is Akar."}
+{"input": "Father in Indonesian?", "output": "Father in Indonesian is Ayah."}
+{"input": "Apa bahasa resmi Bolivia?", "output": "Bahasa resmi Bolivia adalah bahasa Spanyol."}
+{"input": "Membuka in English?", "output": "Membuka in English is Open."}
+{"input": "What is a simile for brave?", "output": "As brave as a lion."}
+{"input": "What does the prefix super- mean?", "output": "The prefix super- means above, beyond."}
+{"input": "Buku in English?", "output": "Buku in English is Book."}
+{"input": "What is the opposite of wide?", "output": "The opposite of wide is narrow."}
+{"input": "What does the prefix under- mean?", "output": "The prefix under- means below, too little."}
+{"input": "What compound word is made from blue + berry?", "output": "blue + berry = blueberry."}
+{"input": "What is a synonym for quiet?", "output": "A synonym for quiet is silent."}
+{"input": "What is a metaphor for time?", "output": "Time is money."}
+{"input": "What is a synonym for understand?", "output": "A synonym for understand is know."}
+{"input": "What is the past tense of run?", "output": "The past tense of run is ran."}
+{"input": "Cousin in Indonesian?", "output": "Cousin in Indonesian is Sepupu."}
+{"input": "Eraser in Indonesian?", "output": "Eraser in Indonesian is Penghapus."}
+{"input": "What is a synonym for smart?", "output": "A synonym for smart is intelligent."}
+{"input": "Butterfly in Indonesian?", "output": "Butterfly in Indonesian is Kupu-kupu."}
+{"input": "What is a synonym for wake?", "output": "A synonym for wake is arise."}
+{"input": "What compound word is made from key + board?", "output": "key + board = keyboard."}
+{"input": "What does the prefix tri- mean?", "output": "The prefix tri- means three."}
+{"input": "Teach in Indonesian?", "output": "Teach in Indonesian is Mengajar."}
+{"input": "Lambat in English?", "output": "Lambat in English is Slow."}
+{"input": "What does the prefix dis- mean?", "output": "The prefix dis- means not, opposite of."}
+{"input": "Kamar in English?", "output": "Kamar in English is Room."}
+{"input": "What is the official language of Guinea?", "output": "The official language of Guinea is French."}
+{"input": "What is onomatopoeia for wind?", "output": "Whoosh."}
+{"input": "Membuat in English?", "output": "Membuat in English is Make."}
+{"input": "Apa bahasa resmi Uruguay?", "output": "Bahasa resmi Uruguay adalah bahasa Spanyol."}
+{"input": "Gaun in English?", "output": "Gaun in English is Dress."}
+{"input": "What is the official language of Luxembourg?", "output": "The official language of Luxembourg is Luxembourgish."}
+{"input": "Minum in English?", "output": "Minum in English is Drink."}
+{"input": "Payung in English?", "output": "Payung in English is Umbrella."}
+{"input": "What is the official language of Latvia?", "output": "The official language of Latvia is Latvian."}
+{"input": "What is a simple sentence?", "output": "A simple sentence has one independent clause."}
+{"input": "Brown in Indonesian?", "output": "Brown in Indonesian is Coklat."}
+{"input": "What is the official language of Honduras?", "output": "The official language of Honduras is Spanish."}
+{"input": "What is the past tense of go?", "output": "The past tense of go is went."}
+{"input": "What is a synonym for slumber?", "output": "A synonym for slumber is sleep."}
+{"input": "Have in Indonesian?", "output": "Have in Indonesian is Punya."}
+{"input": "What is onomatopoeia for a clock?", "output": "Tick tock."}
+{"input": "What is the official language of Liechtenstein?", "output": "The official language of Liechtenstein is German."}
+{"input": "Eat in Indonesian?", "output": "Eat in Indonesian is Makan."}
+{"input": "Benci in English?", "output": "Benci in English is Hate."}
+{"input": "What is a synonym for arise?", "output": "A synonym for arise is wake."}
+{"input": "What is a synonym for read?", "output": "A synonym for read is peruse."}
+{"input": "What is an irregular verb?", "output": "An irregular verb changes form (go-went, see-saw)."}
+{"input": "Grass in Indonesian?", "output": "Grass in Indonesian is Rumput."}
+{"input": "What is a fragment?", "output": "A fragment is an incomplete sentence missing subject or predicate."}
+{"input": "Lupa in English?", "output": "Lupa in English is Forget."}
+{"input": "Meat in Indonesian?", "output": "Meat in Indonesian is Daging."}
+{"input": "What is the opposite of clean?", "output": "The opposite of clean is dirty."}
+{"input": "What compound word is made from black + board?", "output": "black + board = blackboard."}
+{"input": "Orang tua in English?", "output": "Orang tua in English is Parent."}
+{"input": "When do you use a comma?", "output": "Use a comma to separate items in a list or clauses."}
+{"input": "What is the official language of Montenegro?", "output": "The official language of Montenegro is Montenegrin."}
+{"input": "What is the opposite of increase?", "output": "The opposite of increase is decrease."}
+{"input": "Beras in English?", "output": "Beras in English is Rice."}
+{"input": "What does the suffix -tion mean?", "output": "The suffix -tion means act or process."}
+{"input": "Paman in English?", "output": "Paman in English is Uncle."}
+{"input": "What does the prefix il- mean?", "output": "The prefix il- means not (before l)."}
+{"input": "Red in Indonesian?", "output": "Red in Indonesian is Merah."}
+{"input": "What does the suffix -ness mean?", "output": "The suffix -ness means state of being."}
+{"input": "What is the opposite of light?", "output": "The opposite of light is dark."}
+{"input": "Apa bahasa resmi Rumania?", "output": "Bahasa resmi Rumania adalah bahasa Rumania."}
+{"input": "Read: \"The Olympic Games happen every 4 years.\" How often are the Olympics?", "output": "Every 4 years."}
+{"input": "What is the official language of Vatican City?", "output": "The official language of Vatican City is Italian."}
+{"input": "Butuh in English?", "output": "Butuh in English is Need."}
+{"input": "What is a possessive?", "output": "A possessive shows ownership (John's book)."}
+{"input": "Membayar in English?", "output": "Membayar in English is Pay."}
+{"input": "Car in Indonesian?", "output": "Car in Indonesian is Mobil."}
+{"input": "Room in Indonesian?", "output": "Room in Indonesian is Kamar."}
+{"input": "What is a homophone for weather?", "output": "A homophone for weather is whether (and possibly )."}
+{"input": "What is a synonym for start?", "output": "A synonym for start is begin."}
+{"input": "What compound word is made from grass + hopper?", "output": "grass + hopper = grasshopper."}
+{"input": "What is the official language of Vanuatu?", "output": "The official language of Vanuatu is English."}
+{"input": "Apa bahasa resmi Kuba?", "output": "Bahasa resmi Kuba adalah bahasa Spanyol."}
+{"input": "Lapar in English?", "output": "Lapar in English is Hungry."}
+{"input": "Milk in Indonesian?", "output": "Milk in Indonesian is Susu."}
+{"input": "Read: \"The speed of light is about 300,000 km/s.\" How fast is light?", "output": "About 300,000 km/s."}
+{"input": "Guntur in English?", "output": "Guntur in English is Thunder."}
+{"input": "Ibu in English?", "output": "Ibu in English is Mother."}
+{"input": "Apa bahasa resmi Iran?", "output": "Bahasa resmi Iran adalah bahasa Persia."}
+{"input": "What is the official language of Jordan?", "output": "The official language of Jordan is Arabic."}
+{"input": "What does the prefix im- mean?", "output": "The prefix im- means not (before b, m, p)."}
+{"input": "Apa bahasa resmi Italia?", "output": "Bahasa resmi Italia adalah bahasa Italia."}
+{"input": "Kasur in English?", "output": "Kasur in English is Bed."}
+{"input": "What is a synonym for sip?", "output": "A synonym for sip is drink."}
+{"input": "What is the past tense of think?", "output": "The past tense of think is thought."}
+{"input": "What is the opposite of inside?", "output": "The opposite of inside is outside."}
+{"input": "What is a synonym for begin?", "output": "A synonym for begin is start."}
+{"input": "Thunder in Indonesian?", "output": "Thunder in Indonesian is Guntur."}
+{"input": "Duduk in English?", "output": "Duduk in English is Sit."}
+{"input": "What is the Oxford comma?", "output": "The Oxford comma is the last comma before \"and\" in a list."}
+{"input": "Apa bahasa resmi Sri Lanka?", "output": "Bahasa resmi Sri Lanka adalah bahasa Sinhala."}
+{"input": "Boat in Indonesian?", "output": "Boat in Indonesian is Perahu."}
+{"input": "What is the past tense of build?", "output": "The past tense of build is built."}
+{"input": "Come in Indonesian?", "output": "Come in Indonesian is Datang."}
+{"input": "What is the official language of Senegal?", "output": "The official language of Senegal is French."}
+{"input": "What does the suffix -ward mean?", "output": "The suffix -ward means in the direction of."}
+{"input": "Apa bahasa resmi Swiss?", "output": "Bahasa resmi Swiss adalah bahasa Jerman."}
+{"input": "What is a synonym for sluggish?", "output": "A synonym for sluggish is slow."}
+{"input": "Knife in Indonesian?", "output": "Knife in Indonesian is Pisau."}
+{"input": "Read: \"Birds fly in the sky.\" Where do birds fly?", "output": "Birds fly in the sky."}
+{"input": "Cat in Indonesian?", "output": "Cat in Indonesian is Kucing."}
+{"input": "What compound word is made from sun + flower?", "output": "sun + flower = sunflower."}
+{"input": "Buruk in English?", "output": "Buruk in English is Bad."}
+{"input": "What is an adjective?", "output": "An adjective describes a noun."}
+{"input": "What is a synonym for finish?", "output": "A synonym for finish is end."}
+{"input": "What does the suffix -y mean?", "output": "The suffix -y means characterized by."}
+{"input": "Apa bahasa resmi Siprus?", "output": "Bahasa resmi Siprus adalah bahasa Yunani."}
+{"input": "Grandmother in Indonesian?", "output": "Grandmother in Indonesian is Nenek."}
+{"input": "Apa bahasa resmi Luksemburg?", "output": "Bahasa resmi Luksemburg adalah bahasa Luksemburg."}
+{"input": "Hate in Indonesian?", "output": "Hate in Indonesian is Benci."}
+{"input": "Ugly in Indonesian?", "output": "Ugly in Indonesian is Jelek."}
+{"input": "What is the past tense of sleep?", "output": "The past tense of sleep is slept."}
+{"input": "Air in English?", "output": "Air in English is Water."}
+{"input": "Apa bahasa resmi Denmark?", "output": "Bahasa resmi Denmark adalah bahasa Denmark."}
+{"input": "What does the prefix co- mean?", "output": "The prefix co- means together."}
+{"input": "Saudara laki-laki in English?", "output": "Saudara laki-laki in English is Brother."}
+{"input": "Oranye in English?", "output": "Oranye in English is Orange."}
+{"input": "Bed in Indonesian?", "output": "Bed in Indonesian is Kasur."}
+{"input": "Leaf in Indonesian?", "output": "Leaf in Indonesian is Daun."}
+{"input": "Read: \"Water boils at 100 degrees Celsius.\" At what temperature does water boil?", "output": "Water boils at 100 degrees Celsius."}
+{"input": "Forget in Indonesian?", "output": "Forget in Indonesian is Lupa."}
+{"input": "Merah muda in English?", "output": "Merah muda in English is Pink."}
+{"input": "What is onomatopoeia?", "output": "Onomatopoeia are sound words (buzz, splash, moo)."}
+{"input": "Bad in Indonesian?", "output": "Bad in Indonesian is Buruk."}
+{"input": "Bear in Indonesian?", "output": "Bear in Indonesian is Beruang."}
+{"input": "Read: \"Humans have 206 bones.\" How many bones do humans have?", "output": "Humans have 206 bones."}
+{"input": "What does the suffix -ing mean?", "output": "The suffix -ing means doing now."}
+{"input": "What is a synonym for fragile?", "output": "A synonym for fragile is weak."}
+{"input": "What is the opposite of push?", "output": "The opposite of push is pull."}
+{"input": "What does the prefix pro- mean?", "output": "The prefix pro- means for, in favor of."}
+{"input": "What is the official language of Central African Republic?", "output": "The official language of Central African Republic is French."}
+{"input": "Big in Indonesian?", "output": "Big in Indonesian is Besar."}
+{"input": "Apa bahasa resmi Turkmenistan?", "output": "Bahasa resmi Turkmenistan adalah bahasa Turkmen."}
+{"input": "Apa bahasa resmi Jerman?", "output": "Bahasa resmi Jerman adalah bahasa Jerman."}
+{"input": "What is a synonym for give?", "output": "A synonym for give is donate."}
+{"input": "What does the prefix sub- mean?", "output": "The prefix sub- means under."}
+{"input": "Haus in English?", "output": "Haus in English is Thirsty."}
+{"input": "Pesawat in English?", "output": "Pesawat in English is Plane."}
+{"input": "Apa bahasa resmi Afrika Selatan?", "output": "Bahasa resmi Afrika Selatan adalah bahasa Inggris."}
+{"input": "What is the official language of Bosnia and Herzegovina?", "output": "The official language of Bosnia and Herzegovina is Bosnian."}
+{"input": "What is the opposite of loud?", "output": "The opposite of loud is quiet."}
+{"input": "What is the opposite of love?", "output": "The opposite of love is hate."}
+{"input": "What is the past tense of bring?", "output": "The past tense of bring is brought."}
+{"input": "Apa bahasa resmi Belgia?", "output": "Bahasa resmi Belgia adalah bahasa Belanda."}
+{"input": "Umbrella in Indonesian?", "output": "Umbrella in Indonesian is Payung."}
+{"input": "Tree in Indonesian?", "output": "Tree in Indonesian is Pohon."}
+{"input": "Meja in English?", "output": "Meja in English is Table."}
+{"input": "What is the official language of Togo?", "output": "The official language of Togo is French."}
+{"input": "Blue in Indonesian?", "output": "Blue in Indonesian is Biru."}
+{"input": "Plane in Indonesian?", "output": "Plane in Indonesian is Pesawat."}
+{"input": "What compound word is made from sun + glasses?", "output": "sun + glasses = sunglasses."}
+{"input": "Read: \"The Nile is the longest river.\" What is the longest river?", "output": "The Nile is the longest river."}
+{"input": "Dog in Indonesian?", "output": "Dog in Indonesian is Anjing."}
+{"input": "Friend in Indonesian?", "output": "Friend in Indonesian is Teman."}
+{"input": "Bathroom in Indonesian?", "output": "Bathroom in Indonesian is Kamar mandi."}
+{"input": "Menutup in English?", "output": "Menutup in English is Close."}
+{"input": "Marah in English?", "output": "Marah in English is Angry."}
+{"input": "Pintar in English?", "output": "Pintar in English is Smart."}
+{"input": "Beautiful in Indonesian?", "output": "Beautiful in Indonesian is Cantik."}
+{"input": "Apa bahasa resmi Chili?", "output": "Bahasa resmi Chili adalah bahasa Spanyol."}
+{"input": "What is the official language of Malta?", "output": "The official language of Malta is Maltese."}
+{"input": "Pull in Indonesian?", "output": "Pull in Indonesian is Menarik."}
+{"input": "When do you use a semicolon?", "output": "Use a semicolon to join related independent clauses."}
+{"input": "Senang in English?", "output": "Senang in English is Happy."}
+{"input": "Apa bahasa resmi Uni Emirat Arab?", "output": "Bahasa resmi Uni Emirat Arab adalah bahasa Arab."}
+{"input": "What is a simile for sweet?", "output": "As sweet as honey."}
+{"input": "Heavy in Indonesian?", "output": "Heavy in Indonesian is Berat."}
+{"input": "Tired in Indonesian?", "output": "Tired in Indonesian is Lelah."}
+{"input": "Remember in Indonesian?", "output": "Remember in Indonesian is Ingat."}
+{"input": "What is onomatopoeia for a bell?", "output": "Ding dong."}
+{"input": "Sapi in English?", "output": "Sapi in English is Cow."}
+{"input": "What is the past tense of give?", "output": "The past tense of give is gave."}
+{"input": "What compound word is made from tooth + brush?", "output": "tooth + brush = toothbrush."}
+{"input": "Susu in English?", "output": "Susu in English is Milk."}
+{"input": "Tas in English?", "output": "Tas in English is Bag."}
+{"input": "Sad in Indonesian?", "output": "Sad in Indonesian is Sedih."}
+{"input": "Apa bahasa resmi Norwegia?", "output": "Bahasa resmi Norwegia adalah bahasa Norwegia."}
+{"input": "Botol in English?", "output": "Botol in English is Bottle."}
+{"input": "What is the official language of Zambia?", "output": "The official language of Zambia is English."}
+{"input": "What is the official language of Guyana?", "output": "The official language of Guyana is English."}
+{"input": "Aunt in Indonesian?", "output": "Aunt in Indonesian is Tante."}
+{"input": "What compound word is made from pan + cake?", "output": "pan + cake = pancake."}
+{"input": "What is a synonym for weak?", "output": "A synonym for weak is fragile."}
+{"input": "Apa bahasa resmi Bulgaria?", "output": "Bahasa resmi Bulgaria adalah bahasa Bulgaria."}
+{"input": "Slow in Indonesian?", "output": "Slow in Indonesian is Lambat."}
+{"input": "How do you format a title?", "output": "Book titles are italicized; article titles use quotes."}
+{"input": "Kamar tidur in English?", "output": "Kamar tidur in English is Bedroom."}
+{"input": "Lelah in English?", "output": "Lelah in English is Tired."}
+{"input": "Pink in Indonesian?", "output": "Pink in Indonesian is Merah muda."}
+{"input": "Petir in English?", "output": "Petir in English is Lightning."}
+{"input": "What is onomatopoeia for water?", "output": "Splash."}
+{"input": "What is the present tense?", "output": "Present tense describes actions happening now."}
+{"input": "Moon in Indonesian?", "output": "Moon in Indonesian is Bulan."}
+{"input": "Apa bahasa resmi Malaysia?", "output": "Bahasa resmi Malaysia adalah bahasa Melayu."}
+{"input": "What does the suffix -s mean?", "output": "The suffix -s means plural."}
+{"input": "What does the suffix -est mean?", "output": "The suffix -est means most."}
+{"input": "Read: \"A compass shows direction.\" What does a compass do?", "output": "A compass shows direction."}
+{"input": "Kapal in English?", "output": "Kapal in English is Ship."}
+{"input": "What is a homophone for knows?", "output": "A homophone for knows is nose (and possibly )."}
+{"input": "Bebek in English?", "output": "Bebek in English is Duck."}
+{"input": "What compound word is made from birth + day?", "output": "birth + day = birthday."}
+{"input": "Apa bahasa resmi Filipina?", "output": "Bahasa resmi Filipina adalah bahasa Filipino."}
+{"input": "Pensil in English?", "output": "Pensil in English is Pencil."}
+{"input": "Drink in Indonesian?", "output": "Drink in Indonesian is Minum."}
+{"input": "What is the past tense of keep?", "output": "The past tense of keep is kept."}
+{"input": "Pohon in English?", "output": "Pohon in English is Tree."}
+{"input": "Long in Indonesian?", "output": "Long in Indonesian is Panjang."}
+{"input": "Dress in Indonesian?", "output": "Dress in Indonesian is Gaun."}
+{"input": "Angry in Indonesian?", "output": "Angry in Indonesian is Marah."}
+{"input": "What is a synonym for old?", "output": "A synonym for old is ancient."}
+{"input": "When do you use the?", "output": "Use the for specific things (the sun, the book on the table)."}
+{"input": "Menarik in English?", "output": "Menarik in English is Pull."}
+{"input": "What is a synonym for angry?", "output": "A synonym for angry is furious."}
+{"input": "What is a metaphor for life?", "output": "Life is a journey."}
+{"input": "What is an intransitive verb?", "output": "An intransitive verb does not take a direct object (She sleeps)."}
+{"input": "What does the suffix -ous mean?", "output": "The suffix -ous means full of."}
+{"input": "Niece in Indonesian?", "output": "Niece in Indonesian is Keponakan perempuan."}
+{"input": "What is a synonym for listen?", "output": "A synonym for listen is hear."}
+{"input": "Read: \"Gravity pulls objects down.\" What does gravity do?", "output": "Gravity pulls objects down."}
+{"input": "Penggaris in English?", "output": "Penggaris in English is Ruler."}
+{"input": "What is the official language of Haiti?", "output": "The official language of Haiti is French."}
+{"input": "What compound word is made from bath + room?", "output": "bath + room = bathroom."}
+{"input": "What is the opposite of live?", "output": "The opposite of live is die."}
+{"input": "Matahari in English?", "output": "Matahari in English is Sun."}
+{"input": "What is the official language of Qatar?", "output": "The official language of Qatar is Arabic."}
+{"input": "Cinta in English?", "output": "Cinta in English is Love."}
+{"input": "What is a synonym for end?", "output": "A synonym for end is finish."}
+{"input": "Berat in English?", "output": "Berat in English is Heavy."}
+{"input": "Snow in Indonesian?", "output": "Snow in Indonesian is Salju."}
+{"input": "What is a synonym for hideous?", "output": "A synonym for hideous is ugly."}
+{"input": "Ingat in English?", "output": "Ingat in English is Remember."}
+{"input": "What is the past tense?", "output": "Past tense describes actions that already happened."}
+{"input": "Apa bahasa resmi Sudan?", "output": "Bahasa resmi Sudan adalah bahasa Arab."}
+{"input": "What is the official language of Cyprus?", "output": "The official language of Cyprus is Greek."}
+{"input": "Bird in Indonesian?", "output": "Bird in Indonesian is Burung."}
+{"input": "Mengajar in English?", "output": "Mengajar in English is Teach."}
+{"input": "What is a synonym for consume?", "output": "A synonym for consume is eat."}
+{"input": "Keponakan perempuan in English?", "output": "Keponakan perempuan in English is Niece."}
+{"input": "Apa bahasa resmi Israel?", "output": "Bahasa resmi Israel adalah bahasa Ibrani."}
+{"input": "Garam in English?", "output": "Garam in English is Salt."}
+{"input": "Anak perempuan in English?", "output": "Anak perempuan in English is Daughter."}
+{"input": "What is a run-on sentence?", "output": "A run-on joins two sentences without proper punctuation."}
+{"input": "What compound word is made from class + room?", "output": "class + room = classroom."}
+{"input": "Apa bahasa resmi India?", "output": "Bahasa resmi India adalah bahasa Hindi."}
+{"input": "Pelangi in English?", "output": "Pelangi in English is Rainbow."}
+{"input": "What is a homophone for groan?", "output": "A homophone for groan is grown (and possibly )."}
+{"input": "Read: \"Japan is an island country.\" What kind of country is Japan?", "output": "Japan is an island country."}
+{"input": "Daughter in Indonesian?", "output": "Daughter in Indonesian is Anak perempuan."}
+{"input": "What is the official language of Panama?", "output": "The official language of Panama is Spanish."}
+{"input": "Apa bahasa resmi Ethiopia?", "output": "Bahasa resmi Ethiopia adalah bahasa Amharic."}
+{"input": "What is an abstract noun?", "output": "An abstract noun names an idea (love, freedom, happiness)."}
+{"input": "What is the past tense of take?", "output": "The past tense of take is took."}
+{"input": "What is the official language of Namibia?", "output": "The official language of Namibia is English."}
+{"input": "Motor in English?", "output": "Motor in English is Motorcycle."}
+{"input": "Chair in Indonesian?", "output": "Chair in Indonesian is Kursi."}
+{"input": "What is the official language of Jamaica?", "output": "The official language of Jamaica is English."}
+{"input": "What is a synonym for powerful?", "output": "A synonym for powerful is strong."}
+{"input": "Melompat in English?", "output": "Melompat in English is Jump."}
+{"input": "Mencuci in English?", "output": "Mencuci in English is Wash."}
+{"input": "Door in Indonesian?", "output": "Door in Indonesian is Pintu."}
+{"input": "What is a simile for fast?", "output": "As fast as a cheetah."}
+{"input": "What is the opposite of win?", "output": "The opposite of win is lose."}
+{"input": "Apa bahasa resmi Azerbaijan?", "output": "Bahasa resmi Azerbaijan adalah bahasa Azerbaijan."}
+{"input": "What is a homophone for blue?", "output": "A homophone for blue is blew (and possibly )."}
+{"input": "Biji in English?", "output": "Biji in English is Seed."}
+{"input": "What does the prefix auto- mean?", "output": "The prefix auto- means self."}
+{"input": "What is a synonym for drink?", "output": "A synonym for drink is sip."}
+{"input": "What is the opposite of rise?", "output": "The opposite of rise is fall."}
+{"input": "Apa bahasa resmi Portugal?", "output": "Bahasa resmi Portugal adalah bahasa Portugal."}
+{"input": "What is a synonym for fresh?", "output": "A synonym for fresh is new."}
+{"input": "What is a homophone for peace?", "output": "A homophone for peace is piece (and possibly )."}
+{"input": "What is a homophone for bear?", "output": "A homophone for bear is bare (and possibly )."}
+{"input": "When do you use a period?", "output": "Use a period at the end of a statement sentence."}
+{"input": "Makan in English?", "output": "Makan in English is Eat."}
+{"input": "What is the official language of Maldives?", "output": "The official language of Maldives is Dhivehi."}
+{"input": "What is the past tense of begin?", "output": "The past tense of begin is began."}
+{"input": "Cantik in English?", "output": "Cantik in English is Beautiful."}
+{"input": "Kotor in English?", "output": "Kotor in English is Dirty."}
+{"input": "What is a synonym for vend?", "output": "A synonym for vend is sell."}
+{"input": "Teman in English?", "output": "Teman in English is Friend."}
+{"input": "Take in Indonesian?", "output": "Take in Indonesian is Ambil."}
+{"input": "Punya in English?", "output": "Punya in English is Have."}
+{"input": "What is a synonym for know?", "output": "A synonym for know is understand."}
+{"input": "Spider in Indonesian?", "output": "Spider in Indonesian is Laba-laba."}
+{"input": "Happy in Indonesian?", "output": "Happy in Indonesian is Senang."}
+{"input": "What is a synonym for small?", "output": "A synonym for small is tiny."}
+{"input": "Panjang in English?", "output": "Panjang in English is Long."}
+{"input": "What is a synonym for dirty?", "output": "A synonym for dirty is filthy."}
+{"input": "What is a homophone for your?", "output": "A homophone for your is you're (and possibly )."}
+{"input": "What is the official language of Iceland?", "output": "The official language of Iceland is Icelandic."}
+{"input": "What is a homophone for steal?", "output": "A homophone for steal is steel (and possibly )."}
+{"input": "What is a synonym for ugly?", "output": "A synonym for ugly is hideous."}
+{"input": "What is a homophone for cell?", "output": "A homophone for cell is sell (and possibly )."}
+{"input": "Helikopter in English?", "output": "Helikopter in English is Helicopter."}
+{"input": "What is a homophone for write?", "output": "A homophone for write is right (and possibly )."}
+{"input": "What is a synonym for terrified?", "output": "A synonym for terrified is afraid."}
+{"input": "Cheese in Indonesian?", "output": "Cheese in Indonesian is Keju."}
+{"input": "Hear in Indonesian?", "output": "Hear in Indonesian is Mendengar."}
+{"input": "What is an adverb?", "output": "An adverb describes a verb, adjective, or other adverb."}
+{"input": "Roti in English?", "output": "Roti in English is Bread."}
+{"input": "Sell in Indonesian?", "output": "Sell in Indonesian is Menjual."}
+{"input": "Read: \"Ice is frozen water.\" What is ice?", "output": "Ice is frozen water."}
+{"input": "Apa bahasa resmi Armenia?", "output": "Bahasa resmi Armenia adalah bahasa Armenia."}
+{"input": "What is the opposite of sun?", "output": "The opposite of sun is moon."}
+{"input": "Snake in Indonesian?", "output": "Snake in Indonesian is Ular."}
+{"input": "Apa bahasa resmi Tunisia?", "output": "Bahasa resmi Tunisia adalah bahasa Arab."}
+{"input": "What is the official language of Lithuania?", "output": "The official language of Lithuania is Lithuanian."}
+{"input": "Semut in English?", "output": "Semut in English is Ant."}
+{"input": "What is a synonym for sorrowful?", "output": "A synonym for sorrowful is sad."}
+{"input": "Putih in English?", "output": "Putih in English is White."}
+{"input": "What does the prefix inter- mean?", "output": "The prefix inter- means between."}
+{"input": "What is the opposite of summer?", "output": "The opposite of summer is winter."}
+{"input": "Memberi in English?", "output": "Memberi in English is Give."}
+{"input": "Write in Indonesian?", "output": "Write in Indonesian is Menulis."}
+{"input": "What is the official language of Sierra Leone?", "output": "The official language of Sierra Leone is English."}
+{"input": "Horse in Indonesian?", "output": "Horse in Indonesian is Kuda."}
+{"input": "What is a homophone for main?", "output": "A homophone for main is mane (and possibly )."}
+{"input": "What is a linking verb?", "output": "A linking verb connects the subject to a description (is, seems)."}
+{"input": "Pay in Indonesian?", "output": "Pay in Indonesian is Membayar."}
+{"input": "What is a synonym for beautiful?", "output": "A synonym for beautiful is gorgeous."}
+{"input": "What is a comparative adjective?", "output": "A comparative compares two things (bigger, faster)."}
+{"input": "What is a synonym for wealthy?", "output": "A synonym for wealthy is rich."}
+{"input": "Sup in English?", "output": "Sup in English is Soup."}
+{"input": "When do you use a hyphen?", "output": "Use a hyphen in compound words (well-known)."}
+{"input": "What is the official language of Monaco?", "output": "The official language of Monaco is French."}
+{"input": "Wife in Indonesian?", "output": "Wife in Indonesian is Istri."}
+{"input": "What is the official language of Mali?", "output": "The official language of Mali is French."}
+{"input": "When do you use a?", "output": "Use a before words starting with consonant sounds (a cat)."}
+{"input": "Sejuk in English?", "output": "Sejuk in English is Cool."}
+{"input": "Ringan in English?", "output": "Ringan in English is Light."}
+{"input": "Berlari in English?", "output": "Berlari in English is Run."}
+{"input": "What is the official language of South Sudan?", "output": "The official language of South Sudan is English."}
+{"input": "What is a homophone for weak?", "output": "A homophone for weak is week (and possibly )."}
+{"input": "What is the official language of Liberia?", "output": "The official language of Liberia is English."}
+{"input": "Wind in Indonesian?", "output": "Wind in Indonesian is Angin."}
+{"input": "What is the official language of Eswatini?", "output": "The official language of Eswatini is English."}
+{"input": "What does the prefix semi- mean?", "output": "The prefix semi- means half."}
+{"input": "What is the opposite of true?", "output": "The opposite of true is false."}
+{"input": "What is the official language of Guatemala?", "output": "The official language of Guatemala is Spanish."}
+{"input": "Apa bahasa resmi Ekuador?", "output": "Bahasa resmi Ekuador adalah bahasa Spanyol."}
+{"input": "What is the official language of Lebanon?", "output": "The official language of Lebanon is Arabic."}
+{"input": "Mother in Indonesian?", "output": "Mother in Indonesian is Ibu."}
+{"input": "Suka in English?", "output": "Suka in English is Like."}
+{"input": "Cangkir in English?", "output": "Cangkir in English is Cup."}
+{"input": "Kemeja in English?", "output": "Kemeja in English is Shirt."}
+{"input": "Cool in Indonesian?", "output": "Cool in Indonesian is Sejuk."}
+{"input": "What is a metaphor for anger?", "output": "Anger is a fire."}
+{"input": "What is the official language of Bahrain?", "output": "The official language of Bahrain is Arabic."}
+{"input": "What is a synonym for ponder?", "output": "A synonym for ponder is think."}
+{"input": "What is a synonym for make?", "output": "A synonym for make is create."}
+{"input": "What is a synonym for slow?", "output": "A synonym for slow is sluggish."}
+{"input": "Lebar in English?", "output": "Lebar in English is Wide."}
+{"input": "Cook in Indonesian?", "output": "Cook in Indonesian is Memasak."}
+{"input": "What is a homophone for knead?", "output": "A homophone for knead is need (and possibly )."}
+{"input": "Apa bahasa resmi Pakistan?", "output": "Bahasa resmi Pakistan adalah bahasa Urdu."}
+{"input": "New in Indonesian?", "output": "New in Indonesian is Baru."}
+{"input": "Hitam in English?", "output": "Hitam in English is Black."}
+{"input": "Floor in Indonesian?", "output": "Floor in Indonesian is Lantai."}
+{"input": "Ship in Indonesian?", "output": "Ship in Indonesian is Kapal."}
+{"input": "Apa bahasa resmi Kroasia?", "output": "Bahasa resmi Kroasia adalah bahasa Kroasia."}
+{"input": "What is the official language of Malawi?", "output": "The official language of Malawi is English."}
+{"input": "Kupu-kupu in English?", "output": "Kupu-kupu in English is Butterfly."}
+{"input": "What is the official language of Rwanda?", "output": "The official language of Rwanda is Kinyarwanda."}
+{"input": "Earth in Indonesian?", "output": "Earth in Indonesian is Bumi."}
+{"input": "What does the prefix un- mean?", "output": "The prefix un- means not, opposite of."}
+{"input": "Truk in English?", "output": "Truk in English is Truck."}
+{"input": "Read: \"DNA stores genetic information.\" What does DNA store?", "output": "DNA stores genetic information."}
+{"input": "What is the past tense of ring?", "output": "The past tense of ring is rang."}
+{"input": "What is a homophone for wear?", "output": "A homophone for wear is where (and possibly )."}
+{"input": "Coklat in English?", "output": "Coklat in English is Brown."}
+{"input": "What is a homophone for cent?", "output": "A homophone for cent is scent (and possibly )."}
+{"input": "Angin in English?", "output": "Angin in English is Wind."}
+{"input": "What compound word is made from star + fish?", "output": "star + fish = starfish."}
+{"input": "What is the opposite of include?", "output": "The opposite of include is exclude."}
+{"input": "Apa bahasa resmi Jepang?", "output": "Bahasa resmi Jepang adalah bahasa Jepang."}
+{"input": "Sepupu in English?", "output": "Sepupu in English is Cousin."}
+{"input": "Coffee in Indonesian?", "output": "Coffee in Indonesian is Kopi."}
+{"input": "Baru in English?", "output": "Baru in English is New."}
+{"input": "Lightning in Indonesian?", "output": "Lightning in Indonesian is Petir."}
+{"input": "What is a synonym for spotless?", "output": "A synonym for spotless is clean."}
+{"input": "Apa bahasa resmi Bangladesh?", "output": "Bahasa resmi Bangladesh adalah bahasa Bengali."}
+{"input": "When do you capitalize?", "output": "Capitalize the first word, names, places, and titles."}
+{"input": "Window in Indonesian?", "output": "Window in Indonesian is Jendela."}
+{"input": "Daun in English?", "output": "Daun in English is Leaf."}
+{"input": "Tinggi in English?", "output": "Tinggi in English is Tall."}
+{"input": "Like in Indonesian?", "output": "Like in Indonesian is Suka."}
+{"input": "What is an article?", "output": "Articles are a, an, the."}
+{"input": "White in Indonesian?", "output": "White in Indonesian is Putih."}
+{"input": "What is a simile for hot?", "output": "As hot as fire."}
+{"input": "What is a superlative adjective?", "output": "A superlative compares three or more (biggest, fastest)."}
+{"input": "Langit in English?", "output": "Langit in English is Sky."}
+{"input": "What compound word is made from snow + man?", "output": "snow + man = snowman."}
+{"input": "Give in Indonesian?", "output": "Give in Indonesian is Memberi."}
+{"input": "Read: \"The sun rises in the east.\" Where does the sun rise?", "output": "The sun rises in the east."}
+{"input": "Besar in English?", "output": "Besar in English is Big."}
+{"input": "Read: \"The Amazon is the largest rainforest.\" What is the largest rainforest?", "output": "The Amazon."}
+{"input": "Pencil in Indonesian?", "output": "Pencil in Indonesian is Pensil."}
+{"input": "Egg in Indonesian?", "output": "Egg in Indonesian is Telur."}
+{"input": "Short in Indonesian?", "output": "Short in Indonesian is Pendek."}
+{"input": "What is a homophone for hear?", "output": "A homophone for hear is here (and possibly )."}
+{"input": "Fruit in Indonesian?", "output": "Fruit in Indonesian is Buah."}
+{"input": "What is the opposite of assemble?", "output": "The opposite of assemble is disassemble."}
+{"input": "Anak in English?", "output": "Anak in English is Child."}
+{"input": "Teh in English?", "output": "Teh in English is Tea."}
+{"input": "What is a synonym for tired?", "output": "A synonym for tired is exhausted."}
+{"input": "Jelek in English?", "output": "Jelek in English is Ugly."}
+{"input": "Ayam in English?", "output": "Ayam in English is Chicken."}
+{"input": "What is the official language of Tajikistan?", "output": "The official language of Tajikistan is Tajik."}
+{"input": "Kamar mandi in English?", "output": "Kamar mandi in English is Bathroom."}
+{"input": "Parent in Indonesian?", "output": "Parent in Indonesian is Orang tua."}

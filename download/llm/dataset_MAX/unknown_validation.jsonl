@@ -1,0 +1,34 @@
+{"input": "1 - 6 + 7 = ?", "output": "2"}
+{"input": "Belanja Rp 33,500 dengan uang Rp 75,000. Berapa kembalian?", "output": "Kembalian Rp 41,500"}
+{"input": "11 x 2 + 1 = ?", "output": "23"}
+{"input": "Matahari : terbit :: bulan : ?", "output": "muncul"}
+{"input": "Semua air mendidih pada seratus derajat. air di gelas adalah air.", "output": "Kesimpulan: air di gelas mendidih pada seratus derajat."}
+{"input": "Petani : sawah :: nelayan : ?", "output": "laut"}
+{"input": "16 - 16 + 4 = ?", "output": "4"}
+{"input": "15 x 17 + 5 = ?", "output": "260"}
+{"input": "Tidak ada bintang yang memancarkan cahaya. Matahari adalah bintang.", "output": "Kesimpulan: Matahari tidak memancarkan cahaya."}
+{"input": "7 - 13 + 6 = ?", "output": "0"}
+{"input": "Semua energy tidak bisa dimusnahkan. energi panas adalah energy.", "output": "Kesimpulan: energi panas tidak bisa dimusnahkan."}
+{"input": "7 x 17 + 8 = ?", "output": "127"}
+{"input": "Apa ibu kota provinsi Aceh?", "output": "Ibu kota provinsi Aceh adalah Banda Aceh."}
+{"input": "Apa ibu kota provinsi Kalimantan Timur?", "output": "Ibu kota provinsi Kalimantan Timur adalah Samarinda."}
+{"input": "5 jam 30 menit + 2 jam 45 menit = ?", "output": "8 jam 15 menit"}
+{"input": "Semua dokter menyembuhkan pasien. dr. Siti adalah dokter.", "output": "Kesimpulan: dr. Siti menyembuhkan pasien."}
+{"input": "Tidak ada cahaya yang merambat lurus. sinar matahari adalah cahaya.", "output": "Kesimpulan: sinar matahari tidak merambat lurus."}
+{"input": "7 + 10 + 4 = ?", "output": "21"}
+{"input": "Sebagian anjing bisa menggonggong. Rex adalah anjing.", "output": "Kesimpulan: Rex mungkin bisa menggonggong."}
+{"input": "Sebagian atom adalah unit terkecil materi. atom hidrogen adalah atom.", "output": "Kesimpulan: atom hidrogen mungkin adalah unit terkecil materi."}
+{"input": "Siapa penemu komputer pertama?", "output": "Charles Babbage disebut bapak komputer."}
+{"input": "4 + 3 + 7 = ?", "output": "14"}
+{"input": "Sebagian gravitasi menarik benda ke bumi. bola jatuh adalah gravitasi.", "output": "Kesimpulan: bola jatuh mungkin menarik benda ke bumi."}
+{"input": "Apa itu difraksi?", "output": "Difraksi adalah pembelokan gelombang saat melewati celah."}
+{"input": "Sapi : moo :: kambing : ?", "output": "mbek mbek"}
+{"input": "Sebagian air membeku pada nol derajat. air di freezer adalah air.", "output": "Kesimpulan: air di freezer mungkin membeku pada nol derajat."}
+{"input": "Kucing : meong :: anjing : ?", "output": "guk guk"}
+{"input": "Semua polisi menangkap pencuri. Bripda Andi adalah polisi.", "output": "Kesimpulan: Bripda Andi menangkap pencuri."}
+{"input": "Apa ibu kota provinsi Jambi?", "output": "Ibu kota provinsi Jambi adalah Jambi."}
+{"input": "3 - 8 + 2 = ?", "output": "-3"}
+{"input": "Pegunungan : tinggi :: lembah : ?", "output": "rendah"}
+{"input": "Tidak ada benua yang punya negara. Asia adalah benua.", "output": "Kesimpulan: Asia tidak punya negara."}
+{"input": "3 kuadrat = ?", "output": "9"}
+{"input": "Kapan manusia pertama kali mendarat di bulan?", "output": "Manusia pertama mendarat di bulan tahun seribu sembilan ratus enam puluh sembilan."}

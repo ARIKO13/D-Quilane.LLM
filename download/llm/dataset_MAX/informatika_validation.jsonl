@@ -1,0 +1,27 @@
+{"input": "What is a command line?", "output": "A command line lets users interact with a computer by typing text commands."}
+{"input": "What is a data structure?", "output": "A data structure is a way of organizing data, like arrays or lists."}
+{"input": "What is a pixel?", "output": "A pixel is the smallest unit of a digital image."}
+{"input": "How do you get user input in Python?", "output": "name = input(\"Enter name: \")"}
+{"input": "What is a hard drive?", "output": "A hard drive is permanent storage that keeps data even when power is off."}
+{"input": "How many bytes in a kilobyte?", "output": "There are 1,024 bytes in a kilobyte (KB)."}
+{"input": "Apa itu mouse?", "output": "Mouse adalah alat input untuk menggerakkan kursor di layar."}
+{"input": "How do you convert string to integer in Python?", "output": "x = int(\"123\")"}
+{"input": "Apa itu flashdisk?", "output": "Flashdisk adalah alat penyimpanan data portabel."}
+{"input": "Apa itu Android?", "output": "Android adalah operating system untuk HP dari Google."}
+{"input": "How do you print Hello World in Python?", "output": "print(\"Hello, World!\")"}
+{"input": "Apa itu monitor?", "output": "Monitor adalah layar untuk menampilkan output komputer."}
+{"input": "Apa itu operating system?", "output": "Operating system adalah program yang mengelola komputer."}
+{"input": "Apa itu browser?", "output": "Browser adalah aplikasi untuk membuka website."}
+{"input": "How do you create a variable in Python?", "output": "x = 10"}
+{"input": "How do you convert to lowercase in Python?", "output": "\"HELLO\".lower() returns \"hello\"."}
+{"input": "What is a network?", "output": "A network is two or more computers connected to share data."}
+{"input": "How do you write a for loop in Python?", "output": "for i in range(5):\n    print(i)"}
+{"input": "What is malware?", "output": "Malware is any software designed to harm or access a computer without permission."}
+{"input": "What is a motherboard?", "output": "A motherboard is the main circuit board that connects all computer components."}
+{"input": "What is an if statement?", "output": "An if statement runs code only if a condition is true."}
+{"input": "Apa itu aplikasi?", "output": "Aplikasi adalah program yang digunakan untuk tujuan tertentu."}
+{"input": "Apa itu email?", "output": "Email adalah surat elektronik yang dikirim lewat internet."}
+{"input": "How many KB in a megabyte?", "output": "There are 1,024 KB in a megabyte (MB)."}
+{"input": "How do you convert to uppercase in Python?", "output": "\"hello\".upper() returns \"HELLO\"."}
+{"input": "How do you add to a list in Python?", "output": "my_list.append(4)"}
+{"input": "How do you generate random numbers in Python?", "output": "import random; x = random.randint(1, 10)"}

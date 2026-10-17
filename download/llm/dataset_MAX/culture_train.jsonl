@@ -1,0 +1,61 @@
+{"input": "What is miso soup?", "output": "Miso soup is a Japanese soup made from fermented soybean paste."}
+{"input": "What is New Year?", "output": "New Year celebrates the start of a new year on January 1."}
+{"input": "What is a full English breakfast?", "output": "A full English breakfast includes eggs, bacon, sausage, beans, toast, and tea."}
+{"input": "What is chow mein?", "output": "Chow mein is Chinese stir-fried noodles."}
+{"input": "What is Day of the Dead?", "output": "Day of the Dead (Dia de los Muertos) is a Mexican holiday on Nov 1-2."}
+{"input": "What is a burrito?", "output": "A burrito is a Mexican flour tortilla wrapped around filling."}
+{"input": "What is ceviche?", "output": "Ceviche is a Latin American dish of raw fish cured in citrus."}
+{"input": "What is mie goreng?", "output": "Mie goreng is Indonesian fried noodles."}
+{"input": "What is fried rice?", "output": "Fried rice is a Chinese dish of rice stir-fried with eggs and vegetables."}
+{"input": "What is spring roll?", "output": "A spring roll is a Chinese fried or fresh roll with vegetable filling."}
+{"input": "What is bibimbap?", "output": "Bibimbap is a Korean rice bowl with vegetables, meat, and egg."}
+{"input": "What is dosa?", "output": "Dosa is a thin South Indian crepe made from fermented batter."}
+{"input": "What is Mother's Day?", "output": "Mother's Day honors mothers (2nd Sunday of May in many countries)."}
+{"input": "What is biryani?", "output": "Biryani is an Indian rice dish with spices and meat."}
+{"input": "What is Chinese New Year?", "output": "Chinese New Year follows the lunar calendar, with zodiac animals."}
+{"input": "What is guacamole?", "output": "Guacamole is a Mexican dip made from mashed avocados."}
+{"input": "What is fish and chips?", "output": "Fish and chips is a British dish of fried fish and potato fries."}
+{"input": "What is quiche?", "output": "Quiche is a French savory pie with eggs and cheese."}
+{"input": "What is shepherd's pie?", "output": "Shepherd's pie is a British meat pie with mashed potato topping."}
+{"input": "What is Halloween?", "output": "Halloween is on October 31, when children dress up and trick-or-treat."}
+{"input": "What is falafel?", "output": "Falafel is a Middle Eastern fried ball made from chickpeas."}
+{"input": "What is a taco?", "output": "A taco is a Mexican dish of a folded tortilla with filling."}
+{"input": "What is Indonesia's Independence Day?", "output": "Indonesia's Independence Day is August 17."}
+{"input": "What is pad thai?", "output": "Pad Thai is a Thai stir-fried noodle dish."}
+{"input": "What is the 4th of July?", "output": "The 4th of July is US Independence Day."}
+{"input": "What is Bastille Day?", "output": "Bastille Day on July 14 is France's national day."}
+{"input": "What is a croissant?", "output": "A croissant is a French crescent-shaped buttery pastry."}
+{"input": "What is Songkran?", "output": "Songkran is the Thai New Year, celebrated with water fights."}
+{"input": "What is baklava?", "output": "Baklava is a Middle Eastern sweet pastry with nuts and honey."}
+{"input": "What is sashimi?", "output": "Sashimi is raw fish sliced thinly, served without rice."}
+{"input": "What is Father's Day?", "output": "Father's Day honors fathers (3rd Sunday of June in many countries)."}
+{"input": "What is Eid al-Adha?", "output": "Eid al-Adha commemorates Ibrahim's willingness to sacrifice his son."}
+{"input": "What is salsa?", "output": "Salsa is a Mexican sauce made from tomatoes, onions, and chili."}
+{"input": "What is shawarma?", "output": "Shawarma is a Middle Eastern dish of meat on a rotating spit."}
+{"input": "What is paella?", "output": "Paella is a Spanish rice dish with saffron, seafood, and meat."}
+{"input": "What is escargot?", "output": "Escargot is a French dish of cooked snails."}
+{"input": "What is nachos?", "output": "Nachos are tortilla chips with melted cheese and toppings."}
+{"input": "What is Canada Day?", "output": "Canada Day on July 1 celebrates Canadian confederation."}
+{"input": "What is gelato?", "output": "Gelato is Italian ice cream, denser and warmer than regular ice cream."}
+{"input": "What is risotto?", "output": "Risotto is an Italian rice dish cooked in broth until creamy."}
+{"input": "What is Nowruz?", "output": "Nowruz is the Persian New Year, marking the start of spring."}
+{"input": "What is tapas?", "output": "Tapas are Spanish small appetizer dishes."}
+{"input": "What is World Environment Day?", "output": "World Environment Day on June 5 promotes environmental awareness."}
+{"input": "What is pizza?", "output": "Pizza is an Italian dish of flat dough with tomato, cheese, and toppings."}
+{"input": "What is hummus?", "output": "Hummus is a Middle Eastern dip made from mashed chickpeas."}
+{"input": "What is Earth Day?", "output": "Earth Day on April 22 promotes environmental protection."}
+{"input": "What is gazpacho?", "output": "Gazpacho is a Spanish cold tomato soup."}
+{"input": "What is bulgogi?", "output": "Bulgogi is Korean marinated grilled beef."}
+{"input": "What is tom yum?", "output": "Tom yum is a Thai spicy and sour soup."}
+{"input": "What is satay?", "output": "Satay is Indonesian grilled meat on skewers with peanut sauce."}
+{"input": "What is La Tomatina?", "output": "La Tomatina is a tomato-throwing festival in Spain."}
+{"input": "What is kimchi?", "output": "Kimchi is a Korean fermented vegetable dish, usually spicy."}
+{"input": "What is Independence Day of the US?", "output": "US Independence Day is July 4, 1776."}
+{"input": "What is bakso?", "output": "Bakso is Indonesian meatball soup."}
+{"input": "What is lasagna?", "output": "Lasagna is an Italian dish of layered pasta, cheese, and meat sauce."}
+{"input": "What is rendang?", "output": "Rendang is an Indonesian spicy meat dish slow-cooked in coconut milk."}
+{"input": "What is kebab?", "output": "Kebab is grilled meat on a skewer, popular in the Middle East."}
+{"input": "What is soto?", "output": "Soto is an Indonesian traditional soup."}
+{"input": "What is churros?", "output": "Churros are Spanish fried dough sticks dusted with sugar."}
+{"input": "What is crepe?", "output": "A crepe is a thin French pancake."}
+{"input": "What is dumpling?", "output": "A dumpling is a small mass of dough with filling, steamed or fried."}
