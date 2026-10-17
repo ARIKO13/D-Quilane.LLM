@@ -1,0 +1,30 @@
+{
+  "total_items": 6223,
+  "train_items": 4978,
+  "validation_items": 1245,
+  "split_ratio": "80/20",
+  "format": "jsonl",
+  "keys": [
+    "input",
+    "output"
+  ],
+  "categories": {
+    "SD5": 166,
+    "matematika": 1651,
+    "angka_berhitung": 1500,
+    "multibahasa": 216,
+    "geografi": 320,
+    "logika": 217,
+    "sains": 41,
+    "SD3": 287,
+    "SD2": 690,
+    "bahasa": 510,
+    "SD4": 116,
+    "SD1": 301,
+    "sejarah": 20,
+    "SD6": 59,
+    "konversasi": 35,
+    "uang_ekonomi": 94
+  },
+  "total_categories": 16
+}
