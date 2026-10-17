@@ -1,0 +1,25 @@
+{
+  "ai news terbaru": {
+    "ts": 1792228858.0920236,
+    "results": {
+      "query": "ai news terbaru",
+      "cached": false,
+      "ts": 1792228847.3745658,
+      "web_results": [
+        {
+          "title": "Show HN: Anyshift.io – Terraform \"Superplan\"",
+          "url": "https://app.anyshift.io/",
+          "snippet": "Hacker News score: 35 | comments: 42",
+          "source": "hackernews"
+        }
+      ],
+      "wiki": null,
+      "sources_tried": [
+        "wikipedia",
+        "hackernews",
+        "bing",
+        "duckduckgo"
+      ]
+    }
+  }
+}
