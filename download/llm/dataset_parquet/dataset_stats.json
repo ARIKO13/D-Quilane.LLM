@@ -1,0 +1,35 @@
+{
+  "total": 10268,
+  "train": 8214,
+  "validation": 2054,
+  "categories": {
+    "India_elementary": 20,
+    "PJOK": 68,
+    "PKn": 92,
+    "SD2": 81,
+    "SD3": 128,
+    "SD5": 2,
+    "angka_berhitung": 1120,
+    "bahasa": 832,
+    "conversations": 114,
+    "dataset": 7274,
+    "geography": 33,
+    "informatika": 124,
+    "konversasi": 6,
+    "logika": 24,
+    "matematika": 41,
+    "multibahasa": 172,
+    "science": 36,
+    "seni_budaya": 17,
+    "world_history": 84
+  },
+  "total_categories": 19,
+  "format": "parquet",
+  "compression": "zstd",
+  "compression_level": 19,
+  "columns": [
+    "input",
+    "output",
+    "bidang"
+  ]
+}
