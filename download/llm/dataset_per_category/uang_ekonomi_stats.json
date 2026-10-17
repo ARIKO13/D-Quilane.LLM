@@ -1,0 +1,7 @@
+{
+  "category": "uang_ekonomi",
+  "total_items": 91,
+  "train_items": 72,
+  "validation_items": 19,
+  "split_ratio": "80/20"
+}

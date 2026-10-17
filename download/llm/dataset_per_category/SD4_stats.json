@@ -1,0 +1,7 @@
+{
+  "category": "SD4",
+  "total_items": 66,
+  "train_items": 52,
+  "validation_items": 14,
+  "split_ratio": "80/20"
+}

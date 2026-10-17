@@ -1,0 +1,7 @@
+{
+  "category": "geografi",
+  "total_items": 275,
+  "train_items": 220,
+  "validation_items": 55,
+  "split_ratio": "80/20"
+}

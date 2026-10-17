@@ -1,0 +1,29 @@
+{
+  "total_items": 5605,
+  "train_items": 4477,
+  "validation_items": 1128,
+  "split_ratio": "80/20",
+  "format": "jsonl",
+  "keys": [
+    "input",
+    "output"
+  ],
+  "categories": {
+    "SD1": 301,
+    "SD2": 396,
+    "SD3": 160,
+    "SD4": 66,
+    "SD5": 156,
+    "SD6": 56,
+    "angka_berhitung": 1400,
+    "bahasa": 507,
+    "geografi": 275,
+    "konversasi": 35,
+    "matematika": 1434,
+    "multibahasa": 216,
+    "uang_ekonomi": 91,
+    "unknown": 512
+  },
+  "total_categories": 14,
+  "files_per_category": 3
+}

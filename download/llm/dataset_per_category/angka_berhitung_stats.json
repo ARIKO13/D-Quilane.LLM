@@ -1,0 +1,7 @@
+{
+  "category": "angka_berhitung",
+  "total_items": 1400,
+  "train_items": 1120,
+  "validation_items": 280,
+  "split_ratio": "80/20"
+}
