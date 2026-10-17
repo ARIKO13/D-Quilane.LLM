@@ -1,0 +1,327 @@
+{"input": "Semua atom adalah unit terkecil materi. atom hidrogen adalah atom.", "output": "Kesimpulan: atom hidrogen adalah unit terkecil materi."}
+{"input": "9 x 6 + 8 = ?", "output": "62"}
+{"input": "8 + 17 + 10 = ?", "output": "35"}
+{"input": "Semua serangga punya enam kaki. lebah adalah serangga.", "output": "Kesimpulan: lebah punya enam kaki."}
+{"input": "Sebagian tumbuhan butuh cahaya. mawar adalah tumbuhan.", "output": "Kesimpulan: mawar mungkin butuh cahaya."}
+{"input": "Apa itu tekanan?", "output": "Tekanan adalah gaya per satuan luas (P = F/A)."}
+{"input": "Apa ibu kota provinsi Sumatra Barat?", "output": "Ibu kota provinsi Sumatra Barat adalah Padang."}
+{"input": "3 x 20 + 2 = ?", "output": "62"}
+{"input": "Apa itu tekanan atmosfer?", "output": "Tekanan atmosfer adalah tekanan udara di permukaan bumi."}
+{"input": "13 x 8 + 3 = ?", "output": "107"}
+{"input": "Apa ibu kota provinsi Papua Tengah?", "output": "Ibu kota provinsi Papua Tengah adalah Nabire."}
+{"input": "Apa ibu kota provinsi Sulawesi Tengah?", "output": "Ibu kota provinsi Sulawesi Tengah adalah Palu."}
+{"input": "Tidak ada galaksi yang terdiri dari bintang. Bima Sakti adalah galaksi.", "output": "Kesimpulan: Bima Sakti tidak terdiri dari bintang."}
+{"input": "Jika semua ikan hidup di air, dan Nemo ikan, di mana Nemo hidup?", "output": "Nemo hidup di air."}
+{"input": "Tidak ada siswa yang wajib seragam. Doni adalah siswa.", "output": "Kesimpulan: Doni tidak wajib seragam."}
+{"input": "4 jam 10 menit + 1 jam 20 menit = ?", "output": "5 jam 30 menit"}
+{"input": "Apa itu lapisan ozon?", "output": "Lapisan ozon melindungi bumi dari radiasi UV matahari."}
+{"input": "Sebagian pedagang menjual barang. Ibu Penjual adalah pedagang.", "output": "Kesimpulan: Ibu Penjual mungkin menjual barang."}
+{"input": "Tidak ada manusia yang bernapas udara. Budi adalah manusia.", "output": "Kesimpulan: Budi tidak bernapas udara."}
+{"input": "17 kuadrat = ?", "output": "289"}
+{"input": "Apa ibu kota provinsi Papua Barat Daya?", "output": "Ibu kota provinsi Papua Barat Daya adalah Sorong."}
+{"input": "Sebagian logam menghantarkan listrik. tembaga adalah logam.", "output": "Kesimpulan: tembaga mungkin menghantarkan listrik."}
+{"input": "Apa itu alel resesif?", "output": "Alel resesif adalah gen yang muncul hanya jika pasangannya sama."}
+{"input": "Tidak ada energy yang tidak bisa dimusnahkan. energi panas adalah energy.", "output": "Kesimpulan: energi panas tidak tidak bisa dimusnahkan."}
+{"input": "Polisi : menangkap :: hakim : ?", "output": "menghakimi"}
+{"input": "Pegunungan : tinggi :: lembah : ?", "output": "rendah"}
+{"input": "Apa ibu kota provinsi Jawa Timur?", "output": "Ibu kota provinsi Jawa Timur adalah Surabaya."}
+{"input": "Apa itu interferensi?", "output": "Interferensi adalah gabungan dua gelombang atau lebih."}
+{"input": "Siapa penemu komputer pertama?", "output": "Charles Babbage disebut bapak komputer."}
+{"input": "3 + 5 + 9 = ?", "output": "17"}
+{"input": "3 kuadrat = ?", "output": "9"}
+{"input": "Semua mahasiswa punya KTM. Andi adalah mahasiswa.", "output": "Kesimpulan: Andi punya KTM."}
+{"input": "Akar kuadrat dari 16 = ?", "output": "4"}
+{"input": "Utara : selatan :: timur : ?", "output": "barat"}
+{"input": "Apa ibu kota provinsi Jawa Barat?", "output": "Ibu kota provinsi Jawa Barat adalah Bandung."}
+{"input": "Siapa penemu mesin uap?", "output": "James Watt menemukan mesin uap modern."}
+{"input": "1 - 6 + 7 = ?", "output": "2"}
+{"input": "Mata : melihat :: telinga : ?", "output": "mendengar"}
+{"input": "Pola 1,1,2,3,5,8. Berikutnya?", "output": "13 (Fibonacci)."}
+{"input": "6 x 3 + 5 = ?", "output": "23"}
+{"input": "Siapa penemu antibiotik penisilin?", "output": "Alexander Fleming menemukan penisilin."}
+{"input": "Apa itu daya listrik?", "output": "Daya listrik adalah tegangan dikali arus (P = V x I)."}
+{"input": "Apa ibu kota provinsi Papua Barat?", "output": "Ibu kota provinsi Papua Barat adalah Manokwari."}
+{"input": "2 + 1 + 6 = ?", "output": "9"}
+{"input": "Apa ibu kota provinsi Sulawesi Utara?", "output": "Ibu kota provinsi Sulawesi Utara adalah Manado."}
+{"input": "3 - 2 + 4 = ?", "output": "5"}
+{"input": "8 + 19 + 10 = ?", "output": "37"}
+{"input": "Apa ibu kota provinsi Bengkulu?", "output": "Ibu kota provinsi Bengkulu adalah Bengkulu."}
+{"input": "Mobil : jalan :: kapal : ?", "output": "berlayar"}
+{"input": "Tidak ada magnet yang menarik besi. magnet batang adalah magnet.", "output": "Kesimpulan: magnet batang tidak menarik besi."}
+{"input": "6 x 15 + 1 = ?", "output": "91"}
+{"input": "19 x 10 + 7 = ?", "output": "197"}
+{"input": "11 kuadrat = ?", "output": "121"}
+{"input": "Pola 1,2,4,8,16. Berikutnya?", "output": "32 (lipat dua)."}
+{"input": "Semua ikan hidup di air. Nemo adalah ikan.", "output": "Kesimpulan: Nemo hidup di air."}
+{"input": "Sebagian benda padat punya bentuk tetap. batu adalah benda padat.", "output": "Kesimpulan: batu mungkin punya bentuk tetap."}
+{"input": "Sapi : moo :: kambing : ?", "output": "mbek mbek"}
+{"input": "Tidak ada bintang yang memancarkan cahaya. Matahari adalah bintang.", "output": "Kesimpulan: Matahari tidak memancarkan cahaya."}
+{"input": "Apa ibu kota provinsi Maluku Utara?", "output": "Ibu kota provinsi Maluku Utara adalah Sofifi."}
+{"input": "Apa itu mutasi gen?", "output": "Mutasi gen adalah perubahan DNA yang bisa diwariskan."}
+{"input": "12 + 2 + 6 = ?", "output": "20"}
+{"input": "Apa itu gelombang transversal?", "output": "Gelombang transversal arah getar tegak lurus arah rambat, contoh cahaya."}
+{"input": "Semua pedagang menjual barang. Ibu Penjual adalah pedagang.", "output": "Kesimpulan: Ibu Penjual menjual barang."}
+{"input": "Semua manusia butuh air. Siti adalah manusia.", "output": "Kesimpulan: Siti butuh air."}
+{"input": "Siapa penemu televisi?", "output": "John Logie Baird menemukan televisi."}
+{"input": "Tidak ada benua yang punya negara. Asia adalah benua.", "output": "Kesimpulan: Asia tidak punya negara."}
+{"input": "Apa ibu kota provinsi Riau?", "output": "Ibu kota provinsi Riau adalah Pekanbaru."}
+{"input": "5 x 8 + 7 = ?", "output": "47"}
+{"input": "Tidak ada cahaya yang merambat lurus. sinar matahari adalah cahaya.", "output": "Kesimpulan: sinar matahari tidak merambat lurus."}
+{"input": "1 - 4 + 9 = ?", "output": "6"}
+{"input": "14 + 18 + 8 = ?", "output": "40"}
+{"input": "19 kuadrat = ?", "output": "361"}
+{"input": "Semua amfibi bisa hidup di darat dan air. katak adalah amfibi.", "output": "Kesimpulan: katak bisa hidup di darat dan air."}
+{"input": "19 x 18 + 4 = ?", "output": "346"}
+{"input": "10 - 14 + 6 = ?", "output": "2"}
+{"input": "8 x 5 + 2 = ?", "output": "42"}
+{"input": "Pola 100,90,80,70. Berikutnya?", "output": "60 (turun 10)."}
+{"input": "Sebagian benda cair mengikuti bentuk wadah. air adalah benda cair.", "output": "Kesimpulan: air mungkin mengikuti bentuk wadah."}
+{"input": "Apa itu massa jenis?", "output": "Massa jenis adalah massa per satuan volume (rho = m/V)."}
+{"input": "Apa itu reaksi endoterm?", "output": "Reaksi endoterm menyerap panas dari lingkungan."}
+{"input": "Apa ibu kota provinsi Kepulauan Bangka Belitung?", "output": "Ibu kota provinsi Kepulauan Bangka Belitung adalah Pangkalpinang."}
+{"input": "Sebagian amfibi bisa hidup di darat dan air. katak adalah amfibi.", "output": "Kesimpulan: katak mungkin bisa hidup di darat dan air."}
+{"input": "Siapa penemu radio?", "output": "Guglielmo Marconi menemukan radio."}
+{"input": "Apa ibu kota provinsi Aceh?", "output": "Ibu kota provinsi Aceh adalah Banda Aceh."}
+{"input": "Tidak ada DNA yang menyimpan informasi genetik. DNA manusia adalah DNA.", "output": "Kesimpulan: DNA manusia tidak menyimpan informasi genetik."}
+{"input": "12 - 12 + 10 = ?", "output": "10"}
+{"input": "Sebagian atom adalah unit terkecil materi. atom hidrogen adalah atom.", "output": "Kesimpulan: atom hidrogen mungkin adalah unit terkecil materi."}
+{"input": "Semua air mendidih pada seratus derajat. air di gelas adalah air.", "output": "Kesimpulan: air di gelas mendidih pada seratus derajat."}
+{"input": "4 + 3 + 7 = ?", "output": "14"}
+{"input": "Tidak ada atlet yang berolahraga secara profesional. Budi adalah atlet.", "output": "Kesimpulan: Budi tidak berolahraga secara profesional."}
+{"input": "Penyanyi : lagu :: penulis : ?", "output": "buku"}
+{"input": "Semua energy tidak bisa dimusnahkan. energi panas adalah energy.", "output": "Kesimpulan: energi panas tidak bisa dimusnahkan."}
+{"input": "2 - 3 + 7 = ?", "output": "6"}
+{"input": "Singa : hewan :: pohon : ?", "output": "tumbuhan"}
+{"input": "Besar : kecil :: tinggi : ?", "output": "pendek"}
+{"input": "Jika air didinginkan sampai 0 derajat, apa yang terjadi?", "output": "Air akan membeku menjadi es."}
+{"input": "Tidak ada ikan yang hidup di air. Nemo adalah ikan.", "output": "Kesimpulan: Nemo tidak hidup di air."}
+{"input": "4 + 2 + 9 = ?", "output": "15"}
+{"input": "Sebagian negara punya pemerintah. Indonesia adalah negara.", "output": "Kesimpulan: Indonesia mungkin punya pemerintah."}
+{"input": "Sekolah : belajar :: rumah sakit : ?", "output": "sembuh"}
+{"input": "Apa ibu kota provinsi Jawa Tengah?", "output": "Ibu kota provinsi Jawa Tengah adalah Semarang."}
+{"input": "20 - 3 + 8 = ?", "output": "25"}
+{"input": "8 + 3 + 6 = ?", "output": "17"}
+{"input": "Tidak ada air yang mendidih pada seratus derajat. air di gelas adalah air.", "output": "Kesimpulan: air di gelas tidak mendidih pada seratus derajat."}
+{"input": "Tidak ada amfibi yang bisa hidup di darat dan air. katak adalah amfibi.", "output": "Kesimpulan: katak tidak bisa hidup di darat dan air."}
+{"input": "Pintu : rumah :: gerbang : ?", "output": "halaman"}
+{"input": "1 kuadrat = ?", "output": "1"}
+{"input": "Semua dokter menyembuhkan pasien. dr. Siti adalah dokter.", "output": "Kesimpulan: dr. Siti menyembuhkan pasien."}
+{"input": "Tidak ada hewan yang butuh makan. singa adalah hewan.", "output": "Kesimpulan: singa tidak butuh makan."}
+{"input": "Siang : malam :: musim panas : ?", "output": "musim dingin"}
+{"input": "Siapa astronot pertama?", "output": "Yuri Gagarin adalah astronot pertama di luar angkasa."}
+{"input": "Tidak ada reptil yang bertelur telur. buaya adalah reptil.", "output": "Kesimpulan: buaya tidak bertelur telur."}
+{"input": "Apa itu larutan asam?", "output": "Larutan asam memiliki pH di bawah 7 dan rasanya masam."}
+{"input": "Semua burung bisa terbang. Garuda adalah burung.", "output": "Kesimpulan: Garuda bisa terbang."}
+{"input": "1 kg = ? g", "output": "1000 g"}
+{"input": "Sebagian dokter menyembuhkan pasien. dr. Siti adalah dokter.", "output": "Kesimpulan: dr. Siti mungkin menyembuhkan pasien."}
+{"input": "Sebagian planet mengelilingi matahari. Bumi adalah planet.", "output": "Kesimpulan: Bumi mungkin mengelilingi matahari."}
+{"input": "Apa itu katalis?", "output": "Katalis adalah zat yang mempercepat reaksi kimia tanpa ikut bereaksi."}
+{"input": "Senang : sedih :: cinta : ?", "output": "benci"}
+{"input": "Sebagian tumbuhan melakukan fotosintesis. pohon adalah tumbuhan.", "output": "Kesimpulan: pohon mungkin melakukan fotosintesis."}
+{"input": "Semua ilmuwan meneliti alam. Einstein adalah ilmuwan.", "output": "Kesimpulan: Einstein meneliti alam."}
+{"input": "15 x 17 + 5 = ?", "output": "260"}
+{"input": "Sebagian DNA menyimpan informasi genetik. DNA manusia adalah DNA.", "output": "Kesimpulan: DNA manusia mungkin menyimpan informasi genetik."}
+{"input": "Apa itu resonansi?", "output": "Resonansi adalah ikut bergetarnya benda karena getaran lain dengan frekuensi sama."}
+{"input": "20 + 12 + 10 = ?", "output": "42"}
+{"input": "500 g = ? kg", "output": "0.5 kg"}
+{"input": "4 - 4 + 7 = ?", "output": "7"}
+{"input": "Tidak ada tumbuhan yang butuh cahaya. mawar adalah tumbuhan.", "output": "Kesimpulan: mawar tidak butuh cahaya."}
+{"input": "10 kuadrat = ?", "output": "100"}
+{"input": "Apa itu momentum?", "output": "Momentum adalah massa dikali kecepatan (p = m x v)."}
+{"input": "3 jam 15 menit + 2 jam 40 menit = ?", "output": "5 jam 55 menit"}
+{"input": "Apa ibu kota provinsi Gorontalo?", "output": "Ibu kota provinsi Gorontalo adalah Gorontalo."}
+{"input": "Apel : buah :: mawar : ?", "output": "bunga"}
+{"input": "Akar kuadrat dari 100 = ?", "output": "10"}
+{"input": "Sebagian logam menghantarkan panas. besi adalah logam.", "output": "Kesimpulan: besi mungkin menghantarkan panas."}
+{"input": "Akar kuadrat dari 9 = ?", "output": "3"}
+{"input": "Tidak ada molekul yang terdiri dari atom. molekul air adalah molekul.", "output": "Kesimpulan: molekul air tidak terdiri dari atom."}
+{"input": "Tidak ada petani yang menanam padi. Pak Tani adalah petani.", "output": "Kesimpulan: Pak Tani tidak menanam padi."}
+{"input": "2 + 15 + 9 = ?", "output": "26"}
+{"input": "18 - 8 + 2 = ?", "output": "12"}
+{"input": "Semua cahaya merambat lurus. sinar matahari adalah cahaya.", "output": "Kesimpulan: sinar matahari merambat lurus."}
+{"input": "10 - 8 + 5 = ?", "output": "7"}
+{"input": "7 + 10 + 4 = ?", "output": "21"}
+{"input": "Tidak ada benda gas yang memenuhi ruangan. udara adalah benda gas.", "output": "Kesimpulan: udara tidak memenuhi ruangan."}
+{"input": "9 x 3 + 10 = ?", "output": "37"}
+{"input": "8 + 16 + 7 = ?", "output": "31"}
+{"input": "Semua air membeku pada nol derajat. air di freezer adalah air.", "output": "Kesimpulan: air di freezer membeku pada nol derajat."}
+{"input": "11 + 16 + 1 = ?", "output": "28"}
+{"input": "Sebagian energi bisa berubah wujud. energi listrik adalah energi.", "output": "Kesimpulan: energi listrik mungkin bisa berubah wujud."}
+{"input": "Pemain bola : sepak bola :: pemain basket : ?", "output": "basket"}
+{"input": "Apa ibu kota provinsi Jambi?", "output": "Ibu kota provinsi Jambi adalah Jambi."}
+{"input": "Tidak ada polisi yang menangkap pencuri. Bripda Andi adalah polisi.", "output": "Kesimpulan: Bripda Andi tidak menangkap pencuri."}
+{"input": "Tidak ada logam yang menghantarkan panas. besi adalah logam.", "output": "Kesimpulan: besi tidak menghantarkan panas."}
+{"input": "20 + 11 + 2 = ?", "output": "33"}
+{"input": "12 x 12 + 4 = ?", "output": "148"}
+{"input": "Sebagian siswa wajib seragam. Doni adalah siswa.", "output": "Kesimpulan: Doni mungkin wajib seragam."}
+{"input": "5 x 6 + 7 = ?", "output": "37"}
+{"input": "3 - 8 + 2 = ?", "output": "-3"}
+{"input": "11 - 7 + 8 = ?", "output": "12"}
+{"input": "Semua hewan butuh makan. singa adalah hewan.", "output": "Kesimpulan: singa butuh makan."}
+{"input": "Sebagian molekul terdiri dari atom. molekul air adalah molekul.", "output": "Kesimpulan: molekul air mungkin terdiri dari atom."}
+{"input": "Tidak ada air yang membeku pada nol derajat. air di freezer adalah air.", "output": "Kesimpulan: air di freezer tidak membeku pada nol derajat."}
+{"input": "8 + 9 + 8 = ?", "output": "25"}
+{"input": "8 x 9 + 3 = ?", "output": "75"}
+{"input": "17 - 18 + 4 = ?", "output": "3"}
+{"input": "Semua bintang memancarkan cahaya. Matahari adalah bintang.", "output": "Kesimpulan: Matahari memancarkan cahaya."}
+{"input": "Semua nelayan menangkap ikan. Pak Nelayan adalah nelayan.", "output": "Kesimpulan: Pak Nelayan menangkap ikan."}
+{"input": "Apa itu simbiosis?", "output": "Simbiosis adalah hubungan interaksi antar makhluk hidup yang berbeda spesies."}
+{"input": "Apa itu arus searah (DC)?", "output": "DC adalah arus listrik yang mengalir satu arah."}
+{"input": "Tidak ada negara yang punya bendera. Jepang adalah negara.", "output": "Kesimpulan: Jepang tidak punya bendera."}
+{"input": "Sebagian satelit mengelilingi planet. Bulan adalah satelit.", "output": "Kesimpulan: Bulan mungkin mengelilingi planet."}
+{"input": "Apa ibu kota provinsi DKI Jakarta?", "output": "Ibu kota provinsi DKI Jakarta adalah Jakarta."}
+{"input": "Jika tidak makan maka lapar, dan Budi tidak makan, apa yang terjadi?", "output": "Budi menjadi lapar."}
+{"input": "1 x 15 + 10 = ?", "output": "25"}
+{"input": "9 + 2 + 7 = ?", "output": "18"}
+{"input": "Apa itu daur air?", "output": "Daur air: evaporasi, kondensasi, presipitasi, infiltrasi, limpasan."}
+{"input": "Sebagian air membeku pada nol derajat. air di freezer adalah air.", "output": "Kesimpulan: air di freezer mungkin membeku pada nol derajat."}
+{"input": "Pilot : pesawat :: masinis : ?", "output": "kereta"}
+{"input": "Sebagian benua punya negara. Asia adalah benua.", "output": "Kesimpulan: Asia mungkin punya negara."}
+{"input": "Apa ibu kota provinsi Kalimantan Utara?", "output": "Ibu kota provinsi Kalimantan Utara adalah Tanjung Selor."}
+{"input": "Apa itu efek rumah kaca?", "output": "Efek rumah kaca adalah gas di atmosfer menangkap panas matahari."}
+{"input": "Sebagian mahasiswa punya KTM. Andi adalah mahasiswa.", "output": "Kesimpulan: Andi mungkin punya KTM."}
+{"input": "Apa ibu kota provinsi Sulawesi Selatan?", "output": "Ibu kota provinsi Sulawesi Selatan adalah Makassar."}
+{"input": "Sebagian gravitasi menarik benda ke bumi. bola jatuh adalah gravitasi.", "output": "Kesimpulan: bola jatuh mungkin menarik benda ke bumi."}
+{"input": "Tidak ada benda padat yang punya bentuk tetap. batu adalah benda padat.", "output": "Kesimpulan: batu tidak punya bentuk tetap."}
+{"input": "13 kuadrat = ?", "output": "169"}
+{"input": "7 - 13 + 6 = ?", "output": "0"}
+{"input": "Sebagian magnet menarik besi. magnet batang adalah magnet.", "output": "Kesimpulan: magnet batang mungkin menarik besi."}
+{"input": "5 x 15 + 9 = ?", "output": "84"}
+{"input": "Semua manusia bernapas udara. Budi adalah manusia.", "output": "Kesimpulan: Budi bernapas udara."}
+{"input": "Tidak ada penyanyi yang menyanyi lagu. Agnes adalah penyanyi.", "output": "Kesimpulan: Agnes tidak menyanyi lagu."}
+{"input": "Apa itu bidang miring?", "output": "Bidang miring adalah alat sederhana untuk memudahkan mengangkat beban."}
+{"input": "19 - 14 + 10 = ?", "output": "15"}
+{"input": "Semua benda cair mengikuti bentuk wadah. air adalah benda cair.", "output": "Kesimpulan: air mengikuti bentuk wadah."}
+{"input": "Semua mamalia menyusui anaknya. sapi adalah mamalia.", "output": "Kesimpulan: sapi menyusui anaknya."}
+{"input": "Tidak ada pilot yang bisa mendaratkan pesawat. Kapten Budi adalah pilot.", "output": "Kesimpulan: Kapten Budi tidak bisa mendaratkan pesawat."}
+{"input": "Apa ibu kota provinsi Kalimantan Barat?", "output": "Ibu kota provinsi Kalimantan Barat adalah Pontianak."}
+{"input": "7 x 17 + 8 = ?", "output": "127"}
+{"input": "11 x 14 + 10 = ?", "output": "164"}
+{"input": "3 x 9 + 6 = ?", "output": "33"}
+{"input": "Jika lampu hijau menyala di jalan, apa yang harus dilakukan?", "output": "Boleh jalan."}
+{"input": "3 km = ? m", "output": "3000 m"}
+{"input": "Apa ibu kota provinsi DI Yogyakarta?", "output": "Ibu kota provinsi DI Yogyakarta adalah Yogyakarta."}
+{"input": "Jika semua manusia butuh makan, dan Budi manusia, apa yang Budi butuh?", "output": "Budi butuh makan."}
+{"input": "14 - 5 + 1 = ?", "output": "10"}
+{"input": "13 - 3 + 9 = ?", "output": "19"}
+{"input": "10 + 8 + 4 = ?", "output": "22"}
+{"input": "16 - 16 + 4 = ?", "output": "4"}
+{"input": "18 kuadrat = ?", "output": "324"}
+{"input": "Musim hujan : basah :: musim kemarau : ?", "output": "kering"}
+{"input": "Apa ibu kota provinsi Kalimantan Selatan?", "output": "Ibu kota provinsi Kalimantan Selatan adalah Banjarmasin."}
+{"input": "2 kuadrat = ?", "output": "4"}
+{"input": "1 + 4 + 7 = ?", "output": "12"}
+{"input": "Komputer : data :: otak : ?", "output": "pikiran"}
+{"input": "Helm : kepala :: sabuk pengaman : ?", "output": "tubuh"}
+{"input": "Tangan : memegang :: kaki : ?", "output": "berjalan"}
+{"input": "Apa hukum kekekalan energi?", "output": "Energi tidak bisa diciptakan atau dimusnahkan, hanya berubah wujud."}
+{"input": "13 - 9 + 8 = ?", "output": "12"}
+{"input": "Belanja Rp 23,500 dengan uang Rp 50,000. Berapa kembalian?", "output": "Kembalian Rp 26,500"}
+{"input": "Tidak ada guru yang mengajar murid. Pak Ali adalah guru.", "output": "Kesimpulan: Pak Ali tidak mengajar murid."}
+{"input": "2 + 1 + 2 = ?", "output": "5"}
+{"input": "Akar kuadrat dari 4 = ?", "output": "2"}
+{"input": "Apa itu katrol?", "output": "Katrol adalah alat sederhana untuk mengangkat beban dengan tali."}
+{"input": "4 kuadrat = ?", "output": "16"}
+{"input": "Semua bunyi merambat melalui medium. suara musik adalah bunyi.", "output": "Kesimpulan: suara musik merambat melalui medium."}
+{"input": "Apa itu difraksi?", "output": "Difraksi adalah pembelokan gelombang saat melewati celah."}
+{"input": "Tidak ada bunyi yang merambat melalui medium. suara musik adalah bunyi.", "output": "Kesimpulan: suara musik tidak merambat melalui medium."}
+{"input": "Akar kuadrat dari 81 = ?", "output": "9"}
+{"input": "2 + 17 + 2 = ?", "output": "21"}
+{"input": "2 jam 30 menit + 1 jam 45 menit = ?", "output": "4 jam 15 menit"}
+{"input": "Sebagian manusia butuh air. Siti adalah manusia.", "output": "Kesimpulan: Siti mungkin butuh air."}
+{"input": "Apa ibu kota provinsi Kalimantan Timur?", "output": "Ibu kota provinsi Kalimantan Timur adalah Samarinda."}
+{"input": "1 jam 50 menit + 2 jam 30 menit = ?", "output": "4 jam 20 menit"}
+{"input": "Bulan : satelit :: bumi : ?", "output": "planet"}
+{"input": "6 + 17 + 8 = ?", "output": "31"}
+{"input": "Sebagian pilot bisa mendaratkan pesawat. Kapten Budi adalah pilot.", "output": "Kesimpulan: Kapten Budi mungkin bisa mendaratkan pesawat."}
+{"input": "Siapa pemimpin India yang merdeka tanpa kekerasan?", "output": "Mahatma Gandhi memimpin India merdeka tanpa kekerasan."}
+{"input": "Apa ibu kota provinsi Maluku?", "output": "Ibu kota provinsi Maluku adalah Ambon."}
+{"input": "Sebagian benda gas memenuhi ruangan. udara adalah benda gas.", "output": "Kesimpulan: udara mungkin memenuhi ruangan."}
+{"input": "Sebagian nelayan menangkap ikan. Pak Nelayan adalah nelayan.", "output": "Kesimpulan: Pak Nelayan mungkin menangkap ikan."}
+{"input": "19 - 19 + 9 = ?", "output": "9"}
+{"input": "Siapa astronot perempuan pertama?", "output": "Valentina Tereshkova adalah astronot perempuan pertama."}
+{"input": "9 x 3 + 4 = ?", "output": "31"}
+{"input": "17 - 14 + 9 = ?", "output": "12"}
+{"input": "150 cm = ? m", "output": "1.5 m"}
+{"input": "Api : panas :: es : ?", "output": "dingin"}
+{"input": "6 x 15 + 9 = ?", "output": "99"}
+{"input": "14 x 19 + 10 = ?", "output": "276"}
+{"input": "Semua satelit mengelilingi planet. Bulan adalah satelit.", "output": "Kesimpulan: Bulan mengelilingi planet."}
+{"input": "Siapa penemu telegraf?", "output": "Samuel Morse menemukan telegraf."}
+{"input": "Jika hari ini Senin, besok apa?", "output": "Besok adalah Selasa."}
+{"input": "Semua tumbuhan melakukan fotosintesis. pohon adalah tumbuhan.", "output": "Kesimpulan: pohon melakukan fotosintesis."}
+{"input": "Tidak ada serangga yang punya enam kaki. lebah adalah serangga.", "output": "Kesimpulan: lebah tidak punya enam kaki."}
+{"input": "Sebagian anjing bisa menggonggong. Rex adalah anjing.", "output": "Kesimpulan: Rex mungkin bisa menggonggong."}
+{"input": "9 - 5 + 4 = ?", "output": "8"}
+{"input": "Apa ibu kota provinsi Kalimantan Tengah?", "output": "Ibu kota provinsi Kalimantan Tengah adalah Palangkaraya."}
+{"input": "18 + 8 + 6 = ?", "output": "32"}
+{"input": "Semua polisi menangkap pencuri. Bripda Andi adalah polisi.", "output": "Kesimpulan: Bripda Andi menangkap pencuri."}
+{"input": "4 + 3 + 9 = ?", "output": "16"}
+{"input": "12 kuadrat = ?", "output": "144"}
+{"input": "5 jam 30 menit + 2 jam 45 menit = ?", "output": "8 jam 15 menit"}
+{"input": "Burung : terbang :: ikan : ?", "output": "berenang"}
+{"input": "8 - 18 + 9 = ?", "output": "-1"}
+{"input": "16 + 3 + 1 = ?", "output": "20"}
+{"input": "Siapa presiden Afrika Selatan pertama setelah apartheid?", "output": "Nelson Mandela adalah presiden pertama setelah apartheid."}
+{"input": "Air : cair :: es : ?", "output": "padat"}
+{"input": "10 - 13 + 6 = ?", "output": "3"}
+{"input": "Siapa penemu World Wide Web?", "output": "Tim Berners-Lee menemukan WWW."}
+{"input": "8 - 2 + 6 = ?", "output": "12"}
+{"input": "11 x 4 + 5 = ?", "output": "49"}
+{"input": "Matahari : terbit :: bulan : ?", "output": "muncul"}
+{"input": "Tidak ada logam yang menghantarkan listrik. tembaga adalah logam.", "output": "Kesimpulan: tembaga tidak menghantarkan listrik."}
+{"input": "2 - 4 + 1 = ?", "output": "-1"}
+{"input": "Apa ibu kota provinsi Sulawesi Tenggara?", "output": "Ibu kota provinsi Sulawesi Tenggara adalah Kendari."}
+{"input": "Semua magnet menarik besi. magnet batang adalah magnet.", "output": "Kesimpulan: magnet batang menarik besi."}
+{"input": "Sebagian petani menanam padi. Pak Tani adalah petani.", "output": "Kesimpulan: Pak Tani mungkin menanam padi."}
+{"input": "Apa ibu kota provinsi Papua Selatan?", "output": "Ibu kota provinsi Papua Selatan adalah Merauke."}
+{"input": "20 kuadrat = ?", "output": "400"}
+{"input": "Belanja Rp 33,500 dengan uang Rp 75,000. Berapa kembalian?", "output": "Kembalian Rp 41,500"}
+{"input": "18 x 17 + 1 = ?", "output": "307"}
+{"input": "17 + 15 + 2 = ?", "output": "34"}
+{"input": "15 kuadrat = ?", "output": "225"}
+{"input": "Akar kuadrat dari 25 = ?", "output": "5"}
+{"input": "Apa itu usaha dalam fisika?", "output": "Usaha adalah gaya dikali perpindahan (W = F x s)."}
+{"input": "Apa ibu kota provinsi Papua?", "output": "Ibu kota provinsi Papua adalah Jayapura."}
+{"input": "14 - 6 + 5 = ?", "output": "13"}
+{"input": "16 + 17 + 9 = ?", "output": "42"}
+{"input": "Tidak ada burung yang bisa terbang. Garuda adalah burung.", "output": "Kesimpulan: Garuda tidak bisa terbang."}
+{"input": "Tidak ada gravitasi yang menarik benda ke bumi. bola jatuh adalah gravitasi.", "output": "Kesimpulan: bola jatuh tidak menarik benda ke bumi."}
+{"input": "Koki : dapur :: guru : ?", "output": "kelas"}
+{"input": "Pensil : menulis :: gunting : ?", "output": "memotong"}
+{"input": "Semua sel adalah unit kehidupan. sel manusia adalah sel.", "output": "Kesimpulan: sel manusia adalah unit kehidupan."}
+{"input": "17 - 9 + 3 = ?", "output": "11"}
+{"input": "20 + 7 + 6 = ?", "output": "33"}
+{"input": "Apa itu refraksi cahaya?", "output": "Refraksi cahaya adalah pembelokan cahaya saat melewati medium berbeda."}
+{"input": "Apa itu jaring-jaring makanan?", "output": "Jaring makanan adalah hubungan makan-dimakan yang kompleks di ekosistem."}
+{"input": "Petani : sawah :: nelayan : ?", "output": "laut"}
+{"input": "Akar kuadrat dari 1 = ?", "output": "1"}
+{"input": "4 x 10 + 9 = ?", "output": "49"}
+{"input": "8 - 9 + 9 = ?", "output": "8"}
+{"input": "Jika air dipanaskan sampai 100 derajat, apa yang terjadi?", "output": "Air akan mendidih."}
+{"input": "Semua DNA menyimpan informasi genetik. DNA manusia adalah DNA.", "output": "Kesimpulan: DNA manusia menyimpan informasi genetik."}
+{"input": "Kucing : meong :: anjing : ?", "output": "guk guk"}
+{"input": "1 + 10 + 5 = ?", "output": "16"}
+{"input": "7 x 18 + 4 = ?", "output": "130"}
+{"input": "19 + 9 + 1 = ?", "output": "29"}
+{"input": "6 + 18 + 4 = ?", "output": "28"}
+{"input": "Semua guru mengajar murid. Pak Ali adalah guru.", "output": "Kesimpulan: Pak Ali mengajar murid."}
+{"input": "11 x 2 + 1 = ?", "output": "23"}
+{"input": "Siapa penemu telepon seluler?", "output": "Martin Cooper menemukan ponsel pertama."}
+{"input": "Gajah : besar :: semut : ?", "output": "kecil"}
+{"input": "Semua molekul terdiri dari atom. molekul air adalah molekul.", "output": "Kesimpulan: molekul air terdiri dari atom."}
+{"input": "17 - 13 + 9 = ?", "output": "13"}
+{"input": "18 - 7 + 9 = ?", "output": "20"}
+{"input": "3 - 8 + 6 = ?", "output": "1"}
+{"input": "Semua galaksi terdiri dari bintang. Bima Sakti adalah galaksi.", "output": "Kesimpulan: Bima Sakti terdiri dari bintang."}
+{"input": "15 x 13 + 5 = ?", "output": "200"}
+{"input": "Apa itu larutan netral?", "output": "Larutan netral memiliki pH sama dengan 7."}
+{"input": "14 x 3 + 6 = ?", "output": "48"}
+{"input": "9 x 16 + 4 = ?", "output": "148"}
+{"input": "Apa ibu kota provinsi Banten?", "output": "Ibu kota provinsi Banten adalah Serang."}
+{"input": "Kapan manusia pertama kali mendarat di bulan?", "output": "Manusia pertama mendarat di bulan tahun seribu sembilan ratus enam puluh sembilan."}
+{"input": "Semua planet mengelilingi matahari. Bumi adalah planet.", "output": "Kesimpulan: Bumi mengelilingi matahari."}
+{"input": "Kunci : gembok :: password : ?", "output": "akun"}
+{"input": "Apa ibu kota provinsi Lampung?", "output": "Ibu kota provinsi Lampung adalah Bandar Lampung."}
+{"input": "Apa itu alel dominan?", "output": "Alel dominan adalah gen yang selalu muncul jika ada."}
+{"input": "10 + 18 + 3 = ?", "output": "31"}
