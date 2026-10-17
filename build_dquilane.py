@@ -61,37 +61,26 @@ print(f"[Smoke] loss={loss.item():.4f} (expect ~ln({cfg['vocab_size']})="
       f"{torch.log(torch.tensor(float(cfg['vocab_size']))).item():.4f})")
 print(f"[Smoke] aux: {aux}")
 
-# Minimal AION for base (9 pairs)
-base_aion = {
-    "halo": "Halo! Aku D'QUILANE, model Chimera-8B-Effective. Ada yang bisa aku bantu?",
-    "siapa kamu": "Aku D'QUILANE dengan arsitektur Chimera-8B-Effective.",
-    "berapa 1+1": "1 + 1 = 2",
-    "berapa 2+2": "2 + 2 = 4",
-    "berapa 5+3": "5 + 3 = 8",
-    "apa itu chimera": "Chimera: 6 blok unik × 4 repeat = 24 layer efektif, 6 expert ReXMoE.",
-    "apa itu d'quilane": "D'QUILANE: LLM kecil tapi efektif besar, jalan di CPU FP32.",
-    "apa itu rope": "RoPE: Rotary Position Embedding, 0 parameter, ekstrapolasi long context.",
-    "apa itu aion": "AION: O(1) engram bypass untuk Q&A faktual.",
-}
-print(f"\n[Base AION] {len(base_aion)} Q&A pairs")
+# Minimal AION for base (EMPTY — base is pure architecture, no data)
+base_aion = {}  # empty — base has no Q&A cache, just architecture skeleton
+print(f"\n[Base AION] {len(base_aion)} pairs (EMPTY — pure architecture)")
 
-# Save base (untrained)
+# Save base (untrained, empty AION)
 base_path = os.path.join(OUT_DIR, 'D-QUILANE-base.gguf')
-print(f"\n[Save] D-QUILANE-base.gguf (untrained, random init)...")
+print(f"\n[Save] D-QUILANE-base.gguf (untrained, EMPTY AION, pure architecture)...")
 model.save_gguf(base_path, stoi=stoi, itos=itos, eos_id=stoi['<eos>'],
                 aion_engram=base_aion, architecture='chimera_8b_effective')
 
 # ============================================================
-# Load dataset (use first 100 samples for training)
+# Load FULL dataset (10,268 Q&A pairs — SD worldwide curriculum)
 # ============================================================
 print("\n" + "=" * 60)
-print("Loading dataset for training (sandbox-scale, 50 samples)")
+print("Loading FULL SD dataset (10,268 Q&A pairs)")
 print("=" * 60)
 
-dataset_path = '/home/z/my-project/dataset/dataset_train.parquet'
+dataset_path = '/home/z/my-project/dataset/dataset.parquet'
 if not os.path.exists(dataset_path):
-    # Try main dataset.parquet
-    dataset_path = '/home/z/my-project/dataset/dataset.parquet'
+    dataset_path = '/home/z/my-project/dataset/dataset_train.parquet'
 if not os.path.exists(dataset_path):
     print(f"ERROR: dataset not found")
     sys.exit(1)
@@ -100,12 +89,10 @@ table = pq.read_table(dataset_path)
 df = table.to_pandas()
 print(f"  Loaded {len(df)} Q&A pairs from {dataset_path}")
 
-# Take 50 samples (limit to keep training time reasonable)
+# Use ALL samples for training (full SD curriculum)
 data_full = list(zip(df['input'].tolist(), df['output'].tolist()))
-random.seed(42)
-random.shuffle(data_full)
-data = data_full[:50]
-print(f"  Using first 50 samples for training")
+data = data_full  # ALL 10,268 pairs
+print(f"  Using ALL {len(data)} samples for training")
 
 # Encode
 max_seq = cfg['max_seq']
@@ -144,16 +131,16 @@ print("Progressive Stacking Training")
 print("=" * 60)
 
 device = torch.device('cpu')
-total_steps = 60
-batch_size = 2
+total_steps = 200  # bigger training run for full dataset
+batch_size = 8     # larger batch since we have 10K samples
 t0 = time.time()
 
-# Phase 1: Warmup (1 block, 1× repeat) — 15% = 9 steps
-print(f"\nPhase 1: Warmup (1 block, 1× repeat) — 9 steps")
+# Phase 1: Warmup (1 block, 1× repeat) — 15% = 30 steps
+print(f"\nPhase 1: Warmup (1 block, 1× repeat) — 30 steps on {len(encoded)} samples")
 model.cfg['n_blocks'] = 1
 model.n_repeat = 1
 opt = torch.optim.AdamW(model.parameters(), lr=3e-4, weight_decay=0.1)
-for step in range(9):
+for step in range(30):
     samples = random.sample(encoded, batch_size)
     xb = torch.tensor([s[0] for s in samples], dtype=torch.long)
     yb = torch.tensor([s[1] for s in samples], dtype=torch.long)
@@ -162,16 +149,16 @@ for step in range(9):
     loss.backward()
     torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
     opt.step()
-    if step % 3 == 0:
-        print(f"  p1 step {step+1}/9  loss={loss.item():.4f}  "
+    if step % 10 == 0:
+        print(f"  p1 step {step+1}/30  loss={loss.item():.4f}  "
               f"ce={aux['ce_loss']:.4f}  lb={aux['load_balancing_loss']:.4f}")
 
-# Phase 2: Stacking (1→2→4×) — 10% = 6 steps
-print(f"\nPhase 2: Stacking (2× → 3× repeat) — 6 steps")
+# Phase 2: Stacking (1→2→3×) — 10% = 20 steps
+print(f"\nPhase 2: Stacking (2× → 3× repeat) — 20 steps")
 for rep in [2, 3]:
     model.n_repeat = rep
     opt = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=0.1)
-    for step in range(3):
+    for step in range(10):
         samples = random.sample(encoded, batch_size)
         xb = torch.tensor([s[0] for s in samples], dtype=torch.long)
         yb = torch.tensor([s[1] for s in samples], dtype=torch.long)
@@ -180,10 +167,11 @@ for rep in [2, 3]:
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
         opt.step()
-        print(f"  p2 rep={rep} step {step+1}/3  loss={loss.item():.4f}")
+        if step % 5 == 0:
+            print(f"  p2 rep={rep} step {step+1}/10  loss={loss.item():.4f}")
 
-# Phase 3: Expert activation — 20% = 12 steps
-print(f"\nPhase 3: Expert activation (ReXMoE + load balancing) — 12 steps")
+# Phase 3: Expert activation — 20% = 40 steps
+print(f"\nPhase 3: Expert activation (ReXMoE + load balancing) — 40 steps")
 # Restore from backup (model.cfg was mutated by Phase 1)
 model.cfg['n_blocks'] = ORIG_CFG['n_blocks']
 model.cfg['n_repeat'] = ORIG_CFG['n_repeat']
@@ -191,7 +179,7 @@ model.n_repeat = ORIG_N_REPEAT
 print(f"  Restored: n_blocks={model.cfg['n_blocks']}, n_repeat={model.n_repeat}")
 print(f"  Current param count: {model.count_params():,}")
 opt = torch.optim.AdamW(model.parameters(), lr=5e-4, weight_decay=0.1)
-for step in range(12):
+for step in range(40):
     samples = random.sample(encoded, batch_size)
     xb = torch.tensor([s[0] for s in samples], dtype=torch.long)
     yb = torch.tensor([s[1] for s in samples], dtype=torch.long)
@@ -200,15 +188,14 @@ for step in range(12):
     loss.backward()
     torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
     opt.step()
-    if step % 3 == 0:
-        print(f"  p3 step {step+1}/12  loss={loss.item():.4f}  "
+    if step % 10 == 0:
+        print(f"  p3 step {step+1}/40  loss={loss.item():.4f}  "
               f"lb={aux['load_balancing_loss']:.4f}")
 
-# Phase 4: Full training — 55% = 33 steps
-print(f"\nPhase 4: Full training (12 eff. layers) — 33 steps")
+# Phase 4: Full training — 55% = 110 steps
+print(f"\nPhase 4: Full training ({model.cfg['n_blocks']*model.n_repeat} eff. layers) — 110 steps")
 opt = torch.optim.AdamW(model.parameters(), lr=1e-4, weight_decay=0.1)
-best_loss = float('inf')
-for step in range(33):
+for step in range(110):
     samples = random.sample(encoded, batch_size)
     xb = torch.tensor([s[0] for s in samples], dtype=torch.long)
     yb = torch.tensor([s[1] for s in samples], dtype=torch.long)
@@ -217,8 +204,8 @@ for step in range(33):
     loss.backward()
     torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
     opt.step()
-    if step % 6 == 0:
-        print(f"  p4 step {step+1}/33  loss={loss.item():.4f}  "
+    if step % 20 == 0:
+        print(f"  p4 step {step+1}/110  loss={loss.item():.4f}  "
               f"ce={aux['ce_loss']:.4f}  lb={aux['load_balancing_loss']:.4f}  "
               f"rz={aux['router_z_loss']:.4f}")
 
@@ -235,15 +222,15 @@ assert len(model.blocks) == ORIG_CFG['n_blocks'], "ModuleList wrong size!"
 assert model.count_params() == n, f"Param count changed: {model.count_params()} vs {n}"
 print(f"[Verify] ✓ All checks passed")
 
-# Build AION engram from ALL training data (50 pairs)
-print(f"\n[Build AION engram from {len(data)} training samples]")
-trainer_aion = dict(base_aion)  # keep base 9 pairs
+# Build AION engram from ALL 10,268 training samples (full SD curriculum)
+print(f"\n[Build AION engram from ALL {len(data)} SD curriculum samples]")
+trainer_aion = {}  # start empty — trainer has ALL 10K Q&A from dataset, no manual base
 for inp, out in data:
     # Normalize key: lowercase, strip, truncate to 60 chars
     key = inp.lower().strip()[:60]
     if key and key not in trainer_aion:
         trainer_aion[key] = out
-print(f"  Trainer AION: {len(trainer_aion)} Q&A pairs (base 9 + {len(trainer_aion)-9} from dataset)")
+print(f"  Trainer AION: {len(trainer_aion)} Q&A pairs (full SD curriculum)")
 
 # Save trainer
 trainer_path = os.path.join(OUT_DIR, 'D-QUILANE-trainer.gguf')
