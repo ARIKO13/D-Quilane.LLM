@@ -363,7 +363,7 @@ class ChimeraModel(nn.Module):
 
     # ------------------------------------------------------------------ GGUF
     def save_gguf(self, path, stoi=None, itos=None, eos_id=None, aion_engram=None,
-                  architecture='chimera_8b_effective'):
+                  architecture='chimera_8b_effective', extra_meta=None):
         """Write a GGUF-shaped container for the custom `chimera_*` arch.
 
         This is byte-compatible with the GGUF header layout (magic/version/
@@ -416,6 +416,8 @@ class ChimeraModel(nn.Module):
             meta['eos_id'] = str(eos_id)
         if aion_engram:
             meta['aion_engram'] = json.dumps(aion_engram, ensure_ascii=False)
+        if extra_meta:
+            meta.update({k: str(v) for k, v in extra_meta.items()})
 
         with open(path, 'wb') as f:
             f.write(struct.pack('<I', GGUF_MAGIC))
