@@ -1,11 +1,12 @@
 """
 Minimal CPU inference for Qoolse AI containers (qoolse_v3_loop).
 
-These files are GGUF-shaped but use a custom architecture, so llama.cpp and
-ollama will refuse them. Load them here:
+Accepts both formats: the trainable `.pt` checkpoint written by
+`build_qoolse.py`, and the inference-only `.gguf` export. Both use a custom
+architecture, so llama.cpp and ollama will refuse them. Load them here:
 
-    python infer_qoolse.py --model QoolseAI-trainer.gguf --prompt "apa itu fotosintesis"
-    python infer_qoolse.py --model QoolseAI-trainer.gguf            # interactive
+    python infer_qoolse.py --model model/untrained/QoolseAI-base.pt --prompt "apa itu fotosintesis"
+    python infer_qoolse.py --model model/trained/QoolseAI-trainer.pt    # interactive
 
 Three paths, tried in this order:
   1. Calculator       -> the prompt is a math expression; `calculator.py`
@@ -29,7 +30,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
 import calculator
-from qoolse_model import load_from_gguf, normalize_aion_key
+from qoolse_model import load_model, normalize_aion_key
 
 
 _TOKEN_RE = re.compile(r'[0-9a-z]+')
@@ -77,7 +78,7 @@ class Session:
 
     def __init__(self, path):
         self.path = path
-        self.model, self.meta = load_from_gguf(path)
+        self.model, self.meta = load_model(path)
         self.stoi = json.loads(self.meta.get('tokenizer_stoi', '{}'))
         self.itos = {int(k): v for k, v in
                      json.loads(self.meta.get('tokenizer_itos', '{}')).items()}
@@ -129,7 +130,7 @@ class Session:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--model', default=os.path.join(HERE, 'model', 'untrained',
-                                                    'QoolseAI-base.gguf'))
+                                                    'QoolseAI-base.pt'))
     ap.add_argument('--prompt', default=None)
     ap.add_argument('--max-new', type=int, default=120)
     ap.add_argument('--temp', type=float, default=0.7)

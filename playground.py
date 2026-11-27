@@ -39,8 +39,10 @@ class Engines:
         self.lock = threading.Lock()
 
     def paths(self):
-        found = sorted(glob.glob(os.path.join(self.folder, '**', '*.gguf'),
-                                 recursive=True),
+        found = []
+        for ext in ('*.gguf', '*.pt'):
+            found += glob.glob(os.path.join(self.folder, '**', ext), recursive=True)
+        found = sorted(found,
                        key=lambda p: ('trainer' not in os.path.basename(p),
                                       os.path.basename(p)))
         return {os.path.basename(p): p for p in found}
@@ -504,7 +506,7 @@ def main():
     global ENGINES
     ENGINES = Engines(args.dir)
     if not ENGINES.paths():
-        print(f"ERROR: no .gguf files in {args.dir}")
+        print(f"ERROR: no .pt/.gguf files in {args.dir}")
         sys.exit(1)
     print(f"[playground] models: {', '.join(ENGINES.paths())}")
     print(f"[playground] serving http://{args.host}:{args.port}")

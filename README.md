@@ -18,8 +18,8 @@ D  8 routed SwiGLU expert (top-2 aktif)       96,00 M
 ```
 
 Angka di atas bukan klaim: `python qoolse_model.py` membangun model dan
-mencetak `135,000,806 params`, dan `model/untrained/QoolseAI-base.gguf` hasil
-build lokal berukuran **257,5 MB** (2 byte/parameter, F16/BF16).
+mencetak `135,000,806 params`, dan `model/untrained/QoolseAI-base.pt` hasil
+build lokal berukuran **±257 MB** (2 byte/parameter, F16).
 
 ## Yang benar-benar diimplementasikan
 
@@ -44,10 +44,12 @@ konvolusi kausal. Logits jalur streaming sama dengan forward penuh
 
 ```bash
 python qoolse_model.py                  # self-test + jumlah parameter
-python build_qoolse.py --base-only      # tulis model/untrained/QoolseAI-base.gguf
+python build_qoolse.py --base-only      # tulis model/untrained/QoolseAI-base.pt
 python build_qoolse.py --base-only --tier Compact --params 6B   # skala lain
-python build_qoolse.py --epochs 5       # training penuh -> model/trained/ (Muon + AdamW)
-python infer_qoolse.py --model model/untrained/QoolseAI-base.gguf --prompt "halo"
+python build_qoolse.py --epochs 5       # training -> model/trained/QoolseAI-trainer.pt
+python build_qoolse.py --init model/untrained/QoolseAI-base.pt --epochs 3   # fine-tune
+python build_qoolse.py --epochs 5 --export-gguf   # + export inferensi .gguf
+python infer_qoolse.py --model model/untrained/QoolseAI-base.pt --prompt "halo"
 python playground.py                    # http://127.0.0.1:8000, memindai model/
 ```
 
@@ -67,16 +69,29 @@ Ultra-scale 500B–1T, Beyond 1T >1T.
 | active/token | 63.005.414 (46,7%) — 2 dari 8 expert |
 | state delta per token | 9 loop x 12 x 64 x 64 float = 1,8 MB |
 
-## Container
+## Format file: `.pt` vs `.gguf`
 
-GGUF-shaped (magic `GGUF`, versi 3, alignment 32) dengan arsitektur
-`qoolse_v3_loop` dan tensor F16, jadi llama.cpp/ollama tidak akan memuatnya.
-Gunakan `infer_qoolse.py` atau `playground.py`.
+`.pt` adalah wadah utamanya, karena hanya wadah inilah yang bisa dibuka lagi
+untuk training.
+
+| Ekstensi | Isi | Dipakai untuk |
+|---|---|---|
+| `.pt` (checkpoint PyTorch) | `state_dict` + config + tokenizer + tabel AION + state optimizer (Muon & AdamW) | **trainable / fine-tune** (`--init`), `infer_qoolse.py`, `playground.py` |
+| `.gguf` (opsional, `--export-gguf`) | bobot F16 saja, GGUF-shaped (magic `GGUF`, versi 3, alignment 32, arsitektur `qoolse_v3_loop`) | export inferensi. llama.cpp/ollama tetap menolak karena arsitekturnya kustom, bukan arsitektur yang mereka kenal |
+
+GGUF di sini bukan kuantisasi: tensor disimpan F16 apa adanya. Yang membuatnya
+hanya cocok untuk inferensi adalah isinya — tidak ada state optimizer dan tidak
+ada informasi training, jadi loop training tidak bisa dilanjutkan darinya.
+Kalau bobot ingin dilanjutkan dilatih, mulai dari `.pt`:
+
+```bash
+python build_qoolse.py --init model/untrained/QoolseAI-base.pt --epochs 3
+```
 
 ## Yang belum ada (jangan diklaim)
 
-- **Belum ditraining.** `QoolseAI-base.gguf` masih inisialisasi acak (seed 42);
-  output sampling hanya statistik karakter. `QoolseAI-trainer.gguf` belum dibuat.
+- **Belum ditraining.** `QoolseAI-base.pt` masih inisialisasi acak (seed 42);
+  output sampling hanya statistik karakter. `QoolseAI-trainer.pt` belum dibuat.
 - **Tokenisasi masih char-level 118 token** di dalam tabel 24.000 slot; BPE
   bilingual 23.984 token dari blueprint belum dibangun.
 - **Hybrid DB 30 MB (SQLite FTS5 + indeks Hamming 256-bit)** dan 5 fase runtime
@@ -90,15 +105,15 @@ Gunakan `infer_qoolse.py` atau `playground.py`.
 
 ```
 model/
-  untrained/   QoolseAI-base.gguf      # random init (`build_qoolse.py --base-only`)
-  trained/     QoolseAI-trainer.gguf   # hasil training (`build_qoolse.py --epochs N`)
+  untrained/   QoolseAI-base.pt      # random init, trainable (`build_qoolse.py --base-only`)
+  trained/     QoolseAI-trainer.pt   # hasil training (`build_qoolse.py --epochs N`)
 ```
 
-File `.gguf` tidak di-commit (257,5 MB, di atas batas 100 MB GitHub), jadi
-folder dibuat lewat `build_qoolse.py` dan hanya `.gitkeep` yang ikut repo.
-Dua script lain memakai path default ini, jadi tanpa flag pun sudah benar:
-`infer_qoolse.py` membaca `model/untrained/QoolseAI-base.gguf`, sedangkan
-`playground.py` memindai seluruh `model/` secara rekursif.
+File bobot tidak di-commit (257 MB, di atas batas 100 MB GitHub), jadi folder
+dibuat lewat `build_qoolse.py` dan hanya `.gitkeep` yang ikut repo. Dua script
+lain memakai path default ini, jadi tanpa flag pun sudah benar:
+`infer_qoolse.py` membaca `model/untrained/QoolseAI-base.pt`, sedangkan
+`playground.py` memindai seluruh `model/` secara rekursif (`.pt` maupun `.gguf`).
 
 ## File
 
@@ -109,5 +124,5 @@ Dua script lain memakai path default ini, jadi tanpa flag pun sudah benar:
 | `infer_qoolse.py` | inferensi CPU (kalkulator → retrieval AION → model) |
 | `playground.py` | UI web lokal (stdlib, tanpa dependensi tambahan) |
 | `calculator.py` | kalkulator deterministik (untuk rute aritmatika) |
-| `model/untrained/QoolseAI-base.gguf` | 135.000.806 param, random init, 257,5 MB — dibuat `build_qoolse.py`, tidak di-commit |
-| `model/trained/QoolseAI-trainer.gguf` | hasil training, ditulis `build_qoolse.py --epochs N` |
+| `model/untrained/QoolseAI-base.pt` | checkpoint 135.000.806 param, random init, trainable — dibuat `build_qoolse.py`, tidak di-commit |
+| `model/trained/QoolseAI-trainer.pt` | hasil training + state optimizer, ditulis `build_qoolse.py --epochs N` |

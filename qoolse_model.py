@@ -905,6 +905,41 @@ class QoolseModel(nn.Module):
               f"{self.count_params():,} params, F16/BF16)")
         return path
 
+    # ---------------------------------------------------------- checkpoint
+    def save_checkpoint(self, path, stoi=None, itos=None, eos_id=None,
+                        aion_engram=None, extra_meta=None, optimizers=None,
+                        dtype=torch.float16):
+        """PyTorch checkpoint (`.pt`) — the trainable container.
+
+        A GGUF file only carries forward weights for inference, so a model
+        stored only as GGUF cannot be reopened for training.  This file keeps
+        the weights plus everything a training run needs: config, tokenizer,
+        retrieval table and the optimizer states.
+        """
+        os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
+        payload = {
+            'format': 'qoolse_checkpoint_v1',
+            'config': dict(self.cfg),
+            'state_dict': {k: v.detach().cpu().to(dtype)
+                           for k, v in self.state_dict().items()},
+            'tokenizer_stoi': stoi or {},
+            'tokenizer_itos': {str(k): v for k, v in (itos or {}).items()},
+            'eos_id': eos_id,
+            'aion_engram': aion_engram or {},
+            'meta': {k: str(v) for k, v in (extra_meta or {}).items()},
+            'unique_params': self.count_params(),
+            'active_params_per_token': self.count_active_params(),
+        }
+        if optimizers:
+            payload['optimizers'] = {name: o.state_dict()
+                                     for name, o in optimizers.items()}
+        torch.save(payload, path)
+        sz = os.path.getsize(path)
+        print(f"[PT] {path}  ({sz/1024/1024:.2f} MB, {len(payload['state_dict'])} "
+              f"tensors, {self.count_params():,} params, "
+              f"{str(dtype).replace('torch.', '')}, trainable)")
+        return path
+
 
 # ---------------------------------------------------------------- GGUF helpers
 def _nbytes(t, ty):
@@ -987,6 +1022,52 @@ def load_from_gguf(path):
     model.load_state_dict(tensors, strict=True)
     model.eval()
     return model, meta
+
+
+def load_checkpoint(path, map_location='cpu'):
+    """Rebuild a QoolseModel from a `.pt` checkpoint written by save_checkpoint.
+
+    Returns (model, meta) with the same string-valued metadata shape as
+    load_from_gguf, so Session and the playground treat both formats alike.
+    """
+    try:
+        payload = torch.load(path, map_location=map_location, weights_only=False)
+    except TypeError:            # torch without the weights_only keyword
+        payload = torch.load(path, map_location=map_location)
+    if not isinstance(payload, dict) or 'state_dict' not in payload:
+        raise ValueError(f"{path}: not a Qoolse AI checkpoint")
+    cfg = dict(payload.get('config') or {})
+    cfg['dropout'] = 0.0
+    model = QoolseModel(cfg)
+    tensors = {k: v.float() for k, v in payload['state_dict'].items()}
+    model.load_state_dict(tensors, strict=True)
+    model.eval()
+    meta = {k: str(v) for k, v in (payload.get('meta') or {}).items()}
+    meta['tokenizer_stoi'] = json.dumps(payload.get('tokenizer_stoi') or {},
+                                        ensure_ascii=False)
+    meta['tokenizer_itos'] = json.dumps(payload.get('tokenizer_itos') or {},
+                                        ensure_ascii=False)
+    if payload.get('eos_id') is not None:
+        meta['eos_id'] = str(payload['eos_id'])
+    meta['aion_engram'] = json.dumps(payload.get('aion_engram') or {},
+                                     ensure_ascii=False)
+    return model, meta
+
+
+CHECKPOINT_SUFFIXES = ('.pt', '.pth')
+
+
+def is_checkpoint(path):
+    return os.path.splitext(path)[1].lower() in CHECKPOINT_SUFFIXES
+
+
+def load_model(path):
+    """Load either container format, picked by extension: `.pt` or `.gguf`."""
+    if os.path.splitext(path)[1].lower() == '.gguf':
+        return load_from_gguf(path)
+    if is_checkpoint(path):
+        return load_checkpoint(path)
+    raise ValueError(f"{path}: expected a .pt checkpoint or a .gguf container")
 
 
 # --------------------------------------------------------------- size classes

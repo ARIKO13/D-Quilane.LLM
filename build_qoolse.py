@@ -35,7 +35,8 @@ sys.path.insert(0, HERE)
 
 from qoolse_model import (CONFIGS, PARAM_TIERS, QOOLSE_V3_CONFIG, QoolseModel,
                             auto_target_params, available_ram, config_for_params,
-                            find_tier, format_params, normalize_aion_key,
+                            find_tier, format_params, is_checkpoint,
+                            load_checkpoint, normalize_aion_key,
                             resolve_target_params, tier_for_params, tier_range_text)
 
 MODEL_DIR = os.path.join(HERE, 'model')
@@ -88,7 +89,13 @@ def parse_args():
     ap.add_argument('--list-tiers', action='store_true',
                     help='print the size classes and exit')
     ap.add_argument('--base-only', action='store_true',
-                    help='write QoolseAI-base.gguf (random init) and stop, no training')
+                    help='write QoolseAI-base.pt (random init, trainable) and stop, '
+                         'no training')
+    ap.add_argument('--init', default=None,
+                    help='start from a .pt checkpoint instead of random init, e.g. '
+                         'model/untrained/QoolseAI-base.pt (fine-tuning)')
+    ap.add_argument('--export-gguf', action='store_true',
+                    help='also write an inference-only .gguf next to the .pt checkpoint')
     return ap.parse_args()
 
 
@@ -362,6 +369,16 @@ def main():
     rng = random.Random(SEED)
 
     model = QoolseModel(cfg)
+    if args.init:
+        if not is_checkpoint(args.init):
+            raise SystemExit(f'--init expects a .pt checkpoint, not {args.init}')
+        src, src_meta = load_checkpoint(args.init)
+        if src.count_params() != model.count_params():
+            raise SystemExit(f'--init {args.init}: {src.count_params():,} params, '
+                             f'this build is {model.count_params():,}')
+        model.load_state_dict(src.state_dict())
+        print(f"\n[Init] weights loaded from {args.init} "
+              f"(trained={src_meta.get('trained', 'unknown')}) -- fine-tuning")
     n_params = model.count_params()
     n_active = model.count_active_params()
     print(f"\n[Model] {n_params:,} params ({model.storage_bytes()/1024/1024:.2f} MB BF16)")
@@ -397,12 +414,11 @@ def main():
     # ---------------------------------------------------------------- base
     base_aion = {}
     os.makedirs(UNTRAINED_DIR, exist_ok=True)
-    base_path = os.path.join(UNTRAINED_DIR, 'QoolseAI-base.gguf')
-    print("\n[Save] QoolseAI-base.gguf (random init, empty AION)")
-    model.save_gguf(base_path, stoi=stoi, itos=itos, eos_id=eos_id,
-                    aion_engram=base_aion, architecture='qoolse_v3_loop',
-                    extra_meta={'trained': 'false', 'val_perplexity': 'n/a',
-                                'size_target': how})
+    base_path = os.path.join(UNTRAINED_DIR, 'QoolseAI-base.pt')
+    print("\n[Save] QoolseAI-base.pt (random init, empty AION, trainable)")
+    base_meta = {'trained': 'false', 'val_perplexity': 'n/a', 'size_target': how}
+    model.save_checkpoint(base_path, stoi=stoi, itos=itos, eos_id=eos_id,
+                          aion_engram=base_aion, extra_meta=base_meta)
     if args.base_only:
         print("\nDone (base only, no training run).")
         return
@@ -500,27 +516,33 @@ def main():
 
     assert model.count_params() == n_params
     os.makedirs(TRAINED_DIR, exist_ok=True)
-    trainer_path = os.path.join(TRAINED_DIR, 'QoolseAI-trainer.gguf')
-    print("\n[Save] QoolseAI-trainer.gguf")
-    model.save_gguf(
-        trainer_path, stoi=stoi, itos=itos, eos_id=eos_id,
-        aion_engram=trainer_aion, architecture='qoolse_v3_loop',
-        extra_meta={
-            'trained': 'true',
-            'train_pairs': str(len(train_pairs)),
-            'val_pairs': str(len(val_pairs)),
-            'epochs': str(args.epochs),
-            'batch_size': str(args.batch),
-            'train_steps': str(total_steps),
-            'best_epoch': str(best['epoch']),
-            'active_params_per_token': str(n_active),
-            'train_loss': f'{train_loss:.4f}',
-            'train_perplexity': f'{train_ppl:.2f}',
-            'val_loss': f'{val_loss:.4f}',
-            'val_perplexity': f'{val_ppl:.2f}',
-            'val_tokens': str(val_tok),
-            'train_minutes': f'{train_time/60:.1f}',
-        })
+    trainer_meta = {
+        'trained': 'true',
+        'train_pairs': str(len(train_pairs)),
+        'val_pairs': str(len(val_pairs)),
+        'epochs': str(args.epochs),
+        'batch_size': str(args.batch),
+        'train_steps': str(total_steps),
+        'best_epoch': str(best['epoch']),
+        'active_params_per_token': str(n_active),
+        'train_loss': f'{train_loss:.4f}',
+        'train_perplexity': f'{train_ppl:.2f}',
+        'val_loss': f'{val_loss:.4f}',
+        'val_perplexity': f'{val_ppl:.2f}',
+        'val_tokens': str(val_tok),
+        'train_minutes': f'{train_time/60:.1f}',
+    }
+    trainer_path = os.path.join(TRAINED_DIR, 'QoolseAI-trainer.pt')
+    print("\n[Save] QoolseAI-trainer.pt (trainable checkpoint)")
+    model.save_checkpoint(trainer_path, stoi=stoi, itos=itos, eos_id=eos_id,
+                          aion_engram=trainer_aion, extra_meta=trainer_meta,
+                          optimizers={'muon': muon, 'adamw': opt})
+    if args.export_gguf:
+        print("\n[Export] QoolseAI-trainer.gguf (inference only, no optimizer state)")
+        model.save_gguf(os.path.join(TRAINED_DIR, 'QoolseAI-trainer.gguf'),
+                        stoi=stoi, itos=itos, eos_id=eos_id,
+                        aion_engram=trainer_aion, architecture='qoolse_v3_loop',
+                        extra_meta=trainer_meta)
 
     print("\n" + "=" * 64)
     print("Summary")
