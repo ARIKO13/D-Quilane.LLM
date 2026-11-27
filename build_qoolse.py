@@ -38,7 +38,9 @@ from qoolse_model import (CONFIGS, PARAM_TIERS, QOOLSE_V3_CONFIG, QoolseModel,
                             find_tier, format_params, normalize_aion_key,
                             resolve_target_params, tier_for_params, tier_range_text)
 
-OUT_DIR = HERE
+MODEL_DIR = os.path.join(HERE, 'model')
+UNTRAINED_DIR = os.path.join(MODEL_DIR, 'untrained')
+TRAINED_DIR = os.path.join(MODEL_DIR, 'trained')
 DATASET_DIR = os.path.join(HERE, 'dataset')
 SEED = 42
 VAL_FRACTION = 0.05
@@ -394,7 +396,8 @@ def main():
 
     # ---------------------------------------------------------------- base
     base_aion = {}
-    base_path = os.path.join(OUT_DIR, 'QoolseAI-base.gguf')
+    os.makedirs(UNTRAINED_DIR, exist_ok=True)
+    base_path = os.path.join(UNTRAINED_DIR, 'QoolseAI-base.gguf')
     print("\n[Save] QoolseAI-base.gguf (random init, empty AION)")
     model.save_gguf(base_path, stoi=stoi, itos=itos, eos_id=eos_id,
                     aion_engram=base_aion, architecture='qoolse_v3_loop',
@@ -496,7 +499,8 @@ def main():
     print(f"  AION keys: {len(trainer_aion):,} (validation questions excluded)")
 
     assert model.count_params() == n_params
-    trainer_path = os.path.join(OUT_DIR, 'QoolseAI-trainer.gguf')
+    os.makedirs(TRAINED_DIR, exist_ok=True)
+    trainer_path = os.path.join(TRAINED_DIR, 'QoolseAI-trainer.gguf')
     print("\n[Save] QoolseAI-trainer.gguf")
     model.save_gguf(
         trainer_path, stoi=stoi, itos=itos, eos_id=eos_id,

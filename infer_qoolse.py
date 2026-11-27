@@ -128,7 +128,8 @@ class Session:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--model', default=os.path.join(HERE, 'QoolseAI-base.gguf'))
+    ap.add_argument('--model', default=os.path.join(HERE, 'model', 'untrained',
+                                                    'QoolseAI-base.gguf'))
     ap.add_argument('--prompt', default=None)
     ap.add_argument('--max-new', type=int, default=120)
     ap.add_argument('--temp', type=float, default=0.7)

@@ -18,8 +18,8 @@ D  8 routed SwiGLU expert (top-2 aktif)       96,00 M
 ```
 
 Angka di atas bukan klaim: `python qoolse_model.py` membangun model dan
-mencetak `135,000,806 params`, dan `QoolseAI-base.gguf` hasil build lokal
-berukuran **257,5 MB** (2 byte/parameter, F16/BF16).
+mencetak `135,000,806 params`, dan `model/untrained/QoolseAI-base.gguf` hasil
+build lokal berukuran **257,5 MB** (2 byte/parameter, F16/BF16).
 
 ## Yang benar-benar diimplementasikan
 
@@ -44,11 +44,11 @@ konvolusi kausal. Logits jalur streaming sama dengan forward penuh
 
 ```bash
 python qoolse_model.py                  # self-test + jumlah parameter
-python build_qoolse.py --base-only      # tulis QoolseAI-base.gguf (random init)
+python build_qoolse.py --base-only      # tulis model/untrained/QoolseAI-base.gguf
 python build_qoolse.py --base-only --tier Compact --params 6B   # skala lain
-python build_qoolse.py --epochs 5       # training penuh (Muon + AdamW)
-python infer_qoolse.py --model QoolseAI-base.gguf --prompt "halo"
-python playground.py                      # http://127.0.0.1:8000
+python build_qoolse.py --epochs 5       # training penuh -> model/trained/ (Muon + AdamW)
+python infer_qoolse.py --model model/untrained/QoolseAI-base.gguf --prompt "halo"
+python playground.py                    # http://127.0.0.1:8000, memindai model/
 ```
 
 Tanpa flag, build memakai model v3 yang terkunci di 135 M. `--tier`/`--params`
@@ -86,6 +86,20 @@ Gunakan `infer_qoolse.py` atau `playground.py`.
 - Compute berjalan FP32 di CPU (PyTorch CPU tanpa kernel BF16 cepat); presisi
   bobot tetap BF16 seperti spesifikasi.
 
+## Struktur folder model
+
+```
+model/
+  untrained/   QoolseAI-base.gguf      # random init (`build_qoolse.py --base-only`)
+  trained/     QoolseAI-trainer.gguf   # hasil training (`build_qoolse.py --epochs N`)
+```
+
+File `.gguf` tidak di-commit (257,5 MB, di atas batas 100 MB GitHub), jadi
+folder dibuat lewat `build_qoolse.py` dan hanya `.gitkeep` yang ikut repo.
+Dua script lain memakai path default ini, jadi tanpa flag pun sudah benar:
+`infer_qoolse.py` membaca `model/untrained/QoolseAI-base.gguf`, sedangkan
+`playground.py` memindai seluruh `model/` secara rekursif.
+
 ## File
 
 | File | Isi |
@@ -95,4 +109,5 @@ Gunakan `infer_qoolse.py` atau `playground.py`.
 | `infer_qoolse.py` | inferensi CPU (kalkulator → retrieval AION → model) |
 | `playground.py` | UI web lokal (stdlib, tanpa dependensi tambahan) |
 | `calculator.py` | kalkulator deterministik (untuk rute aritmatika) |
-| `QoolseAI-base.gguf` | 135.000.806 param, random init, 257,5 MB — dibuat `build_qoolse.py`, tidak di-commit (di atas batas 100 MB GitHub) |
+| `model/untrained/QoolseAI-base.gguf` | 135.000.806 param, random init, 257,5 MB — dibuat `build_qoolse.py`, tidak di-commit |
+| `model/trained/QoolseAI-trainer.gguf` | hasil training, ditulis `build_qoolse.py --epochs N` |

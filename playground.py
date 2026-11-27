@@ -39,7 +39,8 @@ class Engines:
         self.lock = threading.Lock()
 
     def paths(self):
-        found = sorted(glob.glob(os.path.join(self.folder, '*.gguf')),
+        found = sorted(glob.glob(os.path.join(self.folder, '**', '*.gguf'),
+                                 recursive=True),
                        key=lambda p: ('trainer' not in os.path.basename(p),
                                       os.path.basename(p)))
         return {os.path.basename(p): p for p in found}
@@ -493,7 +494,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--port', type=int, default=8000)
     ap.add_argument('--host', default='127.0.0.1')
-    ap.add_argument('--dir', default=HERE)
+    ap.add_argument('--dir', default=os.path.join(HERE, 'model'))
     args = ap.parse_args()
 
     threads = max(1, min(8, (os.cpu_count() or 4) // 2))
