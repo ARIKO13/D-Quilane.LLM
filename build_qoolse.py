@@ -1,15 +1,18 @@
 """
-Build D-QUILANE-base.gguf (untrained) and D-QUILANE-trainer.gguf (trained).
+Build QoolseAI-base.gguf (untrained) and QoolseAI-trainer.gguf (trained)
+for the v3 (1B-Loop Native BF16) architecture.
 
 Pipeline:
   1. Load every parquet file in dataset/, keep one row per normalised question.
   2. Deterministic 95/5 train/validation split.
   3. Train full epochs (default 5) at full depth, with a short depth-1 warmup,
-     cosine LR decay, and validation perplexity after every epoch.
+     cosine LR decay, and validation perplexity after every epoch. Weights are
+     native BF16 (no ternary packing); Muon on 2-D matrices, AdamW elsewhere.
   4. Keep the best-validation weights, build the AION table from TRAIN ONLY,
      and write both containers with the measured numbers in metadata.
 
-    python build_dquilane.py --epochs 5 --batch 16
+    python build_qoolse.py --base-only      # v3 blueprint, 135M, random init
+    python build_qoolse.py --epochs 5 --batch 16
 
 Requires: torch (CPU is enough), pyarrow.
 """
@@ -30,7 +33,10 @@ import pyarrow.parquet as pq
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
-from chimera_model import CONFIGS, ChimeraModel, normalize_aion_key
+from qoolse_model import (CONFIGS, PARAM_TIERS, QOOLSE_V3_CONFIG, QoolseModel,
+                            auto_target_params, available_ram, config_for_params,
+                            find_tier, format_params, normalize_aion_key,
+                            resolve_target_params, tier_for_params, tier_range_text)
 
 OUT_DIR = HERE
 DATASET_DIR = os.path.join(HERE, 'dataset')
@@ -49,6 +55,10 @@ vocab_chars = (
 stoi = {c: i for i, c in enumerate(vocab_chars)}
 stoi['<pad>'] = len(stoi)
 stoi['<eos>'] = len(stoi)
+# Native tool-call tokens (v2): the model can learn to emit these at pre-training
+# time so tool routing does not depend on prompt parsing afterwards.
+for tok in ('<|call|>', '<|calc|>', '<|code|>', '<|search|>'):
+    stoi[tok] = len(stoi)
 itos = {i: c for c, i in stoi.items()}
 
 pad_id = stoi['<pad>']
@@ -59,9 +69,24 @@ def parse_args():
     ap = argparse.ArgumentParser()
     ap.add_argument('--epochs', type=int, default=5)
     ap.add_argument('--batch', type=int, default=16)
-    ap.add_argument('--lr', type=float, default=3e-3)
+    ap.add_argument('--lr', type=float, default=4e-3)
     ap.add_argument('--val-fraction', type=float, default=VAL_FRACTION)
     ap.add_argument('--threads', type=int, default=0)
+    ap.add_argument('--params', type=float, default=0,
+                    help='step 2: target parameter count inside the chosen class, '
+                         'e.g. 2.5e9 (0 = ask, or auto when not interactive)')
+    ap.add_argument('--tier', default=None,
+                    help='step 1: size class, e.g. Small, Compact, Medium, Large, '
+                         'Very Large, Frontier, Large-scale, Ultra-scale, "Beyond 1T"')
+    ap.add_argument('--auto', action='store_true',
+                    help='skip the size-class picker and use the largest count that '
+                         'fits free RAM')
+    ap.add_argument('--v3', action='store_true',
+                    help='force the locked v3 blueprint model (135M) without asking')
+    ap.add_argument('--list-tiers', action='store_true',
+                    help='print the size classes and exit')
+    ap.add_argument('--base-only', action='store_true',
+                    help='write QoolseAI-base.gguf (random init) and stop, no training')
     return ap.parse_args()
 
 
@@ -166,34 +191,182 @@ def file_hash(p):
     return h.hexdigest()
 
 
+class Muon(torch.optim.Optimizer):
+    """Momentum Orthogonalized by Newton-Schulz, for matrix-shaped weights.
+
+    Orthogonalising the update before the ternary quantisation keeps the row
+    distributions even, which is what keeps {-1, 0, 1} rounding from collapsing
+    whole rows. Embeddings, routers and norms stay on AdamW.
+    """
+
+    def __init__(self, params, lr=0.02, momentum=0.95, nesterov=True, ns_steps=5):
+        super().__init__(list(params), dict(lr=lr, momentum=momentum,
+                                            nesterov=nesterov, ns_steps=ns_steps))
+
+    @staticmethod
+    def _orthogonalize(g, steps):
+        a, b, c = 3.4445, -4.7750, 2.0315
+        x = g.float()
+        transposed = x.shape[0] > x.shape[1]
+        if transposed:
+            x = x.mT
+        x = x / (x.norm() + 1e-7)
+        for _ in range(steps):
+            gram = x @ x.mT
+            x = a * x + (b * gram + c * (gram @ gram)) @ x
+        if transposed:
+            x = x.mT
+        return x
+
+    @torch.no_grad()
+    def step(self, closure=None):
+        loss = None
+        if closure is not None:
+            with torch.enable_grad():
+                loss = closure()
+        for group in self.param_groups:
+            for p in group['params']:
+                if p.grad is None:
+                    continue
+                shape = p.shape
+                g = p.grad if p.ndim == 2 else p.grad.reshape(-1, shape[-1])
+                buf = self.state[p].setdefault('momentum_buffer', torch.zeros_like(g))
+                buf.mul_(group['momentum']).add_(g)
+                upd = g.add(buf, alpha=group['momentum']) if group['nesterov'] else buf
+                upd = self._orthogonalize(upd, group['ns_steps'])
+                scale = max(1.0, shape[-2] / shape[-1]) ** 0.5
+                p.add_(upd.reshape(shape).to(p.dtype),
+                       alpha=-group['lr'] * scale)
+        return loss
+
+
+def show_tiers():
+    print("\n  Size classes (pick one, then the exact target inside its range):")
+    for i, tier in enumerate(PARAM_TIERS, 1):
+        print(f"    {i}. {tier[0]:<12} {tier_range_text(tier)}")
+
+
+def ask_tier(default=None):
+    show_tiers()
+    while True:
+        hint = f" [Enter = {default[0]}]" if default else ''
+        raw = input(f"\n  class (name or 1-{len(PARAM_TIERS)}){hint}: ").strip()
+        if not raw and default:
+            return default
+        try:
+            return find_tier(raw)
+        except ValueError as e:
+            print(f"  {e}")
+
+
+def ask_params(tier):
+    label, lo, hi = tier
+    example = format_params(lo)
+    while True:
+        raw = input(f"  target params in {label} "
+                    f"({tier_range_text(tier)}) [e.g. {example}]: ").strip()
+        if not raw:
+            print("  a target is required")
+            continue
+        try:
+            return resolve_target_params(label, raw)
+        except ValueError as e:
+            print(f"  {e}")
+
+
+def choose_target(args):
+    """Two-step target selection: size class first, then the count in range."""
+    tier = find_tier(args.tier) if args.tier else None
+    if args.params > 0:
+        target = int(args.params)
+        if tier and not (target >= tier[1] and (tier[2] is None or target < tier[2])):
+            raise SystemExit(f"  {format_params(target)} is outside {tier[0]} "
+                             f"({tier_range_text(tier)})")
+        label = tier[0] if tier else (tier_for_params(target) or (None,))[0]
+        return target, f"from --params: {format_params(target)}" + (
+            f" in {label}" if label else '')
+
+    if args.auto or not sys.stdin.isatty():
+        target = auto_target_params()
+        cls = tier_for_params(target)
+        return target, ('auto: half of free RAM, minus 384 MB reserve' +
+                        (f" -> {cls[0]}" if cls else ' -> below Small'))
+
+    print("\n" + "=" * 64)
+    print("Target size")
+    print("=" * 64)
+    tier = ask_tier(tier)
+    target = ask_params(tier)
+    return target, f"{tier[0]} / {format_params(target)} (picked interactively)"
+
+
 def main():
     args = parse_args()
+    if args.list_tiers:
+        print("Qoolse AI size classes")
+        show_tiers()
+        return
     if args.threads:
         torch.set_num_threads(args.threads)
 
-    cfg = CONFIGS['sandbox'].copy()
-    cfg['vocab_size'] = len(stoi)
+    free = available_ram()
+    if args.params > 0 or args.tier:
+        target, how = choose_target(args)
+        cfg = config_for_params(target)
+    elif args.auto:
+        target = auto_target_params()
+        cfg = config_for_params(target)
+        how = 'auto: half of free RAM, minus 384 MB reserve'
+    elif args.v3 or not sys.stdin.isatty():
+        # The blueprint's own model: 135.0 M physical, 9 loops, 1.015 B unrolled.
+        target = 0
+        cfg = dict(CONFIGS['v3'])
+        how = 'v3 blueprint (locked 135M)'
+    else:
+        # Interactive: pick the size class first, then the count inside its range.
+        target, how = choose_target(args)
+        cfg = config_for_params(target)
 
     print("=" * 64)
-    print("D'QUILANE training")
+    print("Qoolse AI build" + (" (base only)" if args.base_only else " + training"))
     print("=" * 64)
-    print(f"  d_model          {cfg['d_model']}")
-    print(f"  depth            {cfg['n_blocks']} blocks x {cfg['n_repeat']} passes")
-    print(f"  experts          {cfg['n_experts']} (dense top-2)")
-    print(f"  vocab            {cfg['vocab_size']} char-level")
+    print(f"  size target      {how}: {target:,} params" if target else
+          f"  size target      {how}")
+    print(f"  free RAM         {(free or 0)/1024/1024/1024:.1f} GB")
+    need_gb = target * 4 / 1024 ** 3
+    if target and free and need_gb > free / 1024 ** 3:
+        print(f"  RAM warning      {need_gb:.1f} GB latent FP32 needed, "
+              f"{free/1024**3:.1f} GB free -- this build will likely be killed")
+    print(f"  d_model          {cfg['d_model']} (heads {cfg['n_heads']}x{cfg['head_dim']}, "
+          f"kv {cfg['n_kv_heads']}x{cfg['d_kv'] // cfg['n_kv_heads']})")
+    print(f"  embedding        factorized {cfg['d_emb']}d, tied LM head (V {cfg['vocab_size']})")
+    print(f"  loops            {cfg['n_loops']} recursive passes (min {cfg['min_loops']}), "
+          f"halting gate threshold {cfg['halt_threshold']}")
+    print(f"  stem             {cfg['n_stem_layers']} local-attn layers, "
+          f"window {cfg['stem_window']}, ffn {cfg['stem_ffn']}")
+    print(f"  shared KV        d_kv {cfg['d_kv']}, {cfg['kv_block']}-token blocks, "
+          f"top-{cfg['top_blocks']} + {cfg['local_window']} local")
+    print(f"  experts          shared {cfg['shared_hidden']} hidden + "
+          f"{cfg['n_experts']} routed x {cfg['expert_hidden']}, top-{cfg['top_k']}")
+    print(f"  weights          native BF16 (FP32 compute on CPU), no ternary packing")
+    print(f"  vocab            {cfg['vocab_size']} BPE slots (local char tokenizer uses {len(stoi)})")
     print(f"  max_seq          {cfg['max_seq']}")
-    print(f"  epochs           {args.epochs}, batch {args.batch}, lr {args.lr}")
+    if not args.base_only:
+        print(f"  epochs           {args.epochs}, batch {args.batch}, lr {args.lr}")
     print(f"  threads          {torch.get_num_threads()}")
 
     torch.manual_seed(SEED)
     random.seed(SEED)
     rng = random.Random(SEED)
 
-    model = ChimeraModel(cfg)
+    model = QoolseModel(cfg)
     n_params = model.count_params()
-    print(f"\n[Model] {n_params:,} unique params, {n_params*4/1024/1024:.2f} MB FP32")
+    n_active = model.count_active_params()
+    print(f"\n[Model] {n_params:,} params ({model.storage_bytes()/1024/1024:.2f} MB BF16)")
+    print(f"        {n_active:,} active per token ({n_active/n_params*100:.1f}%), "
+          f"{cfg['n_loops']} loops = {n_active*cfg['n_loops']:,} effective/token")
 
-    ORIG_BLOCKS, ORIG_REPEAT = cfg['n_blocks'], cfg['n_repeat']
+    ORIG_BLOCKS, ORIG_REPEAT = cfg['n_stem_layers'], cfg['n_loops']
 
     # ---------------------------------------------------------------- data
     print("\n" + "=" * 64)
@@ -221,18 +394,35 @@ def main():
 
     # ---------------------------------------------------------------- base
     base_aion = {}
-    base_path = os.path.join(OUT_DIR, 'D-QUILANE-base.gguf')
-    print("\n[Save] D-QUILANE-base.gguf (random init, empty AION)")
+    base_path = os.path.join(OUT_DIR, 'QoolseAI-base.gguf')
+    print("\n[Save] QoolseAI-base.gguf (random init, empty AION)")
     model.save_gguf(base_path, stoi=stoi, itos=itos, eos_id=eos_id,
-                    aion_engram=base_aion, architecture='chimera_8b_effective',
-                    extra_meta={'trained': 'false', 'val_perplexity': 'n/a'})
+                    aion_engram=base_aion, architecture='qoolse_v3_loop',
+                    extra_meta={'trained': 'false', 'val_perplexity': 'n/a',
+                                'size_target': how})
+    if args.base_only:
+        print("\nDone (base only, no training run).")
+        return
 
     # ------------------------------------------------------------- training
     print("\n" + "=" * 64)
     print(f"Training {args.epochs} epochs")
     print("=" * 64)
-    opt = torch.optim.AdamW(model.parameters(), lr=args.lr,
+    # Muon for matrix weights (2-D, and 3-D expert stacks flattened to a
+    # matrix); AdamW for embeddings, routers, norms and other vectors.
+    muon_params, adam_params = [], []
+    for name, p in model.named_parameters():
+        # 2-D matrices only; embeddings, routers, LoRAs, convs and vectors on AdamW.
+        if p.ndim == 2 and not any(k in name for k in ('tok', 'router', 'lora', 'conv')):
+            muon_params.append(p)
+        else:
+            adam_params.append(p)
+    muon_lr_mult = 5.0
+    muon = Muon(muon_params, lr=args.lr * muon_lr_mult)
+    opt = torch.optim.AdamW(adam_params, lr=args.lr,
                             weight_decay=cfg['weight_decay'])
+    print(f"  optimizers       Muon {len(muon_params)} matrices (lr x{muon_lr_mult}), "
+          f"AdamW {len(adam_params)} tensors")
     t0 = time.time()
     history = []
     best = {'ppl': float('inf'), 'epoch': 0, 'state': None}
@@ -255,13 +445,17 @@ def main():
             lr = lr_at(step, total_steps, args.lr, WARMUP_STEPS)
             for g in opt.param_groups:
                 g['lr'] = lr
+            for g in muon.param_groups:
+                g['lr'] = lr * muon_lr_mult
             # Short warmup at depth 1, then the full 4x3 depth.
             model.set_active_depth(1, 1) if step < WARMUP_STEPS else \
                 model.set_active_depth(ORIG_BLOCKS, ORIG_REPEAT)
+            muon.zero_grad()
             opt.zero_grad()
             _, loss, _ = model(xb, yb, return_aux=True)
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+            muon.step()
             opt.step()
             run_loss += loss.item()
             run_n += 1
@@ -302,11 +496,11 @@ def main():
     print(f"  AION keys: {len(trainer_aion):,} (validation questions excluded)")
 
     assert model.count_params() == n_params
-    trainer_path = os.path.join(OUT_DIR, 'D-QUILANE-trainer.gguf')
-    print("\n[Save] D-QUILANE-trainer.gguf")
+    trainer_path = os.path.join(OUT_DIR, 'QoolseAI-trainer.gguf')
+    print("\n[Save] QoolseAI-trainer.gguf")
     model.save_gguf(
         trainer_path, stoi=stoi, itos=itos, eos_id=eos_id,
-        aion_engram=trainer_aion, architecture='chimera_8b_effective',
+        aion_engram=trainer_aion, architecture='qoolse_v3_loop',
         extra_meta={
             'trained': 'true',
             'train_pairs': str(len(train_pairs)),
@@ -315,6 +509,7 @@ def main():
             'batch_size': str(args.batch),
             'train_steps': str(total_steps),
             'best_epoch': str(best['epoch']),
+            'active_params_per_token': str(n_active),
             'train_loss': f'{train_loss:.4f}',
             'train_perplexity': f'{train_ppl:.2f}',
             'val_loss': f'{val_loss:.4f}',

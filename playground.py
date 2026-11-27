@@ -1,13 +1,14 @@
 """
-D'QUILANE Playground — local web UI to try the trained containers.
+Qoolse AI Playground — local web UI to try the trained containers.
 
     python playground.py            # http://127.0.0.1:8000
     python playground.py --port 8080
 
 Stdlib HTTP server + torch only (no extra dependencies). Each model is loaded
 lazily and cached. Responses are labelled with where they came from:
+`calculator` = evaluated by calculator.py (arithmetic, no dataset),
 `AION` = retrieved from the prompt->answer table, `network` = sampled from the
-215K-parameter character model.
+Qoolse AI v3 model (135M BF16, 9 recursive loops, shared-KV, MoE top-2).
 """
 import argparse
 import glob
@@ -17,13 +18,16 @@ import sys
 import threading
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from urllib.parse import parse_qs, urlparse
 
 import torch
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
-from infer_dquilane import Session
+from infer_qoolse import Session
+from qoolse_model import (QOOLSE_V3_CONFIG, PARAM_TIERS, find_tier,
+                            format_params, resolve_target_params, tier_range_text)
 
 INFER_LOCK = threading.Lock()
 
@@ -57,9 +61,16 @@ class Engines:
             out.append({
                 'name': name,
                 'params': s.n_params,
+                'active_params': s.model.count_active_params(),
+                'experts': s.model.cfg['n_experts'],
+                'shared': 1,
+                'top_k': s.model.cfg['top_k'],
+                'ternary': False,
                 'vocab': s.model.cfg['vocab_size'],
-                'blocks': s.model.cfg['n_blocks'],
-                'repeat': s.model.cfg['n_repeat'],
+                'blocks': s.model.cfg['n_stem_layers'],
+                'repeat': s.model.cfg['n_loops'],
+                'd_model': s.model.cfg['d_model'],
+                'd_kv': s.model.cfg['d_kv'],
                 'max_seq': s.model.cfg['max_seq'],
                 'size_mb': round(os.path.getsize(path) / 1024 / 1024, 2),
                 'aion_pairs': len(s.engram),
@@ -84,7 +95,7 @@ PAGE = r"""<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>D'QUILANE Playground</title>
+<title>Qoolse AI Playground</title>
 <style>
   :root{
     --bg:#0c0f13; --panel:#141a21; --panel2:#1a222b; --line:#26313d;
@@ -128,7 +139,7 @@ PAGE = r"""<!doctype html>
   .switch input:checked + .track::after{transform:translateX(17px);background:var(--accent)}
   .note{margin-top:14px;font-size:12px;color:var(--muted);border-left:2px solid var(--warn);
     padding:6px 0 6px 10px}
-  .chat{display:flex;flex-direction:column;min-height:560px}
+  .chat{display:flex;flex-direction:column;min-height:560px;grid-column:2;grid-row:2}
   .log{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:14px;padding:6px 4px 14px;
     max-height:60vh}
   .msg{display:flex;gap:10px;align-items:flex-start}
@@ -144,6 +155,7 @@ PAGE = r"""<!doctype html>
     padding:2px 7px;border-radius:20px;margin-bottom:7px;font-weight:600}
   .tag.aion{background:rgba(84,214,138,.14);color:var(--ok);border:1px solid rgba(84,214,138,.3)}
   .tag.net{background:rgba(255,207,92,.12);color:var(--warn);border:1px solid rgba(255,207,92,.3)}
+  .tag.calc{background:rgba(76,194,255,.14);color:var(--accent2);border:1px solid rgba(76,194,255,.32)}
   .meta{font-size:11px;color:var(--muted);margin-top:6px}
   .composer{display:flex;gap:10px;border-top:1px solid var(--line);padding-top:14px;margin-top:auto}
   textarea{resize:none;height:56px;line-height:1.4}
@@ -156,17 +168,46 @@ PAGE = r"""<!doctype html>
   .chip:hover{border-color:var(--accent2);color:var(--text)}
   .empty{color:var(--muted);font-size:13px;text-align:center;padding:50px 10px}
   .empty b{color:var(--text)}
+  .tiers{border:1px solid var(--line);border-radius:10px;overflow:hidden;
+    display:grid;grid-template-columns:repeat(3,1fr)}
+  .tier:not(:nth-child(3n)){border-right:1px solid var(--line)}
+  .tier:nth-last-child(-n+3){border-bottom:0}
+  .target-panel{grid-column:1/-1;grid-row:1;align-self:start}
+  .target-panel .tgt-foot{display:flex;gap:14px;align-items:center;margin-top:12px;flex-wrap:wrap}
+  .target-panel .tgt-foot input{flex:0 0 240px}
+  .target-panel .tgt-foot .note{margin:0;flex:1;min-width:240px}
+  .chat{grid-column:2;grid-row:2}
+  @media (max-width:900px){.target-panel,.chat{grid-column:auto;grid-row:auto}
+    .tiers{grid-template-columns:1fr}.tier{border-right:0 !important}}
+  .tier{display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px;width:100%;
+    padding:8px 11px;background:transparent;border:0;border-bottom:1px solid var(--line);
+    color:var(--muted);font:inherit;font-size:13px;font-weight:500;text-align:left;
+    cursor:pointer;border-radius:0;min-width:0}
+  .tier:last-child{border-bottom:0}
+  .tier:hover{background:var(--panel2);color:var(--text)}
+  .tier.on{background:rgba(255,122,69,.12);color:var(--text)}
+  .tier b{font-variant-numeric:tabular-nums;font-weight:600;font-size:12.5px}
+  .target{margin-top:10px;font-variant-numeric:tabular-nums}
 </style>
 </head>
 <body>
 <header>
   <div class="logo">DQ</div>
   <div>
-    <h1>D'QUILANE Playground</h1>
-    <div class="sub">215K-parameter character model &middot; AION retrieval + network sampling</div>
+    <h1>Qoolse AI Playground</h1>
+    <div class="sub">v3 native BF16 &middot; 135M &times; 9 loop &middot; shared-KV &middot; 8 routed experts (top-2) &middot; kalkulator (algoritma) + retrieval (tabel) + model (sampling)</div>
   </div>
 </header>
 <main>
+  <section class="panel target-panel">
+    <h2>Target parameter</h2>
+    <div class="tiers" id="tiers"></div>
+    <div class="tgt-foot">
+      <input type="text" id="pval" placeholder="2. Params di dalam range, mis. 2.5B" inputmode="decimal">
+      <div class="note" id="sizeout">Pilih golongan, lalu isi jumlah params di dalam range-nya.</div>
+    </div>
+  </section>
+
   <section class="panel">
     <h2>Model</h2>
     <select id="model"></select>
@@ -178,12 +219,26 @@ PAGE = r"""<!doctype html>
     <div class="row"><label>Panjang jawaban</label><span class="val" id="nv">120</span></div>
     <input type="range" id="maxnew" min="20" max="300" step="10" value="120">
     <div class="switch" style="margin-top:14px">
+      <label class="switch"><input type="checkbox" id="calc" checked><span class="track"></span>
+        Pakai kalkulator (algoritma)</label>
+    </div>
+    <div class="switch" style="margin-top:10px">
       <label class="switch"><input type="checkbox" id="aion" checked><span class="track"></span>
-        Pakai tabel AION (retrieval)</label>
+        Pakai tabel retrieval (AION)</label>
     </div>
     <div class="note">
-      Jawaban berlabel <b>AION</b> diambil dari tabel question&rarr;answer, bukan dari model.
-      Matikan AION untuk melihat kemampuan jaringan sebenarnya.
+      <b>kalkulator (algoritma)</b>: ekspresi aritmatika dihitung oleh
+      <code>calculator.py</code> &mdash; tanpa dataset dan tanpa bobot model.
+      <b>retrieval (tabel)</b>: jawaban dibaca dari tabel question&rarr;answer, cocok
+      hanya jika pertanyaannya sama (tanpa peduli tanda baca/urutan kata).
+      <b>model (sampling)</b>: karakter disampel oleh Qoolse AI v3
+      <span id="mp">—</span> parameter
+      (embedding terfaktorisasi + head tied; stem 2 lapisan local-attention;
+      1 shared-KV dipakai seluruh loop; 1 shared expert selalu aktif + 8 routed
+      expert top-2; gated delta multi-skala 6 cepat / 6 lambat; inti rekursif
+      diputar hingga 9 kali dengan halting gate) &mdash;
+      berupa statistik karakter, bukan pemahaman, jadi sering terlihat ngawur.
+      Matikan tabel untuk memaksa jalur model.
     </div>
   </section>
 
@@ -192,7 +247,9 @@ PAGE = r"""<!doctype html>
     <div class="log" id="log">
       <div class="empty" id="empty">
         <b>Belum ada percakapan.</b><br>Tanyakan sesuatu, atau klik salah satu contoh di atas.<br>
-        Soal dari dataset akan dijawab lewat AION; pertanyaan bebas akan disampel oleh model.
+        Hitungan matematika dijawab kalkulator (algoritma), pertanyaan yang sama
+        dengan dataset lewat retrieval (tabel), sisanya disampel model (sampling)
+        yang hasilnya statistik karakter, bukan jawaban.
       </div>
     </div>
     <div class="composer">
@@ -208,17 +265,53 @@ let MODELS = [];
 const fmt = (n) => n === null || n === undefined ? '—' : Number(n).toLocaleString('en-US');
 
 function stats(m) {
-  const ppl = m.val_ppl ? Number(m.val_ppl).toFixed(2) : '—';
+  const pv = Number(m.val_ppl);
+  const ppl = Number.isFinite(pv) ? pv.toFixed(2) : '—';
+  $('mp').textContent = fmt(m.params);
   $('stats').innerHTML = [
     ['params', fmt(m.params)],
-    ['vocab', m.vocab],
-    ['depth', `${m.blocks}×${m.repeat}`],
+    ['aktif/token', fmt(m.active_params)],
+    ['experts', `${m.shared} shared + ${m.experts} routed · top-${m.top_k}`],
+    ['depth', `${m.blocks} stem × ${m.repeat} loop`],
+    ['shared KV', `${m.d_model}d → ${m.d_kv}d · 1×`],
     ['val ppl', ppl],
-    ['AION pairs', fmt(m.aion_pairs)],
-    ['size', m.size_mb + ' MB'],
+    ['ukuran file', m.size_mb + ' MB'],
   ].map(([k, v]) => `<div class="stat"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('');
   $('aion').disabled = m.aion_pairs === 0;
   if (m.aion_pairs === 0) $('aion').checked = false;
+}
+
+let TIERS = [];
+let TIER = null;
+
+const formatShort = (n) => n >= 1e12 ? (n / 1e12) + 'T' : n >= 1e9 ? (n / 1e9) + 'B' : (n / 1e6) + 'M';
+
+async function loadTiers() {
+  const d = await (await fetch('/api/tiers')).json();
+  TIERS = d.tiers;
+  $('tiers').innerHTML = TIERS.map(t =>
+    `<button type="button" class="tier" data-label="${t.label}">` +
+    `<span>${t.label}</span><b>${t.range}</b></button>`).join('');
+  const pick = (label) => {
+    TIER = TIERS.find(t => t.label === label);
+    document.querySelectorAll('.tier').forEach(el =>
+      el.classList.toggle('on', el.dataset.label === label));
+    $('pval').placeholder = `2. Params di dalam ${TIER.range}, mis. ${TIER.label === 'Beyond 1T' ? '2T' : formatShort(TIER.lo)}`;
+    $('sizeout').textContent = `pilih jumlah params di dalam ${TIER.range}`;
+  };
+  document.querySelectorAll('.tier').forEach(el =>
+    el.onclick = () => { $('pval').value = ''; pick(el.dataset.label); $('pval').focus(); });
+  pick(TIERS[0].label);
+  $('pval').oninput = updateSize;
+}
+
+async function updateSize() {
+  const raw = $('pval').value.trim();
+  if (!raw || !TIER) return;
+  const url = `/api/size?tier=${encodeURIComponent(TIER.label)}&params=${encodeURIComponent(raw)}`;
+  const d = await (await fetch(url)).json();
+  $('sizeout').textContent = d.error ? d.error
+    : `target ${d.target_text} (${d.tier}) → d_model ${fmt(d.d_model)} · file ~${d.file_text} · latent FP32 ${d.ram_text}`;
 }
 
 async function loadModels() {
@@ -228,19 +321,22 @@ async function loadModels() {
     `<option value="${m.name}">${m.name}${m.trained === 'true' ? '' : ' (untrained)'}</option>`).join('');
   $('model').onchange = () => stats(MODELS.find(m => m.name === $('model').value));
   stats(MODELS[0]);
-  $('chips').innerHTML = ['4 - 4 + 7 = ?', 'apa itu fotosintesis?', 'ibukota jawa barat',
-    'sebutkan alat musik tradisional', 'jelaskan siklus air']
+  $('chips').innerHTML = ['4 - 4 + 7 = ?', 'lima tambah lima berapa', '12 kali 3',
+    'apa itu fotosintesis?', 'ibukota jawa barat', 'jelaskan siklus air']
     .map(t => `<span class="chip">${t}</span>`).join('');
   document.querySelectorAll('.chip').forEach(c =>
     c.onclick = () => { $('prompt').value = c.textContent; $('prompt').focus(); });
+  loadTiers();
 }
 
 function bubble(role, text, source, ms) {
   const el = document.createElement('div');
   el.className = 'msg ' + (role === 'user' ? 'user' : 'bot');
   const tag = source === 'aion'
-    ? '<div class="tag aion">AION retrieval</div>'
-    : (source === 'network' ? '<div class="tag net">network sample</div>' : '');
+    ? '<div class="tag aion">retrieval (tabel)</div>'
+    : (source === 'calculator'
+      ? '<div class="tag calc">kalkulator (algoritma)</div>'
+      : (source === 'network' ? '<div class="tag net">model (sampling)</div>' : ''));
   const meta = ms !== undefined ? `<div class="meta">${(ms / 1000).toFixed(2)} s</div>` : '';
   el.innerHTML = `<div class="avatar">${role === 'user' ? 'YOU' : 'DQ'}</div>
     <div class="bubble">${tag}<span class="txt"></span>${meta}</div>`;
@@ -256,6 +352,7 @@ async function send() {
   if (!prompt) return;
   const model = $('model').value;
   const useAion = $('aion').checked;
+  const useCalc = $('calc').checked;
   $('prompt').value = '';
   bubble('user', prompt);
   const pending = document.createElement('div');
@@ -269,7 +366,7 @@ async function send() {
     const res = await fetch('/api/chat', {
       method: 'POST', headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
-        model, prompt, use_aion: useAion,
+        model, prompt, use_aion: useAion, use_calc: useCalc,
         temp: parseFloat($('temp').value),
         top_k: parseInt($('topk').value, 10),
         max_new: parseInt($('maxnew').value, 10),
@@ -302,8 +399,16 @@ loadModels();
 """
 
 
+def _size_text(mb):
+    if mb >= 1024 * 1024:
+        return f'{mb / 1024 / 1024:.2f} TB'
+    if mb >= 1024:
+        return f'{mb / 1024:.2f} GB'
+    return f'{mb:.0f} MB'
+
+
 class Handler(BaseHTTPRequestHandler):
-    server_version = 'DQUILANE/1.0'
+    server_version = 'QOOLSE/1.0'
 
     def log_message(self, fmt, *args):
         sys.stderr.write("[http] " + fmt % args + "\n")
@@ -322,6 +427,31 @@ class Handler(BaseHTTPRequestHandler):
             self._send(200, PAGE, 'text/html')
         elif self.path == '/api/models':
             self._send(200, json.dumps(ENGINES.summary()))
+        elif self.path.startswith('/api/tiers'):
+            self._send(200, json.dumps({'tiers': [
+                {'label': t[0], 'lo': t[1], 'hi': t[2], 'range': tier_range_text(t)}
+                for t in PARAM_TIERS]}))
+        elif self.path.startswith('/api/size'):
+            q = parse_qs(urlparse(self.path).query)
+            tier = q.get('tier', ['Small'])[0]
+            raw = q.get('params', [''])[0]
+            try:
+                n = resolve_target_params(tier, raw)
+            except (ValueError, TypeError) as e:
+                self._send(200, json.dumps({'error': str(e)}))
+                return
+            base_params = 135000806      # v3 blueprint: 135.0 M at d_model 768
+            base_d = QOOLSE_V3_CONFIG['d_model']
+            d = int(round((n / (base_params / base_d ** 2)) ** 0.5 / 128) * 128)
+            file_mb = n * 2 / 1024 / 1024
+            ram_gb = n * 4 / 1024 ** 3
+            self._send(200, json.dumps({
+                'tier': find_tier(tier)[0], 'range': tier_range_text(find_tier(tier)),
+                'target': n, 'target_text': format_params(n),
+                'd_model': max(128, d),
+                'file_mb': round(file_mb, 1), 'file_text': _size_text(file_mb),
+                'ram_gb': round(ram_gb, 2), 'ram_text': _size_text(ram_gb * 1024),
+            }))
         elif self.path == '/favicon.ico':
             self._send(204, b'', 'image/x-icon')
         else:
@@ -347,6 +477,7 @@ class Handler(BaseHTTPRequestHandler):
                     temp=max(0.05, min(float(payload.get('temp', 0.7)), 2.0)),
                     top_k=max(1, min(int(payload.get('top_k', 10)), 100)),
                     use_aion=bool(payload.get('use_aion', True)),
+                    use_calc=bool(payload.get('use_calc', True)),
                 )
             self._send(200, json.dumps({
                 'reply': text, 'source': source,
@@ -364,6 +495,10 @@ def main():
     ap.add_argument('--host', default='127.0.0.1')
     ap.add_argument('--dir', default=HERE)
     args = ap.parse_args()
+
+    threads = max(1, min(8, (os.cpu_count() or 4) // 2))
+    torch.set_num_threads(threads)
+    print(f"[playground] torch threads: {threads}")
 
     global ENGINES
     ENGINES = Engines(args.dir)
