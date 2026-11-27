@@ -119,7 +119,7 @@ lain memakai path default ini, jadi tanpa flag pun sudah benar:
 
 | File | Isi |
 |---|---|
-| `qoolse_model.py` | arsitektur v3, cache streaming, container GGUF, auto sizing |
+| `qoolse_model.py` | arsitektur v3, cache streaming, checkpoint `.pt` + container GGUF, auto sizing |
 | `build_qoolse.py` | dedup + split + training (Muon + AdamW) + evaluasi |
 | `infer_qoolse.py` | inferensi CPU (kalkulator → retrieval AION → model) |
 | `playground.py` | UI web lokal (stdlib, tanpa dependensi tambahan) |

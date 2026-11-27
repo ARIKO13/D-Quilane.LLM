@@ -1,6 +1,8 @@
 """
-Build QoolseAI-base.gguf (untrained) and QoolseAI-trainer.gguf (trained)
-for the v3 (1B-Loop Native BF16) architecture.
+Build model/untrained/QoolseAI-base.pt (random init) and
+model/trained/QoolseAI-trainer.pt (trained) for the v3 (1B-Loop Native BF16)
+architecture. Both are trainable checkpoints; `.gguf` is only an optional
+export for inference (`--export-gguf`).
 
 Pipeline:
   1. Load every parquet file in dataset/, keep one row per normalised question.
@@ -9,10 +11,11 @@ Pipeline:
      cosine LR decay, and validation perplexity after every epoch. Weights are
      native BF16 (no ternary packing); Muon on 2-D matrices, AdamW elsewhere.
   4. Keep the best-validation weights, build the AION table from TRAIN ONLY,
-     and write both containers with the measured numbers in metadata.
+     and write both checkpoints with the measured numbers in metadata.
 
     python build_qoolse.py --base-only      # v3 blueprint, 135M, random init
     python build_qoolse.py --epochs 5 --batch 16
+    python build_qoolse.py --init model/untrained/QoolseAI-base.pt --epochs 3
 
 Requires: torch (CPU is enough), pyarrow.
 """
